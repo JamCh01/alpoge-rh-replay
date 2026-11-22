@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "d284c23052f0f441bb030d68b8ead73dd73338219a11a32b2d4e54522e415709",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.Columns.RowFormsNZ"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.Columns.RowFormsNZ\n"
+}
