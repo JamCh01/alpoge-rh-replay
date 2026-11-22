@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e0ad19f94e4523af3bc54daadce6545354992cb202369d9dfabb164b8ad38997",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PadicMonodromyMatrixFormOfInductionCasesStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PadicMonodromyMatrixFormOfInductionCasesStatement\n"
+}

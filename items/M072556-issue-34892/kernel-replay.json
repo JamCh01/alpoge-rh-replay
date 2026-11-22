@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a89cc6dcca7e535c18c54713242c0c9e61c835c97a23cf164a109508bb5659d8",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MaxUnramifiedSubfieldStableOfNormal"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MaxUnramifiedSubfieldStableOfNormal\n"
+}

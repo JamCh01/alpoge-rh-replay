@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a6f1e336343a45fb7f29138c46e92a5a2b8803226d6cc291c4e7177e7d6d74f2",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LocalCountOfSetupStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LocalCountOfSetupStatement\n"
+}
