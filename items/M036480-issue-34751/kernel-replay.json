@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "86a5a2234aeab6cc84652477f5185f7d00a828a70c98028410b98806a18d267d",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsTerExtra"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsTerExtra\n"
+}
