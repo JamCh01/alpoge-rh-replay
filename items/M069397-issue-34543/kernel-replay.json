@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "455201e588a8b599093310c54f6b8407f712493391a6a06c2dbda8b2d6634aa9",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLevelOrderExponentsSmallValuationDeterminaStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLevelOrderExponentsSmallValuationDeterminaStatement\n"
+}

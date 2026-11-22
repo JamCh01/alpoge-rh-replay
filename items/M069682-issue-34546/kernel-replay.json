@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "ae5de4b9fcfd0740708a63367731310261796ae9e0983c68d39bf413ccc66ade",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsRationalTatePairingBilinear"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsRationalTatePairingBilinear\n"
+}

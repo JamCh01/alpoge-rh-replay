@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9583ff9515ce912528cf67e0f4d8f7cf9b321f411fcba8577e7a796cc216445b",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralTatePairingLatticeDualStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralTatePairingLatticeDualStatement\n"
+}

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a7d9b64ed458e1b836ba5522100c6ba3bb1ca0b1ad89ac49cd80dc6034290ac3",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralTateH2TopStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralTateH2TopStatement\n"
+}

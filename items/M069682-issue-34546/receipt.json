@@ -1,14 +1,14 @@
 {
   "tasks": [
-    "M068425"
+    "M069682"
   ],
-  "started_utc": "2026-11-22T17:15:10.730016+00:00",
-  "ended_utc": "2026-11-22T17:15:19.136976+00:00",
-  "elapsed_seconds": 8.4,
+  "started_utc": "2026-11-22T17:19:31.750142+00:00",
+  "ended_utc": "2026-11-22T17:19:38.870602+00:00",
+  "elapsed_seconds": 7.1,
   "host": {
     "cpu_count": 96,
     "mem_total_kib": 131617576,
-    "peak_child_rss_kib": 958756
+    "peak_child_rss_kib": 937880
   },
   "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
   "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
@@ -16,14 +16,14 @@
   "command": [
     "lake",
     "build",
-    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EqTeichmullerOfFrobenius:olean"
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsRationalTatePairingBilinear:olean"
   ],
   "exit_code": 0,
-  "log_sha256": "010f386ec35204f24dac4d43d018d72e5d8418c4a3b3b5fc2edf97f71bd12d44",
+  "log_sha256": "b7b42fae552d65bfa3c18587dca4bb8ef247f5fe98fa4f4aad8c08d771b64c30",
   "rebuilt_project_modules": [],
   "objects": {
-    "M068425": "7a8a8bd1b5316012d76872ededbb62a398d08a5cf15e73d2ec0597f14131fa8b"
+    "M069682": "14e6410734b218366fbc4ef26181e82a61be8d4123d9eb788066388b7db105f0"
   },
   "project_root": "/root/rh-workspace/ovl/slot-9/lean",
-  "bundle_sha256": "486f04bac1ec11ee96297a4d3a7e35756dae72b62e4977671298021661e228f9"
+  "bundle_sha256": "e4abc6909eafab02dd516f424f3dede32ad292785cad9533cd39bd20c38f44ef"
 }
