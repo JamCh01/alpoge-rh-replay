@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e1cfb7de682c2a146a9fdc22d5257797329cbe76fe7935d1756ddf0f19bb1153",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExpandsFOfIntegral"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExpandsFOfIntegral\n"
+}

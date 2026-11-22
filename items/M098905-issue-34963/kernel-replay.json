@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e6c2ae99d42426dacb0808510e226e9286e1f027fa60fee9b36f216521d61ad2",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.FinrankEqCardKernelPointsOfEtale"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UniformizationProofs.FinrankEqCardKernelPointsOfEtale\n"
+}
