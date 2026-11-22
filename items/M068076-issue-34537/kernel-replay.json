@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "21b306783d32ce461b4871ac23b9f2f62a2078fbda4cd5c2b9ac6f08d3568b83",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DcrisFiniteOfIsDR"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DcrisFiniteOfIsDR\n"
+}
