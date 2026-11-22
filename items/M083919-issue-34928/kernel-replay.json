@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "d74e0eb499666f47d69bdf0671573b702227acb04cfd8b8c4b5e316b3f59764f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.GsSpMapGermAt"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.GsSpMapGermAt\n"
+}

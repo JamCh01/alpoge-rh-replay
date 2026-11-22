@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "73a394d8b24a4ce1d550329a8fae9fa17be06984cee9363ade9bd92f22aa66f6",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFormalDegreeIdentity"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFormalDegreeIdentity\n"
+}
