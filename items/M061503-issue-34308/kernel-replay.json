@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "41d4af91f3a9469c9526ddc30a4e54cb6299ded08794f62e61fa0339359c45cb",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAlmostGaloisCoordinates"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAlmostGaloisCoordinates\n"
+}

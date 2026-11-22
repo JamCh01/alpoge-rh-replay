@@ -1,0 +1,1459 @@
+⚠ [8706/8807] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:174:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:201:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:198:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:222:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:297:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:298:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:315:14: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:412:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:416:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:428:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:447:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:453:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:467:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:476:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:483:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:507:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:516:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:530:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8710/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationSubOnePowEqPrime
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationSubOnePowEqPrime.lean:15:23: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationSubOnePowEqPrime.lean:26:47: `zero_le'` has been deprecated: Use `zero_le` instead
+⚠ [8711/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationSubOnePowEqPrimeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationSubOnePowEqPrimeStatement.lean:8:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationSubOnePowEqPrimeStatement.lean:8:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationSubOnePowEqPrimeStatement.lean:8:72: Unused tactic linter: `exact GlobalTheory.AlmostEt.valuation_sub_one_pow_eq_prime` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationSubOnePowEqPrimeStatement.lean:8:133: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.valuation_sub_one_pow_eq_prime <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8712/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationTowerZetaSubOne
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOne.lean:35:37: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOne.lean:55:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOne.lean:80:76: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOne.lean:27:44: Variable name `hpf` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpf
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8713/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationTowerZetaSubOneStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOneStatement.lean:9:76: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOneStatement.lean:9:141: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOneStatement.lean:9:76: Unused tactic linter: `exact GlobalTheory.K5.ZetaNonvanishing₂.valuation_zeta_sub_one` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationTowerZetaSubOneStatement.lean:9:141: Unused tactic linter: `(intros;
+  apply GlobalTheory.K5.ZetaNonvanishing₂.valuation_zeta_sub_one <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8714/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsRepsOfCosetRepresentativeTrace
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsRepsOfCosetRepresentativeTrace.lean:43:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsRepsOfCosetRepresentativeTrace.lean:47:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8715/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsRepsOfCosetRepresentativeTraceStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsRepsOfCosetRepresentativeTraceStatement.lean:8:67: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsRepsOfCosetRepresentativeTraceStatement.lean:8:123: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsRepsOfCosetRepresentativeTraceStatement.lean:8:67: Unused tactic linter: `exact GlobalTheory.AlmostEt.exists_reps_of_cosetTrace` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsRepsOfCosetRepresentativeTraceStatement.lean:8:123: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.exists_reps_of_cosetTrace <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8716/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsNormalFiniteIndexFixing
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalFiniteIndexFixing.lean:50:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8717/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsNormalFiniteIndexFixingStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalFiniteIndexFixingStatement.lean:8:74: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalFiniteIndexFixingStatement.lean:8:137: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalFiniteIndexFixingStatement.lean:8:74: Unused tactic linter: `exact GlobalTheory.AlmostEt.exists_normal_finiteIndex_fixing` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalFiniteIndexFixingStatement.lean:8:137: Unused tactic linter: `(intros;
+  apply GlobalTheory.AlmostEt.exists_normal_finiteIndex_fixing <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8718/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.MovesIntegersAlmostUnitDistanceFixedSubfield
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitDistanceFixedSubfield.lean:16:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitDistanceFixedSubfield.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8719/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.MovesIntegersAlmostUnitDistanceFixedSubfieldStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitDistanceFixedSubfieldStatement.lean:8:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitDistanceFixedSubfieldStatement.lean:8:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitDistanceFixedSubfieldStatement.lean:8:60: Unused tactic linter: `exact GlobalTheory.AlmostEt.moves_fix_of_moves` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitDistanceFixedSubfieldStatement.lean:8:109: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.moves_fix_of_moves <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8720/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationAddPowSubLe
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationAddPowSubLe.lean:41:27: This simp argument is unused:
+  Nat.add_sub_cancel
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [← hM]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8721/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationAddPowSubLeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationAddPowSubLeStatement.lean:8:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationAddPowSubLeStatement.lean:8:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationAddPowSubLeStatement.lean:8:66: Unused tactic linter: `exact GlobalTheory.AlmostEt.valuation_add_pow_sub_le` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationAddPowSubLeStatement.lean:8:121: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.valuation_add_pow_sub_le <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8723/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsImprovedApproxKummerGeneratorStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsImprovedApproxKummerGeneratorStatement.lean:8:64: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsImprovedApproxKummerGeneratorStatement.lean:8:117: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsImprovedApproxKummerGeneratorStatement.lean:8:64: Unused tactic linter: `exact GlobalTheory.AlmostEt.exists_approxRoot_step` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsImprovedApproxKummerGeneratorStatement.lean:8:117: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.exists_approxRoot_step <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8724/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerGeneratorApproxCriticalRadius
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerGeneratorApproxCriticalRadius.lean:20:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8725/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerGeneratorApproxCriticalRadiusStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerGeneratorApproxCriticalRadiusStatement.lean:8:64: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerGeneratorApproxCriticalRadiusStatement.lean:8:117: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerGeneratorApproxCriticalRadiusStatement.lean:8:64: Unused tactic linter: `exact GlobalTheory.AlmostEt.kummer_approx_critical` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerGeneratorApproxCriticalRadiusStatement.lean:8:117: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.kummer_approx_critical <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8726/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPthPowerScaleThinShell
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPthPowerScaleThinShell.lean:48:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPthPowerScaleThinShell.lean:56:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8727/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPthPowerScaleThinShellStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPthPowerScaleThinShellStatement.lean:8:51: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPthPowerScaleThinShellStatement.lean:8:91: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPthPowerScaleThinShellStatement.lean:8:51: Unused tactic linter: `exact GlobalTheory.AlmostEt.klc_scale` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPthPowerScaleThinShellStatement.lean:8:91: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.klc_scale <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8728/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerAutomorphismMovesIntegersAlmostUnit
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerAutomorphismMovesIntegersAlmostUnit.lean:18:38: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerAutomorphismMovesIntegersAlmostUnit.lean:45:38: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerAutomorphismMovesIntegersAlmostUnit.lean:57:36: `zero_le'` has been deprecated: Use `zero_le` instead
+⚠ [8729/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerAutomorphismMovesIntegersAlmostUnitStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerAutomorphismMovesIntegersAlmostUnitStatement.lean:8:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerAutomorphismMovesIntegersAlmostUnitStatement.lean:8:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerAutomorphismMovesIntegersAlmostUnitStatement.lean:8:54: Unused tactic linter: `exact GlobalTheory.AlmostEt.kummer_moves` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerAutomorphismMovesIntegersAlmostUnitStatement.lean:8:97: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.kummer_moves <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8730/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsSurjHomZmodOfIsPGroup
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSurjHomZmodOfIsPGroup.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8731/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsSurjHomZmodOfIsPGroupStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSurjHomZmodOfIsPGroupStatement.lean:8:74: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSurjHomZmodOfIsPGroupStatement.lean:8:137: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSurjHomZmodOfIsPGroupStatement.lean:8:74: Unused tactic linter: `exact GlobalTheory.AlmostEt.exists_surj_hom_zmod_of_isPGroup` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSurjHomZmodOfIsPGroupStatement.lean:8:137: Unused tactic linter: `(intros;
+  apply GlobalTheory.AlmostEt.exists_surj_hom_zmod_of_isPGroup <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8732/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsLagrangeResolventOfPGroupFaithful
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithful.lean:15:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithful.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithful.lean:18:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithful.lean:43:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8733/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsLagrangeResolventOfPGroupFaithfulStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithfulStatement.lean:8:67: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithfulStatement.lean:8:123: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithfulStatement.lean:8:67: Unused tactic linter: `exact GlobalTheory.AlmostEt.exists_lagrange_resolvent` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLagrangeResolventOfPGroupFaithfulStatement.lean:8:123: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.exists_lagrange_resolvent <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8735/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SeparatingFamilySumClosedUnderProdStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SeparatingFamilySumClosedUnderProdStatement.lean:8:47: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SeparatingFamilySumClosedUnderProdStatement.lean:8:83: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SeparatingFamilySumClosedUnderProdStatement.lean:8:47: Unused tactic linter: `exact GlobalTheory.sepFamily_prod` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SeparatingFamilySumClosedUnderProdStatement.lean:8:83: Unused tactic linter: `(intros; apply GlobalTheory.sepFamily_prod <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8736/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.FixedFieldAlmostEtaleOfMovesIntegers
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleOfMovesIntegers.lean:39:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleOfMovesIntegers.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8737/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.FixedFieldAlmostEtaleOfMovesIntegersStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleOfMovesIntegersStatement.lean:8:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleOfMovesIntegersStatement.lean:8:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleOfMovesIntegersStatement.lean:8:60: Unused tactic linter: `exact GlobalTheory.AlmostEt.almostSep_of_moves` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleOfMovesIntegersStatement.lean:8:109: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.almostSep_of_moves <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8738/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsNormalSubgroupNotMovesUniformBound
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBound.lean:14:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBound.lean:29:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBound.lean:40:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBound.lean:79:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8739/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsNormalSubgroupNotMovesUniformBoundStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBoundStatement.lean:8:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBoundStatement.lean:8:135: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBoundStatement.lean:8:73: Unused tactic linter: `exact GlobalTheory.AlmostEt.exists_normal_not_moves_uniform` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsNormalSubgroupNotMovesUniformBoundStatement.lean:8:135: Unused tactic linter: `(intros;
+  apply GlobalTheory.AlmostEt.exists_normal_not_moves_uniform <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8740/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.NatCastEqOneOfCoprime
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/NatCastEqOneOfCoprime.lean:26:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8741/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.NatCastEqOneOfCoprimeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/NatCastEqOneOfCoprimeStatement.lean:8:67: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/NatCastEqOneOfCoprimeStatement.lean:8:123: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/NatCastEqOneOfCoprimeStatement.lean:8:67: Unused tactic linter: `exact GlobalTheory.AlmostEt.natCast_eq_one_of_coprime` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/NatCastEqOneOfCoprimeStatement.lean:8:123: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.natCast_eq_one_of_coprime <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8742/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.MovesIntegersAlmostUnitOfCoprimeOrder
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitOfCoprimeOrder.lean:22:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8743/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.MovesIntegersAlmostUnitOfCoprimeOrderStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitOfCoprimeOrderStatement.lean:8:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitOfCoprimeOrderStatement.lean:8:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitOfCoprimeOrderStatement.lean:8:68: Unused tactic linter: `exact GlobalTheory.AlmostEt.moves_top_of_coprime_order` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MovesIntegersAlmostUnitOfCoprimeOrderStatement.lean:8:125: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.moves_top_of_coprime_order <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8745/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationFrobeniusSumSubLeNatCastPrimeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationFrobeniusSumSubLeNatCastPrimeStatement.lean:8:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationFrobeniusSumSubLeNatCastPrimeStatement.lean:8:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationFrobeniusSumSubLeNatCastPrimeStatement.lean:8:58: Unused tactic linter: `exact GlobalTheory.AlmostEt.frob_sum_sub_le'` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationFrobeniusSumSubLeNatCastPrimeStatement.lean:8:105: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.frob_sum_sub_le' <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8747/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.CosetRepresentativeTraceFixedPropertiesStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CosetRepresentativeTraceFixedPropertiesStatement.lean:8:64: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CosetRepresentativeTraceFixedPropertiesStatement.lean:8:117: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CosetRepresentativeTraceFixedPropertiesStatement.lean:8:64: Unused tactic linter: `exact GlobalTheory.AlmostEt.cosetTrace_fixed_props` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CosetRepresentativeTraceFixedPropertiesStatement.lean:8:117: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.cosetTrace_fixed_props <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8748/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowMulApproxPowOfAlmostEtaleSeparatingFamily
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PowMulApproxPowOfAlmostEtaleSeparatingFamily.lean:40:46: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PowMulApproxPowOfAlmostEtaleSeparatingFamily.lean:47:36: `zero_le'` has been deprecated: Use `zero_le` instead
+⚠ [8749/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowMulApproxPowOfAlmostEtaleSeparatingFamilyStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PowMulApproxPowOfAlmostEtaleSeparatingFamilyStatement.lean:8:70: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PowMulApproxPowOfAlmostEtaleSeparatingFamilyStatement.lean:8:129: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PowMulApproxPowOfAlmostEtaleSeparatingFamilyStatement.lean:8:70: Unused tactic linter: `exact GlobalTheory.AlmostEt.cpow_mul_approx_pow_of_isSep` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PowMulApproxPowOfAlmostEtaleSeparatingFamilyStatement.lean:8:129: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.cpow_mul_approx_pow_of_isSep <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8750/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ApproxPthRootFixedSubfieldOfAlmostEtale
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedSubfieldOfAlmostEtale.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedSubfieldOfAlmostEtale.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8751/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ApproxPthRootFixedSubfieldOfAlmostEtaleStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedSubfieldOfAlmostEtaleStatement.lean:8:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedSubfieldOfAlmostEtaleStatement.lean:8:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedSubfieldOfAlmostEtaleStatement.lean:8:69: Unused tactic linter: `exact GlobalTheory.AlmostEt.approxRoot_fix_of_almostSep` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedSubfieldOfAlmostEtaleStatement.lean:8:127: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.approxRoot_fix_of_almostSep <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8752/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.AlmostPurityMovesIntegersOfNeOne
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityMovesIntegersOfNeOne.lean:40:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityMovesIntegersOfNeOne.lean:43:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityMovesIntegersOfNeOne.lean:44:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8753/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.AlmostPurityMovesIntegersOfNeOneStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityMovesIntegersOfNeOneStatement.lean:8:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityMovesIntegersOfNeOneStatement.lean:8:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityMovesIntegersOfNeOneStatement.lean:8:57: Unused tactic linter: `exact GlobalTheory.AlmostEt.moves_of_ne_one` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityMovesIntegersOfNeOneStatement.lean:8:103: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.moves_of_ne_one <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8754/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.AlmostPurityOfNormalFiniteIndexSubgroup
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityOfNormalFiniteIndexSubgroup.lean:38:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityOfNormalFiniteIndexSubgroup.lean:39:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8755/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.AlmostPurityOfNormalFiniteIndexSubgroupStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityOfNormalFiniteIndexSubgroupStatement.lean:8:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityOfNormalFiniteIndexSubgroupStatement.lean:8:135: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityOfNormalFiniteIndexSubgroupStatement.lean:8:73: Unused tactic linter: `exact GlobalTheory.AlmostEt.almostSep_of_normal_finiteIndex` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AlmostPurityOfNormalFiniteIndexSubgroupStatement.lean:8:135: Unused tactic linter: `(intros;
+  apply GlobalTheory.AlmostEt.almostSep_of_normal_finiteIndex <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+ℹ [8756/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.LaurentSeriesEqSumSingleMulPow
+info: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesEqSumSingleMulPow.lean:62:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [8757/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.LaurentSeriesEqSumSingleMulPowStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesEqSumSingleMulPowStatement.lean:7:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesEqSumSingleMulPowStatement.lean:7:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesEqSumSingleMulPowStatement.lean:7:68: Unused tactic linter: `exact GlobalTheory.laurentSeries_eq_sum_single_mul_pow` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesEqSumSingleMulPowStatement.lean:7:125: Unused tactic linter: `(intros; apply GlobalTheory.laurentSeries_eq_sum_single_mul_pow <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8759/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.LaurentSeriesPadicExistsPthPowerCombinationStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesPadicExistsPthPowerCombinationStatement.lean:9:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesPadicExistsPthPowerCombinationStatement.lean:9:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesPadicExistsPthPowerCombinationStatement.lean:9:56: Unused tactic linter: `exact GlobalTheory.K5.LauZ.exists_pow_comb` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/LaurentSeriesPadicExistsPthPowerCombinationStatement.lean:9:101: Unused tactic linter: `(intros; apply GlobalTheory.K5.LauZ.exists_pow_comb <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8761/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.PAdicCompletionLaurentEqSumPthPowersModPStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PAdicCompletionLaurentEqSumPthPowersModPStatement.lean:9:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PAdicCompletionLaurentEqSumPthPowersModPStatement.lean:9:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PAdicCompletionLaurentEqSumPthPowersModPStatement.lean:9:72: Unused tactic linter: `exact GlobalTheory.K5.exists_eq_sum_qO_pow_mul_pow_add_mul` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PAdicCompletionLaurentEqSumPthPowersModPStatement.lean:9:133: Unused tactic linter: `(intros; apply GlobalTheory.K5.exists_eq_sum_qO_pow_mul_pow_add_mul <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8763/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.FrobeniusSurjectiveModPrimeCyclotomicKummerTowerStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FrobeniusSurjectiveModPrimeCyclotomicKummerTowerStatement.lean:9:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FrobeniusSurjectiveModPrimeCyclotomicKummerTowerStatement.lean:9:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FrobeniusSurjectiveModPrimeCyclotomicKummerTowerStatement.lean:9:58: Unused tactic linter: `exact GlobalTheory.K5.frob_surj_adjoin_tower` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FrobeniusSurjectiveModPrimeCyclotomicKummerTowerStatement.lean:9:105: Unused tactic linter: `(intros; apply GlobalTheory.K5.frob_surj_adjoin_tower <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8764/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemAdjoinDivOfFixed
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixed.lean:13:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixed.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixed.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixed.lean:32:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8765/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemAdjoinDivOfFixedStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixedStatement.lean:6:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixedStatement.lean:6:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixedStatement.lean:6:56: Unused tactic linter: `exact GlobalTheory.mem_adjoin_div_of_fixed` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MemAdjoinDivOfFixedStatement.lean:6:101: Unused tactic linter: `(intros; apply GlobalTheory.mem_adjoin_div_of_fixed <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8767/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsLevelOfMemAdjoinStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLevelOfMemAdjoinStatement.lean:9:62: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLevelOfMemAdjoinStatement.lean:9:113: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLevelOfMemAdjoinStatement.lean:9:62: Unused tactic linter: `exact GlobalTheory.K5.exists_level_of_mem_adjoin` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLevelOfMemAdjoinStatement.lean:9:113: Unused tactic linter: `(intros; apply GlobalTheory.K5.exists_level_of_mem_adjoin <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8770/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.CompletedLaurentIsDVRStatementStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CompletedLaurentIsDVRStatementStatement.lean:7:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CompletedLaurentIsDVRStatementStatement.lean:7:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CompletedLaurentIsDVRStatementStatement.lean:7:59: Unused tactic linter: `exact GlobalTheory.K5.completed_laurent_isDVR` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/CompletedLaurentIsDVRStatementStatement.lean:7:107: Unused tactic linter: `(intros; apply GlobalTheory.K5.completed_laurent_isDVR <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8771/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsBasisOnZetaPowMulQPow
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsBasisOnZetaPowMulQPow.lean:109:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsBasisOnZetaPowMulQPow.lean:130:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8772/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsBasisOnZetaPowMulQPowStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsBasisOnZetaPowMulQPowStatement.lean:8:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsBasisOnZetaPowMulQPowStatement.lean:8:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsBasisOnZetaPowMulQPowStatement.lean:8:50: Unused tactic linter: `exact GlobalTheory.K5.OnFree.on_free` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsBasisOnZetaPowMulQPowStatement.lean:8:89: Unused tactic linter: `(intros; apply GlobalTheory.K5.OnFree.on_free <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8773/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsDiscreteValuationRingCyclotomicTowerLevel
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:25:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:55:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:53:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:62:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:68:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:136:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:137:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:158:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:159:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:179:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:203:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:205:40: This simp argument is unused:
+  eval₂_X_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [f, eval₂_sub, eval₂_pow, eval₂_X, eval₂_C, hψ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:257:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:258:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevel.lean:259:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8774/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsDiscreteValuationRingCyclotomicTowerLevelStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevelStatement.lean:7:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevelStatement.lean:7:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevelStatement.lean:7:50: Unused tactic linter: `exact GlobalTheory.K5.OnDVR.isDVR_On` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IsDiscreteValuationRingCyclotomicTowerLevelStatement.lean:7:89: Unused tactic linter: `(intros; apply GlobalTheory.K5.OnDVR.isDVR_On <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8776/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.EqUnitMulPowCyclotomicUniformizerStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EqUnitMulPowCyclotomicUniformizerStatement.lean:9:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EqUnitMulPowCyclotomicUniformizerStatement.lean:9:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EqUnitMulPowCyclotomicUniformizerStatement.lean:9:59: Unused tactic linter: `exact GlobalTheory.K5.UnitPow.eq_unit_mul_pow` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EqUnitMulPowCyclotomicUniformizerStatement.lean:9:107: Unused tactic linter: `(intros; apply GlobalTheory.K5.UnitPow.eq_unit_mul_pow <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8778/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ApproxPthRootClosedMulDivPowStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootClosedMulDivPowStatement.lean:8:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootClosedMulDivPowStatement.lean:8:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootClosedMulDivPowStatement.lean:8:59: Unused tactic linter: `exact GlobalTheory.AlmostEt.approxRoot_closed` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootClosedMulDivPowStatement.lean:8:107: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.approxRoot_closed <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8779/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ApproxPthRootFixedFieldCyclotomicTower
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedFieldCyclotomicTower.lean:98:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedFieldCyclotomicTower.lean:99:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedFieldCyclotomicTower.lean:100:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8780/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ApproxPthRootFixedFieldCyclotomicTowerStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedFieldCyclotomicTowerStatement.lean:9:65: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedFieldCyclotomicTowerStatement.lean:9:119: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedFieldCyclotomicTowerStatement.lean:9:65: Unused tactic linter: `exact GlobalTheory.K5.TopRoots.approxRoot_fix_tower` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ApproxPthRootFixedFieldCyclotomicTowerStatement.lean:9:119: Unused tactic linter: `(intros; apply GlobalTheory.K5.TopRoots.approxRoot_fix_tower <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8782/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.UnramifiedIntegersAdicCompleteStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/UnramifiedIntegersAdicCompleteStatement.lean:9:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/UnramifiedIntegersAdicCompleteStatement.lean:9:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/UnramifiedIntegersAdicCompleteStatement.lean:9:60: Unused tactic linter: `exact GlobalTheory.K5.o0_isAdicComplete_span_p` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/UnramifiedIntegersAdicCompleteStatement.lean:9:109: Unused tactic linter: `(intros; apply GlobalTheory.K5.o0_isAdicComplete_span_p <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8783/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAbsoluteValueCompleteSpaceOfDvr
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsAbsoluteValueCompleteSpaceOfDvr.lean:73:8: Overlapping instance parameters in `exists_absoluteValue_completeSpace_of_isDiscreteValuationRing`:
+
+⚠️ `[IsDomain R]` and `[IsDiscreteValuationRing R]` each imply `[Nontrivial R]`.
+💡️ Of these, `[IsDomain R]` and `[IsDiscreteValuationRing R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [8784/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAbsoluteValueCompleteSpaceOfDvrStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsAbsoluteValueCompleteSpaceOfDvrStatement.lean:7:98: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsAbsoluteValueCompleteSpaceOfDvrStatement.lean:7:185: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsAbsoluteValueCompleteSpaceOfDvrStatement.lean:6:8: Overlapping instance parameters in `GlobalTheory.T.exists_absoluteValue_completeSpace_of_dvr`:
+
+⚠️ `[IsDomain R]` and `[IsDiscreteValuationRing R]` each imply `[Nontrivial R]`.
+💡️ Of these, `[IsDomain R]` and `[IsDiscreteValuationRing R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsAbsoluteValueCompleteSpaceOfDvrStatement.lean:7:98: Unused tactic linter: `exact
+  GlobalTheory.KLC.exists_absoluteValue_completeSpace_of_isDiscreteValuationRing` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsAbsoluteValueCompleteSpaceOfDvrStatement.lean:7:185: Unused tactic linter: `(intros;
+  apply GlobalTheory.KLC.exists_absoluteValue_completeSpace_of_isDiscreteValuationRing <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8785/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsSpectralValuationAlgebraicExtension
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtension.lean:14:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtension.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtension.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtension.lean:21:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8786/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsSpectralValuationAlgebraicExtensionStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtensionStatement.lean:6:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtensionStatement.lean:6:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtensionStatement.lean:6:57: Unused tactic linter: `exact GlobalTheory.exists_spectralValuation` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsSpectralValuationAlgebraicExtensionStatement.lean:6:103: Unused tactic linter: `(intros; apply GlobalTheory.exists_spectralValuation <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8787/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvr
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvr.lean:14:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvr.lean:15:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvr.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvr.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvr.lean:8:8: Overlapping instance parameters in `valuation_le_one_iff_isIntegral_of_complete_dvr`:
+
+⚠️ `[IsDomain R]` and `[IsDiscreteValuationRing R]` each imply `[Nontrivial R]`.
+💡️ Of these, `[IsDomain R]` and `[IsDiscreteValuationRing R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [8788/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvrStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvrStatement.lean:6:80: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvrStatement.lean:6:149: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvrStatement.lean:5:8: Overlapping instance parameters in `GlobalTheory.T.exists_valuation_le_one_iff_isIntegral_of_complete_dvr`:
+
+⚠️ `[IsDomain R]` and `[IsDiscreteValuationRing R]` each imply `[Nontrivial R]`.
+💡️ Of these, `[IsDomain R]` and `[IsDiscreteValuationRing R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvrStatement.lean:6:80: Unused tactic linter: `exact GlobalTheory.valuation_le_one_iff_isIntegral_of_complete_dvr` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationLeOneIffIsIntegralOfCompleteDvrStatement.lean:6:149: Unused tactic linter: `(intros;
+  apply GlobalTheory.valuation_le_one_iff_isIntegral_of_complete_dvr <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8790/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement.lean:7:83: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement.lean:7:155: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement.lean:7:83: Unused tactic linter: `exact GlobalTheory.valuation_map_algEquiv_eq_of_le_one_iff_isIntegral` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement.lean:7:155: Unused tactic linter: `(intros;
+  apply GlobalTheory.valuation_map_algEquiv_eq_of_le_one_iff_isIntegral <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8791/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsGaloisInvariantValuationIntegersEqIntegral
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsGaloisInvariantValuationIntegersEqIntegral.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsGaloisInvariantValuationIntegersEqIntegral.lean:22:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsGaloisInvariantValuationIntegersEqIntegral.lean:25:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8792/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsGaloisInvariantValuationIntegersEqIntegralStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsGaloisInvariantValuationIntegersEqIntegralStatement.lean:9:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsGaloisInvariantValuationIntegersEqIntegralStatement.lean:9:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsGaloisInvariantValuationIntegersEqIntegralStatement.lean:9:58: Unused tactic linter: `exact GlobalTheory.K5.exists_valuation_isInt` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsGaloisInvariantValuationIntegersEqIntegralStatement.lean:9:105: Unused tactic linter: `(intros; apply GlobalTheory.K5.exists_valuation_isInt <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8794/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsValuationAlmostEtaleTowerFixerStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsValuationAlmostEtaleTowerFixerStatement.lean:9:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsValuationAlmostEtaleTowerFixerStatement.lean:9:159: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsValuationAlmostEtaleTowerFixerStatement.lean:9:85: Unused tactic linter: `exact GlobalTheory.ValuationAlmostSeparation.exists_valuation_almostSep` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsValuationAlmostEtaleTowerFixerStatement.lean:9:159: Unused tactic linter: `(intros;
+  apply GlobalTheory.ValuationAlmostSeparation.exists_valuation_almostSep <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8796/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.FixedFieldAlmostEtaleSubgroupOfStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleSubgroupOfStatement.lean:8:62: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleSubgroupOfStatement.lean:8:113: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleSubgroupOfStatement.lean:8:62: Unused tactic linter: `exact GlobalTheory.AlmostEt.almostSep_subgroupOf` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/FixedFieldAlmostEtaleSubgroupOfStatement.lean:8:113: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.almostSep_subgroupOf <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8798/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumMulCosetRepresentativeTraceEqStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SumMulCosetRepresentativeTraceEqStatement.lean:8:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SumMulCosetRepresentativeTraceEqStatement.lean:8:115: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SumMulCosetRepresentativeTraceEqStatement.lean:8:63: Unused tactic linter: `exact GlobalTheory.AlmostEt.sum_mul_cosetTrace_eq` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SumMulCosetRepresentativeTraceEqStatement.lean:8:115: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.sum_mul_cosetTrace_eq <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8799/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegerCosetRepresentativeTraceEqOfLtOne
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegerCosetRepresentativeTraceEqOfLtOne.lean:20:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8800/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegerCosetRepresentativeTraceEqOfLtOneStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegerCosetRepresentativeTraceEqOfLtOneStatement.lean:8:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegerCosetRepresentativeTraceEqOfLtOneStatement.lean:8:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegerCosetRepresentativeTraceEqOfLtOneStatement.lean:8:72: Unused tactic linter: `exact GlobalTheory.AlmostEt.exists_integer_coset_trace_eq'` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegerCosetRepresentativeTraceEqOfLtOneStatement.lean:8:133: Unused tactic linter: `(intros; apply GlobalTheory.AlmostEt.exists_integer_coset_trace_eq' <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8801/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmallTracesSubgroupGaloisTowerTop
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmallTracesSubgroupGaloisTowerTop.lean:26:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmallTracesSubgroupGaloisTowerTop.lean:27:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmallTracesSubgroupGaloisTowerTop.lean:28:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8802/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmallTracesSubgroupGaloisTowerTopStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmallTracesSubgroupGaloisTowerTopStatement.lean:9:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmallTracesSubgroupGaloisTowerTopStatement.lean:9:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmallTracesSubgroupGaloisTowerTopStatement.lean:9:57: Unused tactic linter: `exact GlobalTheory.K5.small_traces_subgroup` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmallTracesSubgroupGaloisTowerTopStatement.lean:9:103: Unused tactic linter: `(intros; apply GlobalTheory.K5.small_traces_subgroup <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8804/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralTraceEqZetaSubOneTopStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegralTraceEqZetaSubOneTopStatement.lean:11:74: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegralTraceEqZetaSubOneTopStatement.lean:11:137: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegralTraceEqZetaSubOneTopStatement.lean:11:74: Unused tactic linter: `exact GlobalTheory.exists_integral_trace_eq_zeta_sub_one_top` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsIntegralTraceEqZetaSubOneTopStatement.lean:11:137: Unused tactic linter: `(intros;
+  apply GlobalTheory.exists_integral_trace_eq_zeta_sub_one_top <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8805/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.InvariantsFromFiniteLevel
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/InvariantsFromFiniteLevel.lean:15:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/InvariantsFromFiniteLevel.lean:59:13: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/InvariantsFromFiniteLevel.lean:59:13: Unused tactic linter: `exact Set.Iic_subset_Iic.mpr h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/InvariantsFromFiniteLevel.lean:80:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/InvariantsFromFiniteLevel.lean:91:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/InvariantsFromFiniteLevel.lean:100:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/InvariantsFromFiniteLevel.lean:101:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8806/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsFiniteLevelApproxOfGeometricInvariantModPo
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPo.lean:38:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPo.lean:49:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPo.lean:58:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPo.lean:59:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8807/8807] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsFiniteLevelApproxOfGeometricInvariantModPoStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPoStatement.lean:12:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPoStatement.lean:12:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPoStatement.lean:12:68: Unused tactic linter: `exact GlobalTheory.K5.geo_invariants_from_finite_level` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFiniteLevelApproxOfGeometricInvariantModPoStatement.lean:12:125: Unused tactic linter: `(intros; apply GlobalTheory.K5.geo_invariants_from_finite_level <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (8807 jobs).

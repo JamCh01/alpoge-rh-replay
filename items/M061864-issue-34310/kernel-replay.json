@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "f07722d7381b56e49d8f27a5de724c6552e7f49b2170e5a7b0ada3fe551bc359",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsMultisetSatakeEigenvalueEqStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsMultisetSatakeEigenvalueEqStatement\n"
+}

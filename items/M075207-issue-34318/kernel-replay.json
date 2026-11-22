@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "321d291a9cbbf52502aec74443ca5353561f006d488c2f8b337c1f9d6826cea0",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WachFunctorFullyFaithfulStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WachFunctorFullyFaithfulStatement\n"
+}
