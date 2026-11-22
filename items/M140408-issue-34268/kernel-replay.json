@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7fcf1f1f6902a806bfbdbaafdb946fed798061e84a7024543990a3f059612d34",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.ExistsIntegralClosedSubscheme"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.ExistsIntegralClosedSubscheme\n"
+}

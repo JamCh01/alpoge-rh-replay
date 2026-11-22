@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "96ac72d6814ef91772830a641568f7d6f2329762846af2756d22a64ca337eb8a",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinModelPointsLiftStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinModelPointsLiftStatement\n"
+}

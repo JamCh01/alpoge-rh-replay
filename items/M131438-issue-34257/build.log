@@ -1,4 +1,4 @@
-⚠ [8711/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt
+⚠ [8711/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubicalPullBaseChangeSt.lean:45:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Semi.rigPull_le`:
   [IsCommMonObj G']
   [IsCommMonObj G]
@@ -36,7 +36,7 @@ Hint: Omit it from the simp argument list.
     CartesianMonoidalCategory.tensorHom_snd_assoc]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8730/9010] Replayed Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HodgeIPIffHodgeFormConj
+⚠ [8730/9002] Replayed Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HodgeIPIffHodgeFormConj
 warning: src/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/HodgeIPIffHodgeFormConj.lean:135:18: This simp argument is unused:
   ← Pi.single_star
 
@@ -46,7 +46,7 @@ Hint: Omit it from the simp argument list.
 Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8731/9010] Replayed Development.AutomorphicSpectrum.Definitions.GlobalGeometry.MemEigSpOfMemHtDual
+⚠ [8731/9002] Replayed Development.AutomorphicSpectrum.Definitions.GlobalGeometry.MemEigSpOfMemHtDual
 warning: src/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/MemEigSpOfMemHtDual.lean:62:57: try 'simp' instead of 'simpa'
 
 Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
@@ -56,14 +56,14 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _w
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8740/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.RationalSections.IsRatSectionOn
+⚠ [8740/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.RationalSections.IsRatSectionOn
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/RationalSections/IsRatSectionOn.lean:39:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.AI.I2.recR_eq`:
   [(k : K) → Fintype (ι k)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [(k : K) → Fintype (ι k)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8744/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MixedFieldContraction.GenericFibreKerTarget
+⚠ [8744/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MixedFieldContraction.GenericFibreKerTarget
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/MixedFieldContraction/GenericFibreKerTarget.lean:23:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.AI.I4.isBlockMap_id`:
   [Fintype K]
   [(k : K) → Fintype (ι k)]
@@ -89,7 +89,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Fintype K] [(k : K) → Fintype (ι k)] [Fintype K₂] [(k : K₂) → Fintype (ι₂ k)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8758/9010] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne
+⚠ [8758/9002] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne
 warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/InFlagDomainOne.lean:40:2: Try this: 
   haveI̵
 
@@ -98,7 +98,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8760/9010] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.MetricsProjectionFormulaNef
+⚠ [8760/9002] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.MetricsProjectionFormulaNef
 warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/MetricsProjectionFormulaNef.lean:43:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.combLine_a`:
   [(k : K) → Fintype (ι k)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -133,21 +133,21 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _p
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8767/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals
+⚠ [8765/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals.lean:141:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.IsVerticalDivisorAt.ofPrime`:
   [Fintype K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [Fintype K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8768/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals.MemMCoordIdealOfAevalEqZero
+⚠ [8766/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals.MemMCoordIdealOfAevalEqZero
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/MemMCoordIdealOfAevalEqZero.lean:38:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.isMultiHomog_one`:
   [Fintype K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [Fintype K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8769/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.Metric
+⚠ [8767/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.Metric
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:41:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.isValueAt_mul`:
   [Fintype K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -187,7 +187,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [torusSmul, mul_pow]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8773/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals.FubiniLevi
+⚠ [8771/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals.FubiniLevi
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:46:13: `ContinuousLinearMap.coe_sum'` has been deprecated: Use `FunLike.coe_sum` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_sum'` to `FunLike.coe_sum x`).
@@ -208,9 +208,9 @@ warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdea
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:92:17: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
-⚠ [8777/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.EqZeroOfIsIsoSub
+⚠ [8775/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.EqZeroOfIsIsoSub
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/EqZeroOfIsIsoSub.lean:159:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8778/9010] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshLap
+⚠ [8776/9002] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshLap
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshLap.lean:101:17: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
@@ -230,7 +230,7 @@ macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshLap.lean:374:15: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
-⚠ [8779/9010] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshMean
+⚠ [8777/9002] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshMean
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshMean.lean:199:12: This simp argument is unused:
   norm_mul
 
@@ -238,7 +238,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [g0, hc]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8782/9010] Replayed GroundTheory.HeightsAndTheta.Heights.Regularisation.Statements
+⚠ [8780/9002] Replayed GroundTheory.HeightsAndTheta.Heights.Regularisation.Statements
 warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:404:40: This simp argument is unused:
   _root_.zero_apply
 
@@ -298,7 +298,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [periodTwo, mulVec, dotProduct, Fin.sum_univ_two]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8785/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.Values
+⚠ [8783/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.Values
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Values.lean:36:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.isValueAt_inv`:
   [Fintype K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -311,7 +311,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Fintype K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8786/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.LineMu
+⚠ [8784/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.LineMu
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/LineMu.lean:101:10: This simp argument is unused:
   Pi.single_apply
 
@@ -334,7 +334,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8794/9010] Replayed GroundTheory.HeightsAndTheta.Heights.Regularisation.ProjectiveLine
+⚠ [8792/9002] Replayed GroundTheory.HeightsAndTheta.Heights.Regularisation.ProjectiveLine
 warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/ProjectiveLine.lean:108:48: Variable name `hc` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -373,7 +373,7 @@ Hint: Omit it from the simp argument list.
     add_zero, CP.chartCoord_chartInv]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8795/9010] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.ContinuousTmaxShift
+⚠ [8793/9002] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.ContinuousTmaxShift
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:109:65: Variable name `j` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -468,7 +468,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:339:6: Unused tactic linter: `unfold convolution` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8796/9010] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshRegMax
+⚠ [8794/9002] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshRegMax
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshRegMax.lean:43:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.fderiv_conv_eq`:
   [Nonempty ι]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -499,7 +499,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Nonempty ι] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8797/9010] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA
+⚠ [8795/9002] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA
 warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:12:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.levi_congr`:
   [Fintype ι]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -536,7 +536,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Fintype ι] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8799/9010] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshPoisson
+⚠ [8797/9002] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshPoisson
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshPoisson.lean:25:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -668,9 +668,9 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshPoisson.lean:395:8: Unused tactic linter: `exact (hca.congr_of_eventuallyEq hev.symm).continuousWithinAt` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8801/9010] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshExtB
+⚠ [8799/9002] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshExtB
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshExtB.lean:218:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8802/9010] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshExt
+⚠ [8800/9002] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshExt
 warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshExt.lean:77:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.PlurisubharmonicExtension.trunc_cobdd`:
   hU1
   hc
@@ -680,15 +680,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit hU1 hc hpsh hg in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8808/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.LineModel
-warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/LineModel.lean:72:11: `continuousOn_iff_continuous_restrict` has been deprecated: Use `continuousOn_iff_continuous_domRestrict` instead
-warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/LineModel.lean:100:21: Variable name `x` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _x
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8810/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.PermFinTwoUniv
+⚠ [8806/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.PermFinTwoUniv
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean:80:33: This simp argument is unused:
   Finsupp.single_apply
 
@@ -710,7 +702,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [coeff_C, Finsupp.single_apply]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8821/9010] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffOnFubiniStudyProfileInvNormSqFirst
+⚠ [8817/9002] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffOnFubiniStudyProfileInvNormSqFirst
 warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:23:45: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
@@ -729,7 +721,7 @@ Note: The updated constant is in a different namespace. Dot notation may need to
 warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:68:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
-⚠ [8822/9010] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffFubiniStudyRatioCompChart0
+⚠ [8818/9002] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffFubiniStudyRatioCompChart0
 warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:68:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:389:4: Unused tactic linter: `beta_reduce` does nothing
 
@@ -747,7 +739,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [MeasureTheory.volume_pi, MeasureTheory.measureReal_def]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8831/9010] Replayed ReciprocityTheory.GeometryOfNumbers.SphericalMonomials.ChiPSt
+⚠ [8827/9002] Replayed ReciprocityTheory.GeometryOfNumbers.SphericalMonomials.ChiPSt
 warning: src/ReciprocityTheory/GeometryOfNumbers/SphericalMonomials/ChiPSt.lean:20:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -879,14 +871,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/GeometryOfNumbers/SphericalMonomials/ChiPSt.lean:433:8: Unused tactic linter: `exact (Real.log_le_log_iff (by norm_num) (by linarith)).mpr (by linarith)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8835/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ArithModel
+⚠ [8831/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ArithModel
 warning: src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/ArithModel.lean:300:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
 warning: src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/ArithModel.lean:300:46: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
-⚠ [8836/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ArithRes
+⚠ [8832/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ArithRes
 warning: src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/ArithRes.lean:141:0: Definition `GroundTheory.Heights₂.Heights.HilbertSamuel.ProjLine.projectiveLineMeasurableSpace` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
 definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
 warning: src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/ArithRes.lean:143:17: Definition `GroundTheory.Heights₂.Heights.HilbertSamuel.ProjLine.projectiveLineMeasurableSpace` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
@@ -903,7 +895,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/ArithRes.lean:179:4: Unused tactic linter: `simp [Fin.succAboveCases]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8842/9010] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsBisFurther
+⚠ [8838/9002] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsBisFurther
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ImportsBisFurther.lean:4:64: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -922,7 +914,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _inst_2
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8843/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.ProjectiveFrameCoordNeZero
+⚠ [8839/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.ProjectiveFrameCoordNeZero
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/ProjectiveFrameCoordNeZero.lean:18:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.ArakelovGeometry.TraceNormBounds.coord_ne_zero`:
   [CharZero Ω]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -950,7 +942,7 @@ Note: This linter can be disabled with `set_option linter.unusedSectionVars fals
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/ProjectiveFrameCoordNeZero.lean:101:4: try 'simp' instead of 'simpa'
 
 Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
-⚠ [8844/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.BasisOfLinearIndependentOfCardEqFinrank
+⚠ [8840/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.BasisOfLinearIndependentOfCardEqFinrank
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/BasisOfLinearIndependentOfCardEqFinrank.lean:65:10: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1182,7 +1174,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/BasisOfLinearIndependentOfCardEqFinrank.lean:667:10: Unused tactic linter: `exact Algebra.trace_eq_zero_of_not_exists_basis hnb` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8845/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.XZeroPowDvdOfIsHomogeneousAeval
+⚠ [8841/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.XZeroPowDvdOfIsHomogeneousAeval
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/XZeroPowDvdOfIsHomogeneousAeval.lean:45:8: automatically included section variable(s) unused in theorem `_private.ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.XZeroPowDvdOfIsHomogeneousAeval.0.ReciprocityTheory.ChartRestriction.G.ArakelovGeometry.TraceNormBounds.coord_ne_zero_of_coordIdeal_eq_bot`:
   [CharZero Ω]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1195,7 +1187,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [CharZero Ω] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8846/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.EqZeroOfSecTraceMulEqZero
+⚠ [8842/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.EqZeroOfSecTraceMulEqZero
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/EqZeroOfSecTraceMulEqZero.lean:11:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.ArakelovGeometry.fnField_comp_le`:
   [Fintype κ]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1214,7 +1206,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/EqZeroOfSecTraceMulEqZero.lean:55:146: Unused tactic linter: `exact ReciprocityTheory.ChartRestriction.G.Geo.mul_mem_sec x hs (hε l)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8847/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.ExistsNatMulMemConeRingIntFin
+⚠ [8843/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.ExistsNatMulMemConeRingIntFin
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/ExistsNatMulMemConeRingIntFin.lean:78:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.ArakelovGeometry.isIntegral_of_mem_subalgebra`:
   [CharZero Ω]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1266,7 +1258,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Finite κ] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8852/9010] Replayed ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.BergmanSt
+⚠ [8848/9002] Replayed ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.BergmanSt
 warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/BergmanSt.lean:117:15: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
 warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/BergmanSt.lean:124:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
 warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/BergmanSt.lean:126:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
@@ -1276,7 +1268,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [MeasurableSpace X] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8853/9010] Replayed ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt
+⚠ [8849/9002] Replayed ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt
 warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:24:15: This simp argument is unused:
   Matrix.updateCol_apply
 
@@ -1335,14 +1327,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:104:8: Unused tactic linter: `simp` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8854/9010] Replayed ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.BergmanDerivSt
+⚠ [8850/9002] Replayed ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.BergmanDerivSt
 warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/BergmanDerivSt.lean:31:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.GeometryOfNumbersTheory.normSq_mul_eq`:
   [MeasurableSpace X]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [MeasurableSpace X] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8857/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsArith
+⚠ [8853/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsArith
 warning: src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/StatementsArith.lean:516:38: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1358,7 +1350,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/StatementsArith.lean:516:68: Unused tactic linter: `(funext i j; rfl)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8876/9010] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CardEmbeddingsRestrict
+⚠ [8867/9002] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CardEmbeddingsRestrict
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CardEmbeddingsRestrict.lean:9:2: Try this: 
   letI̵
 
@@ -1399,7 +1391,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _inst_4
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8893/9010] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.FlagLine
+⚠ [8884/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.FlagLine
 warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/FlagLine.lean:187:66: This simp argument is unused:
   eval₂_C
 
@@ -1414,7 +1406,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [coneY, eval₂Hom_X', thetaY, map_mul, eval₂Hom_C, eval₂_C]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8895/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedA
+⚠ [8885/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedA
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterRedA.lean:22:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.logNorm_inv_one`:
   [(k : K) → Fintype (ι k)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1427,14 +1419,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [(k : K) → Fintype (ι k)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8896/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedB
+⚠ [8886/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedB
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterRedB.lean:12:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.continuousOn_lift`:
   [Fintype K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [Fintype K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8897/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedC
+⚠ [8887/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedC
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterRedC.lean:34:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.analyticAt_eval_comp`:
   [Fintype K]
   [(k : K) → Fintype (ι k)]
@@ -1442,7 +1434,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8899/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodA
+⚠ [8889/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodA
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodA.lean:27:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1533,7 +1525,7 @@ warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeom
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodA.lean:109:10: `IsLocalization.map_comap` has been deprecated: Use `IsLocalization.map_under` instead
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodA.lean:109:52: `IsLocalization.map_comap` has been deprecated: Use `IsLocalization.map_under` instead
-⚠ [8901/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodC
+⚠ [8891/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodC
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodC.lean:41:2: Try this: 
   letI̵
 
@@ -1550,21 +1542,21 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8902/9010] Replayed Lemmata.GeneralBFactMore.Imports
+⚠ [8892/9002] Replayed Lemmata.GeneralBFactMore.Imports
 warning: src/Lemmata/GeneralBFactMore/Imports.lean:30:35: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _inst
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8903/9010] Replayed Lemmata.FirstBlockLemmaA.Imports
+⚠ [8893/9002] Replayed Lemmata.FirstBlockLemmaA.Imports
 warning: src/Lemmata/FirstBlockLemmaA/Imports.lean:8:20: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _inst
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8904/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodD
+⚠ [8894/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodD
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodD.lean:37:104: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1583,7 +1575,7 @@ Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus fa
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodD.lean:84:98: Unused tactic linter: `(intros; apply Bl.FirstBlockLemmaA.goal1 <;> assumption)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8905/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodE
+⚠ [8895/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodE
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodE.lean:16:2: Try this: 
   letI̵
 
@@ -1592,7 +1584,7 @@ The difference between `let` and `letI` is that `letI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8906/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodF
+⚠ [8896/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodF
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodF.lean:21:63: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGoodF.lean:18:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.weight_blkWt_apply`:
   [DecidableEq K]
@@ -1637,7 +1629,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [sWt, this]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8908/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGood
+⚠ [8898/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGood
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGood.lean:63:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.evQ_mk`:
   [Fintype K]
   [DecidableEq K]
@@ -1647,7 +1639,7 @@ consider restructuring your `variable` declarations so that the variables are no
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterGood.lean:147:14: `Polynomial.finite_setOf_isRoot` has been deprecated: Use `Polynomial.finite_setOfPred_isRoot` instead
-⚠ [8910/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedF
+⚠ [8900/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterRedF
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterRedF.lean:36:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.logNorm_oneLine`:
   [(k : K) → Fintype (ι k)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1660,7 +1652,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Fintype K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8911/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.InhDivCycleOfSuppEmpty
+⚠ [8901/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.InhDivCycleOfSuppEmpty
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/MultihomogeneousIdeals/InhDivCycleOfSuppEmpty.lean:49:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.AI.I1.inh_multAt_self`:
   [Fintype K]
   [(k : K) → Fintype (ι k)]
@@ -1727,103 +1719,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Fintype K] [DecidableEq K] [(k : K) → Fintype (ι k)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8919/9010] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.PPFHoriz
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:21:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.genMap_mk`:
-  [Fintype K]
-  [(k : K) → Fintype (ι k)]
-  [Fintype K']
-  [(k : K') → Fintype (ι' k)]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype K] [(k : K) → Fintype (ι k)] [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:33:2: Try this: 
-  letI̵
-
-The goal is a proposition, so `let` is preferred over `letI`.
-The difference between `let` and `letI` is that `letI` inlines the value.
-But this is not relevant for proofs because of proof irrelevance.
-
-Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:34:2: Try this: 
-  haveI̵
-
-The goal is a proposition, so `have` is preferred over `haveI`.
-The difference between `have` and `haveI` is that `haveI` inlines the value.
-But this is not relevant for proofs because of proof irrelevance.
-
-Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:45:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.quotIncl_injective`:
-  [Fintype K]
-  [(k : K) → Fintype (ι k)]
-  [Fintype K']
-  [(k : K') → Fintype (ι' k)]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype K] [(k : K) → Fintype (ι k)] [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:60:2: Try this: 
-  letI̵
-
-The goal is a proposition, so `let` is preferred over `letI`.
-The difference between `let` and `letI` is that `letI` inlines the value.
-But this is not relevant for proofs because of proof irrelevance.
-
-Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:61:2: Try this: 
-  haveI̵
-
-The goal is a proposition, so `have` is preferred over `haveI`.
-The difference between `have` and `haveI` is that `haveI` inlines the value.
-But this is not relevant for proofs because of proof irrelevance.
-
-Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:72:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.aeval_xW`:
-  [Fintype K']
-  [(k : K') → Fintype (ι' k)]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:105:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.baseSubst_rename`:
-  [Fintype K']
-  [(k : K') → Fintype (ι' k)]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:165:2: Try this: 
-  letI̵
-
-The goal is a proposition, so `let` is preferred over `letI`.
-The difference between `let` and `letI` is that `letI` inlines the value.
-But this is not relevant for proofs because of proof irrelevance.
-
-Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:184:2: Try this: 
-  letI̵
-
-The goal is a proposition, so `let` is preferred over `letI`.
-The difference between `let` and `letI` is that `letI` inlines the value.
-But this is not relevant for proofs because of proof irrelevance.
-
-Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:193:2: Try this: 
-  haveI̵
-
-The goal is a proposition, so `have` is preferred over `haveI`.
-The difference between `have` and `haveI` is that `haveI` inlines the value.
-But this is not relevant for proofs because of proof irrelevance.
-
-Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8927/9010] Replayed GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsBundles
+⚠ [8911/9002] Replayed GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsBundles
 warning: src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/StatementsBundles.lean:243:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
 warning: src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/StatementsBundles.lean:245:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8934/9010] Replayed Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem
+⚠ [8917/9002] Replayed Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem
 warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean:1034:36: This simp argument is unused:
   Algebra.TensorProduct.one_def
 
@@ -1854,7 +1757,7 @@ Hint: Omit it from the simp argument list.
 Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8935/9010] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FinrankOfIsStandardSmoothOfRelativeDimension
+⚠ [8918/9002] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FinrankOfIsStandardSmoothOfRelativeDimension
 warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/FinrankOfIsStandardSmoothOfRelativeDimension.lean:198:2: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
 warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/FinrankOfIsStandardSmoothOfRelativeDimension.lean:307:2: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
 warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/FinrankOfIsStandardSmoothOfRelativeDimension.lean:383:2: Try this: 
@@ -2146,7 +2049,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8938/9010] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanEqTopOfFinrankFibreEq
+⚠ [8921/9002] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanEqTopOfFinrankFibreEq
 warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsSpanEqTopOfFinrankFibreEq.lean:14:2: Try this: 
   letI̵
 
@@ -2259,7 +2162,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8952/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.LinCombTrivG
+⚠ [8935/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.LinCombTrivG
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/LinCombTrivG.lean:29:19: Unused tactic linter: `(try erw [map_one])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
@@ -2313,7 +2216,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/LinCombTrivG.lean:97:42: Unused tactic linter: `(try erw [map_one])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8956/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaPt
+⚠ [8939/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaPt
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ThetaPt.lean:59:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Out.chart_le_zero`:
   [GrpObj A]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -2338,21 +2241,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [GrpObj A] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8970/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabComp
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabComp.lean:65:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabComp.lean:65:6: Unused tactic linter: `exact MonObj.lift_comp_one_right _ _` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8971/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PullCub
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/PullCub.lean:371:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.pt_eq`:
-  [Fintype K]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype K] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8973/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.DvrData
+⚠ [8953/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.DvrData
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/DvrData.lean:53:8: `Ideal.bot_prime` has been deprecated: Use `Ideal.isPrime_bot` instead
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/DvrData.lean:63:2: Try this: 
   haveI̵
@@ -2386,7 +2275,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8975/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaVV
+⚠ [8955/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaVV
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ThetaVV.lean:21:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Out.liftHom_apply`:
   [GrpObj A]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -2399,55 +2288,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [GrpObj A] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8982/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabPull
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabPull.lean:93:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.psum_hom`:
-  [IsCommMonObj G]
-  [IsCommMonObj G']
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsCommMonObj G] [IsCommMonObj G'] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8984/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.Splits
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:22:2: try 'simp' instead of 'simpa'
-
-Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:51:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:51:6: Unused tactic linter: `rfl` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:76:10: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:79:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:76:10: Unused tactic linter: `(rw [pullU_comp_lemma, pullU_comp_lemma, pullU_comp_lemma] at h'; exact h')` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:79:6: Unused tactic linter: `(rw [pullU_comp_lemma, pullU_comp_lemma]; exact key)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:88:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:89:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:88:6: Unused tactic linter: `(rw [pullU_comp_lemma]; exact h)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:89:6: Unused tactic linter: `(convert h using 4; exact pullU_comp_lemma e₂ a W u)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:123:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:123:6: Unused tactic linter: `simpa using (key x).symm` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8985/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.DegProd
+⚠ [8962/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.DegProd
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/DegProd.lean:73:4: Try this: 
   haveI̵
 
@@ -2483,131 +2324,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsCommMonObj G'] [IsCommMonObj G] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8989/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.BCTools
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:99:33: This simp argument is unused:
-  RingHom.toMonoidHom_eq_coe
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [res, Units.coe_map, MonoidHom.coe_coe]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:164:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:165:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:166:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:164:6: Unused tactic linter: `exact TopCat.Presheaf.germ_res_apply _ _ _ _ _ _` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:165:6: Unused tactic linter: `(erw [TopCat.Presheaf.germ_res_apply])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:166:6: Unused tactic linter: `(simp; done)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:174:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:175:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:174:6: Unused tactic linter: `(simp only [Scheme.Hom.comp_app, CommRingCat.hom_comp, RingHom.comp_apply]; rfl)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:175:6: Unused tactic linter: `(simp [Scheme.Hom.comp_app]; done)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:205:25: This simp argument is unused:
-  MonoidHom.comp_apply
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [LB.pullGen, Units.coe_map, res, pullU, RingHom.toMonoidHom_eq_coe, MonoidHom.coe_coe]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:205:47: This simp argument is unused:
-  Units.coe_map
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [LB.pullGen, MonoidHom.comp_apply, res, pullU, RingHom.toMonoidHom_eq_coe, MonoidHom.coe_coe]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:206:4: This simp argument is unused:
-  MonoidHom.coe_coe
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [LB.pullGen, MonoidHom.comp_apply, Units.coe_map, res, pullU, RingHom.toMonoidHom_eq_coe]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:226:10: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:227:10: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:226:10: Unused tactic linter: `exact
-  PrimeSpectrum.ext ((Ideal.eq_bot_of_prime _).trans (Ideal.eq_bot_of_prime _).symm)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:227:10: Unused tactic linter: `exact PrimeSpectrum.ext (by simp)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:244:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:246:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:248:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:244:6: Unused tactic linter: `(
-  simp only [Scheme.Hom.appLE, CommRingCat.hom_comp, RingHom.comp_apply]
-  erw [TopCat.Presheaf.germ_res_apply])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:246:6: Unused tactic linter: `(
-  simp only [Scheme.Hom.appLE, CommRingCat.hom_comp, RingHom.comp_apply]
-  exact (TopCat.Presheaf.germ_res_apply _ _ _ _ _).trans rfl)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:248:6: Unused tactic linter: `(
-  simp only [Scheme.Hom.appLE, CommRingCat.hom_comp, RingHom.comp_apply]
-  exact Eq.refl _)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8991/9010] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsSchemeTheoreticallyDominantSpecOfInjective
-warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:31:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:32:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:33:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:30:91: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:31:4: Unused tactic linter: `(intros;
-  apply _root_.GlobalTheory.SchemeDominantSpecMap.isSchemeTheoreticallyDominant_specMap <;> assumption)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:32:4: Unused tactic linter: `(intros;
-  apply @_root_.GlobalTheory.SchemeDominantSpecMap.isSchemeTheoreticallyDominant_specMap <;>
-    first
-    | assumption
-    | infer_instance)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:33:4: Unused tactic linter: `(intros;
-  exact _root_.GlobalTheory.SchemeDominantSpecMap.isSchemeTheoreticallyDominant_specMap ..)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8993/9010] Replayed Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite
+⚠ [8966/9002] Replayed Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite
 warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/IsOpenOfMemIrreducibleComponentsOfFinite.lean:185:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2649,7 +2366,7 @@ warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/IsOpe
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/IsOpenOfMemIrreducibleComponentsOfFinite.lean:650:65: `Prime.not_unit` has been deprecated: Use `Prime.not_isUnit` instead
-⚠ [8994/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.PrecompleteBases.PsaRos
+⚠ [8967/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.PrecompleteBases.PsaRos
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/PrecompleteBases/PsaRos.lean:41:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -2678,7 +2395,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [Finsupp.single_apply, Ne.symm hx, if_false]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8995/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.PrecompleteBases.Torus2GammaBijective
+⚠ [8968/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.PrecompleteBases.Torus2GammaBijective
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/PrecompleteBases/Torus2GammaBijective.lean:48:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -3069,7 +2786,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/PrecompleteBases/Torus2GammaBijective.lean:538:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-⚠ [8996/9010] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.WeightedChartPullback.TorusInj
+⚠ [8969/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.WeightedChartPullback.TorusInj
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/WeightedChartPullback/TorusInj.lean:49:4: Unused tactic linter: `simp [pt]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
@@ -3125,7 +2842,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/WeightedChartPullback/TorusInj.lean:160:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-⚠ [8997/9010] Replayed Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsSplitTorusPointsMulEquiv
+⚠ [8970/9002] Replayed Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsSplitTorusPointsMulEquiv
 warning: src/Development/AbelianVarietyTheory/Proofs/AbelianSchemeLawProofs/ExistsSplitTorusPointsMulEquiv.lean:118:4: Try this: 
   letI̵
 
@@ -3134,95 +2851,25 @@ The difference between `let` and `letI` is that `letI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8999/9010] Replayed Development.AbelianVarietyTheory.PublishedTheorems.SemiabelianTori.GeometricallyConnectedSplitTorusAff
-warning: src/Development/AbelianVarietyTheory/PublishedTheorems/SemiabelianTori/GeometricallyConnectedSplitTorusAff.lean:178:0: automatically included section variable(s) unused in theorem `GlobalTheory.Published.SemiAbelianHomExtension.isDominant_generic_dvr`:
-  [IsDomain T]
-  [IsDiscreteValuationRing T]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsDomain T] [IsDiscreteValuationRing T] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [9001/9010] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsUnitIffUnitAt.lean:13:9: Variable name `a` is not explicitly referenced.
+⚠ [8975/9002] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.LineModel
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/LineModel.lean:72:11: `continuousOn_iff_continuous_restrict` has been deprecated: Use `continuousOn_iff_continuous_domRestrict` instead
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/LineModel.lean:100:21: Variable name `x` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _a
+  [apply] _x
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsUnitIffUnitAt.lean:13:11: Variable name `b` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _b
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [9003/9010] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalizationStatement
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegAtIffChartLocalizationStatement.lean:8:83: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegAtIffChartLocalizationStatement.lean:8:155: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegAtIffChartLocalizationStatement.lean:8:83: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.regAt_iff_exists_chart_fraction` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegAtIffChartLocalizationStatement.lean:8:155: Unused tactic linter: `(intros;
-  apply GlobalTheory.CompanionTheory.Ar.regAt_iff_exists_chart_fraction <;> assumption)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [9005/9010] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHomStatement
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsUniqueCentreLocalHomStatement.lean:8:80: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsUniqueCentreLocalHomStatement.lean:8:149: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsUniqueCentreLocalHomStatement.lean:8:80: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.exists_unique_point_of_local` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsUniqueCentreLocalHomStatement.lean:8:149: Unused tactic linter: `(intros;
-  apply GlobalTheory.CompanionTheory.Ar.exists_unique_point_of_local <;> assumption)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [9007/9010] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePointStatement
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimeChartExistsUniquePointStatement.lean:8:72: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimeChartExistsUniquePointStatement.lean:8:133: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimeChartExistsUniquePointStatement.lean:8:72: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.chart_point_of_prime` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimeChartExistsUniquePointStatement.lean:8:133: Unused tactic linter: `(intros; apply GlobalTheory.CompanionTheory.Ar.chart_point_of_prime <;> assumption)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [9008/9010] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalRingPointsExistsUnique
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:97:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.TiePoints.aeval_ratio_eq_zero`:
-  [IsLocalRing R]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsLocalRing R] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:125:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.TiePoints.aeval_eq_zero_of_ratio`:
-  [IsLocalRing R]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsLocalRing R] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:144:44: This simp argument is unused:
-  RingHom.id_apply
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [Subring.subtype_apply, hb]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:224:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.TiePoints.coords_iff`:
+⚠ [8986/9002] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.PPFHoriz
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:21:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.genMap_mk`:
   [Fintype K]
+  [(k : K) → Fintype (ι k)]
+  [Fintype K']
+  [(k : K') → Fintype (ι' k)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype K] in theorem ...
+  omit [Fintype K] [(k : K) → Fintype (ι k)] [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:284:2: Try this: 
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:33:2: Try this: 
   letI̵
 
 The goal is a proposition, so `let` is preferred over `letI`.
@@ -3230,7 +2877,7 @@ The difference between `let` and `letI` is that `letI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:287:2: Try this: 
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:34:2: Try this: 
   haveI̵
 
 The goal is a proposition, so `have` is preferred over `haveI`.
@@ -3238,13 +2885,24 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:270:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.TiePoints.exists_local_ext`:
-  [IsLocalRing R]
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:45:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.quotIncl_injective`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+  [Fintype K']
+  [(k : K') → Fintype (ι' k)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsLocalRing R] in theorem ...
+  omit [Fintype K] [(k : K) → Fintype (ι k)] [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUnique.lean:382:2: Try this: 
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:60:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:61:2: Try this: 
   haveI̵
 
 The goal is a proposition, so `have` is preferred over `haveI`.
@@ -3252,102 +2910,236 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [9009/9010] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalRingPointsExistsUniqueStatement
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUniqueStatement.lean:11:62: this tactic is never executed
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:72:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.aeval_xW`:
+  [Fintype K']
+  [(k : K') → Fintype (ι' k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:105:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Inter.PFHoriz.baseSubst_rename`:
+  [Fintype K']
+  [(k : K') → Fintype (ι' k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K'] [(k : K') → Fintype (ι' k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:165:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:184:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PPFHoriz.lean:193:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8991/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabComp
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabComp.lean:65:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUniqueStatement.lean:11:113: this tactic is never executed
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabComp.lean:65:6: Unused tactic linter: `exact MonObj.lift_comp_one_right _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8992/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PullCub
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/PullCub.lean:371:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.pt_eq`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8993/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabPull
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabPull.lean:93:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.psum_hom`:
+  [IsCommMonObj G]
+  [IsCommMonObj G']
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCommMonObj G] [IsCommMonObj G'] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8995/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.Splits
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:22:2: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:51:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUniqueStatement.lean:11:62: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.tie_points` does nothing
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:51:6: Unused tactic linter: `rfl` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalRingPointsExistsUniqueStatement.lean:11:113: Unused tactic linter: `(intros; apply GlobalTheory.CompanionTheory.Ar.tie_points <;> assumption)` does nothing
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:76:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:79:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:76:10: Unused tactic linter: `(rw [pullU_comp_lemma, pullU_comp_lemma, pullU_comp_lemma] at h'; exact h')` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [9010/9010] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.SmallPointsCoordRatioBound
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:28:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.BlockRatio.aeval_map_hom`:
-  [Fintype σ]
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:79:6: Unused tactic linter: `(rw [pullU_comp_lemma, pullU_comp_lemma]; exact key)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:88:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:89:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:88:6: Unused tactic linter: `(rw [pullU_comp_lemma]; exact h)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:89:6: Unused tactic linter: `(convert h using 4; exact pullU_comp_lemma e₂ a W u)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:123:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:123:6: Unused tactic linter: `simpa using (key x).symm` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8998/9002] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.BCTools
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:99:33: This simp argument is unused:
+  RingHom.toMonoidHom_eq_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [res, Units.coe_map, MonoidHom.coe_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:164:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:165:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:166:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:164:6: Unused tactic linter: `exact TopCat.Presheaf.germ_res_apply _ _ _ _ _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:165:6: Unused tactic linter: `(erw [TopCat.Presheaf.germ_res_apply])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:166:6: Unused tactic linter: `(simp; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:174:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:175:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:174:6: Unused tactic linter: `(simp only [Scheme.Hom.comp_app, CommRingCat.hom_comp, RingHom.comp_apply]; rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:175:6: Unused tactic linter: `(simp [Scheme.Hom.comp_app]; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:205:25: This simp argument is unused:
+  MonoidHom.comp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LB.pullGen, Units.coe_map, res, pullU, RingHom.toMonoidHom_eq_coe, MonoidHom.coe_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:205:47: This simp argument is unused:
+  Units.coe_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LB.pullGen, MonoidHom.comp_apply, res, pullU, RingHom.toMonoidHom_eq_coe, MonoidHom.coe_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:206:4: This simp argument is unused:
+  MonoidHom.coe_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LB.pullGen, MonoidHom.comp_apply, Units.coe_map, res, pullU, RingHom.toMonoidHom_eq_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:226:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:227:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:226:10: Unused tactic linter: `exact
+  PrimeSpectrum.ext ((Ideal.eq_bot_of_prime _).trans (Ideal.eq_bot_of_prime _).symm)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:227:10: Unused tactic linter: `exact PrimeSpectrum.ext (by simp)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:244:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:246:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:248:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:244:6: Unused tactic linter: `(
+  simp only [Scheme.Hom.appLE, CommRingCat.hom_comp, RingHom.comp_apply]
+  erw [TopCat.Presheaf.germ_res_apply])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:246:6: Unused tactic linter: `(
+  simp only [Scheme.Hom.appLE, CommRingCat.hom_comp, RingHom.comp_apply]
+  exact (TopCat.Presheaf.germ_res_apply _ _ _ _ _).trans rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:248:6: Unused tactic linter: `(
+  simp only [Scheme.Hom.appLE, CommRingCat.hom_comp, RingHom.comp_apply]
+  exact Eq.refl _)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8999/9002] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsSchemeTheoreticallyDominantSpecOfInjective
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:31:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:32:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:33:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:30:91: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:31:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.SchemeDominantSpecMap.isSchemeTheoreticallyDominant_specMap <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:32:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.SchemeDominantSpecMap.isSchemeTheoreticallyDominant_specMap <;>
+    first
+    | assumption
+    | infer_instance)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsSchemeTheoreticallyDominantSpecOfInjective.lean:33:4: Unused tactic linter: `(intros;
+  exact _root_.GlobalTheory.SchemeDominantSpecMap.isSchemeTheoreticallyDominant_specMap ..)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9000/9002] Replayed Development.AbelianVarietyTheory.PublishedTheorems.SemiabelianTori.GeometricallyConnectedSplitTorusAff
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/SemiabelianTori/GeometricallyConnectedSplitTorusAff.lean:178:0: automatically included section variable(s) unused in theorem `GlobalTheory.Published.SemiAbelianHomExtension.isDominant_generic_dvr`:
+  [IsDomain T]
+  [IsDiscreteValuationRing T]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype σ] in theorem ...
+  omit [IsDomain T] [IsDiscreteValuationRing T] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:38:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.BlockRatio.isFormQuot_of_mem`:
-  [Fintype σ]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype σ] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:44:51: This simp argument is unused:
-  one_mul
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [MvPolynomial.aeval_X, Nat.cast_one, pow_one]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:49:15: This simp argument is unused:
-  MvPolynomial.aeval_C
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [pow_zero, mul_one, eq_ratCast, eq_intCast, Rat.cast_def, map_intCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:49:47: This simp argument is unused:
-  mul_one
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [MvPolynomial.aeval_C, pow_zero, eq_ratCast, eq_intCast, Rat.cast_def, map_intCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:63:44: This simp argument is unused:
-  MvPolynomial.aeval_C
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [map_add, map_mul, map_pow, MvPolynomial.aeval_X, he, he', eq_intCast, Int.cast_natCast,
-    Nat.cast_mul, map_natCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:63:97: This simp argument is unused:
-  eq_intCast
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [map_add, map_mul, map_pow, MvPolynomial.aeval_C, MvPolynomial.aeval_X, he, he', Int.cast_natCast,
-    Nat.cast_mul, map_natCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:64:8: This simp argument is unused:
-  Int.cast_natCast
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [map_add, map_mul, map_pow, MvPolynomial.aeval_C, MvPolynomial.aeval_X, he, he', eq_intCast,
-    Nat.cast_mul, map_natCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:73:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.BlockRatio.common_denominator`:
-  [Fintype σ]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype σ] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:89:33: This simp argument is unused:
-  MvPolynomial.aeval_C
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [map_mul, map_pow, MvPolynomial.aeval_X, he, eq_intCast, Int.cast_natCast, map_natCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:89:81: This simp argument is unused:
-  eq_intCast
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [map_mul, map_pow, MvPolynomial.aeval_C, MvPolynomial.aeval_X, he, Int.cast_natCast, map_natCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SmallPointsCoordRatioBound.lean:89:93: This simp argument is unused:
-  Int.cast_natCast
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [map_mul, map_pow, MvPolynomial.aeval_C, MvPolynomial.aeval_X, he, eq_intCast, map_natCast]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-Build completed successfully (9010 jobs).
+Build completed successfully (9002 jobs).

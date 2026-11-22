@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6a8acaeff237e183c4441380f0c88f7322aa85d52092a5d49248fd8777687553",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.NumberFieldFamilies.NPartCNdProj"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.NumberFieldFamilies.NPartCNdProj\n"
+}

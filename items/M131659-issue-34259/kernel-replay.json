@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e264b25136ddcf30803b8d7dc0ce8e72b37aef264d98eb2fc2f7274c31614616",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NumberFieldPointIntegralModel"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.NumberFieldPointIntegralModel\n"
+}

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a4716c2774029ecff3722f79d133a26ecc2933a526f75e4d53c53d3d0612945e",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.DiscreteGroups.GlobalIrreducibility.OrbitOfAgree"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.DiscreteGroups.GlobalIrreducibility.OrbitOfAgree\n"
+}

@@ -1,0 +1,1791 @@
+⚠ [8712/8841] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/InFlagDomainOne.lean:40:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8716/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.ContinuousTmaxShift
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:109:65: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:129:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:129:6: Unused tactic linter: `rw [integral_fintype_prod_eq_prod ι (fun _ => kθ)]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:129:58: Unused tactic linter: `simp [kθ_integral]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:136:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:136:6: Unused tactic linter: `exact
+  (hg.mul kK_contDiff.continuous).integrable_of_hasCompactSupport kK_hasCompactSupport.mul_right` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:152:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:152:6: Unused tactic linter: `rw [integral_mul_left, integral_mul_left]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:161:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.abs_le_of_kK_ne`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:180:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.integral_kK_congr`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:188:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.integral_kK_mono`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:195:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.integral_const_kK`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:198:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:198:6: Unused tactic linter: `rw [integral_mul_left, kK_integral, mul_one]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:200:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.integral_lin_kK`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:208:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:208:6: Unused tactic linter: `rw [integral_mul_left, integral_mul_left]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:256:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:260:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:256:8: Unused tactic linter: `rw [Function.update_noteq hi]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:260:8: Unused tactic linter: `rw [Function.update_same, Function.update_noteq hkj]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:328:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:328:6: Unused tactic linter: `rw [← integral_mul_left]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:339:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ContinuousTmaxShift.lean:339:6: Unused tactic linter: `unfold convolution` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8717/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshRegMax
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshRegMax.lean:43:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.fderiv_conv_eq`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshRegMax.lean:50:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.tsupport_fderiv2_kK`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshRegMax.lean:53:26: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshRegMax.lean:100:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.hasFDerivAt_comp_smul'`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshRegMax.lean:320:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.clm_apply_eq_sum`:
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8719/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.AnalyticSubsetChartLocal
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/AnalyticSubsetChartLocal.lean:29:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/AnalyticSubsetChartLocal.lean:66:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/AnalyticSubsetChartLocal.lean:66:4: Unused tactic linter: `simp only [integralWith]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8720/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.MdiscPos
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/MdiscPos.lean:16:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.pm_sum_gram_apply`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/MdiscPos.lean:59:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.pmWt_nonneg`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/MdiscPos.lean:62:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.pmWt_comp_perm`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/MdiscPos.lean:71:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.pm_sum_alt`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/MdiscPos.lean:79:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.A.pm_comp_bijective`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8722/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.ComplexHessianIsHermitianOfContDiffAt
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:20:36: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:45:41: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:46:4: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:46:35: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:158:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:195:34: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:228:8: This simp argument is unused:
+  add_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:235:15: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, Ne.symm h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:235:32: This simp argument is unused:
+  Ne.symm h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, Pi.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:251:70: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:255:10: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.inner]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ComplexHessianIsHermitianOfContDiffAt.lean:257:10: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, Ne.symm hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8723/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.CovLog
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/CovLog.lean:23:34: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/CovLog.lean:46:24: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+⚠ [8724/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.LintegralImageEqLintegralNormSqDetMul
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LintegralImageEqLintegralNormSqDetMul.lean:145:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LintegralImageEqLintegralNormSqDetMul.lean:145:6: Unused tactic linter: `apply setIntegral_congr hU.measurableSet` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8725/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.LocDens
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:33:95: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:33:102: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:33:95: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:33:102: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:38:62: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:38:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:38:62: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:38:69: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:89:33: `continuousOn_finset_sum` has been deprecated: Use `continuousOn_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:90:54: `continuousOn_finset_sum` has been deprecated: Use `continuousOn_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:169:43: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:170:6: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:170:37: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:170:69: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:145:34: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [E, hik.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:150:34: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [E, hik.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:170:69: This simp argument is unused:
+  ContinuousLinearMap.coe_smul'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sum, map_add, map_smul, ContinuousLinearMap.sum_apply, ContinuousLinearMap.add_apply,
+    ContinuousLinearMap.smul_apply, Pi.smul_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/LocDens.lean:171:6: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sum, map_add, map_smul, ContinuousLinearMap.sum_apply, ContinuousLinearMap.add_apply,
+    ContinuousLinearMap.smul_apply, ContinuousLinearMap.coe_smul', smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8726/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.IntegrableOnTargetOfTsupport
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/IntegrableOnTargetOfTsupport.lean:49:25: `MeasureTheory.IntegrableOn.of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.IntegrableOn.of_forall_sdiff_eq_zero` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/IntegrableOnTargetOfTsupport.lean:74:13: `MeasureTheory.setIntegral_eq_of_subset_of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.setIntegral_eq_of_subset_of_forall_sdiff_eq_zero` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/IntegrableOnTargetOfTsupport.lean:89:13: `MeasureTheory.setIntegral_eq_of_subset_of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.setIntegral_eq_of_subset_of_forall_sdiff_eq_zero` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/IntegrableOnTargetOfTsupport.lean:131:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/IntegrableOnTargetOfTsupport.lean:169:12: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+⚠ [8727/8841] Replayed ReciprocityTheory.AnalyticForms.AnalyticCharts.MaDensCompEqZeroOfRankLt
+warning: src/ReciprocityTheory/AnalyticForms/AnalyticCharts/MaDensCompEqZeroOfRankLt.lean:19:32: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/AnalyticCharts/MaDensCompEqZeroOfRankLt.lean:37:32: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/AnalyticCharts/MaDensCompEqZeroOfRankLt.lean:37:63: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/ReciprocityTheory/AnalyticForms/AnalyticCharts/MaDensCompEqZeroOfRankLt.lean:119:25: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+⚠ [8728/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.HessCIsHermitian
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:24:39: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:43:24: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:100:41: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:101:4: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:101:35: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:100:41: This simp argument is unused:
+  ContinuousLinearMap.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, map_sub, map_smul, ContinuousLinearMap.sub_apply, ContinuousLinearMap.smul_apply,
+    smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:101:4: This simp argument is unused:
+  ContinuousLinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, map_sub, map_smul, ContinuousLinearMap.add_apply, ContinuousLinearMap.smul_apply,
+    smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/HessCIsHermitian.lean:101:35: This simp argument is unused:
+  ContinuousLinearMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, map_sub, map_smul, ContinuousLinearMap.add_apply, ContinuousLinearMap.sub_apply,
+    smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8730/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.MaMeasureA
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureA.lean:16:48: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [leviC, map_div₀, map_add, map_mul, Complex.conj_ofReal, Complex.conj_I, map_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureA.lean:61:130: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureA.lean:61:171: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureA.lean:61:178: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureA.lean:61:130: Unused tactic linter: `exact_mod_cast (le_top : (2 : ℕ∞) ≤ ⊤)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureA.lean:61:171: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureA.lean:61:178: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8733/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.MaMeasureB
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:61:5: `MeasureTheory.IntegrableOn.of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.IntegrableOn.of_forall_sdiff_eq_zero` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:90:15: `MeasureTheory.Measure.coe_finset_sum` has been deprecated: Use `MeasureTheory.Measure.coe_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:111:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.M.chartMeasure_integrable_integral`:
+  [T2Space X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:134:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:144:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:145:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:134:10: Unused tactic linter: `exact image_eq_zero_of_nmem_tsupport hz` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:144:10: Unused tactic linter: `exact IntegrableOn.continuousOn_mul hc hgK hK` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:145:10: Unused tactic linter: `exact hgK.continuousOn_mul hc hK.measurableSet` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:158:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:158:6: Unused tactic linter: `exact ⟨(integrable_const_iff.1 hi).resolve_left one_ne_zero⟩` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:167:12: `MeasureTheory.integrable_finset_sum_measure` has been deprecated: Use `MeasureTheory.integrable_finsetSum_measure` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:168:8: `MeasureTheory.integral_finset_sum_measure` has been deprecated: Use `MeasureTheory.integral_finsetSum_measure` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:190:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:190:8: Unused tactic linter: `exact LinearMap.det_restrictScalars (f := (f : (Fin e → ℂ) →ₗ[ℂ] (Fin e → ℂ)))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:202:15: `MeasureTheory.Measure.coe_finset_sum` has been deprecated: Use `MeasureTheory.Measure.coe_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:253:15: `MeasureTheory.IntegrableOn.of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.IntegrableOn.of_forall_sdiff_eq_zero` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:264:4: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:260:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasureB.lean:260:10: Unused tactic linter: `exact image_eq_zero_of_nmem_tsupport (fun h => hnot (hne.some.tsupport_subset k h))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8734/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.MaMeasure
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MaMeasure.lean:29:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8736/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.LogInt
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:39:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:33:12: This simp argument is unused:
+  Set.indicator_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hz i]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:35:16: This simp argument is unused:
+  Set.indicator_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hj, hz j]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:41:74: This simp argument is unused:
+  Set.indicator_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:57:10: This simp argument is unused:
+  Set.indicator_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Set.mem_prod, ha, hb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:73:10: This simp argument is unused:
+  Set.indicator_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Set.mem_prod, ha, hb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:143:60: Variable name `D` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _D
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean:147:8: `MeasureTheory.locallyIntegrable_finset_sum` has been deprecated: Use `MeasureTheory.locallyIntegrable_finsetSum` instead
+⚠ [8738/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffOnFubiniStudyProfileInvNormSqFirst
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:23:45: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:23:77: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:42:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:42:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:68:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffOnFubiniStudyProfileInvNormSqFirst.lean:68:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+⚠ [8739/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffFubiniStudyRatioCompChart0
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:68:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:389:4: Unused tactic linter: `beta_reduce` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:405:4: Unused tactic linter: `beta_reduce` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:531:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:539:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:548:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffFubiniStudyRatioCompChart0.lean:706:33: This simp argument is unused:
+  MeasureTheory.Measure.pi_univ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [MeasureTheory.volume_pi, MeasureTheory.measureReal_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8740/8841] Replayed ReciprocityTheory.AnalyticForms.LeviForms.TailCutA
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailCutA.lean:79:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailCutA.lean:79:6: Unused tactic linter: `exact ψ.isOpen_image_source_inter isOpen_interior` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8741/8841] Replayed ReciprocityTheory.AnalyticForms.LeviForms.TailCut
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailCut.lean:80:13: `MeasureTheory.Measure.coe_finset_sum` has been deprecated: Use `MeasureTheory.Measure.coe_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailCut.lean:278:15: `MeasureTheory.Measure.coe_finset_sum` has been deprecated: Use `MeasureTheory.Measure.coe_finsetSum` instead
+⚠ [8744/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PartsCalc
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:71:21: This simp argument is unused:
+  Ne.symm hpq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hpq, Matrix.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:74:23: This simp argument is unused:
+  Ne.symm hpq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hpq, Matrix.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:83:20: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hu, hbq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:85:20: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hu, hbq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:88:18: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hu, hkp, hpq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:90:18: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hu, hkp, hpq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:113:24: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:113:56: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:114:4: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:135:31: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:136:9: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:172:17: This simp argument is unused:
+  g
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [g', Fin.cons_zero, Fin.cases_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:172:20: This simp argument is unused:
+  g'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [g, Fin.cons_zero, Fin.cases_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:172:24: This simp argument is unused:
+  Fin.cons_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [g, g', Fin.cases_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:174:17: This simp argument is unused:
+  g
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [g', Fin.cons_succ, Fin.cases_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:174:20: This simp argument is unused:
+  g'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [g, Fin.cons_succ, Fin.cases_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsCalc.lean:174:24: This simp argument is unused:
+  Fin.cons_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [g, g', Fin.cases_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8745/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PartsPiola
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:12:83: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:12:90: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:13:48: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:13:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:12:83: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:12:90: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:13:48: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:13:59: Unused tactic linter: `(simp only [minSmoothness_of_isRCLikeNormedField]; norm_num)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:17:83: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:17:90: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:18:95: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:18:102: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:19:51: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:19:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:17:83: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:17:90: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:18:95: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:18:102: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:19:51: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:19:58: Unused tactic linter: `exact one_ne_zero` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:34:43: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:40:21: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:29:65: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:29:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:30:81: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:30:92: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:30:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:36:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:36:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:29:65: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:29:72: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:30:81: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:30:92: Unused tactic linter: `decide` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:30:101: Unused tactic linter: `exact ENat.coe_ne_top _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:36:50: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:36:61: Unused tactic linter: `(simp only [minSmoothness_of_isRCLikeNormedField]; norm_num)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:148:9: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:148:40: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:144:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:145:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:146:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:144:6: Unused tactic linter: `(exact (hf.hasFDerivAt.fun_add hg.hasFDerivAt).fderiv)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:145:6: Unused tactic linter: `(exact fderiv_add hf hg)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:146:6: Unused tactic linter: `(exact fderiv_fun_add hf hg)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:161:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:161:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:156:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:157:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:158:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:156:6: Unused tactic linter: `(exact (hf.hasFDerivAt.fun_mul hg.hasFDerivAt).fderiv)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:157:6: Unused tactic linter: `(exact fderiv_mul hf hg)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:158:6: Unused tactic linter: `(exact fderiv_fun_mul hf hg)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:53: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:106: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:113: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:190:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:53: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:60: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:106: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:176:113: Unused tactic linter: `exact one_ne_zero` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:190:8: Unused tactic linter: `(fun_prop)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:229:10: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hT]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:317:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:318:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:317:6: Unused tactic linter: `(simp [ite_and])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:318:6: Unused tactic linter: `(simp [ite_and, Finset.sum_ite_eq', Finset.sum_ite_eq])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:401:17: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:406:22: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:406:54: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:407:6: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:116: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:388:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:389:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:390:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:396:81: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:396:88: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:56: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:63: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:109: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:373:116: Unused tactic linter: `exact one_ne_zero` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:388:10: Unused tactic linter: `(exact ((hw _).fun_add ((hw _).const_mul Complex.I)).const_mul (1 / 2 : ℂ))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:389:10: Unused tactic linter: `(exact ((hw _).add ((hw _).fun_const_mul Complex.I)).fun_const_mul (1 / 2 : ℂ))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:390:10: Unused tactic linter: `(exact ((hw _).fun_add ((hw _).fun_const_mul Complex.I)).fun_const_mul (1 / 2 : ℂ))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:396:81: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsPiola.lean:396:88: Unused tactic linter: `exact one_ne_zero` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8746/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PartsIbp
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsIbp.lean:148:12: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsIbp.lean:148:46: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PartsIbp.lean:150:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+⚠ [8747/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.HessCRestrictThm
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:114:35: `fderiv_comp'` has been deprecated: Use `fderiv_fun_comp` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:87:21: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [(Fin.succAbove_ne j i).symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:102:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:106:33: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:106:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:102:57: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:106:33: Unused tactic linter: `exact one_add_one_eq_two.le` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HessCRestrictThm.lean:106:63: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8748/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.StokesA
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesA.lean:31:85: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesA.lean:80:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesA.lean:80:4: Unused tactic linter: `exact image_eq_zero_of_nmem_tsupport hy'` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8750/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.StokesC
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:27:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:28:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:27:6: Unused tactic linter: `exact_mod_cast le_top` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:28:6: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:33:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:34:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:33:6: Unused tactic linter: `exact_mod_cast le_top` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:34:6: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:58:42: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:45:65: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:45:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:46:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:46:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:29: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:65: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:132: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:29: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:65: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:132: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:45:65: Unused tactic linter: `exact one_le_two` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:45:84: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:46:50: Unused tactic linter: `exact one_le_two` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:46:69: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:29: Unused tactic linter: `exact le_of_eq one_add_one_eq_two` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:65: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:121: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:49:132: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:29: Unused tactic linter: `exact le_of_eq one_add_one_eq_two` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:65: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:121: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:52:132: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:92:53: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:74:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:90:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:74:8: Unused tactic linter: `(ext v; simp)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:90:8: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:134:9: `MeasureTheory.setIntegral_eq_of_subset_of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.setIntegral_eq_of_subset_of_forall_sdiff_eq_zero` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:149:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.M.st_locDens_piece`:
+  [CompactSpace X]
+  [T2Space X]
+  hG
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompactSpace X] [T2Space X] hG in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:149:38: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:159:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:160:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:159:8: Unused tactic linter: `(simp only [Fin.cons_zero]; rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesC.lean:160:8: Unused tactic linter: `simp [LocPot.ofFun, Function.comp_def]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8751/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffAtOfIsPotential
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffAtOfIsPotential.lean:169:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffAtOfIsPotential.lean:189:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+⚠ [8752/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.StokesD
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:51:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:51:46: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:57:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:57:46: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:88:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.M.st_partsHyp_piece`:
+  [T2Space X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:97:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:98:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:97:6: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:98:6: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:138:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:139:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:140:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:138:6: Unused tactic linter: `exact WithTop.coe_le_coe.mpr le_top` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:139:6: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:140:6: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:265:33: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:277:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:278:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:277:6: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/StokesD.lean:278:6: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8755/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.GreenOfPoincareLelongHyperplane
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenOfPoincareLelongHyperplane.lean:93:4: This simp argument is unused:
+  MeasureTheory.Measure.pi_univ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [MeasureTheory.integral_const, MeasureTheory.volume_pi, MeasureTheory.measureReal_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8757/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffHypInclAt
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffHypInclAt.lean:73:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.M.PLAux.sliceMap_analytic`:
+  [T2Space X]
+  [CompactSpace X]
+  [CompactSpace ↑W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space X] [CompactSpace X] [CompactSpace ↑W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffHypInclAt.lean:105:19: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffHypInclAt.lean:98:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.M.PLAux.sliceMap_injOn`:
+  [T2Space X]
+  [CompactSpace X]
+  [CompactSpace ↑W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space X] [CompactSpace X] [CompactSpace ↑W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffHypInclAt.lean:132:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.M.PLAux.extW_val`:
+  [TopologicalSpace X]
+  [T2Space X]
+  [CompactSpace X]
+  [CompactSpace ↑W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace X] [T2Space X] [CompactSpace X] [CompactSpace ↑W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8758/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffMulOfTsupport
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/ContDiffMulOfTsupport.lean:118:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8759/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.AtlasIndep
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/AtlasIndep.lean:76:5: Variable name `hU` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8761/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.GreenPolar
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenPolar.lean:50:32: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenPolar.lean:50:63: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenPolar.lean:137:29: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenPolar.lean:179:38: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenPolar.lean:291:27: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenPolar.lean:298:27: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+⚠ [8763/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.GreenCoord
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenCoord.lean:18:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/GreenCoord.lean:51:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8767/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.HasCompactSupportCompHypInclAt
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HasCompactSupportCompHypInclAt.lean:142:4: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HasCompactSupportCompHypInclAt.lean:146:34: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/HasCompactSupportCompHypInclAt.lean:147:4: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+⚠ [8768/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.ProjectiveLineZeroFormHolds
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ProjectiveLineZeroFormHolds.lean:38:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ProjectiveLineZeroFormHolds.lean:38:6: Unused tactic linter: `rw [integral_mul_left]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ProjectiveLineZeroFormHolds.lean:51:4: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ProjectiveLineZeroFormHolds.lean:70:4: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ProjectiveLineZeroFormHolds.lean:74:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/ProjectiveLineZeroFormHolds.lean:74:6: Unused tactic linter: `rw [integral_mul_left]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8769/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.IsCompatChartChart
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/IsCompatChartChart.lean:17:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.M.PLAux.isCompatChart_chart`:
+  [T2Space X]
+  [CompactSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space X] [CompactSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8770/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.MIntSumCont
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:56:57: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:141:10: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:91:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:92:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:152:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:91:12: Unused tactic linter: `(norm_num; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:92:12: Unused tactic linter: `(simp; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:152:8: Unused tactic linter: `exact setIntegral_congr (A.chart j').open_target.measurableSet heq` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/MIntSumCont.lean:199:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8774/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:12:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.levi_congr`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:64:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:69:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.levi_zero`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:76:23: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:72:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.levi_smul_dir`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:99:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:99:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftA.lean:102:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.AnForm.levi_clm`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8776/8841] Replayed ReciprocityTheory.AnalyticForms.LeviForms.PullDominateStatement
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/PullDominateStatement.lean:35:43: Variable name `hh` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hh
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8777/8841] Replayed ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftB
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:16:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:17:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:18:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:19:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:16:4: Unused tactic linter: `exact_mod_cast (le_top : ((2 : ℕ∞) ≤ ⊤))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:17:4: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:18:4: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:19:4: Unused tactic linter: `decide` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:69:25: This simp argument is unused:
+  hu
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, ht.ne']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/AnalyticForms/PotentialTheory/PshShiftB.lean:70:25: This simp argument is unused:
+  hu
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [smul_smul, ht.ne']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8778/8841] Replayed ReciprocityTheory.AnalyticForms.LeviForms.TailBoundA
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailBoundA.lean:35:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailBoundA.lean:42:23: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailBoundA.lean:149:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailBoundA.lean:149:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/LeviForms/TailBoundA.lean:329:44: Variable name `hg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8781/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshLap
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshLap.lean:101:17: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshLap.lean:160:32: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshLap.lean:160:63: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshLap.lean:350:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshLap.lean:374:15: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+⚠ [8782/8841] Replayed ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshMean
+warning: src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/PshMean.lean:199:12: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [g0, hc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8787/8841] Replayed GroundTheory.HeightsAndTheta.Heights.Regularisation.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:404:40: This simp argument is unused:
+  _root_.zero_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [levi, smul_zero, map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:466:38: This simp argument is unused:
+  div_self two_pi_I_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [diagonal_apply_eq, add_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:483:17: This simp argument is unused:
+  Function.comp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.zero_eta, Fin.isValue, Matrix.cons_val_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:493:42: This simp argument is unused:
+  diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [add_div, div_self two_pi_I_ne_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:493:67: This simp argument is unused:
+  div_self two_pi_I_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [diagonal_apply, add_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:493:94: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:501:44: This simp argument is unused:
+  diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [PeriodPolydisc.tau0, periodTwo, div_self two_pi_I_ne_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:501:60: This simp argument is unused:
+  div_self two_pi_I_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [PeriodPolydisc.tau0, periodTwo, diagonal_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/Statements.lean:506:37: This simp argument is unused:
+  diagonal_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [periodTwo, mulVec, dotProduct, Fin.sum_univ_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8801/8841] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals.lean:141:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.IsVerticalDivisorAt.ofPrime`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8802/8841] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals.MemMCoordIdealOfAevalEqZero
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/MemMCoordIdealOfAevalEqZero.lean:38:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.isMultiHomog_one`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8803/8841] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.Metric
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:41:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.isValueAt_mul`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:71:23: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:71:54: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:70:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.isUnitOn_one`:
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:93:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.orbitRep_smul`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:100:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.exists_eq_smul_orbitRep`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/Metric.lean:123:21: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [torusSmul, mul_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8808/8841] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.CoordinateIdeals.FubiniLevi
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:46:13: `ContinuousLinearMap.coe_sum'` has been deprecated: Use `FunLike.coe_sum` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_sum'` to `FunLike.coe_sum x`).
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:46:61: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:47:19: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:60:13: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:83:15: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:91:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:91:44: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/CoordinateIdeals/FubiniLevi.lean:92:17: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+⚠ [8812/8841] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.PermFinTwoUniv
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean:80:33: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [rhoMono]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean:102:17: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coeff_C, Equiv.swap_apply_of_ne_of_ne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean:102:39: This simp argument is unused:
+  Equiv.swap_apply_of_ne_of_ne
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coeff_C, Finsupp.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8816/8841] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.RationalSections.IsRatSectionOn
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/RationalSections/IsRatSectionOn.lean:39:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.AI.I2.recR_eq`:
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8820/8841] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MixedFieldContraction.GenericFibreKerTarget
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/MixedFieldContraction/GenericFibreKerTarget.lean:23:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.AI.I4.isBlockMap_id`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/MixedFieldContraction/GenericFibreKerTarget.lean:80:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.AI.I4.isBlockMap_inl`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+  [Fintype K₂]
+  [(k : K₂) → Fintype (ι₂ k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] [Fintype K₂] [(k : K₂) → Fintype (ι₂ k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/MixedFieldContraction/GenericFibreKerTarget.lean:88:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.AI.I4.isBlockMap_inr`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+  [Fintype K₂]
+  [(k : K₂) → Fintype (ι₂ k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] [Fintype K₂] [(k : K₂) → Fintype (ι₂ k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8831/8841] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.MetricsProjectionFormulaNef
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/MetricsProjectionFormulaNef.lean:43:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.combLine_a`:
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/MetricsProjectionFormulaNef.lean:46:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.combLine_h`:
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/MetricsProjectionFormulaNef.lean:49:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.combLine_div`:
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/MetricsProjectionFormulaNef.lean:132:4: The namespace `PB` is duplicated in the declaration `GlobalTheory.CompanionTheory.Ar.PB.Realis.PB`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/MetricsProjectionFormulaNef.lean:275:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.prime_charOf_of_ne_zero`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/MetricsProjectionFormulaNef.lean:283:9: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8834/8841] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.GenericBlockMatrixIsBlockDiag
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:100:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:121:6: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:125:6: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:131:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:328:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:547:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:581:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:609:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.FlagEx.regAt_int`:
+  [CharZero Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/GenericBlockMatrixIsBlockDiag.lean:666:28: This simp argument is unused:
+  hc2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8836/8841] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.SameOrbitRefl
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SameOrbitRefl.lean:14:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.Cj.cj_cj`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SameOrbitRefl.lean:17:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.Cj.cj_nonzero`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SameOrbitRefl.lean:22:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.Cj.sameOrbit_symm`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SameOrbitRefl.lean:28:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.Cj.sameOrbit_trans`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SameOrbitRefl.lean:36:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.Cj.sameOrbit_refl`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SameOrbitRefl.lean:39:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.Cj.sameOrbit_cj`:
+  [Fintype K]
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SameOrbitRefl.lean:56:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.PB.Cj.log_sub_orbit`:
+  [(k : K) → Fintype (ι k)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(k : K) → Fintype (ι k)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8841/8841] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.ConjugationInvariantSingularPotentialStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ConjugationInvariantSingularPotentialStatement.lean:10:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ConjugationInvariantSingularPotentialStatement.lean:10:135: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ConjugationInvariantSingularPotentialStatement.lean:10:73: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.PB.an_conj_symmetrise` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ConjugationInvariantSingularPotentialStatement.lean:10:135: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.PB.an_conj_symmetrise <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (8841 jobs).

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "72325989c48f6b1820d63c082da2eec76b60356e430635ab5f8ee792bf03292c",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.ConjugationInvariantSingularPotentialStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.MetricProofs.ConjugationInvariantSingularPotentialStatement\n"
+}
