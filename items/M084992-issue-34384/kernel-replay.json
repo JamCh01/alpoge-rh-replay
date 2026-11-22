@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3bc1beba0c4334350be1ad655d584f5f777a46b378e866a48283ba5c067b935e",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsGlobalLocDerOfIsCob"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsGlobalLocDerOfIsCob\n"
+}

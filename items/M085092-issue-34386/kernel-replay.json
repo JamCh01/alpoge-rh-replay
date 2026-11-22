@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "17e5831841416623039f32145c51c7f740b9ad4e2bdc535ffa1aa2974f57e4e7",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLevelWithOddPrimeFirstNumberStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLevelWithOddPrimeFirstNumberStatement\n"
+}

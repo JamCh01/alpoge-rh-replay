@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6943b0f39a14abfeb7b916abf27a0241d65646475979d34caa422c54520a3882",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.DenseE8SharpAfterAdjoiningAllMatricesStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ModuliProofs.DenseE8SharpAfterAdjoiningAllMatricesStatement\n"
+}

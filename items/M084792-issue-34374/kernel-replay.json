@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "2f31ddad042616251d0a6b9b47bd9bcee213f68c8fed89075be34c45c14ac21a",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.E8SharpFamilyMatrixRelationsDense"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ModuliProofs.E8SharpFamilyMatrixRelationsDense\n"
+}

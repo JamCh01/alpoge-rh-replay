@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "bd6948bc1178f059e98a3f0e33bc3c62211941648794da7ca9e6e2ba0740cec0",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsCechDataPullbackOfLineBundleOnOpenStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsCechDataPullbackOfLineBundleOnOpenStatement\n"
+}
