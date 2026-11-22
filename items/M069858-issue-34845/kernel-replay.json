@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a4c3efc33e3dddf2e35bb6ce352b055a0b4e2505c245d3ed62c170407181aacf",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsTateTwistDualPerfectPairingStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsTateTwistDualPerfectPairingStatement\n"
+}

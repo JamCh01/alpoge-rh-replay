@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "4ca52d09a2a28c6ac8b6fef8872c78ca7f1b9aee66540a024c0472f6f00f6b71",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsHodgeTateBasisOfCrystallineOverKs"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsHodgeTateBasisOfCrystallineOverKs\n"
+}
