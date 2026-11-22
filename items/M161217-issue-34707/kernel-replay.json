@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9576370cee4672e96eb9def27003b6abe9e850b72ed4a49869e0e9fa414640c0",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.GradedCompletionLemmas"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.SharpRestriction.ValuationFrobeniusEpsilon.GradedCompletionLemmas\n"
+}
