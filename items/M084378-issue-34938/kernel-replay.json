@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e699cfdf2cc27e3c8a28a262d5f0e20bdbee590e5b6972a32a06247744fc7cb1",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.RightOperatorDualMemOfInfiniteStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.RightOperatorDualMemOfInfiniteStatement\n"
+}

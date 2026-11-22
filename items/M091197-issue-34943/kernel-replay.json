@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "b8bed1b63f88fabb3392d318299289291ee1c8c216f24948465a1fc751f65677",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.IntegerRingSmulMemSubmodule"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.IntegerRingSmulMemSubmodule\n"
+}
