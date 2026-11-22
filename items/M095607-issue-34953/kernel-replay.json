@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "1339405db8ceb2889a7e48a50d9d69644e24e5d1f73ad462494caa9d5db126cb",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.LeastSizePowMulSqrtAbsNormLeProdNorms"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TwistedOperators.LeastSizePowMulSqrtAbsNormLeProdNorms\n"
+}
