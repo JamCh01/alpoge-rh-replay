@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a141aa945a363f85d811bae1c1bd3b5277867690a6ba305e01f62c076d9f57fd",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.TorusNormaliserBesselStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.TorusNormaliserBesselStatement\n"
+}

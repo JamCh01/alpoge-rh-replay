@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "2a98c10c6e6b4bb985d82353ba659747ab6abda990f2e4dd21d1916880dc3e95",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.LowestKTypeDecayGapOfCompressionFormulaGapStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.LowestKTypeDecayGapOfCompressionFormulaGapStatement\n"
+}

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "fce62fbb4a99585652f3c227182fd439d398a61f77461de9010fa6143408fb50",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.OrbSumFibreEquiv"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.OrbSumFibreEquiv\n"
+}
