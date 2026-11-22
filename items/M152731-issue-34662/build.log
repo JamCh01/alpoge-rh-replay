@@ -1,0 +1,2543 @@
+⚠ [8708/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.AnalyticIdentityTheoremsZetaFacts
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/AnalyticIdentityTheoremsZetaFacts.lean:95:6: `PeriodPair.isOpen_compl_lattice_diff` has been deprecated: Use `PeriodPair.isOpen_compl_lattice_sdiff` instead
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/AnalyticIdentityTheoremsZetaFacts.lean:220:55: `PeriodPair.isOpen_compl_lattice_diff` has been deprecated: Use `PeriodPair.isOpen_compl_lattice_sdiff` instead
+⚠ [8709/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.SigmaConv
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean:18:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean:18:77: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean:18:50: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean:18:58: Unused tactic linter: `(norm_num; ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean:18:77: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean:102:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8710/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.SigmaBasic
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaBasic.lean:35:8: `DifferentiableAt.fun_finset_prod` has been deprecated: Use `DifferentiableAt.fun_finsetProd` instead
+⚠ [8714/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.EtaEis
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/EtaEis.lean:39:7: Unused tactic linter: `simpa using h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8715/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.Legendre
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/Legendre.lean:113:68: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eisSummand, Matrix.cons_val_zero, Matrix.cons_val_one, hc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/Legendre.lean:113:86: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eisSummand, Matrix.cons_val_zero, Matrix.cons_val_one, Matrix.head_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/Legendre.lean:140:68: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eisSummand, Matrix.cons_val_zero, Matrix.cons_val_one, hw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8721/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.HermHalfRight
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/HermHalfRight.lean:108:32: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [herm, map_add, map_sub]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/HermHalfRight.lean:108:41: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [herm, map_add, map_neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8724/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.Elliptic
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/Elliptic.lean:51:12: `continuous_add_right` has been deprecated: Use `continuous_add_const` instead
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/Elliptic.lean:73:36: `continuous_add_right` has been deprecated: Use `continuous_add_const` instead
+⚠ [8725/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.OnePole
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/OnePole.lean:19:6: `continuous_add_right` has been deprecated: Use `continuous_add_const` instead
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/OnePole.lean:39:32: `Set.mem_diff` has been deprecated: Use `Set.mem_sdiff` instead
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/OnePole.lean:163:28: `continuous_add_right` has been deprecated: Use `continuous_add_const` instead
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/OnePole.lean:84:28: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8727/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.SigmaAdd
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaAdd.lean:201:5: Variable name `hord` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hord
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaAdd.lean:207:23: Variable name `hord` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hord
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8728/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.PDeriv
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:103:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:105:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:107:81: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:118:99: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:119:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:120:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:121:82: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:122:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:123:82: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:103:79: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:105:79: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:107:81: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:118:99: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:119:84: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:120:97: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:121:82: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:122:97: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/PDeriv.lean:123:82: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8732/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.MulStableIntegral
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:101:48: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:101:48: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:106:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:107:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:147:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:158:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:212:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/MulStableIntegral.lean:223:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8737/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.IsogenySigma
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IsogenySigma.lean:180:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IsogenySigma.lean:180:34: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IsogenySigma.lean:180:25: Unused tactic linter: `decide` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IsogenySigma.lean:180:34: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8738/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.LatticeOnly
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:67:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:71:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:67:8: Unused tactic linter: `simp [PeriodPair.basis]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:71:8: Unused tactic linter: `simp [PeriodPair.basis]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:121:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:123:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:127:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:129:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:121:8: Unused tactic linter: `(
+  unfold PeriodPair.g₂
+  rw [LatOnly.G_eq h])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:123:8: Unused tactic linter: `(
+  unfold PeriodPair.g₂
+  done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:127:8: Unused tactic linter: `(
+  unfold PeriodPair.g₃
+  rw [LatOnly.G_eq h])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:129:8: Unused tactic linter: `(
+  unfold PeriodPair.g₃
+  done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:172:13: This simp argument is unused:
+  one_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_inv, div_eq_mul_inv, mul_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:215:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:215:8: Unused tactic linter: `simp [PeriodPair.basis]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:224:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:224:8: Unused tactic linter: `simp [PeriodPair.basis]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:233:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:237:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:257:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:263:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:233:8: Unused tactic linter: `simp [PeriodPair.basis]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:237:8: Unused tactic linter: `simp [PeriodPair.basis]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:257:10: Unused tactic linter: `(
+  simp only [LinearMap.comp_apply, LinearMap.mulLeft_apply, Fin.zero_eta, hb0]
+  exact k1)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:263:10: Unused tactic linter: `(
+  simp only [LinearMap.comp_apply, LinearMap.mulLeft_apply, Fin.mk_one, hb1]
+  exact k2)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:278:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:278:6: Unused tactic linter: `simp only [Complex.mul_im, Complex.ofReal_re, Complex.ofReal_im, zero_mul,
+  add_zero]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:297:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:299:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:296:7: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:297:6: Unused tactic linter: `(
+  field_simp
+  ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:299:6: Unused tactic linter: `(
+  rw [div_eq_iff (mul_ne_zero hc hcc)]
+  field_simp
+  ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:346:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:351:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:346:8: Unused tactic linter: `(
+  unfold PeriodPair.g₂
+  done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/LatticeOnly.lean:351:8: Unused tactic linter: `(
+  unfold PeriodPair.g₃
+  done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8740/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.QuasiPeriodConstIsogeny
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:30:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:34:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:28:41: Unused tactic linter: `exact one_lt_two` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:30:8: Unused tactic linter: `simp [Complex.rank_real_complex]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:34:8: Unused tactic linter: `exact (Set.Countable.isPathConnected_compl_of_one_lt_rank hrank hc').isConnected` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:65:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:77:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:65:8: Unused tactic linter: `(
+  have h5 := HasDerivAt.sum hC'
+  rw [Finset.sum_fn] at h5
+  exact h5)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/QuasiPeriodConstIsogeny.lean:77:6: Unused tactic linter: `(
+  convert hall using 1
+  linear_combination hiso)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8741/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.FormEvenIff
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/FormEvenIff.lean:50:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/FormEvenIff.lean:50:10: Unused tactic linter: `(
+  rcases Int.even_or_odd k with hk' | hk'
+  · exact hk'.mul_right _
+  · exact hk'.add_one.mul_left _)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/FormEvenIff.lean:73:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/FormEvenIff.lean:73:6: Unused tactic linter: `simp only [cmForm, Int.even_add, Int.even_mul, Int.even_pow, ne_eq, OfNat.ofNat_ne_zero,
+  not_false_eq_true, and_true]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8744/8938] Replayed Formalism.FormalGroupLog.Statement
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:86: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:118: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:50: Unused tactic linter: `exact @Bl.FirstLemmaM.goal1 K ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:86: Unused tactic linter: `exact @Bl.FirstLemmaM.goal1 K` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:118: Unused tactic linter: `exact @Bl.FirstLemmaM.goal1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8748/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.Deuring
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/Deuring.lean:16:0: automatically included section variable(s) unused in theorem `Formalism.ELL.DeuringModel.exists_root_deuring`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/Deuring.lean:45:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8752/8938] Replayed Formalism.FormalGroupLog.FormalGroupLogProofs.ConstantCoeffSubstOfZero
+warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/ConstantCoeffSubstOfZero.lean:48:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/ConstantCoeffSubstOfZero.lean:248:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8753/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.PadicMult
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/PadicMult.lean:109:0: automatically included section variable(s) unused in theorem `Formalism.ELL.PadicMultiplication.coeff_subst_smul`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8754/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.ConstantCoeffLogOnePlus
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/ConstantCoeffLogOnePlus.lean:14:0: automatically included section variable(s) unused in theorem `Formalism.ELL.EulerSeries.coeff_eulFun`:
+  [CharZero K]
+  [DecidableEq σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] [DecidableEq σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/ConstantCoeffLogOnePlus.lean:60:0: automatically included section variable(s) unused in theorem `Formalism.ELL.EulerSeries.Agree.mul_right`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/ConstantCoeffLogOnePlus.lean:75:0: automatically included section variable(s) unused in theorem `Formalism.ELL.EulerSeries.coeff_pow_eq_zero`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/ConstantCoeffLogOnePlus.lean:147:0: automatically included section variable(s) unused in theorem `Formalism.ELL.EulerSeries.constantCoeff_logOnePlus`:
+  [DecidableEq σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/ConstantCoeffLogOnePlus.lean:183:0: automatically included section variable(s) unused in theorem `Formalism.ELL.EulerSeries.integral_map`:
+  [CharZero K]
+  [DecidableEq σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] [DecidableEq σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8755/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.IntegralPSBserSubOne
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/IntegralPSBserSubOne.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.ELL.PadicLogarithmSubstitution.integralMv_one`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8756/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.NDeriv
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/NDeriv.lean:62:77: This simp argument is unused:
+  map_nsmul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Polynomial.coe_smul, Polynomial.coe_pow, Polynomial.coe_X, map_smul, map_pow, hX,
+    Derivation.map_smul, Derivation.leibniz_pow, PowerSeries.derivative_X, smul_eq_mul, mul_one, map_mul, map_one,
+    nsmul_eq_mul, map_natCast, smul_mul_assoc, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/NDeriv.lean:63:24: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Polynomial.coe_smul, Polynomial.coe_pow, Polynomial.coe_X, map_smul, map_pow, hX,
+    Derivation.map_smul, Derivation.leibniz_pow, PowerSeries.derivative_X, map_nsmul, smul_eq_mul, mul_one, map_mul,
+    nsmul_eq_mul, map_natCast, smul_mul_assoc, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/NDeriv.lean:102:0: automatically included section variable(s) unused in theorem `Formalism.ELL.SubstitutionCoefficientCongruence.integral_one`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8758/8938] Replayed Formalism.FormalGroupLog.FormalGroupLogProofs.HomPsSubstMvSubst
+warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/HomPsSubstMvSubst.lean:29:31: Variable name `h0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/HomPsSubstMvSubst.lean:90:56: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.cons_val_zero, Matrix.cons_val_one] at key2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/HomPsSubstMvSubst.lean:79:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8759/8938] Replayed Formalism.FormalGroupLog.LogDeterminesLaw
+warning: src/Formalism/FormalGroupLog/LogDeterminesLaw.lean:67:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/FormalGroupLog/LogDeterminesLaw.lean:73:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/FormalGroupLog/LogDeterminesLaw.lean:88:91: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8760/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.JetsCube
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:17:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.integral_mul`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:26:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.integral_pderiv`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:35:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.integral_map`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:51:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.omegaF_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:53:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.FK_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:87:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.Dj_sub`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:90:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.Dj_add`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:93:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.Dj_C`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:96:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.Dj_const`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:101:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.Dj_X`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:108:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.rti`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:133:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.ccX`:
+  [IsUltrametricDist K]
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:139:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.constantCoeff_two_variable_law`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsCube.lean:147:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupCubeJets.pderiv_two_variable_law_other`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8761/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.JetsTwo
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:37:8: This simp argument is unused:
+  MvPowerSeries.pderiv_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:43:8: This simp argument is unused:
+  MvPowerSeries.pderiv_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:49:8: This simp argument is unused:
+  MvPowerSeries.pderiv_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pderiv_one_subst_X0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:62:8: This simp argument is unused:
+  MvPowerSeries.pderiv_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cc_psubst (MvPowerSeries.constantCoeff_X _), cc_derivative]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:69:8: This simp argument is unused:
+  MvPowerSeries.pderiv_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cc_psubst (MvPowerSeries.constantCoeff_X _), cc_derivative]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:107:25: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_mul, Formalism.G.LogP.constantCoeff_subst_of_zero _ (hv hx hy), Matrix.cons_val_zero,
+    Matrix.cons_val_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:121:47: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.sum_univ_two, map_add, map_mul, Formalism.G.LogP.constantCoeff_subst_of_zero _ (hv hx hy),
+    Matrix.cons_val_zero, Matrix.cons_val_one, ccd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:144:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupQuadraticJets.hb`:
+  [IsUltrametricDist K]
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:156:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupQuadraticJets.pd_unit_X`:
+  [IsUltrametricDist K]
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:158:8: This simp argument is unused:
+  MvPowerSeries.pderiv_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:175:13: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_mul, Formalism.G.LogP.constantCoeff_subst_of_zero _ hb, Matrix.cons_val_zero,
+    Matrix.cons_val_one, Matrix.head_cons, pd_unit_X, map_zero, mul_zero, add_zero, map_one, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:175:22: This simp argument is unused:
+  map_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, Formalism.G.LogP.constantCoeff_subst_of_zero _ hb, Matrix.cons_val_zero,
+    Matrix.cons_val_one, Matrix.head_cons, pd_unit_X, map_zero, mul_zero, add_zero, map_one, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:176:25: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, map_mul, Formalism.G.LogP.constantCoeff_subst_of_zero _ hb, Matrix.cons_val_zero,
+    Matrix.cons_val_one, pd_unit_X, map_zero, mul_zero, add_zero, map_one, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:176:84: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, map_mul, Formalism.G.LogP.constantCoeff_subst_of_zero _ hb, Matrix.cons_val_zero,
+    Matrix.cons_val_one, Matrix.head_cons, pd_unit_X, map_zero, mul_zero, add_zero, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:193:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupQuadraticJets.linearCoeff_zero_formal_group_law`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:197:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupQuadraticJets.linearCoeff_one_formal_group_law`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/JetsTwo.lean:238:26: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Derivation.map_one_eq_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8764/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.FormalGroupPointsSubgroupHolds
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsSubgroupHolds.lean:28:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsSubgroup.mul_le`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsSubgroupHolds.lean:38:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsSubgroupHolds.lean:61:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsSubgroupHolds.lean:69:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8765/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.FormalGroupPointsNoPrimeToPTorsion
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:30:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsTorsion.mul_le_of_one`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:61:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:108:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:115:39: Variable name `hV0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hV0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:129:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:135:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:200:18: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:183:20: Variable name `hX2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hX2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:184:5: Variable name `hL0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:230:18: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsNoPrimeToPTorsion.lean:387:19: This simp argument is unused:
+  sub_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zf, sub_self, norm_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8766/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.TorInt
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:40:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:26:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:31:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:36:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:53:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:26:6: Unused tactic linter: `nlinarith [norm_nonneg a, norm_nonneg b]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:31:6: Unused tactic linter: `nlinarith [norm_nonneg x]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:36:6: Unused tactic linter: `nlinarith [norm_nonneg x, hx2]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/TorInt.lean:53:6: Unused tactic linter: `(rw [← h']; ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8770/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.Change
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/Change.lean:16:0: automatically included section variable(s) unused in theorem `Formalism.ELL.RootExponentBounds.tb`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8773/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.LogWeight
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/LogWeight.lean:50:0: automatically included section variable(s) unused in theorem `Formalism.ELL.LogarithmWeight.coeff_pow_of_cc`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8776/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.CompExp
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/CompExp.lean:17:0: automatically included section variable(s) unused in theorem `Formalism.ELL.MultiplicativeWeight.W_one`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/CompExp.lean:45:0: automatically included section variable(s) unused in theorem `Formalism.ELL.MultiplicativeWeight.W_E`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8778/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.CoefficientWeightsLemmaTwo
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/CoefficientWeightsLemmaTwo.lean:23:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/CoefficientWeightsLemmaTwo.lean:91:0: automatically included section variable(s) unused in theorem `Formalism.ELL.Lemma2Aux.add_identity`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/CoefficientWeightsLemmaTwo.lean:132:0: automatically included section variable(s) unused in theorem `Formalism.ELL.Lemma2Aux.log_rescale`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/CoefficientWeightsLemmaTwo.lean:158:0: automatically included section variable(s) unused in theorem `Formalism.ELL.Lemma2Aux.exp_rescale`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8784/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.WChord
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:142:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:143:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:163:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:164:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:142:8: Unused tactic linter: `(field_simp; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:143:8: Unused tactic linter: `(
+  field_simp
+  ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:163:8: Unused tactic linter: `(field_simp; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:164:8: Unused tactic linter: `(
+  field_simp
+  ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:286:10: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:288:29: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:290:10: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:292:29: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:306:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:307:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:311:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:306:8: Unused tactic linter: `exact PowerSeries.HasSubst.X i` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:307:8: Unused tactic linter: `exact PowerSeries.HasSubst.X'` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:311:6: Unused tactic linter: `simp only [MvPowerSeries.X_pow_eq, MvPowerSeries.coeff_monomial]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:341:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:341:6: Unused tactic linter: `(
+  rw [Finsupp.le_def]
+  constructor
+  · intro h
+    have := h j
+    simp at this
+    omega
+  · intro h k
+    by_cases hk : j = k
+    · subst hk
+      simp
+      omega
+    · simp [Finsupp.single_apply, hk])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:366:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:367:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:366:8: Unused tactic linter: `(rw [neg_inj]; apply key; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:367:8: Unused tactic linter: `(apply Eq.symm; apply key; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:379:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:378:7: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:379:6: Unused tactic linter: `(
+  rw [MvPowerSeries.coeff_mul, Finset.sum_eq_add (0, Finsupp.single i 1) (Finsupp.single i 1, 0)]
+  · simp only [MvPowerSeries.coeff_zero_eq_constantCoeff_apply]
+    try ring
+  · simp
+  · rintro ⟨a, b⟩ hab hne
+    rw [Finset.mem_antidiagonal] at hab
+    exfalso
+    have hj : ∀ j, a j + b j = (Finsupp.single i 1) j := fun j => by rw [← Finsupp.add_apply, hab]
+    by_cases ha : a i = 0
+    · apply hne.1
+      have a0 : a = 0 := by
+        ext j
+        have := hj j
+        by_cases hij : i = j
+        · subst hij
+          simp [ha]
+        · simp [Finsupp.single_apply, hij] at this
+          simp
+          omega
+      subst a0
+      simp at hab
+      rw [hab]
+    · apply hne.2
+      have b0 : b = 0 := by
+        ext j
+        have := hj j
+        by_cases hij : i = j
+        · subst hij
+          simp at this
+          simp
+          omega
+        · simp [Finsupp.single_apply, hij] at this
+          simp
+          omega
+      subst b0
+      simp at hab
+      rw [hab]
+  · intro h
+    exfalso
+    apply h
+    simp [Finset.mem_antidiagonal]
+  · intro h
+    exfalso
+    apply h
+    simp [Finset.mem_antidiagonal]
+  done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:463:22: This simp argument is unused:
+  hw.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [(w_low hw).1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:470:10: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, (w_low hw).1, hw.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:470:35: This simp argument is unused:
+  (w_low hw).1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finsupp.single_apply, h, hw.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:470:49: This simp argument is unused:
+  hw.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finsupp.single_apply, h, (w_low hw).1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:496:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:496:6: Unused tactic linter: `skip` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:562:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:562:8: Unused tactic linter: `simp [MvPowerSeries.coeff_map]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:564:74: Variable name `h0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:581:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:582:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:581:6: Unused tactic linter: `exact WellFoundedLT.induction n step` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:582:6: Unused tactic linter: `exact
+  (wellFounded_lt (α := Fin 2 →₀ ℕ)).induction (C := fun n => MvPowerSeries.coeff n φ⁻¹ ∈ Sadj W) n step` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:597:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:597:6: Unused tactic linter: `rw [ca, MvPowerSeries.coeff_C]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:648:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:648:6: Unused tactic linter: `(
+  simp only [Algebra.smul_def, MvPowerSeries.algebraMap_apply, Algebra.id.map_eq_id, RingHom.id_apply]
+  rw [sub_eq_zero, eq_comm])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:669:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:669:6: Unused tactic linter: `exact hz (pow_eq_zero hG)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:673:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:681:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:682:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:765:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:681:8: Unused tactic linter: `(rw [IsScalarTower.algebraMap_apply K (MvPowerSeries (Fin 2) K)
+      (FractionRing (MvPowerSeries (Fin 2) K))];
+  rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:682:8: Unused tactic linter: `simp [IsScalarTower.algebraMap_apply K (MvPowerSeries (Fin 2) K)
+      (FractionRing (MvPowerSeries (Fin 2) K))]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:765:6: Unused tactic linter: `(
+  refine ⟨?_, ?_⟩
+  · convert hx using 1
+  · convert hy using 1
+    simp only [WeierstrassCurve.Affine.addY, WeierstrassCurve.Affine.negY, WeierstrassCurve.Affine.negAddY,
+      WeierstrassCurve.map_a₁, WeierstrassCurve.map_a₃]
+    rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8788/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.FormalGroupPointsParamDef
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsParamDef.lean:95:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsParam.absSum_of_integral`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsParamDef.lean:117:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsParam.smm`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8792/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.FormalGroupPointsHomDef
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:49:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.norm_mono_le`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:59:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.evalMv2_eq`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:75:61: Variable name `d` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _d
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:87:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.mem_IL`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:187:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.integral_of_mem`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:189:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.coeff_subst_two`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:200:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.coeff_mono_eq_zero`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:278:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.evalMv2_zero'`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:311:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.integral_X`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:315:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.integral_C`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:338:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.exists_inv_integral`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:379:5: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:404:42: Variable name `hM` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hM
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:499:49: This simp argument is unused:
+  map_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [chordPY, map_sub, map_add, map_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:699:20: Variable name `hU` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:861:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.w_integral`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:873:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.weierstrassPolynomial_eq_zero_of_equation`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:878:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.eq_zero_of_weqP`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:897:0: automatically included section variable(s) unused in theorem `Formalism.ELL.FormalGroupPointsHom.hjC_lemma`:
+  [IsUltrametricDist K]
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:1048:35: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:1048:35: Unused tactic linter: `linear_combination -h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:1197:43: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:1209:40: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:1197:43: Unused tactic linter: `linear_combination -hM0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/FormalGroupPointsHomDef.lean:1209:40: Unused tactic linter: `linear_combination -h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8795/8938] Replayed Formalism.EllipticTorsion.EllipticTorsionProofs.CubeThree
+warning: src/Formalism/EllipticTorsion/EllipticTorsionProofs/CubeThree.lean:270:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8796/8938] Replayed Formalism.EllipticTorsion.FormalGroupPointsNoTorsion
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:45:76: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:45:96: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:45:76: Unused tactic linter: `exact legendreInv` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:45:96: Unused tactic linter: `exact deuringInv` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:53: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:74: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:90: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:106: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:119: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:138: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:160: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:182: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:201: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:222: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:259: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:298: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:316: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:334: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:357: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:372: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:393: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:413: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:434: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:460: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:480: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:53: Unused tactic linter: `exact nAddSubgroup` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:74: Unused tactic linter: `exact nZpSmul` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:90: Unused tactic linter: `exact nPderiv` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:106: Unused tactic linter: `exact lwP₂` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:119: Unused tactic linter: `exact unitCancel` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:138: Unused tactic linter: `exact compExpWeight` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:160: Unused tactic linter: `exact lemma2Weights` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:182: Unused tactic linter: `exact frobExpand` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:201: Unused tactic linter: `exact wFormalGroup` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:222: Unused tactic linter: `exact formal_group_points_subgroup` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:259: Unused tactic linter: `exact formal_group_points_no_torsion` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:298: Unused tactic linter: `exact isoExpand` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:316: Unused tactic linter: `exact isoVanish` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:334: Unused tactic linter: `exact changeIntegral` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:357: Unused tactic linter: `exact wPoint` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:372: Unused tactic linter: `exact wSubstUnique` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:393: Unused tactic linter: `exact wChordSubst` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:413: Unused tactic linter: `exact wChordSeries` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:434: Unused tactic linter: `exact veluIntegralModel` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:460: Unused tactic linter: `exact veluUSeries` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:48:480: Unused tactic linter: `exact modelUnit` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:119: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:138: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:160: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:182: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:201: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:222: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:259: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:298: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:316: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:334: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:357: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:372: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:393: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:413: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:434: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:460: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:480: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:119: Unused tactic linter: `exact unitCancel` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:138: Unused tactic linter: `exact compExpWeight` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:160: Unused tactic linter: `exact lemma2Weights` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:182: Unused tactic linter: `exact frobExpand` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:201: Unused tactic linter: `exact wFormalGroup` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:222: Unused tactic linter: `exact formal_group_points_subgroup` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:259: Unused tactic linter: `exact formal_group_points_no_torsion` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:298: Unused tactic linter: `exact isoExpand` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:316: Unused tactic linter: `exact isoVanish` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:334: Unused tactic linter: `exact changeIntegral` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:357: Unused tactic linter: `exact wPoint` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:372: Unused tactic linter: `exact wSubstUnique` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:393: Unused tactic linter: `exact wChordSubst` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:413: Unused tactic linter: `exact wChordSeries` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:434: Unused tactic linter: `exact veluIntegralModel` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:460: Unused tactic linter: `exact veluUSeries` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:68:480: Unused tactic linter: `exact modelUnit` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:83:92: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:83:113: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:83:135: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:83:92: Unused tactic linter: `exact wSubstUnique` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:83:113: Unused tactic linter: `exact wSeriesUnique` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:83:135: Unused tactic linter: `exact wSeriesLead` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:409: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:429: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:450: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:476: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:496: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:409: Unused tactic linter: `exact wChordSubst` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:429: Unused tactic linter: `exact wChordSeries` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:450: Unused tactic linter: `exact veluIntegralModel` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:476: Unused tactic linter: `exact veluUSeries` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:86:496: Unused tactic linter: `exact modelUnit` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:88:143: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:88:164: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:88:143: Unused tactic linter: `exact wChordSeries` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/EllipticTorsion/FormalGroupPointsNoTorsion.lean:88:164: Unused tactic linter: `exact wPoint` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8808/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.psubst_one`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:33:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.one_add_X_subst`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:43:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst.0.Formalism.L2.Th1.B.constantCoeff_powerSeries_subst_mv_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:65:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst.0.Formalism.L2.Th1.B.derivative_eq_pderiv_unit`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:145:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:188:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:193:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst.0.Formalism.L2.Th1.B.hasSubst_of_forall_constantCoeff_eq_zero`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:294:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.constantCoeff_prim`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8810/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.CoeffPowEqZeroOfCc
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:11:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.hasSubst_of_cc`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:17:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:18:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:17:4: Unused tactic linter: `exact Finsupp.degree_add a b` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:18:4: Unused tactic linter: `simp [Finsupp.degree_add]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:20:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.CoeffPowEqZeroOfCc.0.Formalism.L2.Th1.C.coeff_mul_eq_zero_of_degree_lt_add'`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:29:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:30:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:29:4: Unused tactic linter: `simp only [Finset.mem_antidiagonal] at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:30:4: Unused tactic linter: `simp at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:91:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.CoeffPowEqZeroOfCc.0.Formalism.L2.Th1.C.coeff_mul_congr_of_degree_lt`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:101:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:102:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:101:4: Unused tactic linter: `simp only [Finset.mem_antidiagonal] at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:102:4: Unused tactic linter: `simp at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:143:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:142:17: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:143:4: Unused tactic linter: `(field_simp; ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:230:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:288:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:291:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:288:6: Unused tactic linter: `exact PowerSeries.HasSubst.const (hasSubst_of_cc hf)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:291:4: Unused tactic linter: `(rw [PowerSeries.subst, PowerSeries.subst,
+    MvPowerSeries.subst_comp_subst_apply hs ha])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:9: Unused tactic linter: `simp only [map_smul, smul_eq_zero]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:45: Unused tactic linter: `right` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:52: Unused tactic linter: `exact PowerSeries.constantCoeff_X` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:301:31: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8813/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.IntegerEndomorphismInstance
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:98:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:98:4: Unused tactic linter: `exact
+  Filter.inf_principal_eq_bot.1
+    ((discreteTopology_subtype_iff.1 (inferInstanceAs (DiscreteTopology L.lattice))) 0 L.lattice.zero_mem)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:105:65: `continuous_mul_left` has been deprecated: Use `continuous_const_mul` instead
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:140:2: Unused tactic linter: `beta_reduce` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:149:86: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:168:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:168:73: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:216:80: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:223:42: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:216:80: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:223:42: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:289:4: Unused tactic linter: `beta_reduce` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/IntegerEndomorphismInstance.lean:359:4: Unused tactic linter: `beta_reduce` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8818/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.WeierstrassReducedEquations
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:14:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_ofNat`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:18:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_one`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:21:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_C`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_X`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:25:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_add`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:27:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_sub`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:29:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_neg`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:31:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.dz_mul`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:54:18: This simp argument is unused:
+  dz_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:60:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.X_ne`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/WeierstrassReducedEquations.lean:62:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.ne_zero_of_constantCoeff`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8819/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.ConstantCoeffSig1S
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/ConstantCoeffSig1S.lean:44:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Sq.coeff_prim_succ`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/ConstantCoeffSig1S.lean:48:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Sq.coeff_zero_prim`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/ConstantCoeffSig1S.lean:99:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.ConstantCoeffSig1S.0.Formalism.L2.Th1.B.Sq.pd_unit_eq_dz`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8821/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.BaseChangeCompatible
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/BaseChangeCompatible.lean:53:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Map.map_prim`:
+  [CharZero K]
+  [CharZero K']
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] [CharZero K'] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/BaseChangeCompatible.lean:59:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Map.map_lU`:
+  [CharZero K]
+  [CharZero K']
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] [CharZero K'] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/BaseChangeCompatible.lean:64:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.BaseChangeCompatible.0.Formalism.L2.Th1.B.Map.powerSeries_constantCoeff_map'`:
+  [CharZero K]
+  [CharZero K']
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] [CharZero K'] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8822/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.SigmaScale
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaScale.lean:125:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.F.Scale.prim_C_mul`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8824/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.WeierstrassNumeratorDenominator
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/WeierstrassNumeratorDenominator.lean:148:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.F.POf.deriv_defect`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/WeierstrassNumeratorDenominator.lean:180:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.F.POf.pOf_split`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8826/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.Laurent
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:17:8: This simp argument is unused:
+  Ring.choose_one_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [zsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:25:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:25:6: Unused tactic linter: `(
+  have h := HahnSeries.single_mul_coeff_add (r := (1 : R)) (x := f) (a := n - m) (b := m)
+  rw [sub_add_cancel, one_mul] at h
+  exact h)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:32:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:32:94: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:32:52: Unused tactic linter: `rw [HahnSeries.smul_coeff, smul_eq_mul]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:32:94: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:40:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:40:6: Unused tactic linter: `(
+  simp only [toL, HahnSeries.ofPowerSeries_apply]
+  rw [HahnSeries.embDomain_notin_range]
+  rintro ⟨k, hk⟩
+  simp at hk
+  omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:58:32: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:58:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:58:32: Unused tactic linter: `rw [neg_add_self]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:58:52: Unused tactic linter: `rw [add_left_neg]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:63:32: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:63:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:63:32: Unused tactic linter: `rw [add_neg_self]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:63:52: Unused tactic linter: `rw [add_right_neg]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:80:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:80:6: Unused tactic linter: `simp [toL]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:90:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:90:6: Unused tactic linter: `(
+  show f = uPow f.order * HahnSeries.ofPowerSeries ℤ R f.powerSeriesPart
+  rw [LaurentSeries.ofPowerSeries_powerSeriesPart]
+  change f = uPow f.order * (uPow (-f.order) * f)
+  rw [← mul_assoc, uPow_mul_neg, one_mul])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:100:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:100:66: Unused tactic linter: `rw [HahnSeries.add_coeff']` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:137:34: This simp argument is unused:
+  Derivation.leibniz
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [dL_uPow_mul, dL_toL, smul_eq_mul, map_add, map_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:154:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/Laurent.lean:154:52: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8829/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.FlowBasic
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FlowBasic.lean:40:8: `Int.ofNat_eq_coe` has been deprecated: Use `Int.ofNat_eq_natCast` instead
+⚠ [8834/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.CurveSer
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveSer.lean:101:26: This simp argument is unused:
+  coeff_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coeff_X_pow_mul', coeff_X_pow, coeff_one, coeff_C_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveSer.lean:105:26: This simp argument is unused:
+  coeff_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coeff_X_pow_mul', coeff_X_pow, coeff_one, coeff_C_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveSer.lean:113:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveSer.lean:113:6: Unused tactic linter: `linear_combination -h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveSer.lean:121:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveSer.lean:121:6: Unused tactic linter: `linear_combination -h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8835/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.CurveL
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveL.lean:76:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/CurveL.lean:76:8: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8838/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.LogExp
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:19:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:19:6: Unused tactic linter: `simp [PowerSeries.subst_neg ha]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:24:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:24:6: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:29:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:30:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:29:4: Unused tactic linter: `exact HasSubst.of_constantCoeff_zero h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:30:4: Unused tactic linter: `exact PowerSeries.HasSubst.of_constantCoeff_zero' h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:36:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:36:4: Unused tactic linter: `(rw [← PowerSeries.coe_substAlgHom ha]; exact map_mul _ f g)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:48:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:49:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:48:4: Unused tactic linter: `exact (PowerSeries.subst_comp_subst_apply ha hb f).symm` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/LogExp.lean:49:4: Unused tactic linter: `rw [PowerSeries.subst_comp_subst_apply ha hb]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8839/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.ConstCurveDL
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ConstCurveDL.lean:40:34: This simp argument is unused:
+  HahnSeries.coeff_single
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dL, HahnSeries.C_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8841/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.FormalGroupEqWSeries
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalGroupEqWSeries.lean:205:77: This simp argument is unused:
+  PowerSeries.coeff_X_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pow_succ, PowerSeries.coeff_mul, Finset.Nat.antidiagonal_succ, c0, PowerSeries.coeff_X, mul_assoc] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalGroupEqWSeries.lean:210:81: This simp argument is unused:
+  PowerSeries.coeff_X_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pow_succ, PowerSeries.coeff_mul, Finset.Nat.antidiagonal_succ, c0, c1, PowerSeries.coeff_X,
+    mul_assoc] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalGroupEqWSeries.lean:215:85: This simp argument is unused:
+  PowerSeries.coeff_X_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pow_succ, PowerSeries.coeff_mul, Finset.Nat.antidiagonal_succ, c0, c1, c2, PowerSeries.coeff_X,
+    mul_assoc] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalGroupEqWSeries.lean:333:25: This simp argument is unused:
+  L_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cTwo, sq, L_mul, lam_cc, lam_L, nu_cc, nu_L]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8843/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.ToLTDenMulInv
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ToLTDenMulInv.lean:78:42: This simp argument is unused:
+  inv_cc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tS, PowerSeries.coeff_X_pow_mul']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ToLTDenMulInv.lean:93:20: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [yPlus, map_sub, map_neg, map_mul, map_pow, HahnSeries.ofPowerSeries_C]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ToLTDenMulInv.lean:147:49: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, map_sub, map_mul, map_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ToLTDenMulInv.lean:149:49: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [iSer, WeierstrassCurve.Affine.negY, map_sub, map_mul, map_neg, map_pow, map_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ToLTDenMulInv.lean:149:85: This simp argument is unused:
+  map_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [iSer, WeierstrassCurve.Affine.negY, map_add, map_sub, map_mul, map_neg, map_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ToLTDenMulInv.lean:224:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/ToLTDenMulInv.lean:257:24: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [yPlus, yS, map_sub, map_neg, map_mul, map_pow, PowerSeries.map_C, PowerSeries.map_X,
+    CurveSer.map_xS, Plus.map_nS W xP yP φ, Plus.map_inv W xP φ, Plus.map_xPlus W xP yP φ, WeierstrassCurve.map_a₁,
+    WeierstrassCurve.map_a₃]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8846/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.WpShape
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/WpShape.lean:311:64: This simp argument is unused:
+  coeff_ofNat_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sub, map_add, coeff_X_pow_mul', if_pos h2, h3, coeff_derivative, coeff_C, if_neg h4,
+    sub_zero] at e
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/WpShape.lean:382:18: This simp argument is unused:
+  HahnSeries.coeff_single
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [uPow, show (n : ℤ) ≠ -2 by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/WpShape.lean:383:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/WpShape.lean:384:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/WpShape.lean:383:6: Unused tactic linter: `simp [uPow, HahnSeries.single_coeff_of_ne, show (n : ℤ) ≠ -2 by omega]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/WpShape.lean:384:6: Unused tactic linter: `simp [uPow, show (n : ℤ) ≠ -2 by omega]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8847/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.FormalLogarithmBaseChange
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:37:17: This simp argument is unused:
+  fu
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fw, fwAt, fuAt, map_sub, map_mul, map_add, map_pow, map_ofNat, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:37:27: This simp argument is unused:
+  fuAt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fw, fu, fwAt, map_sub, map_mul, map_add, map_pow, map_ofNat, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:37:51: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fw, fu, fwAt, fuAt, map_sub, map_mul, map_pow, map_ofNat, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:50:13: This simp argument is unused:
+  fw
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fu, fwAt, fuAt, map_sub, map_mul, map_add, map_pow, map_ofNat, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:50:21: This simp argument is unused:
+  fwAt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fw, fu, fuAt, map_sub, map_mul, map_add, map_pow, map_ofNat, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:50:33: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fw, fu, fwAt, fuAt, map_mul, map_add, map_pow, map_ofNat, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:50:80: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fw, fu, fwAt, fuAt, map_sub, map_mul, map_add, map_pow, map_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:53:4: This simp argument is unused:
+  WeierstrassCurve.map_a₃
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hC, PowerSeries.subst_X hs', WeierstrassCurve.map_a₁, WeierstrassCurve.map_a₂,
+    WeierstrassCurve.map_a₄, WeierstrassCurve.map_a₆]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:53:54: This simp argument is unused:
+  WeierstrassCurve.map_a₆
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hC, PowerSeries.subst_X hs', WeierstrassCurve.map_a₁, WeierstrassCurve.map_a₂,
+    WeierstrassCurve.map_a₃, WeierstrassCurve.map_a₄]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:65:13: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_mul, map_add, map_pow, map_ofNat, map_one] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:65:49: This simp argument is unused:
+  map_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sub, map_mul, map_add, map_pow, map_one] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:65:60: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sub, map_mul, map_add, map_pow, map_ofNat] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:176:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:279:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:293:14: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Ne.symm hj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:441:58: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.cons_val_zero, Matrix.cons_val_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:509:58: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.cons_val_zero, Matrix.cons_val_one] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:569:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/FormalLogarithmBaseChange.lean:569:4: Unused tactic linter: `exact hs.symm` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8848/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.SubstPairSubst
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/SubstPairSubst.lean:75:10: This simp argument is unused:
+  hs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/SubstPairSubst.lean:75:14: This simp argument is unused:
+  hd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/SubstPairSubst.lean:163:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.A.ZSer.log_cc`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/SubstPairSubst.lean:166:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.A.ZSer.log_one`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8854/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.TwoTorsionIntegral
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/TwoTorsionIntegral.lean:44:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.A.Two.e0`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/TwoTorsionIntegral.lean:60:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.A.Two.uPow_mul_sq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/TwoTorsionIntegral.lean:337:13: This simp argument is unused:
+  e1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [e2, e3, e4, hel, e3', e4'] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/TwoTorsionIntegral.lean:337:17: This simp argument is unused:
+  e2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [e1, e3, e4, hel, e3', e4'] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/TwoTorsionIntegral.lean:337:21: This simp argument is unused:
+  e3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [e1, e2, e4, hel, e3', e4'] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/WeierstrassTwoTorsion/WeierstrassSubstitution/TwoTorsionIntegral.lean:337:25: This simp argument is unused:
+  e4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [e1, e2, e3, hel, e3', e4'] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8869/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.GoodModelLatticeGen
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/GoodModelLatticeGen.lean:94:10: This simp argument is unused:
+  hPl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [PeriodPair.weierstrassPExcept_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/GoodModelLatticeGen.lean:94:15: This simp argument is unused:
+  PeriodPair.weierstrassPExcept_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hPl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8938/8938] Replayed Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.CoeffTwoPSeries
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:17:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:18:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:17:6: Unused tactic linter: `(unfold PeriodPair.g₂; push_cast; ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:18:6: Unused tactic linter: `(norm_num [PeriodPair.g₂]; ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:28:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:29:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:28:8: Unused tactic linter: `exact PeriodPair.isClosed_lattice L` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/CoeffTwoPSeries.lean:29:8: Unused tactic linter: `(
+  haveI : DiscreteTopology L.lattice.toAddSubgroup := inferInstanceAs (DiscreteTopology L.lattice)
+  exact AddSubgroup.isClosed_of_discrete (H := L.lattice.toAddSubgroup))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (8938 jobs).

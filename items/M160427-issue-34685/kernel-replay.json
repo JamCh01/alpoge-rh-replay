@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "24b260303306c43ec909d7938011bc625a123aee409a0f90534521b8a48703e5",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.SharpRestriction.LevelLetterCocycles.CardBasisEq"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.SharpRestriction.LevelLetterCocycles.CardBasisEq\n"
+}

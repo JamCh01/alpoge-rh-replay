@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "244841fc756bc3eaeb8f0713ef9b94347b28c4f8e43ba5f4a8becdf28ecc76de",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.ProjectiveLattices.ContDiffAtOfDiff"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.ProjectiveLattices.ContDiffAtOfDiff\n"
+}

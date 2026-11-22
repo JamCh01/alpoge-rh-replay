@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "02c41e29287b847c2a470b0f3a56add1cdc1c4efdcbe3c9dee9bfc29acc52d6c",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.TorsionIntegrality.RamifiedCurveKernels.PairedSquareJets.IntDBG"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.TorsionIntegrality.RamifiedCurveKernels.PairedSquareJets.IntDBG\n"
+}

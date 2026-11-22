@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "72e7b7c8a87fe305195f6061c7d352d9b8ea4e8c2e71cba355d4af76e905fb63",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.CoeffTwoPSeries"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.CoeffTwoPSeries\n"
+}

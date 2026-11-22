@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "316f81ff7606a48716b85f3ac75111b020de290e45f1ab1dce1751c27bebb00c",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.PeriodIntegrals.XgNamed"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.PeriodIntegrals.XgNamed\n"
+}
