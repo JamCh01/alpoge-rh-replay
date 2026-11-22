@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "ede1061436bf697ae1d1e9746456e81e763ddcc6a325b204f7dbf1b560167cb1",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JumpsOverLettersOfCrysWith"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JumpsOverLettersOfCrysWith\n"
+}

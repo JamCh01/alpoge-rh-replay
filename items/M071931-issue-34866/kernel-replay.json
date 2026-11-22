@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "f6f90043044c8bc469c630c8f86939587ed479108c37138bec877aa02ca1e5d4",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JumpRangePositiveSignPlace"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JumpRangePositiveSignPlace\n"
+}

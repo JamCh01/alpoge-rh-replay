@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "2699522081aa67c6f7fef3b8c07b34fdb406088eb512be281ab7daf9ba4c4e29",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeCharLocPowEqOneOnLocalUnits"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeCharLocPowEqOneOnLocalUnits\n"
+}
