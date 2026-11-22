@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7681d6bdaf1dbffdb6f7d12fe1720a9cb2ac78192d33719514cf0aead5770a01",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PeriodMatrixRestrictionScalarsBlockDiagonal"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PeriodMatrixRestrictionScalarsBlockDiagonal\n"
+}
