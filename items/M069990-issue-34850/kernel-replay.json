@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "432c0a85f1da7a67287ee7c1fb8586f2937c7ca4e853820e2b95291ecef7f972",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnramifiedPeriodAinfUnitStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnramifiedPeriodAinfUnitStatement\n"
+}
