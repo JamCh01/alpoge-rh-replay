@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "15f40465c4216c7ad523e931dde3ac9685adaaf81f31cb93ce3a8bfc075c1f51",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PairLatticeSumComap"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.PairLatticeSumComap\n"
+}

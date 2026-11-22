@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "c0992e3edc2eb1e93440cd368020ee98a0528ce2794980ee6e3b2460cf8a2c73",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RingOfIntegersHomInjective"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.RingOfIntegersHomInjective\n"
+}

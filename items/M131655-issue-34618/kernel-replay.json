@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "2008cd807b752122477f5b1d07731ee3cd1d571af189ed9504ea4fa5633956c9",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NumberFieldPointHeight"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.NumberFieldPointHeight\n"
+}
