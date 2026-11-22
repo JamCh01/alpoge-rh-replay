@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "18ba1526eacd65f8f48f8f6f28c604a6b9a879c25312403894aea76d75691f8b",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.SharpRestriction.LevelLetterCocycles.QuotientImageDivisibility.H2Bound"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.SharpRestriction.LevelLetterCocycles.QuotientImageDivisibility.H2Bound\n"
+}

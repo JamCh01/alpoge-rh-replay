@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "b945a8229bdd282d9760318c5892f048fa264f004e4c5a9373b537ac52a5f074",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.JBePos"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.JBePos\n"
+}

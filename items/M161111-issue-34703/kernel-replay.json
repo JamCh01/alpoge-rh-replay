@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "8a7941bbd1c3ffead696376ca159d902e69af95dd2386dfa7fb920a6b4a64f02",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.SharpRestriction.LevelLetterCocycles.StatementFamilies.ArcLiftingSetup"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.SharpRestriction.LevelLetterCocycles.StatementFamilies.ArcLiftingSetup\n"
+}
