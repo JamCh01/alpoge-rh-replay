@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3942c962075427e6fd7b3cf8abbcc6a82d0572b3b06727aa4c71f219015f8b4f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.LeibnizDetFrameMatrixMatrixUnitStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.LeibnizDetFrameMatrixMatrixUnitStatement\n"
+}
