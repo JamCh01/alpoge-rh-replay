@@ -1,5 +1,4 @@
 # Active claims awaiting evidence
 
-94 entries.
+0 entries.
 
-- [Entries 1–94](page-001.md)
