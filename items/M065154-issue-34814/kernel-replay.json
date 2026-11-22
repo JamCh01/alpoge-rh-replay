@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a3669d046f87cf3be31ae0d4bc49a07e2c5c2244365af3bfb1fb81dbce5f93bf",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LatticeNormalFormUnipotent"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LatticeNormalFormUnipotent\n"
+}
