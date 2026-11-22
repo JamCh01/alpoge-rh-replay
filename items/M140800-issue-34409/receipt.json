@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    "M140800"
+  ],
+  "started_utc": "2026-11-22T16:56:28.479144+00:00",
+  "ended_utc": "2026-11-22T16:56:51.584019+00:00",
+  "elapsed_seconds": 23.1,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 6880296
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.LeftEquivariantFunctions.GelfandFlags.KerComm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "028c53135185b29f873c2630455ef2c8a1f405227533e09f40e29023cfc3deb5",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.LeftEquivariantFunctions.GelfandFlags.IntSmooth"
+  ],
+  "objects": {
+    "M140800": "de45a60dc0efe983a615c1ffdccae699b0b4fc9a87a7a7d454fd82981ad3f42f"
+  },
+  "project_root": "/root/rh-workspace/slot-4/lean",
+  "bundle_sha256": "bef45fbfec74d737f9285ebc6f2653388f35b1980dce46dbd64c7bd3dc3079a2"
+}
