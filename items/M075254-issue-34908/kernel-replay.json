@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "bdd845a6d725452dc47fa68ae53d01b84404f91a04d66273850c6b4bbdd69395",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WachLetterRingFrobeniusDecomposition"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WachLetterRingFrobeniusDecomposition\n"
+}

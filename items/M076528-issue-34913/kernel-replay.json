@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "665f9e2d5b4595e90c00a6456091149b5e2083825874822a373e4b2e1523c5fd",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContinuousOfValuedEq"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContinuousOfValuedEq\n"
+}

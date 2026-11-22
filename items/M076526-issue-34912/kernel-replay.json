@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6ab6c76c2a2af797f3bced33ecb44c04b48ebba47f84509df98ec5b3b77ecd15",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContinuousOfTameLoc"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContinuousOfTameLoc\n"
+}
