@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3da7385dca12480fbb21cd7ad47b076501cfc72418ec6a9a61a45da7ca64dbc3",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.SymmetricKMapEqZeroOfVminusSlicesStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.SymmetricKMapEqZeroOfVminusSlicesStatement\n"
+}
