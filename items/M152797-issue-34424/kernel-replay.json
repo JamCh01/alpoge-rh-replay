@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7bd35cef0d88fb6feb98f275431b644daf550bbbe4abec87b921fb60ebdeaadc",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.IntegralPartAtVariable"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.IntegralPartAtVariable\n"
+}
