@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    "M120747"
+  ],
+  "started_utc": "2026-11-22T17:27:35.985105+00:00",
+  "ended_utc": "2026-11-22T17:28:05.923489+00:00",
+  "elapsed_seconds": 29.9,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 6660216
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AbsoluteFourierCoefficientsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1d7a4e8769ba960255ac9c17c3b462bddf717994cca89c9a592c75d81f962bca",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AbsoluteFourierCoefficients",
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.FriedrichsKernels.Friedrichs"
+  ],
+  "objects": {
+    "M120747": "d741cc7277c48420a40a3426b302bdffc3710acdbd3c228187c683450e6e37f4"
+  },
+  "project_root": "/root/rh-workspace/slot-3/lean",
+  "bundle_sha256": "88552b79786052fa098184f0474da52b931f7d1039a418567adb320e2d2f4c8d"
+}
