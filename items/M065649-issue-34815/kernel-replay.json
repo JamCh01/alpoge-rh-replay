@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "632a434d10232d2aeb46d1e7236d77b7ea9cb41a89726ab1a7c50509e9211537",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TraceGlMatrixUnitPowHighestWeightModStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TraceGlMatrixUnitPowHighestWeightModStatement\n"
+}

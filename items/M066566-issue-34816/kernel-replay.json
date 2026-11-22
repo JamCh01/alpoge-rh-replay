@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "cc4d07c8c1afdc594a78151e99a083d8eb58e0f21dbbc9994b6e85adf200916e",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ActsTriviallyResidualOfComplexConjugateStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ActsTriviallyResidualOfComplexConjugateStatement\n"
+}
