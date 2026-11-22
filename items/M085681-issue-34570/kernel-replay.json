@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "0a0e3b5ead4a0569cb74c2afb2260b9fdbf03b0657b81dc9628c429d9001b92e",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.LbPowDescends"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ModuliProofs.LbPowDescends\n"
+}

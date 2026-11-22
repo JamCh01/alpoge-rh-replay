@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "44ecddd597b44ae2b9db4303e01e2bfe10371b419bcc31d8676f017de2fedb10",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsUniformizationEndomorphismOfLinearStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsUniformizationEndomorphismOfLinearStatement\n"
+}

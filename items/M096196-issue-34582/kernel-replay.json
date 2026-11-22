@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a76aaa8ff01f0e5b96d6127d1633720e0fe91f4aca947ee6ecaed3c0b5772d50",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NegativeRootArrayHighestVectorCoeffEqZeroStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TwistedOperators.NegativeRootArrayHighestVectorCoeffEqZeroStatement\n"
+}

@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    "M098840"
+  ],
+  "started_utc": "2026-11-22T17:23:23.818469+00:00",
+  "ended_utc": "2026-11-22T17:23:31.230852+00:00",
+  "elapsed_seconds": 7.4,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 950860
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsUniformizationEndomorphismOfLinearStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "37f86fdd4bda8e72fe2252831ddc199bfb9d0546cb2180ff840b4cfea6dbbebb",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M098840": "0cc47884d6a5ff9de012a3024828a81afe497494b61e5021f35571459f8ec64d"
+  },
+  "project_root": "/root/rh-workspace/ovl/slot-8/lean",
+  "bundle_sha256": "b14ac452e6df4e4c9f795d0fa81177ebdc14ddc149a250052df9e9b87ca4a882"
+}

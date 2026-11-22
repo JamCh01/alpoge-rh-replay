@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "dbad470b891ec852cbb80070df30dd7ddd7976f22df54cd4c1ccae3a3b0c5ce6",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.KAveragedMinorOperatorExpPosBoundAnalytic"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TwistedOperators.KAveragedMinorOperatorExpPosBoundAnalytic\n"
+}
