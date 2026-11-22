@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a40ae48d87e0b5479e34ba3d1c0e04f6a7c5df09638b5edca5785728f23ff995",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FrameSecondPartialLawIffPullback"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FrameSecondPartialLawIffPullback\n"
+}
