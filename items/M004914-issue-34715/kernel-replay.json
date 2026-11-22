@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "527e62292079cbc382d843f930cac0b23d6fdca5e65baa136bffa476e02d6f7f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Definitions.SemilocalFrames.AbsOfRange"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Definitions.SemilocalFrames.AbsOfRange\n"
+}
