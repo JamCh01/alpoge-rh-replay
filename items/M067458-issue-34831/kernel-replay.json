@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "cb293a091302fdb04dbb8ef8a3a2189b7a7888b318562f2d2c999f2817ddefce",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoboundaryRestrictionScalarsBlockZero"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoboundaryRestrictionScalarsBlockZero\n"
+}

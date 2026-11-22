@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "f3bcc657dde673232be692952044a8d09e90861f2b1ae841d4d095dfe24404af",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFrobStableInertiaThrough"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFrobStableInertiaThrough\n"
+}
