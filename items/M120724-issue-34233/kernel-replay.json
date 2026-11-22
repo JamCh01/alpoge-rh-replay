@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3ea1489e609ade73c3593705f9ef5564922a1ac1b91768d4cb33addd3462d74d",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ValuationLatticeMatrixReductionStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ValuationLatticeMatrixReductionStatement\n"
+}
