@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "d085243e12ffe7ae9c6cc85846e9056e74a875171dc16d1c48b294b2c2dabe77",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.JetRelPermAndCompactVanish"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TwistedOperators.JetRelPermAndCompactVanish\n"
+}

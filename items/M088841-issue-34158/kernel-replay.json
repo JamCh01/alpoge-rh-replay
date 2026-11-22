@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "387fb8ea39ad837eaab7d394e60c1e33958080a41f9ac1ccb5f7af5138ab757d",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.MuCharacter"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.SatakeParameters.MuCharacter\n"
+}

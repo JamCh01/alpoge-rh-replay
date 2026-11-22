@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "c2fb29e703a8c41124b525d81d401bcde19e0d9fa8226713723adef2486c0858",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsZeroOfIsAddSelf"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsZeroOfIsAddSelf\n"
+}

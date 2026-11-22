@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "1a6ddcd61a10c2ec0f2f7fb0672ee47837cf50c9701ca0c7af18d6e7883216f1",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.PageLargeScaleBoundsOfLargeScale"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.SatakeParameters.PageLargeScaleBoundsOfLargeScale\n"
+}

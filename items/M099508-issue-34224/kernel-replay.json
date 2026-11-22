@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "990681ec3e25f593325f940f74a163b1905dc94a638a3624861df99598eb52c9",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsDiscreteArithGroupImageRealUnitaryStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsDiscreteArithGroupImageRealUnitaryStatement\n"
+}

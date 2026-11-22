@@ -1,4 +1,4 @@
-⚠ [8712/8955] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic
+⚠ [8712/8957] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:7:2: Try this: 
   haveI̵
 
@@ -55,7 +55,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8714/8955] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff
+⚠ [8714/8957] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:16:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -156,7 +156,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:283:16: Unused tactic linter: `decide` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8715/8955] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour
+⚠ [8715/8957] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:60:2: Try this: 
   haveI̵
 
@@ -165,18 +165,18 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8716/8955] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.Groups
+⚠ [8716/8957] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.Groups
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Groups.lean:87:93: Unused tactic linter: `done` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8721/8955] Replayed Lemmata.FirstBlockLemmaE.Imports
+⚠ [8721/8957] Replayed Lemmata.FirstBlockLemmaE.Imports
 warning: src/Lemmata/FirstBlockLemmaE/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _inst
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8722/8955] Replayed Lemmata.GeneralBFactRightTerForm.Imports
+⚠ [8722/8957] Replayed Lemmata.GeneralBFactRightTerForm.Imports
 warning: src/Lemmata/GeneralBFactRightTerForm/Imports.lean:6:37: Variable name `inst_1` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -195,7 +195,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _x
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8723/8955] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex
+⚠ [8723/8957] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:98: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -262,7 +262,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:580: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8727/8955] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.Galois
+⚠ [8727/8957] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.Galois
 warning: src/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/Galois.lean:64:0: automatically included section variable(s) unused in theorem `Formalism.FrobeniusOrbits.Galois.mem_zpowers_neg_one`:
   [NeZero N]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -348,7 +348,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8728/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.JumpSets
+⚠ [8728/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.JumpSets
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/JumpSets.lean:11:34: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -615,7 +615,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8730/8955] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.RealCyclotomicSubfield
+⚠ [8730/8957] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.RealCyclotomicSubfield
 warning: src/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/RealCyclotomicSubfield.lean:160:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -661,7 +661,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hSpec
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8732/8955] Replayed Formalism.FrobeniusOrbits.RealSubfieldLeCompositum
+⚠ [8732/8957] Replayed Formalism.FrobeniusOrbits.RealSubfieldLeCompositum
 warning: src/Formalism/FrobeniusOrbits/RealSubfieldLeCompositum.lean:207:17: Variable name `hqd` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -674,14 +674,14 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hqd
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8746/8955] Replayed Formalism.SatakeDualWeyl.Statement
+⚠ [8746/8957] Replayed Formalism.SatakeDualWeyl.Statement
 warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
   [Fintype n]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [Fintype n] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8760/8955] Replayed Formalism.HermitianLattices.StatementMaj
+⚠ [8760/8957] Replayed Formalism.HermitianLattices.StatementMaj
 warning: src/Formalism/HermitianLattices/StatementMaj.lean:51:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.fcoord_add`:
   [StarRing K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -695,7 +695,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [NumberField K] [StarRing K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8772/8955] Replayed Formalism.SharpRestriction.CuspSpanNormBounds.FractionFieldToGenericStalkAlgebraMapEq
+⚠ [8772/8957] Replayed Formalism.SharpRestriction.CuspSpanNormBounds.FractionFieldToGenericStalkAlgebraMapEq
 warning: src/Formalism/SharpRestriction/CuspSpanNormBounds/FractionFieldToGenericStalkAlgebraMapEq.lean:263:8: automatically included section variable(s) unused in theorem `Formalism.MainNotions.S.Loc.Pt.cast_blocks`:
   [TopologicalSpace E]
   [MeasurableSpace E]
@@ -703,7 +703,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [TopologicalSpace E] [MeasurableSpace E] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8781/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.HWRowWeight
+⚠ [8781/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.HWRowWeight
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/HWRowWeight.lean:18:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -734,11 +734,11 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/HWRowWeight.lean:95:30: Unused tactic linter: `simp [rowNu, hwrowExtNu, ha]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8788/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.RowDivStable
+⚠ [8788/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.RowDivStable
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/RowDivStable.lean:119:15: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8795/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetdomLemmas
+⚠ [8795/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetdomLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LBidetdomLemmas.lean:179:26: This simp argument is unused:
   lt_min_iff
 
@@ -746,7 +746,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8801/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ProdFactorialSupportSubSingle
+⚠ [8801/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ProdFactorialSupportSubSingle
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ProdFactorialSupportSubSingle.lean:88:30: This simp argument is unused:
   Finsupp.single_apply
 
@@ -754,7 +754,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [Finsupp.tsub_apply, Ne.symm hk']
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8811/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.DualWeylDominanceOf
+⚠ [8811/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.DualWeylDominanceOf
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/DualWeylDominanceOf.lean:49:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -777,7 +777,7 @@ warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/DualWeylDominanc
   simp [h0])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8813/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LHwlineLemmas
+⚠ [8813/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LHwlineLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:35:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -884,7 +884,7 @@ Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:428:26: `Finsupp.coe_finset_sum` has been deprecated: Use `Finsupp.coe_finsetSum` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:431:52: `Fin.coe_castLE` has been deprecated: Use `Fin.val_castLE` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:436:34: `Fin.coe_castLE` has been deprecated: Use `Fin.val_castLE` instead
-⚠ [8819/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.FockQRowDivAdj
+⚠ [8819/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.FockQRowDivAdj
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/FockQRowDivAdj.lean:23:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -917,7 +917,7 @@ Hint: Omit it from the simp argument list.
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/FockQRowDivAdj.lean:130:21: `Polynomial.eval_finset_sum` has been deprecated: Use `Polynomial.eval_finsetSum` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/FockQRowDivAdj.lean:137:19: `Polynomial.finset_sum_coeff` has been deprecated: Use `Polynomial.finsetSum_coeff` instead
-⚠ [8826/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.ClosedEqNabla
+⚠ [8826/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.ClosedEqNabla
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/ClosedEqNabla.lean:41:2: Try this: 
   haveI̵
 
@@ -934,7 +934,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8831/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.MinorExpLt
+⚠ [8831/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.MinorExpLt
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/MinorExpLt.lean:15:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1038,11 +1038,11 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/MinorExpLt.lean:111:6: Unused tactic linter: `simp [h x]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8835/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCssytLemmas
+⚠ [8835/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCssytLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCssytLemmas.lean:37:6: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCssytLemmas.lean:55:6: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCssytLemmas.lean:61:13: `Fin.coe_castLE` has been deprecated: Use `Fin.val_castLE` instead
-⚠ [8836/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTPeel
+⚠ [8836/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTPeel
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSYTPeel.lean:13:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1082,7 +1082,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSYTPeel.lean:215:8: Unused tactic linter: `(intro x; exact hle x.1 x.2)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8837/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTExists
+⚠ [8837/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTExists
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSYTExists.lean:32:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1090,7 +1090,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8843/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelHomog
+⚠ [8843/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelHomog
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelHomog.lean:27:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1141,7 +1141,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8844/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCpleadLemmas
+⚠ [8844/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCpleadLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCpleadLemmas.lean:16:26: This simp argument is unused:
   Finsupp.single_apply
 
@@ -1150,7 +1150,7 @@ Hint: Omit it from the simp argument list.
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCpleadLemmas.lean:23:63: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
-⚠ [8845/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelLead
+⚠ [8845/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelLead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelLead.lean:15:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1191,7 +1191,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelLead.lean:80:8: Unused tactic linter: `gcongr` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8847/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.EvalDeg
+⚠ [8847/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.EvalDeg
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/EvalDeg.lean:36:63: This simp argument is unused:
   Finset.sum_ite_eq
 
@@ -1199,11 +1199,11 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [mul_ite, mul_one, mul_zero, Finset.sum_ite_eq']
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8848/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelDegBound
+⚠ [8848/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelDegBound
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelDegBound.lean:21:12: `MvPolynomial.mem_vars` has been deprecated: Use `MvPolynomial.mem_vars_iff_mem_support` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelDegBound.lean:26:26: `MvPolynomial.mem_vars` has been deprecated: Use `MvPolynomial.mem_vars_iff_mem_support` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelDegBound.lean:146:28: `MvPolynomial.mem_vars` has been deprecated: Use `MvPolynomial.mem_vars_iff_mem_support` instead
-⚠ [8849/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.TwoColumn
+⚠ [8849/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.TwoColumn
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/TwoColumn.lean:93:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1211,12 +1211,12 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8850/8955] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LeadInterlaced
+⚠ [8850/8957] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LeadInterlaced
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:17:9: `Finsupp.mapDomain_notin_range` has been deprecated: Use `Finsupp.mapDomain_of_notMem_range` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:33:22: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:33:22: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:31:2: Try this: intro B _ _ r n ν f hf hf0 l j hlj
-⚠ [8863/8955] Replayed ReciprocityTheory.GaloisValuations.SeparatedDvrSecondCohomologyMem
+⚠ [8863/8957] Replayed ReciprocityTheory.GaloisValuations.SeparatedDvrSecondCohomologyMem
 warning: src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean:40:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_riemannRochSpace_iff_regularAt_everywhere`:
   [TopologicalSpace G]
   [TopologicalSpace M]
@@ -1262,7 +1262,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [TopologicalSpace G] [TopologicalSpace M] [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8864/8955] Replayed ReciprocityTheory.GaloisValuations.ContinuousConstSMulQuotient
+⚠ [8864/8957] Replayed ReciprocityTheory.GaloisValuations.ContinuousConstSMulQuotient
 warning: src/ReciprocityTheory/GaloisValuations/ContinuousConstSMulQuotient.lean:184:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_mkQ`:
   [IsTopologicalAddGroup M]
   [ContinuousConstSMul R M]
@@ -1276,7 +1276,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/ReciprocityTheory/GaloisValuations/ContinuousConstSMulQuotient.lean:187:4: Unused tactic linter: `exact continuous_coinduced_rng` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8866/8955] Replayed ReciprocityTheory.GaloisValuations.GlobalA
+⚠ [8866/8957] Replayed ReciprocityTheory.GaloisValuations.GlobalA
 warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean:15:2: Try this: 
   haveI̵
 
@@ -1293,7 +1293,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8867/8955] Replayed ReciprocityTheory.GaloisValuations.GlobalB
+⚠ [8867/8957] Replayed ReciprocityTheory.GaloisValuations.GlobalB
 warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:114:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.smul_valuation_lt_one_iff`:
   [NumberField F]
   [IsAlgClosure F Ω]
@@ -1313,7 +1313,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [NumberField F] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8868/8955] Replayed ReciprocityTheory.GaloisValuations.Global
+⚠ [8868/8957] Replayed ReciprocityTheory.GaloisValuations.Global
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:17:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_Dec`:
   [NumberField F]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1389,7 +1389,7 @@ Note: This linter can be disabled with `set_option linter.style.haveILetI false`
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:387:29: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:395:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:409:67: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8869/8955] Replayed ReciprocityTheory.Hypotheses.GalCohDefs
+⚠ [8869/8957] Replayed ReciprocityTheory.Hypotheses.GalCohDefs
 warning: src/ReciprocityTheory/Hypotheses/GalCohDefs.lean:79:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1411,7 +1411,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [TopologicalSpace R] [DiscreteTopology R] [DiscreteTopology M] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8870/8955] Replayed ReciprocityTheory.Hypotheses.GalCoh
+⚠ [8870/8957] Replayed ReciprocityTheory.Hypotheses.GalCoh
 warning: src/ReciprocityTheory/Hypotheses/GalCoh.lean:102:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.LocalFinitenessAt.restrict`:
   [NumberField F]
   [IsAlgClosure F Ω]
@@ -1451,7 +1451,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsAlgClosure F Ω] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8874/8955] Replayed Formalism.WeaklyAdmissibleFiltrations.Statement
+⚠ [8874/8957] Replayed Formalism.WeaklyAdmissibleFiltrations.Statement
 warning: src/Formalism/WeaklyAdmissibleFiltrations/Statement.lean:284:0: automatically included section variable(s) unused in theorem `Formalism.WeaklyAdmissibleFiltrations.LatHom.post_B1T`:
   [TopologicalSpace G]
   [ContinuousAdd V]
@@ -1463,10 +1463,10 @@ consider restructuring your `variable` declarations so that the variables are no
   G] [ContinuousAdd V] [ContinuousConstSMul LL V] [ContinuousAdd V'] [ContinuousConstSMul LL V'] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8875/8955] Replayed Formalism.WeaklyAdmissibleFiltrations.StatementPC
+⚠ [8875/8957] Replayed Formalism.WeaklyAdmissibleFiltrations.StatementPC
 warning: src/Formalism/WeaklyAdmissibleFiltrations/StatementPC.lean:62:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/Formalism/WeaklyAdmissibleFiltrations/StatementPC.lean:66:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8877/8955] Replayed Formalism.SharpRestriction.LevelLetterCocycles.DataN
+⚠ [8877/8957] Replayed Formalism.SharpRestriction.LevelLetterCocycles.DataN
 warning: src/Formalism/SharpRestriction/LevelLetterCocycles/DataN.lean:648:11: Variable name `i` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -1539,7 +1539,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _v
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8879/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.SpanNatCastLeComap
+⚠ [8879/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.SpanNatCastLeComap
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/SpanNatCastLeComap.lean:77:8: This simp argument is unused:
   Ideal.mem_comap
 
@@ -1547,9 +1547,9 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8881/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.EqZeroOfPMulEqZero
+⚠ [8881/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.EqZeroOfPMulEqZero
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/EqZeroOfPMulEqZero.lean:176:6: `AddSubmonoidClass.coe_finset_sum` has been deprecated: Use `AddSubmonoidClass.coe_finsetSum` instead
-⚠ [8883/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Kernel
+⚠ [8883/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Kernel
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Kernel.lean:91:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.Tilt.isUnit_iff_isUnit_coeff`:
   [Fact (Nat.Prime p)]
   [IsAdicComplete (span {↑p}) R]
@@ -1563,7 +1563,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsDomain R] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8884/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRham
+⚠ [8884/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRham
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRham.lean:196:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.BdRPlus.xi_ne_zero`:
   [IsAlgClosed (FractionRing R)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1579,7 +1579,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsDomain R] [ValuationRing R] [CharZero R] [IsAlgClosed (FractionRing R)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8885/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRhamMap
+⚠ [8885/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRhamMap
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRhamMap.lean:23:8: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.AinfInv.map_algebraMap_padic`:
   [IsAdicComplete (span {↑p}) R]
   [IsAdicComplete (span {↑p}) S]
@@ -1587,7 +1587,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsAdicComplete (span {↑p}) R] [IsAdicComplete (span {↑p}) S] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8886/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Section
+⚠ [8886/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Section
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Section.lean:137:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.fracWitt_hom_ext`:
   [CharP k p]
   [PerfectRing k p]
@@ -1611,7 +1611,7 @@ The difference between `let` and `letI` is that `letI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8887/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Embedding
+⚠ [8887/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Embedding
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Embedding.lean:70:2: Try this: 
   haveI̵
 
@@ -1641,7 +1641,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsAlgClosed C] [Algebra.IsAlgebraic (FractionRing (WittVector p k)) L] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8888/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Action
+⚠ [8888/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Action
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Action.lean:117:19: This simp argument is unused:
   mul_smul
 
@@ -1649,13 +1649,13 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8894/8955] Replayed Formalism.LocalRingCardinality.DataCD
+⚠ [8894/8957] Replayed Formalism.LocalRingCardinality.DataCD
 warning: src/Formalism/LocalRingCardinality/DataCD.lean:25:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/Formalism/LocalRingCardinality/DataCD.lean:33:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8898/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInducingCoeMatrix
+⚠ [8898/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInducingCoeMatrix
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsInducingCoeMatrix.lean:18:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsInducingCoeMatrix.lean:38:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8899/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.KoszulLowersPower
+⚠ [8899/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.KoszulLowersPower
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/KoszulLowersPower.lean:82:2: Try this: 
   haveI̵
 
@@ -1664,9 +1664,9 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8908/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose
+⚠ [8908/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/MemUnitaryGroupIffMulConjTranspose.lean:171:25: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8911/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CompactHaarRightInvariantInst
+⚠ [8911/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CompactHaarRightInvariantInst
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CompactHaarRightInvariantInst.lean:79:2: Try this: 
   haveI̵
 
@@ -1811,7 +1811,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8912/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm
+⚠ [8912/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:36:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1861,7 +1861,7 @@ warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreser
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:202:6: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8915/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard
+⚠ [8915/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:60:20: This simp argument is unused:
   Pi.single_apply
 
@@ -1872,7 +1872,7 @@ Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:63:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8916/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.LieOperatorConjHolds
+⚠ [8916/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.LieOperatorConjHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/LieOperatorConjHolds.lean:27:2: Unused tactic linter: `push_cast` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
@@ -1885,14 +1885,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit hl in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8917/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexifiedDerivativeCommutator
+⚠ [8917/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexifiedDerivativeCommutator
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexifiedDerivativeCommutator.lean:44:34: Variable name `hs` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _hs
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8918/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.VectorComplexifiedDerivativeCommutator
+⚠ [8918/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.VectorComplexifiedDerivativeCommutator
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/VectorComplexifiedDerivativeCommutator.lean:40:2: Try this: 
   letI̵
 
@@ -1932,7 +1932,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [smul_add, smul_smul, Complex.I_mul_I, neg_one_smul]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8920/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds
+⚠ [8920/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexificationHolds.lean:27:8: This simp argument is unused:
   Complex.star_def
 
@@ -1942,7 +1942,7 @@ Hint: Omit it from the simp argument list.
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexificationHolds.lean:31:8: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexificationHolds.lean:31:43: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
-⚠ [8921/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvolutionInvariants
+⚠ [8921/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvolutionInvariants
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/InvolutionInvariants.lean:679:2: Try this: 
   haveI̵
 
@@ -1991,7 +1991,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8925/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantCompactSpan
+⚠ [8925/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantCompactSpan
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IsCompactInvariantCompactSpan.lean:74:2: Try this: 
   haveI̵
 
@@ -2025,7 +2025,7 @@ But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IsCompactInvariantCompactSpan.lean:152:57: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8926/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantOrthogonalInf
+⚠ [8926/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantOrthogonalInf
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IsCompactInvariantOrthogonalInf.lean:142:36: Variable name `ho` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -2038,18 +2038,18 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _ho
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8932/8955] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CasimirCommutation
+⚠ [8932/8957] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CasimirCommutation
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CasimirCommutation.lean:5:18: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _inst
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8934/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorPowUpperVanishHolds
+⚠ [8934/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorPowUpperVanishHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/GeneratorPowUpperVanishHolds.lean:31:106: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8935/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HWDiag
+⚠ [8935/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HWDiag
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HWDiag.lean:11:16: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2145,7 +2145,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HWDiag.lean:210:6: Unused tactic linter: `(rw [h V n E ν v hE hv k b, hM]; simp only [sum_Amat_smul_eq_smul_sub_sum_gt])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8937/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuantumDetHighestWeightHolds
+⚠ [8937/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuantumDetHighestWeightHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/QuantumDetHighestWeightHolds.lean:22:31: This simp argument is unused:
   sub_mul
 
@@ -2162,7 +2162,7 @@ Hint: Omit it from the simp argument list.
     smul_add]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8939/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorCommutatorQuantumDet
+⚠ [8939/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorCommutatorQuantumDet
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/GeneratorCommutatorQuantumDet.lean:43:28: This simp argument is unused:
   Function.update_apply
 
@@ -2197,7 +2197,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hr
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8940/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CharId
+⚠ [8940/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CharId
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CharId.lean:24:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -2237,14 +2237,14 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8941/8955] Replayed Formalism.RealPlaceAnalysis.ThirdArithmeticHolds
+⚠ [8941/8957] Replayed Formalism.RealPlaceAnalysis.ThirdArithmeticHolds
 warning: src/Formalism/RealPlaceAnalysis/ThirdArithmeticHolds.lean:55:36: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
 warning: src/Formalism/RealPlaceAnalysis/ThirdArithmeticHolds.lean:55:36: Unused tactic linter: `rw [two_smul] at h1 h2` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8942/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactGeneratorRaisesPfil
+⚠ [8942/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactGeneratorRaisesPfil
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/NoncompactGeneratorRaisesPfil.lean:45:16: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2454,7 +2454,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hp
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8943/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactArrFiniteDimensional
+⚠ [8943/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactArrFiniteDimensional
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/NoncompactArrFiniteDimensional.lean:150:17: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/NoncompactArrFiniteDimensional.lean:92:47: Variable name `ha` is not explicitly referenced.
 
@@ -2496,7 +2496,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hd
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8944/8955] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.FirstSlotSliceSlotMixedCasimirZero
+⚠ [8944/8957] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.FirstSlotSliceSlotMixedCasimirZero
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/FirstSlotSliceSlotMixedCasimirZero.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.REAL.indexArray_ext`:
   [AddCommGroup V]
   [Module ℂ V]
@@ -2604,7 +2604,7 @@ warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/FirstSlotSliceSlotMixed
   ring)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8952/8955] Replayed Development.AbelianVarietyTheory.Definitions.SemilocalFrames.PosPartUnitaryMul
+⚠ [8952/8957] Replayed Development.AbelianVarietyTheory.Definitions.SemilocalFrames.PosPartUnitaryMul
 warning: src/Development/AbelianVarietyTheory/Definitions/SemilocalFrames/PosPartUnitaryMul.lean:125:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -2641,8 +2641,11 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8953/8955] Replayed Development.AbelianVarietyTheory.Statements.CuspFrameWeights.DiscreteSpectrumKFiniteDecomposition
+⚠ [8953/8957] Replayed Development.AbelianVarietyTheory.Statements.CuspFrameWeights.DiscreteSpectrumKFiniteDecomposition
 warning: src/Development/AbelianVarietyTheory/Statements/CuspFrameWeights/DiscreteSpectrumKFiniteDecomposition.lean:165:4: The namespace `Dec` is duplicated in the declaration `GlobalTheory.Dec.Dec`.
 
 Note: This linter can be disabled with `set_option linter.dupNamespace false`
-Build completed successfully (8955 jobs).
+⚠ [8955/8957] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumFinEqSumCastLEOfVanish
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/SumFinEqSumCastLEOfVanish.lean:42:10: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/SumFinEqSumCastLEOfVanish.lean:47:10: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+Build completed successfully (8957 jobs).
