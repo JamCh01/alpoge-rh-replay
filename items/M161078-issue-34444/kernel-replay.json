@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "83aca0756d25ed273cf43c9cb7111ebdbed6113dfc51f24515f1bd830dad1adb",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.SharpRestriction.LevelLetterCocycles.RestPt"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.SharpRestriction.LevelLetterCocycles.RestPt\n"
+}

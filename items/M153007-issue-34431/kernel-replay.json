@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "46669aa469d7e7f4315b7609716cf18ed1f7883e9883168124e613ba4c50c7fd",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.GoodModelAll"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.GoodModelAll\n"
+}

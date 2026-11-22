@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    "M162832"
+  ],
+  "started_utc": "2026-11-22T17:02:12.345563+00:00",
+  "ended_utc": "2026-11-22T17:02:21.305934+00:00",
+  "elapsed_seconds": 9.0,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 931132
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.AutomorphicForms.MultiplicityOne.GL2ProductCompleteness.EqSmulOfMemWindowOrbitClosure:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6e4e244218c3065b256dc133d2f19c53f2389f0daa8e2a51e03dfb6cca4e1df6",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M162832": "6c79f3c9bceaa204956ea7c299943523692596175394d12aea8e2f5a25c31935"
+  },
+  "project_root": "/root/rh-workspace/ovl/slot-13/lean",
+  "bundle_sha256": "73c6aeff03cecd3d2a3c8db28b2179507ad91908844805061088d6a02be92ca1"
+}

@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    "M172786"
+  ],
+  "started_utc": "2026-11-22T17:02:12.515985+00:00",
+  "ended_utc": "2026-11-22T17:02:21.412538+00:00",
+  "elapsed_seconds": 8.9,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 929124
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.NuExtSt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f037852ac8e947f739cba0f34740758e204c38a0ed6d2599caaf0fd86dafe014",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M172786": "3f1f0f9d7a6835ca253db842e2c44a86ca5255101e9452608fb09e57a8bc53b4"
+  },
+  "project_root": "/root/rh-workspace/ovl/slot-15/lean",
+  "bundle_sha256": "d9d15fd9823f1b5f7eb866442fe277dae2dca36d037302784091c4327f3da9f1"
+}

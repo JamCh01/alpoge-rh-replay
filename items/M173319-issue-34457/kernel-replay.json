@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "03c709216e202219ca0b6652d6fc566b5ab6e21a087efd3de5ceffba29b0bc46",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.SumLeSqrtCardMul"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.SumLeSqrtCardMul\n"
+}
