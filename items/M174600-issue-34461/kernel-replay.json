@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "bad0c22bdfa3711ecd528f0dddb7cc0d8a6d929d6b7e7b94fd0dfb454a07b19a",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.HermitianMeasures.MuSHaar"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.HermitianMeasures.MuSHaar\n"
+}
