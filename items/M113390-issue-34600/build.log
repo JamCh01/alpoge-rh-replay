@@ -1,0 +1,607 @@
+⚠ [8709/8766] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.StabilizerOf
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/StabilizerOf.lean:5:7: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/StabilizerOf.lean:6:26: Variable name `inst_1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/StabilizerOf.lean:6:54: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8711/8766] Replayed GroundTheory.AutomorphicForms.HeckeAlgebra
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:19:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.finite_image_mk_of_isCompact`:
+  [MeasurableSpace G]
+  [BorelSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace G] [BorelSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:86:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.ltrans_apply`:
+  [TopologicalSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:97:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.groupConv_mul_right`:
+  [TopologicalSpace G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] [IsTopologicalGroup G] [BorelSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:121:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.integrable_mul_of_mem`:
+  [Group G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:169:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:161:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.heckeAct_eq_sum`:
+  [TopologicalSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:342:18: Variable name `μ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _μ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:358:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.mem`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:367:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.coe_mk`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:371:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.ext`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:373:8: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.coe_add`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:374:8: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.coe_zero`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:375:8: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.coe_smul`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:377:8: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.coe_neg`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebra.lean:378:8: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.coe_sub`:
+  [Group G]
+  [IsTopologicalGroup G]
+  [BorelSpace G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group
+  G] [IsTopologicalGroup
+  G] [BorelSpace G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8712/8766] Replayed GroundTheory.AutomorphicForms.HeckeAlgebraLevel
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebraLevel.lean:30:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.measureReal_compactOpen_pos`:
+  [IsTopologicalGroup G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+  [BorelSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalGroup
+  G] [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] [BorelSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeAlgebraLevel.lean:39:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.idem_apply`:
+  [IsTopologicalGroup G]
+  [LocallyCompactSpace G]
+  [TotallyDisconnectedSpace G]
+  [BorelSpace G]
+  [μ.IsHaarMeasure]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalGroup
+  G] [LocallyCompactSpace G] [TotallyDisconnectedSpace G] [BorelSpace G] [μ.IsHaarMeasure] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8713/8766] Replayed GroundTheory.AutomorphicForms.HeckeIrreducible
+warning: src/GroundTheory/AutomorphicForms/HeckeIrreducible.lean:36:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.heckeAct_mem_subrep`:
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [TotallyDisconnectedSpace G]
+  [BorelSpace G]
+  [μ.IsHaarMeasure]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [LocallyCompactSpace G] [T2Space G] [TotallyDisconnectedSpace G] [BorelSpace G] [μ.IsHaarMeasure] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeIrreducible.lean:61:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.HeckeAlgebra.mem_span_orbit`:
+  [TopologicalSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/HeckeIrreducible.lean:304:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/GroundTheory/AutomorphicForms/HeckeIrreducible.lean:307:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/GroundTheory/AutomorphicForms/HeckeIrreducible.lean:310:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/GroundTheory/AutomorphicForms/HeckeIrreducible.lean:330:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/AutomorphicForms/HeckeIrreducible.lean:430:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8719/8766] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MulLeftCancelOfDetNeZero
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/MulLeftCancelOfDetNeZero.lean:4:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8722/8766] Replayed GroundTheory.AutomorphicForms.SphericalCommutative
+warning: src/GroundTheory/AutomorphicForms/SphericalCommutative.lean:34:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.coe_transposeInv`:
+  [ValuativeRel F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalCommutative.lean:39:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.coe_inv_transposeInv`:
+  [ValuativeRel F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalCommutative.lean:43:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.transposeInv_transposeInv`:
+  [ValuativeRel F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalCommutative.lean:106:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.apply_inv_transposeInv`:
+  [MeasurableSpace (GL (Fin n) F)]
+  [BorelSpace (GL (Fin n) F)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace (GL (Fin n) F)] [BorelSpace (GL (Fin n) F)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8728/8766] Replayed GroundTheory.AutomorphicForms.InductionParabolicLocal
+warning: src/GroundTheory/AutomorphicForms/InductionParabolicLocal.lean:196:23: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/GroundTheory/AutomorphicForms/InductionParabolicLocal.lean:198:16: `zero_le'` has been deprecated: Use `zero_le` instead
+⚠ [8730/8766] Replayed GroundTheory.AutomorphicForms.SphericalPrincipal
+warning: src/GroundTheory/AutomorphicForms/SphericalPrincipal.lean:25:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.charRep_apply`:
+  [ValuativeRel F]
+  [TopologicalSpace F]
+  [IsNonarchimedeanLocalField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel F] [TopologicalSpace F] [IsNonarchimedeanLocalField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalPrincipal.lean:60:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.leviProj_mem_integralGL`:
+  [TopologicalSpace F]
+  [IsNonarchimedeanLocalField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace F] [IsNonarchimedeanLocalField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8731/8766] Replayed GroundTheory.AutomorphicForms.SphericalLaurent
+warning: src/GroundTheory/AutomorphicForms/SphericalLaurent.lean:118:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/AutomorphicForms/SphericalLaurent.lean:125:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/AutomorphicForms/SphericalLaurent.lean:126:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/AutomorphicForms/SphericalLaurent.lean:129:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/AutomorphicForms/SphericalLaurent.lean:136:37: `AlgEquiv.toAlgHom_eq_coe` has been deprecated: Now a syntactic equality
+warning: src/GroundTheory/AutomorphicForms/SphericalLaurent.lean:136:63: `AlgEquiv.coe_algHom` has been deprecated: Use `AlgEquiv.coe_toAlgHom` instead
+warning: src/GroundTheory/AutomorphicForms/SphericalLaurent.lean:136:37: This simp argument is unused:
+  AlgEquiv.toAlgHom_eq_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ψ, AlgHom.comp_apply, AlgEquiv.coe_algHom, Ideal.Quotient.mkₐ_eq_mk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8732/8766] Replayed GroundTheory.AutomorphicForms.SphericalSatake
+warning: src/GroundTheory/AutomorphicForms/SphericalSatake.lean:30:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.diagGL_mul_comm`:
+  [ValuativeRel F]
+  [TopologicalSpace F]
+  [IsNonarchimedeanLocalField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel F] [TopologicalSpace F] [IsNonarchimedeanLocalField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalSatake.lean:51:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.mul_inv_diagUnits_mem_unipotent`:
+  [ValuativeRel F]
+  [TopologicalSpace F]
+  [IsNonarchimedeanLocalField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel F] [TopologicalSpace F] [IsNonarchimedeanLocalField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalSatake.lean:126:17: This simp argument is unused:
+  diagonal_apply_ne _ hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8733/8766] Replayed GroundTheory.AutomorphicForms.SphericalTriangular
+warning: src/GroundTheory/AutomorphicForms/SphericalTriangular.lean:73:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.det_mem_of_forall_mem`:
+  [TopologicalSpace F]
+  [IsNonarchimedeanLocalField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace F] [IsNonarchimedeanLocalField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalTriangular.lean:146:67: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [transpose_apply, submatrix_apply, Matrix.mul_apply, Finset.sum_apply, Pi.smul_apply, smul_eq_mul,
+    vec]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/AutomorphicForms/SphericalTriangular.lean:322:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.iwasawaExponent_out`:
+  [MeasurableSpace (GL (Fin n) F)]
+  [BorelSpace (GL (Fin n) F)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace (GL (Fin n) F)] [BorelSpace (GL (Fin n) F)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalTriangular.lean:334:4: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
+warning: src/GroundTheory/AutomorphicForms/SphericalTriangular.lean:346:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8734/8766] Replayed GroundTheory.AutomorphicForms.SphericalMinuscule
+warning: src/GroundTheory/AutomorphicForms/SphericalMinuscule.lean:68:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.mul_mem_of_forall_mem`:
+  [TopologicalSpace F]
+  [IsNonarchimedeanLocalField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace F] [IsNonarchimedeanLocalField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalMinuscule.lean:219:76: This simp argument is unused:
+  map_zpow₀
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [(unipC_mem_unipotent S c).2, Finset.prod_const_one, one_mul, zpow_natCast, map_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/AutomorphicForms/SphericalMinuscule.lean:278:46: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8735/8766] Replayed GroundTheory.AutomorphicForms.SphericalIntegral
+warning: src/GroundTheory/AutomorphicForms/SphericalIntegral.lean:91:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/AutomorphicForms/SphericalIntegral.lean:192:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.torusPow_const_comm`:
+  [MeasurableSpace (GL (Fin n) F)]
+  [BorelSpace (GL (Fin n) F)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace (GL (Fin n) F)] [BorelSpace (GL (Fin n) F)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalIntegral.lean:202:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.mem_centralSet`:
+  [MeasurableSpace (GL (Fin n) F)]
+  [BorelSpace (GL (Fin n) F)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace (GL (Fin n) F)] [BorelSpace (GL (Fin n) F)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/SphericalIntegral.lean:260:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.prod_yElt`:
+  [MeasurableSpace (GL (Fin n) F)]
+  [BorelSpace (GL (Fin n) F)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace (GL (Fin n) F)] [BorelSpace (GL (Fin n) F)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8737/8766] Replayed GroundTheory.LocalFields.UnitsBasic
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:99:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.valuation_unit`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:170:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.coe_unitsIncl`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:172:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.unitsIncl_injective`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:197:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.coe_uniformizerUnit`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:204:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.coe_unitsOfIntProd`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8738/8766] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRootOfAdicComplete
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:120:6: Try `simp at this` instead of `simpa using this`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:135:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:135:39: Variable name `inst_1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:135:65: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8740/8766] Replayed GroundTheory.LocalFields.ExistsUnitFiltrationUnitsLeAndRangePowLe
+warning: src/GroundTheory/LocalFields/ExistsUnitFiltrationUnitsLeAndRangePowLe.lean:108:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.valuation_uniformizer_ne_zero`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/ExistsUnitFiltrationUnitsLeAndRangePowLe.lean:183:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.exists_range_pow_le`:
+  [ValuativeRel K]
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel K] [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8755/8766] Replayed GroundTheory.AutomorphicForms.MacdonaldAlternant
+warning: src/GroundTheory/AutomorphicForms/MacdonaldAlternant.lean:134:30: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldAlternant.lean:186:26: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldAlternant.lean:262:22: This simp argument is unused:
+  smul_single'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [monomial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldAlternant.lean:472:28: unused name: h4
+warning: src/GroundTheory/AutomorphicForms/MacdonaldAlternant.lean:472:31: unused name: h5
+⚠ [8760/8766] Replayed GroundTheory.AutomorphicForms.MacdonaldHecke
+warning: src/GroundTheory/AutomorphicForms/MacdonaldHecke.lean:122:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.sum_gMat_torusPow`:
+  [MeasurableSpace (GL (Fin n) F)]
+  [BorelSpace (GL (Fin n) F)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace (GL (Fin n) F)] [BorelSpace (GL (Fin n) F)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8761/8766] Replayed GroundTheory.AutomorphicForms.MacdonaldSpherical
+warning: src/GroundTheory/AutomorphicForms/MacdonaldSpherical.lean:81:16: `continuous_mul_right` has been deprecated: Use `continuous_mul_const` instead
+warning: src/GroundTheory/AutomorphicForms/MacdonaldSpherical.lean:85:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.zonalSpherical_mul_right`:
+  [BorelSpace (GL (Fin n) F)]
+  [μ.IsHaarMeasure]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [BorelSpace (GL (Fin n) F)] [μ.IsHaarMeasure] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldSpherical.lean:92:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldSpherical.lean:156:18: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+⚠ [8762/8766] Replayed GroundTheory.AutomorphicForms.MacdonaldNormalization
+warning: src/GroundTheory/AutomorphicForms/MacdonaldNormalization.lean:125:22: This simp argument is unused:
+  smul_single'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [monomial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldNormalization.lean:135:52: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldNormalization.lean:321:15: This simp argument is unused:
+  Equiv.Perm.sign_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [one_smul, map_one] at hc
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldNormalization.lean:321:36: This simp argument is unused:
+  one_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Equiv.Perm.sign_one, map_one] at hc
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldNormalization.lean:386:69: This simp argument is unused:
+  hP
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8764/8766] Replayed GroundTheory.AutomorphicForms.MacdonaldWhittaker
+warning: src/GroundTheory/AutomorphicForms/MacdonaldWhittaker.lean:20:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.addChar_sum_eq_prod`:
+  [ValuativeRel F]
+  [TopologicalSpace F]
+  [IsNonarchimedeanLocalField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [ValuativeRel F] [TopologicalSpace F] [IsNonarchimedeanLocalField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/AutomorphicForms/MacdonaldWhittaker.lean:252:0: automatically included section variable(s) unused in theorem `GroundTheory.Automorphic.Spherical.sphericalWhittaker_torusPow_add_lamS`:
+  [MeasurableSpace (GL (Fin n) F)]
+  [BorelSpace (GL (Fin n) F)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace (GL (Fin n) F)] [BorelSpace (GL (Fin n) F)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8765/8766] Replayed GroundTheory.AutomorphicForms.MacdonaldWhittakerHecke
+warning: src/GroundTheory/AutomorphicForms/MacdonaldWhittakerHecke.lean:27:50: `continuous_mul_left` has been deprecated: Use `continuous_const_mul` instead
+warning: src/GroundTheory/AutomorphicForms/MacdonaldWhittakerHecke.lean:109:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/GroundTheory/AutomorphicForms/MacdonaldWhittakerHecke.lean:109:15: This simp argument is unused:
+  Set.mem_setOf_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_one, one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (8766 jobs).
