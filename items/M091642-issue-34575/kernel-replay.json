@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "2158bab23e97dcae7980cdde79890ccdc772d964b7e7d4eeb98a8715403d2375",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurablePhi"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurablePhi\n"
+}
