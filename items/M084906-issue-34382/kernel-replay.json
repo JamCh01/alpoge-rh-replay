@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "919446ecfd8dde9b5d48cd4eab921310e1726eb82889e954d3070fe704dfed1b",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsDescentLinearisedLineBundleGaloisCoverStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsDescentLinearisedLineBundleGaloisCoverStatement\n"
+}
