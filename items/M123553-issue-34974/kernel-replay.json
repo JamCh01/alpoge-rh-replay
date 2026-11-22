@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a92e7859c8c52673657348faed8bd6e1182f2405e0e5bebff01a616aa4888d95",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FunctionalCalculusOnSobolev"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FunctionalCalculusOnSobolev\n"
+}

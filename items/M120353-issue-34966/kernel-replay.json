@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7cf2bff2a79d304d4788d65849b3b057657171f6feb14ea31d5d0dcb34ef18c1",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.KahlerFormsOverSubalgebraClosureProperties"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.AlgebraProofs.KahlerFormsOverSubalgebraClosureProperties\n"
+}
