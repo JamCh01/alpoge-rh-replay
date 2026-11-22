@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "f5d8c61b6d0ea6ed0ae51fb233213a682866d1ae72df486837c0302d7c75461d",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.SqIntIrrPerm"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.SqIntIrrPerm\n"
+}
