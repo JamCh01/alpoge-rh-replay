@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7266566bb299b76eed39bdbe31c065905a84f8c0a29a3dad0dc59ad4ae3b8940",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.PrincipalGroupActsFreelyOnFlags"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UnitaryExistence.PrincipalGroupActsFreelyOnFlags\n"
+}

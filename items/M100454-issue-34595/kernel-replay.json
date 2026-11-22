@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "1e72c9df7edcd681b8b456e3899faf67a3627e883d22740e6545a76f152bcab3",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.LinearPartPairingSeriesEqHeightStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.LinearPartPairingSeriesEqHeightStatement\n"
+}

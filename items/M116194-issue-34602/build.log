@@ -1,0 +1,774 @@
+⚠ [8706/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.SpanNatCastLeComap
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/SpanNatCastLeComap.lean:77:8: This simp argument is unused:
+  Ideal.mem_comap
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8708/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.EqZeroOfPMulEqZero
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/EqZeroOfPMulEqZero.lean:176:6: `AddSubmonoidClass.coe_finset_sum` has been deprecated: Use `AddSubmonoidClass.coe_finsetSum` instead
+⚠ [8710/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.MapEqPadicPowCyclotomicCharacter
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:80:5: Ambiguous namespace `Tilt`: it is interpreted as `_root_.Reformulated.AutPerF.Tilt` because this `open` occurs inside `namespace Reformulated.AutPerF.tateModule`, while `_root_.Tilt` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.Reformulated.AutPerF.Tilt`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:104:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:188:5: Ambiguous namespace `Tilt`: it is interpreted as `_root_.Reformulated.AutPerF.Tilt` because this `open` occurs inside `namespace Reformulated.AutPerF`, while `_root_.Tilt` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.Reformulated.AutPerF.Tilt`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:205:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:212:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:226:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:310:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:311:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:334:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/MapEqPadicPowCyclotomicCharacter.lean:357:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.PFlat.seq_ne_zero`:
+  [IsDomain R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8711/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Period
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Period.lean:285:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.Bst.frob_u`:
+  [CharZero R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Period.lean:287:8: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.Bst.monodromy_u`:
+  [CharZero R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8712/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRhamMap
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRhamMap.lean:23:8: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.AinfInv.map_algebraMap_padic`:
+  [IsAdicComplete (span {↑p}) R]
+  [IsAdicComplete (span {↑p}) S]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAdicComplete (span {↑p}) R] [IsAdicComplete (span {↑p}) S] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8713/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Action
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Action.lean:117:19: This simp argument is unused:
+  mul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8714/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Section
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Section.lean:137:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.fracWitt_hom_ext`:
+  [CharP k p]
+  [PerfectRing k p]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP k p] [PerfectRing k p] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Section.lean:234:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Section.lean:248:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8716/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Embedding
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Embedding.lean:70:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Embedding.lean:77:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Embedding.lean:140:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.charZero_wittVector`:
+  [PerfectRing k p]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PerfectRing k p] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Embedding.lean:153:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.BdRPlus.thetaC_liftFracWitt`:
+  [IsAlgClosed C]
+  [Algebra.IsAlgebraic (FractionRing (WittVector p k)) L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosed C] [Algebra.IsAlgebraic (FractionRing (WittVector p k)) L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8718/8803] Replayed Formalism.WeaklyAdmissibleFiltrations.Statement
+warning: src/Formalism/WeaklyAdmissibleFiltrations/Statement.lean:284:0: automatically included section variable(s) unused in theorem `Formalism.WeaklyAdmissibleFiltrations.LatHom.post_B1T`:
+  [TopologicalSpace G]
+  [ContinuousAdd V]
+  [ContinuousConstSMul LL V]
+  [ContinuousAdd V']
+  [ContinuousConstSMul LL V']
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace
+  G] [ContinuousAdd V] [ContinuousConstSMul LL V] [ContinuousAdd V'] [ContinuousConstSMul LL V'] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8719/8803] Replayed Formalism.WeaklyAdmissibleFiltrations.StatementPC
+warning: src/Formalism/WeaklyAdmissibleFiltrations/StatementPC.lean:62:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/WeaklyAdmissibleFiltrations/StatementPC.lean:66:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8722/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeSpanSingletonOfForallMemEq
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/LeSpanSingletonOfForallMemEq.lean:4:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8728/8803] Replayed GroundTheory.PAdicHodge.FactorizationFactorialLe
+warning: src/GroundTheory/PAdicHodge/FactorizationFactorialLe.lean:175:7: The namespace `ACris` is duplicated in the declaration `GroundTheory.PAdicHodge.ACris.ACris`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+⚠ [8729/8803] Replayed GroundTheory.PAdicHodge.BdRLattice
+warning: src/GroundTheory/PAdicHodge/BdRLattice.lean:131:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.IsPerfectoidField.exists_p_pow_mul_mem_of_dvd`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8731/8803] Replayed GroundTheory.PAdicHodge.ACrisBdR
+warning: src/GroundTheory/PAdicHodge/ACrisBdR.lean:119:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/GroundTheory/PAdicHodge/ACrisBdR.lean:216:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.ACris.ker_eq_span_xiGen`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/ACrisBdR.lean:249:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.ACris.mk_mem_acrisQ`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/ACrisBdR.lean:257:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.ACris.isUnit_p_quot`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/ACrisBdR.lean:292:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/ACrisBdR.lean:295:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8732/8803] Replayed GroundTheory.PAdicHodge.ACrisBdRInj
+warning: src/GroundTheory/PAdicHodge/ACrisBdRInj.lean:60:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.ACris.span_p_pow_map`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8733/8803] Replayed GroundTheory.PAdicHodge.ACrisLog
+warning: src/GroundTheory/PAdicHodge/ACrisLog.lean:149:2: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/GroundTheory/PAdicHodge/ACrisLog.lean:149:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/GroundTheory/PAdicHodge/ACrisLog.lean:149:73: Unused tactic linter: `simpa using Ideal.mem_span_singleton_self _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/PAdicHodge/ACrisLog.lean:237:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8743/8803] Replayed GroundTheory.PAdicHodge.ACrisPhi
+warning: src/GroundTheory/PAdicHodge/ACrisPhi.lean:113:19: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_mul, map_intCast, map_pow, pow_zero, mul_one, powCoeff_of_lt p n.succ_pos, Int.cast_zero,
+    map_zero, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/ACrisPhi.lean:283:40: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8749/8803] Replayed GroundTheory.PAdicHodge.UntiltFrobeniusEquivSymmEpsilonNeOne
+warning: src/GroundTheory/PAdicHodge/UntiltFrobeniusEquivSymmEpsilonNeOne.lean:106:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8751/8803] Replayed GroundTheory.PAdicHodge.BdRTGalois
+warning: src/GroundTheory/PAdicHodge/BdRTGalois.lean:68:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8752/8803] Replayed GroundTheory.PAdicHodge.BdRField
+warning: src/GroundTheory/PAdicHodge/BdRField.lean:60:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.IsPerfectoidField.varpi_mem_bDeRhamSubmonoid`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/BdRField.lean:122:15: `Int.ofNat_eq_coe` has been deprecated: Use `Int.ofNat_eq_natCast` instead
+warning: src/GroundTheory/PAdicHodge/BdRField.lean:180:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/BdRField.lean:203:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/BdRField.lean:350:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8757/8803] Replayed GroundTheory.PAdicHodge.BCrisGalois
+warning: src/GroundTheory/PAdicHodge/BCrisGalois.lean:38:0: Definition `GroundTheory.PAdicHodge.awayMulSemiringAction` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: src/GroundTheory/PAdicHodge/BCrisGalois.lean:103:0: Definition `GroundTheory.PAdicHodge.ACris.galBAction` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+⚠ [8761/8803] Replayed GroundTheory.PAdicHodge.NormalizedTrace
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:32:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:45:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:97:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:98:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:100:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:101:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:102:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:203:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:247:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:253:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:254:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:266:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:267:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:268:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:269:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:270:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:271:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:282:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:283:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8762/8803] Replayed GroundTheory.PAdicHodge.CyclotomicField
+warning: src/GroundTheory/PAdicHodge/CyclotomicField.lean:34:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/CyclotomicField.lean:38:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8763/8803] Replayed GroundTheory.PAdicHodge.NormalizedTraceTower
+warning: src/GroundTheory/PAdicHodge/NormalizedTraceTower.lean:49:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.finrank_cyclotomicLayer`:
+  [FiniteDimensional ℚ_[p] ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℚ_[p] ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTraceTower.lean:195:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8765/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormNatCastPrime
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/NormNatCastPrime.lean:4:15: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8767/8803] Replayed GroundTheory.PAdicHodge.TateNormalizedTrace
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:18:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.tateTrace_add`:
+  [FiniteDimensional ℚ_[p] ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℚ_[p] ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:22:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.tateTrace_mem`:
+  [FiniteDimensional ℚ_[p] ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℚ_[p] ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:25:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.tateTrace_of_mem`:
+  [FiniteDimensional ℚ_[p] ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℚ_[p] ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:29:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.tateTrace_mul_of_mem`:
+  [FiniteDimensional ℚ_[p] ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℚ_[p] ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:33:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.tateTrace_gal`:
+  [FiniteDimensional ℚ_[p] ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℚ_[p] ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:79:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:134:50: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:140:50: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/TateNormalizedTrace.lean:142:0: automatically included section variable(s) unused in theorem `GroundTheory.PAdicHodge.gal_mem_cyclotomicLimit`:
+  [FiniteDimensional ℚ_[p] ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℚ_[p] ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8769/8803] Replayed GroundTheory.PAdicHodge.Admissible
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:120:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:201:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:207:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:208:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:227:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:228:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:229:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:244:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:245:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:246:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:285:17: `Finsupp.coe_finset_sum` has been deprecated: Use `Finsupp.coe_finsetSum` instead
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:306:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:307:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:308:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:316:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:317:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:318:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8774/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Kernel
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Kernel.lean:91:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.Tilt.isUnit_iff_isUnit_coeff`:
+  [Fact (Nat.Prime p)]
+  [IsAdicComplete (span {↑p}) R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fact (Nat.Prime p)] [IsAdicComplete (span {↑p}) R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Kernel.lean:242:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.Ainf.xi_ne_zero`:
+  [IsDomain R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8775/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRham
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRham.lean:196:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.BdRPlus.xi_ne_zero`:
+  [IsAlgClosed (FractionRing R)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosed (FractionRing R)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRham.lean:261:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.BdR.algebraMap_injective`:
+  [IsDomain R]
+  [ValuationRing R]
+  [CharZero R]
+  [IsAlgClosed (FractionRing R)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] [ValuationRing R] [CharZero R] [IsAlgClosed (FractionRing R)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8776/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRhamLog
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRhamLog.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8778/8803] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Comparison
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Comparison.lean:58:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.AcrisZero.mem_span_gamma_xi`:
+  [IsAlgClosed (FractionRing R)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosed (FractionRing R)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Comparison.lean:208:10: Variable name `m` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _m
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Comparison.lean:208:12: Variable name `n` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _n
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Comparison.lean:238:28: `AddSubmonoidClass.coe_finset_sum` has been deprecated: Use `AddSubmonoidClass.coe_finsetSum` instead
+Build completed successfully (8803 jobs).

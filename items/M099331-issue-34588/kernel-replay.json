@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "0507f5965dff467fab322971785e37e7bddcc80e6fa93863bed93643d9c57490",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.WeilQkPairingExistsUniqueTorus"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.UniformizationProofs.WeilQkPairingExistsUniqueTorus\n"
+}

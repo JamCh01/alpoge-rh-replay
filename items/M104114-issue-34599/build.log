@@ -1,0 +1,820 @@
+⚠ [8706/8835] Replayed ReciprocityTheory.GaloisValuations.SeparatedDvrSecondCohomologyMem
+warning: src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean:40:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_riemannRochSpace_iff_regularAt_everywhere`:
+  [TopologicalSpace G]
+  [TopologicalSpace M]
+  [IsTopologicalAddGroup M]
+  [ContinuousConstSMul R M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] [TopologicalSpace M] [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean:55:8: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.amitsur_d0_apply`:
+  [TopologicalSpace G]
+  [TopologicalSpace M]
+  [IsTopologicalAddGroup M]
+  [ContinuousConstSMul R M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] [TopologicalSpace M] [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean:59:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_coboundaries1`:
+  [TopologicalSpace G]
+  [TopologicalSpace M]
+  [IsTopologicalAddGroup M]
+  [ContinuousConstSMul R M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] [TopologicalSpace M] [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean:94:8: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.d1_apply`:
+  [TopologicalSpace G]
+  [TopologicalSpace M]
+  [IsTopologicalAddGroup M]
+  [ContinuousConstSMul R M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] [TopologicalSpace M] [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean:116:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.dn_apply`:
+  [TopologicalSpace G]
+  [TopologicalSpace M]
+  [IsTopologicalAddGroup M]
+  [ContinuousConstSMul R M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] [TopologicalSpace M] [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8707/8835] Replayed ReciprocityTheory.GaloisValuations.ContinuousConstSMulQuotient
+warning: src/ReciprocityTheory/GaloisValuations/ContinuousConstSMulQuotient.lean:184:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_mkQ`:
+  [IsTopologicalAddGroup M]
+  [ContinuousConstSMul R M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/ContinuousConstSMulQuotient.lean:187:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/GaloisValuations/ContinuousConstSMulQuotient.lean:187:4: Unused tactic linter: `exact continuous_coinduced_rng` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8709/8835] Replayed ReciprocityTheory.GaloisValuations.GlobalA
+warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean:15:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean:143:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8710/8835] Replayed ReciprocityTheory.GaloisValuations.GlobalB
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:114:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.smul_valuation_lt_one_iff`:
+  [NumberField F]
+  [IsAlgClosure F Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsAlgClosure F Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:131:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.valuation_le_one_intCl`:
+  [IsAlgClosure F Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosure F Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:190:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuousSMul_intCl`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8711/8835] Replayed ReciprocityTheory.GaloisValuations.Global
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:17:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_Dec`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:42:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mul_inv_apply`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:95:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.cyc_eq_map_cycZ`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:101:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_cycZ`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:137:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.isClosed_NS`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:148:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_toGS`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:168:31: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:175:35: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:160:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.unramOutside_iff`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:189:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.not_valuation_lt_one_of_isPlaceOver`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:231:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.eq_of_isPlaceOver`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:269:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:271:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:387:29: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:395:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:409:67: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8712/8835] Replayed ReciprocityTheory.Hypotheses.GalCohDefs
+warning: src/ReciprocityTheory/Hypotheses/GalCohDefs.lean:79:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/Hypotheses/GalCohDefs.lean:80:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/Hypotheses/GalCohDefs.lean:79:8: Unused tactic linter: `rw [← Module.End.mul_apply, ← map_mul, inv_mul_cancel, map_one,
+  Module.End.one_apply]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/Hypotheses/GalCohDefs.lean:80:8: Unused tactic linter: `rw [← LinearMap.mul_apply, ← map_mul, inv_mul_cancel, map_one, LinearMap.one_apply]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/Hypotheses/GalCohDefs.lean:91:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.ContAction.comp'`:
+  [TopologicalSpace R]
+  [DiscreteTopology R]
+  [DiscreteTopology M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace R] [DiscreteTopology R] [DiscreteTopology M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8713/8835] Replayed ReciprocityTheory.Hypotheses.GalCoh
+warning: src/ReciprocityTheory/Hypotheses/GalCoh.lean:102:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.LocalFinitenessAt.restrict`:
+  [NumberField F]
+  [IsAlgClosure F Ω]
+  [Fact (Nat.Prime l)]
+  [Finite M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsAlgClosure F Ω] [Fact (Nat.Prime l)] [Finite M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/Hypotheses/GalCoh.lean:107:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.LocalTateDualityAt.restrict`:
+  [NumberField F]
+  [IsAlgClosure F Ω]
+  [Finite M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsAlgClosure F Ω] [Finite M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/Hypotheses/GalCoh.lean:113:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.UnramifiedOrthogonalityAt.restrict`:
+  [IsAlgClosure F Ω]
+  [Finite M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosure F Ω] [Finite M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/Hypotheses/GalCoh.lean:119:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.LocalEulerCharAt.restrict`:
+  [NumberField F]
+  [IsAlgClosure F Ω]
+  [Fact (Nat.Prime l)]
+  [Finite M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsAlgClosure F Ω] [Fact (Nat.Prime l)] [Finite M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/Hypotheses/GalCoh.lean:137:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_locFam`:
+  [IsAlgClosure F Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosure F Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8717/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.SmulStrictMono
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:40:0: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.mat_herm`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:42:8: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.mat_add`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:45:8: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.mat_smul`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:48:8: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.mat_zero`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:50:0: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.HS_ext`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:56:8: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.mat_mkHS`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:125:0: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.smul_lat`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:143:0: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.toR_mulVec`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulStrictMono.lean:185:0: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.Spans.image`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8720/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.SmulNeZeroLat
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/SmulNeZeroLat.lean:30:0: automatically included section variable(s) unused in theorem `UpperTheory.V.KT.smul_ne_zero_lat`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8733/8835] Replayed Formalism.SatakeDualWeyl.Statement
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8739/8835] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInducingCoeMatrix
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsInducingCoeMatrix.lean:18:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsInducingCoeMatrix.lean:38:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8740/8835] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.KoszulLowersPower
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/KoszulLowersPower.lean:82:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8743/8835] Replayed Formalism.PeriodIntegrals.AdelClassFin
+warning: src/Formalism/PeriodIntegrals/AdelClassFin.lean:15:4: The namespace `AdelClassFin` is duplicated in the declaration `PI.AdelClassFin.AdelClassFin`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+⚠ [8745/8835] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicClassFiniteness.HformSelfStar
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdelicClassFiniteness/HformSelfStar.lean:99:0: automatically included section variable(s) unused in theorem `PIW.AdelClassFin.hform_smul`:
+  [NumberField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdelicClassFiniteness/HformSelfStar.lean:105:0: automatically included section variable(s) unused in theorem `PIW.AdelClassFin.hform_self_star`:
+  [NumberField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdelicClassFiniteness/HformSelfStar.lean:149:25: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdelicClassFiniteness/HformSelfStar.lean:159:25: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdelicClassFiniteness/HformSelfStar.lean:203:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8746/8835] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicClassFiniteness.HmkFactor
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdelicClassFiniteness/HmkFactor.lean:82:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8753/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.LowbdSmul
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/LowbdSmul.lean:13:9: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/LowbdSmul.lean:14:9: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/LowbdSmul.lean:16:9: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/LowbdSmul.lean:33:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8754/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Cardsep
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Cardsep.lean:10:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8755/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Cntconj
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Cntconj.lean:32:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8756/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Locfin
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Locfin.lean:22:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8757/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.RynePlace
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/RynePlace.lean:10:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/RynePlace.lean:42:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8758/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Psdcone
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Psdcone.lean:20:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Psdcone.lean:30:11: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Psdcone.lean:30:46: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Psdcone.lean:51:13: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Psdcone.lean:52:12: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Psdcone.lean:57:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8760/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Spanpsd
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Spanpsd.lean:21:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8761/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Exbasis
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Exbasis.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Exbasis.lean:32:21: This simp argument is unused:
+  RingHom.mapMatrix_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [C, A, Matrix.map_apply, ← hy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Exbasis.lean:32:46: This simp argument is unused:
+  Matrix.map_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [C, A, RingHom.mapMatrix_apply, ← hy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8762/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Blockdet
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Blockdet.lean:16:69: This simp argument is unused:
+  Finset.sum_ite_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_apply, Fintype.sum_prod_type, Matrix.one_apply, Matrix.blockDiagonal_apply, Matrix.kronecker,
+    Matrix.kroneckerMap_apply, ite_mul, mul_ite, Finset.sum_ite_eq', Matrix.conjTranspose_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8769/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Hnfone
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Hnfone.lean:21:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Hnfone.lean:23:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8772/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.FiniteSubfamilySpansDual
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/FiniteSubfamilySpansDual.lean:17:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8773/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Cramer
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Cramer.lean:41:10: This simp argument is unused:
+  ← Pi.single_star
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8780/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.ColsMinSmul
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/ColsMinSmul.lean:42:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8783/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Stabfin
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Stabfin.lean:35:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8784/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.ImportsAlt
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/ImportsAlt.lean:17:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8786/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.NerveSep
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/NerveSep.lean:22:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/NerveSep.lean:39:13: This simp argument is unused:
+  Set.mem_iInter₂
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [C]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8787/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.NerveCut
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/NerveCut.lean:11:37: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/NerveCut.lean:20:41: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8788/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.AltDoubleSum
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/AltDoubleSum.lean:10:22: `Fin.coe_castSucc` has been deprecated: Use `Fin.val_castSucc` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/AltDoubleSum.lean:15:22: `Fin.coe_castSucc` has been deprecated: Use `Fin.val_castSucc` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/AltDoubleSum.lean:72:25: This simp argument is unused:
+  one_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.comp_apply, LinearMap.zero_apply, bd, Finsupp.linearCombination_single, map_smul,
+    map_sum, smul_smul, Finset.smul_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8792/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.NerveCompact
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/NerveCompact.lean:45:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8795/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.Sublevel
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/Sublevel.lean:8:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8796/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.ExistsVert
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/ExistsVert.lean:43:27: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8797/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.VertFinite
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/VertFinite.lean:25:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/VertFinite.lean:34:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8798/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.ConeFinite
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/ConeFinite.lean:23:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/ConeFinite.lean:32:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/ConeFinite.lean:36:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8799/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.DualConvex
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/DualConvex.lean:9:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/DualConvex.lean:13:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/DualConvex.lean:13:46: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/DualConvex.lean:27:27: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/DualConvex.lean:31:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/DualConvex.lean:31:46: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+⚠ [8800/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.AcycSimp
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/AcycSimp.lean:13:98: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8802/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.Transport
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/Transport.lean:15:19: This simp argument is unused:
+  SetLike.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [AddCommGroup.mem_torsion, ← addOrderOf_pos_iff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8803/8835] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TorsStep
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/TorsStep.lean:32:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/TorsStep.lean:34:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/TorsStep.lean:12:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/TorsStep.lean:12:46: Variable name `inst_1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/TorsStep.lean:12:72: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8806/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.ImageRep
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/ImageRep.lean:17:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8807/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.OrbStep
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/OrbStep.lean:58:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/OrbStep.lean:59:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/OrbStep.lean:61:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/OrbStep.lean:12:56: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8808/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.PermSplit
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/PermSplit.lean:47:12: `Finsupp.mapDomain_notin_range` has been deprecated: Use `Finsupp.mapDomain_of_notMem_range` instead
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/PermSplit.lean:54:39: `Finsupp.mapDomain_notin_range` has been deprecated: Use `Finsupp.mapDomain_of_notMem_range` instead
+⚠ [8809/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.CardStep
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/CardStep.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8810/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.IndPerm
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/IndPerm.lean:60:4: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
+⚠ [8814/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.ImportsAlt
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/ImportsAlt.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/ImportsAlt.lean:35:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/ImportsAlt.lean:20:12: This simp argument is unused:
+  Rep.trivial_ρ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [permRep, hv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/ImportsAlt.lean:25:12: This simp argument is unused:
+  Rep.trivial_ρ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [permRep, perm_single, aug_single]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8816/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.PermTrans
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/PermTrans.lean:14:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8817/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.PermEmpty
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/PermEmpty.lean:22:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8818/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.PermCard
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/PermCard.lean:26:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/PermCard.lean:24:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8822/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.MaxIndep
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/MaxIndep.lean:29:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8823/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.FullEnum
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/FullEnum.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/FullEnum.lean:13:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/FullEnum.lean:14:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/FullEnum.lean:23:15: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
+⚠ [8825/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.IndexLe
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/IndexLe.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8826/8835] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TorsSatMult
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/TorsSatMult.lean:4:18: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8828/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.CokerTors
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/CokerTors.lean:15:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8830/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.LogLeExp
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/LogLeExp.lean:83:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8834/8835] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Assembly
+warning: src/Development/AutomorphicArithmetic/AutomorphicVarieties/HermiteNormalForms/Assembly.lean:34:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (8835 jobs).
