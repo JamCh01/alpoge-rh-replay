@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "645c9bbc74deab5975ee26d52fa3b4ef8d3022deee244c5ea3c713b559f93979",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FirstHalfLocalCohomologyVanishingOfLocalDualityTStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FirstHalfLocalCohomologyVanishingOfLocalDualityTStatement\n"
+}
