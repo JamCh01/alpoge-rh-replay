@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "1d09d7579680fc6dee5337e685bd6c3b9919e15792569779520d29779d5e98a3",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FgSpanTopOfLatticeCompatibleSemilinearStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FgSpanTopOfLatticeCompatibleSemilinearStatement\n"
+}

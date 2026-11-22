@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6b1916687e10c7859edcf03c79e325aa653fed8813d2e73de2ec0981ec2e18d6",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLevelCharactersLarge"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLevelCharactersLarge\n"
+}
