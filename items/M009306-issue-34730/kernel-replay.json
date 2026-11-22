@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9d5d6351130a6c1d0dbc044093e7a2f2b68a8fef43249298d06143d55bfc4025",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FreeN"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FreeN\n"
+}

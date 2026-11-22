@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "bd120333c32faa4b910552a9c752ea551cb71865da8af0f5a1b27c4eefac2719",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NpOfOddPrimeDegree"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NpOfOddPrimeDegree\n"
+}

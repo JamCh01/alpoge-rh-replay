@@ -1,0 +1,1572 @@
+⚠ [8711/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPushoutPrimitiveRoot
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:24:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:29:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:42:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:44:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:45:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:48:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:49:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:50:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:51:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPushoutPrimitiveRoot.lean:52:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8713/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsAdmissibleSupersetFinitePlaces
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsAdmissibleSupersetFinitePlaces.lean:9:45: Variable name `hI` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hI
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8716/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIndependentPrimeRelIndexSubgroups
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIndependentPrimeRelIndexSubgroups.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8717/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNormEqOfAlgHom
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUnitNormEqOfAlgHom.lean:8:127: Variable name `ψ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ψ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8719/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.UnitsLocalKummerNormsEqTopOfPowStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalKummerNormsEqTopOfPowStatement.lean:8:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalKummerNormsEqTopOfPowStatement.lean:8:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalKummerNormsEqTopOfPowStatement.lean:8:58: Unused tactic linter: `exact GlobalTheory.CNorm.kNorm_eq_top_of_pow` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalKummerNormsEqTopOfPowStatement.lean:8:105: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.kNorm_eq_top_of_pow <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8720/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsAdmissiblePlacesContainingPrimeSupersetMonStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsAdmissiblePlacesContainingPrimeSupersetMonStatement.lean:8:80: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsAdmissiblePlacesContainingPrimeSupersetMonStatement.lean:8:149: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsAdmissiblePlacesContainingPrimeSupersetMonStatement.lean:8:80: Unused tactic linter: `exact GlobalTheory.CNorm.exists_admissiblePlaces_superset_and_mono` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsAdmissiblePlacesContainingPrimeSupersetMonStatement.lean:8:149: Unused tactic linter: `(intros;
+  apply GlobalTheory.CNorm.exists_admissiblePlaces_superset_and_mono <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8721/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowCardLeIndexIInfOfPrime
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCardLeIndexIInfOfPrime.lean:15:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCardLeIndexIInfOfPrime.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8722/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowCardLeIndexIInfOfPrimeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCardLeIndexIInfOfPrimeStatement.lean:8:70: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCardLeIndexIInfOfPrimeStatement.lean:8:129: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCardLeIndexIInfOfPrimeStatement.lean:8:70: Unused tactic linter: `exact GlobalTheory.CNorm.pow_card_le_index_iInf_of_prime` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCardLeIndexIInfOfPrimeStatement.lean:8:129: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.pow_card_le_index_iInf_of_prime <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8724/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.UnitsMappingToPowersLeUnitsLocalKummerNormsStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsMappingToPowersLeUnitsLocalKummerNormsStatement.lean:8:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsMappingToPowersLeUnitsLocalKummerNormsStatement.lean:8:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsMappingToPowersLeUnitsLocalKummerNormsStatement.lean:8:68: Unused tactic linter: `exact GlobalTheory.CNorm.powSub_le_kNorm_and_kNorm_map` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsMappingToPowersLeUnitsLocalKummerNormsStatement.lean:8:125: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.powSub_le_kNorm_and_kNorm_map <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8725/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsForallAbvSubLt
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsForallAbvSubLt.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsForallAbvSubLt.lean:21:20: `WithAbs.norm_eq_abv` has been deprecated: Use `WithAbs.norm_eq_apply_ofAbs` instead
+⚠ [8726/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsApproxModPowers
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsApproxModPowers.lean:34:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8727/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsApproxModPowersStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsApproxModPowersStatement.lean:8:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsApproxModPowersStatement.lean:8:115: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsApproxModPowersStatement.lean:8:63: Unused tactic linter: `exact GlobalTheory.CNorm.exists_approx_mod_powers` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsApproxModPowersStatement.lean:8:115: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.exists_approx_mod_powers <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8729/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowPrimeRangeEqIteratedDifference
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifference.lean:96:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifference.lean:149:26: This simp argument is unused:
+  MonoidHom.mem_range
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [_root_.GlobalTheory.CNorm.pows, Subgroup.mem_map, Subgroup.mem_top, true_and, powMonoidHom_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8730/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowPrimeRangeEqIteratedDifferenceStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifferenceStatement.lean:8:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifferenceStatement.lean:8:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifferenceStatement.lean:8:60: Unused tactic linter: `exact GlobalTheory.CNorm.pows_eq_range_dif_pow` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifferenceStatement.lean:8:109: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.pows_eq_range_dif_pow <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8732/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionKerRangeMulStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionKerRangeMulStatement.lean:8:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionKerRangeMulStatement.lean:8:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionKerRangeMulStatement.lean:8:58: Unused tactic linter: `exact GlobalTheory.CNorm.pIdx_pTor_ker_range` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionKerRangeMulStatement.lean:8:105: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.pIdx_pTor_ker_range <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8734/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionFiniteKerRangeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionFiniteKerRangeStatement.lean:8:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionFiniteKerRangeStatement.lean:8:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionFiniteKerRangeStatement.lean:8:66: Unused tactic linter: `exact GlobalTheory.CNorm.pIdx_pTor_ker_range_ne_zero` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowIndexTorsionFiniteKerRangeStatement.lean:8:121: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.pIdx_pTor_ker_range_ne_zero <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8736/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentityStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NormDifferenceIndexIdentityStatement.lean:8:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NormDifferenceIndexIdentityStatement.lean:8:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NormDifferenceIndexIdentityStatement.lean:8:58: Unused tactic linter: `exact GlobalTheory.CNorm.herb_index_identity` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NormDifferenceIndexIdentityStatement.lean:8:105: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.herb_index_identity <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8738/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexRangeKerIterateEndomorphismStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/IndexRangeKerIterateEndomorphismStatement.lean:8:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/IndexRangeKerIterateEndomorphismStatement.lean:8:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/IndexRangeKerIterateEndomorphismStatement.lean:8:56: Unused tactic linter: `exact GlobalTheory.CNorm.index_ker_iterate` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/IndexRangeKerIterateEndomorphismStatement.lean:8:101: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.index_ker_iterate <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8739/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HerbrandPrimeOrder
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HerbrandPrimeOrder.lean:53:8: `SubmonoidClass.coe_finset_prod` has been deprecated: Use `SubmonoidClass.coe_finsetProd` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HerbrandPrimeOrder.lean:77:58: This simp argument is unused:
+  MonoidHom.mem_range
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Subgroup.mem_subgroupOf, Subgroup.mem_map]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8740/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HerbrandPrimeOrderStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HerbrandPrimeOrderStatement.lean:8:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HerbrandPrimeOrderStatement.lean:8:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HerbrandPrimeOrderStatement.lean:8:59: Unused tactic linter: `exact GlobalTheory.CNorm.herbrand_prime_order` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HerbrandPrimeOrderStatement.lean:8:107: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.herbrand_prime_order <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8741/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CyclicKummerNormFixedHilbert90
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/CyclicKummerNormFixedHilbert90.lean:44:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/CyclicKummerNormFixedHilbert90.lean:53:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8742/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CyclicKummerNormFixedHilbert90Statement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/CyclicKummerNormFixedHilbert90Statement.lean:8:51: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/CyclicKummerNormFixedHilbert90Statement.lean:8:91: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/CyclicKummerNormFixedHilbert90Statement.lean:8:51: Unused tactic linter: `exact GlobalTheory.CNorm.kummer_basic` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/CyclicKummerNormFixedHilbert90Statement.lean:8:91: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.kummer_basic <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8743/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexTopOfGroupFg
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexTopOfGroupFg.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexTopOfGroupFg.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexTopOfGroupFg.lean:61:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexTopOfGroupFg.lean:75:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexTopOfGroupFg.lean:72:17: This simp argument is unused:
+  SetLike.val_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.coe_inr, Submodule.coe_zero, natCast_zsmul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8747/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUniqueIdeleOfLinearEquivQuotientLocal
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:20:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:21:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:22:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:19:84: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:20:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:21:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count <;>
+    first
+    | assumption
+    | infer_instance)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:22:4: Unused tactic linter: `(intros;
+  exact _root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count ..)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:345:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:372:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8749/8836] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsAbsoluteValueOfIsDiscreteValuationRing
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:55:77: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:56:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:57:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:58:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:55:77: Unused tactic linter: `assumption` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:56:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.PowerExtensionEvaluation.exists_extension <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:57:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.PowerExtensionEvaluation.exists_extension <;>
+    first
+    | assumption
+    | infer_instance)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:58:4: Unused tactic linter: `(intros; exact _root_.GlobalTheory.PowerExtensionEvaluation.exists_extension ..)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:156:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:157:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:166:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:167:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:195:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:196:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:242:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:243:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:290:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:291:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:293:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:294:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:295:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:297:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:298:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:299:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:350:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:357:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:360:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:464:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:466:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsAbsoluteValueOfIsDiscreteValuationRing.lean:467:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8751/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormCoeffMinpolyLeOneOfNormLeOne
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NormCoeffMinpolyLeOneOfNormLeOne.lean:39:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NormCoeffMinpolyLeOneOfNormLeOne.lean:41:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8753/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement.lean:8:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement.lean:8:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement.lean:8:54: Unused tactic linter: `exact GlobalTheory.CNorm.deep_units_pows` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement.lean:8:97: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.deep_units_pows <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8755/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexOneUnitsMulEqCardQuotientStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/RelIndexOneUnitsMulEqCardQuotientStatement.lean:8:77: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/RelIndexOneUnitsMulEqCardQuotientStatement.lean:8:143: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/RelIndexOneUnitsMulEqCardQuotientStatement.lean:8:77: Unused tactic linter: `exact GlobalTheory.CNorm.relIndex_oneUnits_mul_eq_card_quotient` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/RelIndexOneUnitsMulEqCardQuotientStatement.lean:8:143: Unused tactic linter: `(intros;
+  apply GlobalTheory.CNorm.relIndex_oneUnits_mul_eq_card_quotient <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8756/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexUnitsOfIsAdicComplete
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexUnitsOfIsAdicComplete.lean:40:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexUnitsOfIsAdicComplete.lean:52:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8757/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexUnitsOfIsAdicCompleteStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexUnitsOfIsAdicCompleteStatement.lean:8:67: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexUnitsOfIsAdicCompleteStatement.lean:8:123: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexUnitsOfIsAdicCompleteStatement.lean:8:67: Unused tactic linter: `exact GlobalTheory.CNorm.pIdx_units_of_isAdicComplete` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SubgroupPowRelIndexUnitsOfIsAdicCompleteStatement.lean:8:123: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.pIdx_units_of_isAdicComplete <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8758/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsGlobalUniformizerResidueRepresentatives
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsGlobalUniformizerResidueRepresentatives.lean:26:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsGlobalUniformizerResidueRepresentatives.lean:27:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8759/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PIdxUnitsFiniteExtensionAdicCompletion
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:95:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:98:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:100:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:102:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:106:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:109:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:111:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletion.lean:199:23: `zero_le'` has been deprecated: Use `zero_le` instead
+⚠ [8760/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PIdxUnitsFiniteExtensionAdicCompletionStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletionStatement.lean:8:81: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletionStatement.lean:8:151: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletionStatement.lean:8:81: Unused tactic linter: `exact GlobalTheory.CNorm.pIdx_units_finite_extension_adicCompletion` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PIdxUnitsFiniteExtensionAdicCompletionStatement.lean:8:151: Unused tactic linter: `(intros;
+  apply GlobalTheory.CNorm.pIdx_units_finite_extension_adicCompletion <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8761/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNotLocalKummerNormOfNotPow
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUnitNotLocalKummerNormOfNotPow.lean:43:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUnitNotLocalKummerNormOfNotPow.lean:44:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8762/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNotLocalKummerNormOfNotPowStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUnitNotLocalKummerNormOfNotPowStatement.lean:8:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUnitNotLocalKummerNormOfNotPowStatement.lean:8:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUnitNotLocalKummerNormOfNotPowStatement.lean:8:59: Unused tactic linter: `exact GlobalTheory.CNorm.exists_local_nonnorm` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUnitNotLocalKummerNormOfNotPowStatement.lean:8:107: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.exists_local_nonnorm <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8764/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.UnitsLocalPowersAtPlacesIndexLeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalPowersAtPlacesIndexLeStatement.lean:8:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalPowersAtPlacesIndexLeStatement.lean:8:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalPowersAtPlacesIndexLeStatement.lean:8:54: Unused tactic linter: `exact GlobalTheory.CNorm.index_finPow_le` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/UnitsLocalPowersAtPlacesIndexLeStatement.lean:8:97: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.index_finPow_le <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8765/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowCountPlacesNotLocalPowerLeIndex
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCountPlacesNotLocalPowerLeIndex.lean:35:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8766/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowCountPlacesNotLocalPowerLeIndexStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCountPlacesNotLocalPowerLeIndexStatement.lean:8:64: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCountPlacesNotLocalPowerLeIndexStatement.lean:8:117: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCountPlacesNotLocalPowerLeIndexStatement.lean:8:64: Unused tactic linter: `exact GlobalTheory.CNorm.pow_tNon_le_index_finNorm` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowCountPlacesNotLocalPowerLeIndexStatement.lean:8:117: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.pow_tNon_le_index_finNorm <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8767/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HeightOneSpectrumPlacesOverFiniteSet
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HeightOneSpectrumPlacesOverFiniteSet.lean:41:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8769/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTwoPlacesOverOfIsSquareLocal
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsTwoPlacesOverOfIsSquareLocal.lean:24:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsTwoPlacesOverOfIsSquareLocal.lean:29:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8772/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PrimeMulCardPlacesLeCardOverKummer
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PrimeMulCardPlacesLeCardOverKummer.lean:57:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8773/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PrimeMulCardPlacesLeCardOverKummerStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PrimeMulCardPlacesLeCardOverKummerStatement.lean:8:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PrimeMulCardPlacesLeCardOverKummerStatement.lean:8:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PrimeMulCardPlacesLeCardOverKummerStatement.lean:8:66: Unused tactic linter: `exact GlobalTheory.CNorm.prime_mul_card_le_card_over` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PrimeMulCardPlacesLeCardOverKummerStatement.lean:8:121: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.prime_mul_card_le_card_over <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8776/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GaloisPlacesTransitive
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/GaloisPlacesTransitive.lean:26:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/GaloisPlacesTransitive.lean:27:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/GaloisPlacesTransitive.lean:28:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/GaloisPlacesTransitive.lean:29:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8778/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationUnramifiedKummerOfCoprimeUnitStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationUnramifiedKummerOfCoprimeUnitStatement.lean:8:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationUnramifiedKummerOfCoprimeUnitStatement.lean:8:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationUnramifiedKummerOfCoprimeUnitStatement.lean:8:66: Unused tactic linter: `exact GlobalTheory.CNorm.kummer_valuation_unramified` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationUnramifiedKummerOfCoprimeUnitStatement.lean:8:121: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.kummer_valuation_unramified <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8781/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90SUnitsKummerStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/Hilbert90SUnitsKummerStatement.lean:8:62: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/Hilbert90SUnitsKummerStatement.lean:8:113: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/Hilbert90SUnitsKummerStatement.lean:8:62: Unused tactic linter: `exact GlobalTheory.CNorm.hilbert90_sUnits_kummer` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/Hilbert90SUnitsKummerStatement.lean:8:113: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.hilbert90_sUnits_kummer <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8784/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowsSubgroupOfSelfSPow
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:24:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:34:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:41:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:34:8: Unused tactic linter: `exact (pow_eq_one_iff_of_nonneg zero_le' hp.ne_zero).mp h1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:41:6: Unused tactic linter: `(rw [Nat.card_eq_fintype_card]; exact hζ.card_rootsOfUnity)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:52:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:53:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowsSubgroupOfSelfSPow.lean:61:36: `zero_le'` has been deprecated: Use `zero_le` instead
+⚠ [8785/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FirstInequalitySUnitsPrimeDegree
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegree.lean:90:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegree.lean:91:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegree.lean:123:19: `Subgroup.val_finset_prod` has been deprecated: Use `Subgroup.val_finsetProd` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegree.lean:146:35: Try `simp at ha` instead of `simpa using ha`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8786/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FirstInequalitySUnitsPrimeDegreeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegreeStatement.lean:8:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegreeStatement.lean:8:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegreeStatement.lean:8:68: Unused tactic linter: `exact GlobalTheory.CNorm.first_inequality_sUnits_prime` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FirstInequalitySUnitsPrimeDegreeStatement.lean:8:125: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.first_inequality_sUnits_prime <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8788/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupLocalKummerNormsNeTopStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsSupLocalKummerNormsNeTopStatement.lean:8:64: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsSupLocalKummerNormsNeTopStatement.lean:8:117: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsSupLocalKummerNormsNeTopStatement.lean:8:64: Unused tactic linter: `exact GlobalTheory.CNorm.sUnits_sup_finNorm_ne_top` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsSupLocalKummerNormsNeTopStatement.lean:8:117: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.sUnits_sup_finNorm_ne_top <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8789/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceNotPowAdicCompletion
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlaceNotPowAdicCompletion.lean:26:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlaceNotPowAdicCompletion.lean:32:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlaceNotPowAdicCompletion.lean:33:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8790/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceNotPowAdicCompletionStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlaceNotPowAdicCompletionStatement.lean:8:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlaceNotPowAdicCompletionStatement.lean:8:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlaceNotPowAdicCompletionStatement.lean:8:72: Unused tactic linter: `exact GlobalTheory.CNorm.exists_not_mem_not_pow_completion` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlaceNotPowAdicCompletionStatement.lean:8:133: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.exists_not_mem_not_pow_completion <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8793/8836] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubicalPullBaseChangeSt.lean:45:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Semi.rigPull_le`:
+  [IsCommMonObj G']
+  [IsCommMonObj G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCommMonObj G'] [IsCommMonObj G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubicalPullBaseChangeSt.lean:105:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Semi.foldr_padd_comp`:
+  [IsCommMonObj G'']
+  [IsCommMonObj G₀]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCommMonObj G''] [IsCommMonObj G₀] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubicalPullBaseChangeSt.lean:117:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Semi.foldr_padd_pre`:
+  [IsCommMonObj G₀]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCommMonObj G₀] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubicalPullBaseChangeSt.lean:130:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Semi.cubeProj_comp_map`:
+  [GrpObj G'']
+  [IsCommMonObj G'']
+  [GrpObj G₀]
+  [IsCommMonObj G₀]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [GrpObj G''] [IsCommMonObj G''] [GrpObj G₀] [IsCommMonObj G₀] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubicalPullBaseChangeSt.lean:134:6: This simp argument is unused:
+  CartesianMonoidalCategory.tensorHom_fst_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [x3, CartesianMonoidalCategory.tensorHom_fst, CartesianMonoidalCategory.tensorHom_snd,
+    CartesianMonoidalCategory.tensorHom_snd_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8810/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsUnitFormSelfOfNotMem
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:41:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:96:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:187:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:222:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:223:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:344:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:392:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:412:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsUnitFormSelfOfNotMem.lean:414:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8811/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BinaryFormUniversal
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/BinaryFormUniversal.lean:16:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8812/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsEqTransposeMulMapOfIdempotent
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:21:50: This simp argument is unused:
+  map_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, transpose_apply, map_apply, Matrix.add_apply, vecMulVec_apply, Matrix.one_apply,
+    Pi.single_apply, map_add, apply_ite c, map_one, map_zero, add_mul, mul_add, ite_mul, mul_ite, one_mul, zero_mul,
+    mul_one, mul_zero, Finset.sum_add_distrib, Finset.sum_ite_eq', Finset.mem_univ, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:248:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:249:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:250:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:247:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:248:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.BinaryFormUniversal.binary_form_universal <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:249:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.BinaryFormUniversal.binary_form_universal <;>
+    first
+    | assumption
+    | infer_instance)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:250:4: Unused tactic linter: `(intros; exact _root_.GlobalTheory.BinaryFormUniversal.binary_form_universal ..)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:274:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqTransposeMulMapOfIdempotent.lean:329:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8816/8836] Replayed Lemmata.GeneralBFactAltForm.Imports
+warning: src/Lemmata/GeneralBFactAltForm/Imports.lean:8:50: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactAltForm/Imports.lean:8:95: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactAltForm/Imports.lean:9:3: Variable name `inst_3` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_3
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactAltForm/Imports.lean:9:69: Variable name `inst_5` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_5
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactAltForm/Imports.lean:10:3: Variable name `inst_6` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_6
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactAltForm/Imports.lean:10:36: Variable name `inst_7` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_7
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8818/8836] Replayed Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.TraceFormDualOneTraceFormDual
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/TraceFormDualOneTraceFormDual.lean:65:0: automatically included section variable(s) unused in theorem `GlobalTheory.mem_one_fractionalIdeal_iff`:
+  [NumberField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/TraceFormDualOneTraceFormDual.lean:103:0: automatically included section variable(s) unused in theorem `GlobalTheory.fractionalIdeal_mul_smul`:
+  [NumberField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/TraceFormDualOneTraceFormDual.lean:111:0: automatically included section variable(s) unused in theorem `GlobalTheory.fractionalIdeal_one_smul`:
+  [NumberField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8819/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FiniteResidueFieldAdicCompletionIntegers
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:46:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:78:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.locEmb_apply`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:95:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.locEmb_coe`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:105:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.algebraMap_locAlg_injective`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:134:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.locEmb_mem_locOrder`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:150:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.isIntegral_of_mem_locOrder`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:215:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.algebraMapSubmonoid_le`:
+  [NumberField E]
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:304:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:359:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.one_notMem`:
+  [NumberField E]
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:471:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.smul_mem_locLattice`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:562:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.locOrderConj_locOrderConj`:
+  [Algebra.Unramified (𝓞 ↥(maximalRealSubfield E)) (𝓞 E)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra.Unramified (𝓞 ↥(maximalRealSubfield E)) (𝓞 E)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:565:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.mem_range_of_locOrderConj_eq`:
+  [Algebra.Unramified (𝓞 ↥(maximalRealSubfield E)) (𝓞 E)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra.Unramified (𝓞 ↥(maximalRealSubfield E)) (𝓞 E)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:579:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:580:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/FiniteResidueFieldAdicCompletionIntegers.lean:633:0: automatically included section variable(s) unused in theorem `GlobalTheory.SelfDualGenus.mulVec_mem_locOrder`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8820/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsEqPowMulPthPowAdicCompletionUnit
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqPowMulPthPowAdicCompletionUnit.lean:65:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqPowMulPthPowAdicCompletionUnit.lean:66:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8821/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlacePowAndNotPow
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlacePowAndNotPow.lean:22:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlacePowAndNotPow.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8822/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsEqPowMulPthPowAdicCompletionUnitStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqPowMulPthPowAdicCompletionUnitStatement.lean:8:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqPowMulPthPowAdicCompletionUnitStatement.lean:8:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqPowMulPthPowAdicCompletionUnitStatement.lean:8:68: Unused tactic linter: `exact GlobalTheory.CNorm.exists_eq_pow_mul_pow_of_unit` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsEqPowMulPthPowAdicCompletionUnitStatement.lean:8:125: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.exists_eq_pow_mul_pow_of_unit <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8824/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowOfSUnitLocalPowerAtPlacesStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowOfSUnitLocalPowerAtPlacesStatement.lean:8:76: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowOfSUnitLocalPowerAtPlacesStatement.lean:8:141: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowOfSUnitLocalPowerAtPlacesStatement.lean:8:76: Unused tactic linter: `exact GlobalTheory.CNorm.pow_of_mem_sUnits_union_of_mem_finPow` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowOfSUnitLocalPowerAtPlacesStatement.lean:8:141: Unused tactic linter: `(intros;
+  apply GlobalTheory.CNorm.pow_of_mem_sUnits_union_of_mem_finPow <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8826/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsUnionSupPowersEqTopAtPlacesStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsUnionSupPowersEqTopAtPlacesStatement.lean:8:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsUnionSupPowersEqTopAtPlacesStatement.lean:8:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsUnionSupPowersEqTopAtPlacesStatement.lean:8:69: Unused tactic linter: `exact GlobalTheory.CNorm.sUnits_union_sup_finPow_eq_top` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitsUnionSupPowersEqTopAtPlacesStatement.lean:8:127: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.sUnits_union_sup_finPow_eq_top <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8828/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemUnitsLocalKummerNormsOfBaseChangeNormStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemUnitsLocalKummerNormsOfBaseChangeNormStatement.lean:8:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemUnitsLocalKummerNormsOfBaseChangeNormStatement.lean:8:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemUnitsLocalKummerNormsOfBaseChangeNormStatement.lean:8:57: Unused tactic linter: `exact GlobalTheory.CNorm.mem_kNorm_of_tNorm` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemUnitsLocalKummerNormsOfBaseChangeNormStatement.lean:8:103: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.mem_kNorm_of_tNorm <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8830/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlacePowAndNotPowStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlacePowAndNotPowStatement.lean:8:67: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlacePowAndNotPowStatement.lean:8:123: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlacePowAndNotPowStatement.lean:8:67: Unused tactic linter: `exact GlobalTheory.CNorm.exists_place_pow_and_not_pow` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsPlacePowAndNotPowStatement.lean:8:123: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.exists_place_pow_and_not_pow <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8831/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemPowsSUnitsChooseT
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemPowsSUnitsChooseT.lean:15:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8832/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemPowsSUnitsChooseTStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemPowsSUnitsChooseTStatement.lean:8:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemPowsSUnitsChooseTStatement.lean:8:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemPowsSUnitsChooseTStatement.lean:8:68: Unused tactic linter: `exact GlobalTheory.CNorm.exists_auxiliary_places_prime` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MemPowsSUnitsChooseTStatement.lean:8:125: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.exists_auxiliary_places_prime <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8833/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitMemKummerNormsOfLocalNorms
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitMemKummerNormsOfLocalNorms.lean:79:36: `zero_le'` has been deprecated: Use `zero_le` instead
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitMemKummerNormsOfLocalNorms.lean:99:33: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8834/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitMemKummerNormsOfLocalNormsStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitMemKummerNormsOfLocalNormsStatement.lean:8:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitMemKummerNormsOfLocalNormsStatement.lean:8:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitMemKummerNormsOfLocalNormsStatement.lean:8:69: Unused tactic linter: `exact GlobalTheory.CNorm.sUnit_mem_kNorm_of_mem_finNorm` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/SUnitMemKummerNormsOfLocalNormsStatement.lean:8:127: Unused tactic linter: `(intros; apply GlobalTheory.CNorm.sUnit_mem_kNorm_of_mem_finNorm <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8835/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NpOfFinrankPrimeOfIsPrimitiveRoot
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NpOfFinrankPrimeOfIsPrimitiveRoot.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NpOfFinrankPrimeOfIsPrimitiveRoot.lean:19:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NpOfFinrankPrimeOfIsPrimitiveRoot.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8836/8836] Replayed Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NpOfOddPrimeDegree
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NpOfOddPrimeDegree.lean:19:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/NpOfOddPrimeDegree.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (8836 jobs).

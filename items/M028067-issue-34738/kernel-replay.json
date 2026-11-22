@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a69613e612313e3b71cf482ffef363a1d1ce2b7d14dc31688b9a9002c70454f8",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOrthogonalLatticeFrameFlagDomainStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOrthogonalLatticeFrameFlagDomainStatement\n"
+}

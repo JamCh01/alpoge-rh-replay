@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "b40694ac0118089ebeac395b53fa196c7b704627bb0c72a01304aab1bc98db0a",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniqueFullLevel"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniqueFullLevel\n"
+}
