@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3f60c49b320a7ba2de193ed96bb4d1f8b9f44d9806a8e87d8ae010d0d1bf1c06",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LinearMapTensorOneCommDiagonalAction"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LinearMapTensorOneCommDiagonalAction\n"
+}

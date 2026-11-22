@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "114298dd97239b4dcfb92f3c7ed5de7f80dd0b2f58f45152c37fdf245c42590f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LiftFMonoLoc"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LiftFMonoLoc\n"
+}
