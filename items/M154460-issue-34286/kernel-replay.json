@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9b568ebd89606e9c2c41a2aa17dae9d275e8355c832c4efe307e9a1831fa3e17",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BetaUniqueness.EigenvalueLastLineOne"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BetaUniqueness.EigenvalueLastLineOne\n"
+}

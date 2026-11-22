@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "4fcdccd0a183b0e1e2b082ce9b7ee95c31dd4e61cb71bb4b06aacaab224cea09",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.RepresentativeValuesVectorVariationUnipotentOrbiStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.RepresentativeValuesVectorVariationUnipotentOrbiStatement\n"
+}
