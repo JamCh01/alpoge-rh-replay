@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "f4093ec910db38a45bf45e8b9b9eec0bb5e75b9e077a4ccc476b6cd83636e08e",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SmallPointsCoordRatioBound"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.SmallPointsCoordRatioBound\n"
+}
