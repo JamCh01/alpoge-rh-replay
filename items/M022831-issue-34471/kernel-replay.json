@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9902fd1cf2a6536af61ae89c648de99489e2b2114134f0f60e37b6a88e74492f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleFaithfullyFlatDescentGeometricPointsStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleFaithfullyFlatDescentGeometricPointsStatement\n"
+}

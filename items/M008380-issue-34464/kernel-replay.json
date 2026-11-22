@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "941dd2ff0e6aceb37b9eca63722088b4122829ace836ad51b4069fc2a73b4d6c",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DualFormInvMemSubfield"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DualFormInvMemSubfield\n"
+}

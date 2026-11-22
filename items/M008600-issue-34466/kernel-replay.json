@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6901a4265dad5326701bd793903d58030641bfe433c1640c829ba6ae144a0d08",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsFullLatticeOfFg"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsFullLatticeOfFg\n"
+}

@@ -1,14 +1,14 @@
 {
   "tasks": [
-    "M174600"
+    "M174914"
   ],
-  "started_utc": "2026-11-22T17:07:31.829713+00:00",
-  "ended_utc": "2026-11-22T17:07:39.045586+00:00",
-  "elapsed_seconds": 7.2,
+  "started_utc": "2026-11-22T17:10:27.595245+00:00",
+  "ended_utc": "2026-11-22T17:10:35.188318+00:00",
+  "elapsed_seconds": 7.6,
   "host": {
     "cpu_count": 96,
     "mem_total_kib": 131617576,
-    "peak_child_rss_kib": 953224
+    "peak_child_rss_kib": 927356
   },
   "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
   "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
@@ -16,14 +16,14 @@
   "command": [
     "lake",
     "build",
-    "+ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.HermitianMeasures.MuSHaar:olean"
+    "+ReciprocityTheory.ReductiveGroups.SymplecticTraces.WeylCharacters.SplitD:olean"
   ],
   "exit_code": 0,
-  "log_sha256": "5d5a701dd237e5448a991f577b2a380fb250e318b26a34969b71e31b4eadb874",
+  "log_sha256": "cf5701d6d99945bdae0b029aec3099a73b3f6788d08d2ce704582f49d1e1a843",
   "rebuilt_project_modules": [],
   "objects": {
-    "M174600": "1ad5844fec1c7201f32f77e80b85c5d3c4e3a9a411a0899ed178ba64e78f0aa9"
+    "M174914": "3fffeafe8d9d35d1b52be087edf15a9e4914c42aca08dae117c1798649d915f3"
   },
   "project_root": "/root/rh-workspace/ovl/slot-5/lean",
-  "bundle_sha256": "d4abd6a6865e8f049dd5a9ec9c0a0b58d992d27e4a5fe88d55d3f276d77982af"
+  "bundle_sha256": "4697d3d9c04338da2a0423c88a960c6aa02033bd0cef94d939b95c341c36bbf8"
 }
