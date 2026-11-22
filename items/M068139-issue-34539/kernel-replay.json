@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "ee1c99750047f9e8a73207425d9bea58eb7367b3a2f4ea125984776adf1ba6e8",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DecompositionLocalAboveStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DecompositionLocalAboveStatement\n"
+}
