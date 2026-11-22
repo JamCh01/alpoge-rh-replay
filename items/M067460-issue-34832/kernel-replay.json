@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9b8be98c8da9fc40f729f3314c025aeb38237b8a0fd4f6f5a76be83c6a6d48cf",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoboundarySemistableTensorColumns"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoboundarySemistableTensorColumns\n"
+}
