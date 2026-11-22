@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    "M025685"
+  ],
+  "started_utc": "2026-11-22T17:12:57.786774+00:00",
+  "ended_utc": "2026-11-22T17:13:06.460421+00:00",
+  "elapsed_seconds": 8.7,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 924480
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFullSymplecticLevelStructureOfTateIsoStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "64d3b68c0d5067ba545630bfa1e184d2d68c962668ddb6199cfffb7ac88a23bd",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M025685": "1ee30e7e97eef456b1a8f7f28f600be354cdd1c1716c80e79c3b818c69371d8e"
+  },
+  "project_root": "/root/rh-workspace/slot-4/lean",
+  "bundle_sha256": "84bc0106d11b4d301d91a4407f0158afb020dfda78178a62e091431748e5a3b9"
+}

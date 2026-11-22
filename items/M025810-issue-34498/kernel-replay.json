@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7c143d38a5869a09fb8818e25a3dc4ac318475021f1c5c265ef532124a669969",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeneratorRigidifiedLocallyTrivial"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeneratorRigidifiedLocallyTrivial\n"
+}

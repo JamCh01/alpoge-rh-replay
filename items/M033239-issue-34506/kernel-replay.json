@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "be14ce709661a92fdf34551b31325c08cfd0cb786b3427eb0f8b18f495ee6eaa",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunIffRowSlopeBound"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunIffRowSlopeBound\n"
+}
