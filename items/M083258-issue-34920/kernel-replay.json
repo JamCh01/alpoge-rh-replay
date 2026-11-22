@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "32af3f0de7e48c7b3255be85824af95e4a9f5f512738cffc2f55c8d7fb3256b8",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.AntisymProdEqSumQuantumMinorStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.AntisymProdEqSumQuantumMinorStatement\n"
+}

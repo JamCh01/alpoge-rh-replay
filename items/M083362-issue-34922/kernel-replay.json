@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e24d55af83a6c30d98dc36843f7c5c665a91e84662ede6bbf423091e4c23072d",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.CapelliDetConjugateTopCoefficient"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.CapelliDetConjugateTopCoefficient\n"
+}
