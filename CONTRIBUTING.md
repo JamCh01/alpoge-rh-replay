@@ -222,6 +222,25 @@ Publish `dependency-manifest.json`, `transfer-result.json`, `receiver-no-build.l
 
 This exports the full project closure, including cached prerequisites, so its module count is not a count of newly compiled modules. It needs disk space for the receiver snapshot and compressed archives. Package caches and the toolchain are shared with the producer during this check and are not bundled. A different host must prepare compatible pinned dependencies, verify the downloaded export, install the artifacts using the coordinator's transfer procedure, and run its own no-build check. Mixing closures from different producers can still invalidate Lake traces. This export records artifact reuse, not a fresh kernel replay or the final verification of Main.
 
+## Claim packet remainders or custom module batches
+
+When a packet already has reviewed evidence for some of its modules (and none of its modules are `assigned` or held by an open claim), you can claim all of its remaining open modules in a single reservation using `R<dddd>` instead of opening one issue per module:
+
+```sh
+python3 tracker/tasks.py show R0012
+python3 tracker/tasks.py claim R0012
+python3 tracker/worker_build.py build R0012 /path/to/lean /path/to/receipt-R0012
+```
+
+When an open single-module reservation blocks part of a packet or you want to bundle up to 64 open `M######` modules across packets, pass a comma-separated list of module IDs. `tasks.py claim` computes a deterministic `B<12hex>` batch ID committing to the sorted module set and lists `Modules: M...` in the issue body:
+
+```sh
+python3 tracker/tasks.py claim M000001,M000002,M000003
+python3 tracker/worker_build.py build B<12hex> /path/to/lean /path/to/receipt-batch --modules M000001,M000002,M000003
+```
+
+For both `R<dddd>` and `B<12hex>`, the claim bot pins the exact granted module list in its `Granted` comment (`Granted \`<ID>\`. Modules (N): M...`), caps open multi-module reservations at 8 per volunteer, and `tracker/publish.py` + `tracker/validate_tracker.py` verify the submission against that pinned list.
+
 ## Troubleshoot a Lean version mismatch
 
 If `Cache/Requests.lean` reports a missing `Lake.PackageEntrySrc.path` case and the trace shows Lean 4.35.0, update your checkout. The replay uses Lean 4.33.1, and the verifier now calls that version explicitly through elan. Keep elan on PATH, then retry in a new directory on the build volume.

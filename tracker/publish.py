@@ -383,17 +383,35 @@ def _login(obj):
     return (obj.get('user') or {}).get('login')
 
 
+def granted_modules(comments, target):
+    """Extract the authoritative module tuple from the latest bot decision for R#### or B<12hex>."""
+    ordered_comments = sorted(enumerate(comments), key=lambda item: (item[1].get('id', item[0]), item[0]))
+    pinned = None
+    prefix = f'Granted `{target}`.'
+    for _, comment in ordered_comments:
+        if _login(comment) != 'github-actions[bot]':
+            continue
+        body = comment.get('body') or ''
+        if body.startswith(prefix):
+            pinned = tasks.parse_granted_modules(body, target)
+        elif body.startswith(('No grant.', 'Granted `')):
+            pinned = None
+    return pinned
+
+
 def grant_in_force(issue, comments, target):
     """The worker's grant criteria (tracker/worker.py: inspect_grant)."""
     labels = {label['name'] for label in issue['labels']}
     if issue['state'] != 'open' or 'claim-granted' not in labels or 'claim-conflict' in labels:
         return False
+    if target.startswith(('R', 'B')):
+        return granted_modules(comments, target) is not None
     prefix = f'Granted `{target}`.'
     return any(_login(comment) == 'github-actions[bot]'
                and comment['body'].startswith(prefix) for comment in comments)
 
 
-def recheck_record(issue, comments, target, comment_id, login, body=None):
+def recheck_record(issue, comments, target, comment_id, login, body=None, expected_ids=None):
     """Re-check one record against a fresh claim snapshot, before writing.
 
     Mirrors tracker/worker.py's habit of re-fetching live state before
@@ -416,6 +434,9 @@ def recheck_record(issue, comments, target, comment_id, login, body=None):
         return False
     if not grant_in_force(issue, comments, target):
         return False
+    if expected_ids is not None and target.startswith(('R', 'B')):
+        if granted_modules(comments, target) != tuple(expected_ids):
+            return False
     for comment in comments:
         if int(comment['id']) == comment_id:
             lines = comment['body'].splitlines()
@@ -537,7 +558,20 @@ def _publish_candidate(candidate, context):
     if (ROOT / 'evidence' / 'volunteers' / f'{target}.json').exists():
         return None, None, 'an evidence file for this task already exists'
     comment = next(c for c in comments if int(c['id']) == comment_id)
-    targets = tasks.select(context['rows'], target)
+    if target.startswith(('R', 'B')):
+        pinned_ids = granted_modules(comments, target)
+        if not pinned_ids:
+            return None, None, 'bot grant comment is missing a valid module list'
+        by_id = context.setdefault('rows_by_id', {r['id']: r for r in context['rows']})
+        if any(mid not in by_id for mid in pinned_ids):
+            return None, None, 'bot grant names an unknown module id'
+        if target.startswith('R'):
+            base_pkt = 'P' + target[1:]
+            if any(by_id[mid]['packet'] != base_pkt for mid in pinned_ids):
+                return None, None, f'granted modules do not all belong to {base_pkt}'
+        targets = [by_id[mid] for mid in pinned_ids]
+    else:
+        targets = tasks.select(context['rows'], target)
     if any(row['state'] != 'open' for row in targets):
         return None, None, 'snapshot state is not open for every module'
     if any(row['id'] in context['credited'] for row in targets):
@@ -687,7 +721,8 @@ def main():
             try:
                 in_force = recheck_record(fresh_by_number.get(number),
                                           fresh_histories.get(number, []),
-                                          target, comment_id, login, verified_body)
+                                          target, comment_id, login, verified_body,
+                                          tuple(sorted(r['id'] for r in targets)))
             except Exception:
                 in_force = False  # malformed fresh data: drop, never credit
             if in_force:

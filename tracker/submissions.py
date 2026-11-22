@@ -10,6 +10,7 @@ import sys
 import time
 
 from claim_comments import comments_by_issue, repository_comments
+from tasks import CLAIM_TITLE_RE, parse_granted_modules
 from volunteer_tables import update_reviewed, update_table
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -94,7 +95,7 @@ def volunteer_updates(repo, issue_authors, snapshot=None):
         if login != 'ghost' and isinstance(user.get('id'), int):
             issue_authors[str(issue['number'])] = (user['id'], login)
 
-        claim = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
+        claim = CLAIM_TITLE_RE.fullmatch(issue['title'])
         if not claim or not re.fullmatch(r'[A-Za-z0-9-]+', login) or (login.lower(), claim[1]) in reviewed:
             continue
 
@@ -114,7 +115,10 @@ def volunteer_updates(repo, issue_authors, snapshot=None):
             yield number, login, target, max(submission_ids)
         elif issue['state'] == 'open' and any(label['name'] == 'claim-granted' for label in issue['labels']):
             prefix = f'Granted `{target}`.'
-            if any(comment['user']['login'] == 'github-actions[bot]' and comment['body'].startswith(prefix)
+            if any(comment['user']['login'] == 'github-actions[bot]'
+                   and comment['body'].startswith(prefix)
+                   and (not target.startswith(('R', 'B'))
+                        or parse_granted_modules(comment['body'], target) is not None)
                    for comment in comments):
                 yield number, login, target, None
 

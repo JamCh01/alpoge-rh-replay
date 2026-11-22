@@ -21,7 +21,7 @@ lives in, or pass a repository root to validate a copy elsewhere.
 """
 from collections import Counter, defaultdict
 from pathlib import Path
-import csv, gzip, json, re, sys
+import csv, gzip, hashlib, json, re, sys
 
 # Evidence categories documented in completed/README.md ("Completed parts").
 # A value outside this set means a new category was introduced without
@@ -179,9 +179,29 @@ def main():
     missing_volunteer_tasks = []
     dup_reviewed, claim_mismatch, bad_objects, incomplete_reviewed = [], [], [], []
     sha256_re = re.compile(r'^[0-9a-f]{64}$')
+    comp_id_set = set(comp_ids)
+    volunteer_comp_by_pkt = defaultdict(set)
+    for r in completed:
+        if r.get('evidence', '').startswith('volunteer-build-'):
+            volunteer_comp_by_pkt[r['packet']].add(r['id'])
     packet_task_ids = defaultdict(set)
+    non_open_snapshot_by_pkt = defaultdict(set)
     for r in rows:
         packet_task_ids[r['packet']].add(r['id'])
+        if r['state'] != 'open':
+            non_open_snapshot_by_pkt[r['packet']].add(r['id'])
+    # Pre-index task sets of volunteer receipts per base packet so R#### remainder completeness
+    # can verify that no credited volunteer module was dropped or left unaccounted.
+    vol_tasks_by_file = {}
+    for vpath in evidence_files:
+        rel_v = vpath.relative_to(root / 'evidence')
+        if rel_v.parts and rel_v.parts[0] == 'volunteers':
+            try:
+                vrec = json.loads(vpath.read_text())
+                if isinstance(vrec, dict) and isinstance(vrec.get('tasks'), list) and all(isinstance(x, str) for x in vrec['tasks']):
+                    vol_tasks_by_file[vpath.name] = set(vrec['tasks'])
+            except Exception:
+                pass
     for path in evidence_files:
         try:
             record = json.loads(path.read_text())
@@ -230,16 +250,39 @@ def main():
                 tasks = tasks_list
                 if len(set(tasks)) != len(tasks):
                     dup_reviewed.append(path.name)
-                claim_mismatch += [f'{path.name}:{t}' for t in tasks
-                                   if isinstance(t, str) and t in by_id and by_id[t]['packet'] != claim and t != claim]
-                if isinstance(claim, str) and claim in packet_task_ids:
-                    expected_tasks = packet_task_ids[claim]
-                elif isinstance(claim, str) and claim in by_id:
-                    expected_tasks = {claim}
+                if isinstance(claim, str) and re.fullmatch(r'R\d{4}', claim) and ('P' + claim[1:]) in packet_task_ids:
+                    base_pkt = 'P' + claim[1:]
+                    claim_mismatch += [f'{path.name}:{t}' for t in tasks
+                                       if isinstance(t, str) and t in by_id and by_id[t]['packet'] != base_pkt]
+                    pkt_all = packet_task_ids[base_pkt]
+                    other_vol_in_pkt = set()
+                    for fname, fset in vol_tasks_by_file.items():
+                        if fname != path.name:
+                            other_vol_in_pkt |= (fset & pkt_all)
+                    accounted_in_pkt = non_open_snapshot_by_pkt[base_pkt] | comp_id_set | set(tasks)
+                    vol_unbacked = volunteer_comp_by_pkt[base_pkt] - (other_vol_in_pkt | set(tasks))
+                    if (not tasks or not (set(tasks) <= pkt_all)
+                            or not (pkt_all <= accounted_in_pkt)
+                            or bool(vol_unbacked)):
+                        incomplete_reviewed.append(path.name)
+                elif isinstance(claim, str) and re.fullmatch(r'B[0-9a-f]{12}', claim):
+                    ordered = sorted(set(tasks))
+                    expected_bid = 'B' + hashlib.sha256(' '.join(ordered).encode()).hexdigest()[:12]
+                    if (not tasks or len(tasks) > 64 or len(ordered) != len(tasks)
+                            or any(t not in by_id for t in tasks)
+                            or expected_bid != claim):
+                        incomplete_reviewed.append(path.name)
                 else:
-                    expected_tasks = None
-                if expected_tasks is None or not tasks or set(tasks) != expected_tasks:
-                    incomplete_reviewed.append(path.name)
+                    claim_mismatch += [f'{path.name}:{t}' for t in tasks
+                                       if isinstance(t, str) and t in by_id and by_id[t]['packet'] != claim and t != claim]
+                    if isinstance(claim, str) and claim in packet_task_ids:
+                        expected_tasks = packet_task_ids[claim]
+                    elif isinstance(claim, str) and claim in by_id:
+                        expected_tasks = {claim}
+                    else:
+                        expected_tasks = None
+                    if expected_tasks is None or not tasks or set(tasks) != expected_tasks:
+                        incomplete_reviewed.append(path.name)
                 objects = record.get('objects')
                 if (not isinstance(objects, dict)
                         or set(objects) != set(tasks)

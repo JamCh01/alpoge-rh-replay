@@ -10,6 +10,7 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from github_rate_limit import ATTEMPTS, retry_rate_limited, wait_for_rate_limit
+from tasks import CLAIM_TITLE_RE
 
 LABELS = ('claim', 'claim-granted', 'claim-conflict')
 GATEWAY_ATTEMPTS = 4
@@ -66,7 +67,7 @@ class ClaimsGraphQL:
             conflict: label(name:"claim-conflict") { id }
             issues(states:OPEN, first:100, after:$after) {
               pageInfo { endCursor hasNextPage }
-              nodes { id number title author { login } labels(first:5) { nodes { name } }
+              nodes { id number title body author { login } labels(first:5) { nodes { name } }
                       comments(last:5) { pageInfo { startCursor hasPreviousPage }
                                           nodes { %s } } }
             }
@@ -81,7 +82,7 @@ class ClaimsGraphQL:
             scanned_issues += len(issue_page['nodes'])
             for issue in issue_page['nodes']:
                 labels = issue['labels']['nodes']
-                if not (re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
+                if not (CLAIM_TITLE_RE.fullmatch(issue['title'])
                         or any(label['name'] in LABELS for label in labels)):
                     continue
                 number = issue['number']

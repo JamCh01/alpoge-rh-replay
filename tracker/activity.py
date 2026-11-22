@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 
 from submissions import claim_snapshot
+from tasks import CLAIM_TITLE_RE
 
 TRACKER = Path(__file__).resolve().parent
 SERIES = {
@@ -22,7 +23,7 @@ def activity(issues, owner, reviewed_comments):
     events = []
     first_grants = {}
     for issue in issues:
-        claim = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
+        claim = CLAIM_TITLE_RE.fullmatch(issue['title'])
         author = issue.get('author') or {}
         login = author.get('login')
         if not claim or not login or login.casefold() == owner.casefold() or author['is_bot']:

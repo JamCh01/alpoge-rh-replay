@@ -18,8 +18,8 @@ def comments(nodes=(), before=None):
     }}
 
 
-def issue(number, title, labels=(), history=None):
-    return {'id': f'I{number}', 'number': number, 'title': title,
+def issue(number, title, labels=(), history=None, body=''):
+    return {'id': f'I{number}', 'number': number, 'title': title, 'body': body,
             'labels': {'nodes': [{'name': name} for name in labels]},
             'comments': comments() if history is None else history}
 

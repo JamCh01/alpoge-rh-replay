@@ -87,7 +87,7 @@ def record_cached_replay(project, out, missing, receipt, launcher, env):
     tmp.replace(path)
 
 
-def build(target, project, out, retry_failed=False):
+def build(target, project, out, retry_failed=False, explicit_modules=None):
     platform, launcher, env = evidence.checkout_info(project)
     # Claim this prepared Lake cache for a single native toolchain.
     stamp = project / '.lake/build/replay-worker-identity.json'
@@ -111,7 +111,10 @@ def build(target, project, out, retry_failed=False):
                 # A container shutdown can leave a transcript without a finished receipt.
                 out.rename(out.with_name(out.name + '.interrupted-' + uuid.uuid4().hex))
             names = set()
-            targets = tasks.select(tasks.module_rows(), target, project_modules=names)
+            granted_ids = [m.strip() for m in explicit_modules.split(',') if m.strip()] if explicit_modules else None
+            if granted_ids is not None and target.startswith('B') and tasks.batch_claim_id(granted_ids) != target:
+                raise SystemExit(f'--modules digest does not match batch target {target}')
+            targets = tasks.select(tasks.module_rows(), target, project_modules=names, granted_ids=granted_ids)
             status = tasks.run(targets, project, out, False, True, project_modules=names)
             if status:
                 return status
@@ -123,7 +126,7 @@ def build(target, project, out, retry_failed=False):
             ids = set(record['tasks'])
             rows = {r['module']: r for r in tasks.module_rows()
                     if r['module'] in names or r['id'] in ids or target in (r['id'], r['packet'])}
-            targets = tasks.select(rows.values(), target)
+            targets = tasks.select(rows.values(), target, granted_ids=ids if target.startswith(('R', 'B')) else None)
             missing = evidence.missing_targets(out, targets)
             if missing and not (out / evidence.REPLAY_FILE).exists():
                 record_cached_replay(project, out, missing, record, launcher, env)
@@ -141,9 +144,10 @@ if __name__ == '__main__':
     run.add_argument('checkout', type=Path)
     run.add_argument('output', type=Path)
     run.add_argument('--retry-failed', action='store_true')
+    run.add_argument('--modules', help='comma-separated M###### IDs for a B<12hex> batch build')
     args = parser.parse_args()
     if args.action == 'identity':
         host, _, _ = evidence.checkout_info(args.checkout.resolve())
         print(json.dumps(host))
         raise SystemExit(0)
-    raise SystemExit(build(args.target, args.checkout.resolve(), args.output.resolve(), args.retry_failed))
+    raise SystemExit(build(args.target, args.checkout.resolve(), args.output.resolve(), args.retry_failed, args.modules))

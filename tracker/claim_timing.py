@@ -8,6 +8,7 @@ import re
 import sys
 
 from submissions import ROOT, claim_snapshot
+from tasks import CLAIM_TITLE_RE
 
 
 def seconds(start, end):
@@ -20,7 +21,7 @@ def observations(issues, histories, owner, observed_at, reviewed_comments=()):
     for issue in issues:
         author = issue.get('user') or {}
         login = author.get('login', '')
-        match = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
+        match = CLAIM_TITLE_RE.fullmatch(issue['title'])
         if not match or author.get('type') != 'User' or not login or login.casefold() == owner.casefold():
             continue
         target = match[1]

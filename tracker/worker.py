@@ -30,13 +30,20 @@ def save(path, state):
 
 def plan(assignments, rows):
     ids = assignments.read_text().split()
-    if not ids or any(not re.fullmatch(r'M\d{6}|P\d{4}', i) for i in ids):
-        raise ValueError('Expected a list of module or packet IDs')
-    wanted = set(ids)
-    selected = {i: [] for i in ids}
-    for row in rows:
-        for i in wanted.intersection((row['id'], row['packet'])):
-            selected[i].append(row)
+    if not ids or any(not re.fullmatch(r'M\d{6}|P\d{4}|R\d{4}', i) for i in ids):
+        raise ValueError('Expected a list of module, packet, or remainder IDs')
+    row_list = list(rows)
+    done = tasks.completed_ids()
+    selected = {}
+    for i in ids:
+        if i.startswith('R'):
+            pkt = 'P' + i[1:]
+            pkt_rows = [r for r in row_list if r['packet'] == pkt]
+            if not pkt_rows or any(r['state'] == 'assigned' for r in pkt_rows):
+                raise ValueError('Unavailable packet remainder: ' + i)
+            selected[i] = [r for r in pkt_rows if r['state'] == 'open' and r['id'] not in done]
+        else:
+            selected[i] = [r for r in row_list if i in (r['id'], r['packet'])]
     all_ids = [r['id'] for i in ids for r in selected[i]]
     if not all(selected.values()) or len(all_ids) != len(set(all_ids)):
         raise ValueError('Unknown or overlapping assignments')
@@ -104,8 +111,12 @@ def inspect_grant(issue, comments, target, owner):
     labels = {label['name'] for label in issue['labels']}
     if issue['state'] != 'open' or 'claim-conflict' in labels:
         return CONFLICT, None
-    if 'claim-granted' in labels and any(c['user']['login'] == 'github-actions[bot]'
-            and c['body'].startswith(f'Granted `{target}`.') for c in comments):
+    if 'claim-granted' in labels and any(
+            c['user']['login'] == 'github-actions[bot]'
+            and c['body'].startswith(f'Granted `{target}`.')
+            and (not target.startswith(('R', 'B'))
+                 or tasks.parse_granted_modules(c['body'], target) is not None)
+            for c in comments):
         return 'granted', None
     return 'pending', None
 

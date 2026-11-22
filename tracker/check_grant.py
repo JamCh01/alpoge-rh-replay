@@ -7,9 +7,9 @@ import re
 import subprocess
 
 if __package__:
-    from .tasks import load, repo, select
+    from .tasks import CLAIM_TITLE_RE, load, parse_granted_modules, repo, select
 else:
-    from tasks import load, repo, select
+    from tasks import CLAIM_TITLE_RE, load, parse_granted_modules, repo, select
 
 
 def gh_api(route, paginate=False):
@@ -27,20 +27,26 @@ def check_grants(issue_numbers, targets, owner):
             raise ValueError('Claim issue numbers must be positive integers.')
         route = f'repos/{repo}/issues/{number}'
         issue = gh_api(route)
-        claim = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
+        claim = CLAIM_TITLE_RE.fullmatch(issue['title'])
         if ('pull_request' in issue or issue['state'] != 'open' or not claim
                 or issue['user']['login'].casefold() != owner.casefold()
                 or not any(label['name'] == 'claim-granted' for label in issue['labels'])):
             raise ValueError(f'Issue #{number} is not an open grant for @{owner}.')
 
-        comments = gh_api(f'{route}/comments?per_page=100', paginate=True)
-        prefix = f'Granted `{claim[1]}`.'
-        if not any(comment['user']['login'] == 'github-actions[bot]'
-                   and comment['body'].startswith(prefix)
-                   for page in comments for comment in page):
-            raise ValueError(f'Issue #{number} is missing the bot grant for {claim[1]}.')
+        target = claim[1]
+        comments = [c for page in gh_api(f'{route}/comments?per_page=100', paginate=True) for c in page]
+        prefix = f'Granted `{target}`.'
+        bot_grants = [c['body'] for c in comments
+                      if c['user']['login'] == 'github-actions[bot]' and c['body'].startswith(prefix)]
+        if not bot_grants:
+            raise ValueError(f'Issue #{number} is missing the bot grant for {target}.')
+        granted_ids = None
+        if target.startswith(('R', 'B')):
+            granted_ids = parse_granted_modules(bot_grants[-1], target)
+            if not granted_ids:
+                raise ValueError(f'Issue #{number} has an invalid module list in its bot grant for {target}.')
 
-        modules = {row['module'] for row in select(rows, claim[1])}
+        modules = {row['module'] for row in select(rows, target, granted_ids=granted_ids)}
         if covered & modules:
             raise ValueError(f'Issue #{number} duplicates another grant in this worker.')
         covered.update(modules)

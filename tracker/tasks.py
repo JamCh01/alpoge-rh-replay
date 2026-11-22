@@ -6,6 +6,67 @@ from shutil import which
 import argparse,datetime,gzip,hashlib,json,os,re,subprocess,sys,tarfile,time,urllib.request
 base=Path(__file__).resolve().parent
 repo='rohanarun/alpoge-rh-replay'
+MAX_BATCH_MODULES = 64
+MAX_OPEN_MULTI_CLAIMS = 8
+CLAIM_ID_RE = r'(?:P\d{4}|R\d{4}|M\d{6}|B[0-9a-f]{12})'
+CLAIM_TITLE_RE = re.compile(rf'Claim ({CLAIM_ID_RE})')
+_BATCH_LINE_RE = re.compile(r'^\s*Modules:\s*(M\d{6}(?:[\s,]+M\d{6})*)\s*$', re.I | re.M)
+
+
+def batch_claim_id(module_ids):
+    """Deterministic 12-hex batch identifier committing to a sorted set of module IDs."""
+    items = list(module_ids)
+    ordered = sorted(set(items))
+    if not ordered or len(ordered) > MAX_BATCH_MODULES or len(ordered) != len(items):
+        raise ValueError(f'Batch claims require 1..{MAX_BATCH_MODULES} unique module IDs')
+    if any(not isinstance(m, str) or not re.fullmatch(r'M\d{6}', m) for m in ordered):
+        raise ValueError('Batch claims only accept M###### module IDs')
+    return 'B' + hashlib.sha256(' '.join(ordered).encode()).hexdigest()[:12]
+
+
+def parse_batch_modules(body):
+    """Extract the sorted unique module tuple from a batch claim's `Modules:` line, or None."""
+    match = _BATCH_LINE_RE.search((body or '')[:8192])
+    if not match:
+        return None
+    items = re.findall(r'M\d{6}', match.group(1))
+    if not items or len(items) > MAX_BATCH_MODULES or len(set(items)) != len(items):
+        return None
+    return tuple(sorted(items))
+
+
+def format_grant_comment(target, module_ids=None):
+    """Render the bot comment that records an authoritative reservation grant."""
+    tail = 'Begin this reservation. Attach your receipt and log to this issue, or close it to release the work.'
+    if module_ids is None:
+        return f'Granted `{target}`. {tail}'
+    ordered = sorted(set(module_ids))
+    return f"Granted `{target}`. Modules ({len(ordered)}): {' '.join(ordered)}. {tail}"
+
+
+def parse_granted_modules(comment_body, target):
+    """Read the pinned module tuple from a bot grant comment for R#### or B<12hex>, or None."""
+    match = re.match(rf'^Granted `{re.escape(target)}`\.\s+Modules \((\d+)\): (M\d{{6}}(?: M\d{{6}})*)\.',
+                     comment_body or '')
+    if not match:
+        return None
+    count = int(match.group(1))
+    ids = match.group(2).split(' ')
+    if count != len(ids) or len(set(ids)) != len(ids) or ids != sorted(ids):
+        return None
+    if target.startswith('B'):
+        if len(ids) > MAX_BATCH_MODULES or batch_claim_id(ids) != target:
+            return None
+    return tuple(ids)
+
+
+def completed_ids(completed_path=None):
+    path = completed_path or (base / 'completed.tsv')
+    if not path.exists():
+        return set()
+    import csv
+    with path.open() as f:
+        return {r['id'] for r in csv.DictReader(f, delimiter='\t')}
 def digest(path):
  h=hashlib.sha256()
  with path.open('rb') as f:
@@ -43,21 +104,49 @@ def load():
   for r in rows:
    if r['id'] in done:r['state']=done[r['id']]
  return rows
-def select(rows, target, *, project_modules=None):
+def select(rows, target, *, project_modules=None, granted_ids=None):
     """Collect matching targets and, for builds, the names needed to classify the transcript."""
-    targets = []
+    all_rows = []
     for row in rows:
         if project_modules is not None:
             project_modules.add(row['module'])
-        if target in (row['id'], row['packet'], row['module']):
-            targets.append(row)
+        all_rows.append(row)
+    if granted_ids is not None:
+        wanted = set(granted_ids)
+        targets = [r for r in all_rows if r['id'] in wanted]
+        if not wanted or len(targets) != len(wanted):
+            raise SystemExit('Unknown granted module(s) for: ' + str(target))
+        return targets
+    if isinstance(target, str) and re.fullmatch(r'R\d{4}', target):
+        pkt = 'P' + target[1:]
+        pkt_rows = [r for r in all_rows if r['packet'] == pkt]
+        if not pkt_rows or any(r['state'] == 'assigned' for r in pkt_rows):
+            raise SystemExit('Unavailable packet remainder: ' + target)
+        done = completed_ids()
+        targets = [r for r in pkt_rows if r['state'] == 'open' and r['id'] not in done]
+        if not targets:
+            raise SystemExit('No open modules remain in packet: ' + pkt)
+        return targets
+    if isinstance(target, str) and ',' in target:
+        parts = [p.strip() for p in target.split(',') if p.strip()]
+        try:
+            batch_claim_id(parts)
+        except ValueError as exc:
+            raise SystemExit(str(exc))
+        wanted = set(parts)
+        targets = [r for r in all_rows if r['id'] in wanted]
+        if len(targets) != len(wanted):
+            raise SystemExit('Unknown task in batch: ' + target)
+        return targets
+    targets = [r for r in all_rows if target in (r['id'], r['packet'], r['module'])]
     if not targets:
-        raise SystemExit('Unknown task or packet: ' + target)
+        raise SystemExit('Unknown task or packet: ' + str(target))
     return targets
 def cold_modules(rows, busy):
     """Rank available tasks with no project imports by their available direct consumers."""
     available = [r for r in rows if r['state'] == 'open'
-                 and r['id'] not in busy and r['packet'] not in busy]
+                 and r['id'] not in busy and r['packet'] not in busy
+                 and ('R' + r['packet'][1:]) not in busy]
     leaves = {r['id']: r for r in available if not r['imports']}
     sole = Counter()
     direct = Counter()
@@ -90,7 +179,7 @@ def packet_suggestions(rows, busy, include_partial=False):
     full = []
     partial = []
     for name, members in groups.items():
-        if name in busy or any(r['id'] in busy for r in members):
+        if name in busy or ('R' + name[1:]) in busy or any(r['id'] in busy for r in members):
             continue
         opened = [r for r in members if r['state'] == 'open']
         if not opened:
@@ -162,7 +251,7 @@ def claims():
                   for issue in page['data']['repository']['issues']['nodes'])
     else:
         titles = (issue['title'] for issue in open_issues() if 'pull_request' not in issue)
-    return {match[1] for title in titles if (match := re.fullmatch(r'Claim (M\d{6}|P\d{4})', title))}
+    return {match[1] for title in titles if (match := CLAIM_TITLE_RE.fullmatch(title))}
 
 def run(targets,checkout,out,bundle,fast_bundle=False,*,project_modules=None):
  project=checkout.resolve();output=out.resolve()
@@ -260,9 +349,24 @@ def main():
   for r in sel:print(json.dumps(r,ensure_ascii=False))
  elif a.action=='claim':
   busy=claims()
-  if any(r['id'] in busy or r['packet'] in busy or r['state']!='open' for r in sel):raise SystemExit('One or more modules are already claimed, observed, or assigned.')
-  claim_id = a.target if a.target == sel[0]['packet'] else sel[0]['id']
-  body = f'I am working on {claim_id}. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'
+  if any(r['id'] in busy or r['packet'] in busy or ('R' + r['packet'][1:]) in busy or r['state']!='open' for r in sel):
+   raise SystemExit('One or more modules are already claimed, observed, or assigned.')
+  if re.fullmatch(r'R\d{4}', a.target):
+   pkt = 'P' + a.target[1:]
+   if any(r['id'] in busy for r in rows if r['packet'] == pkt):
+    raise SystemExit('One or more modules in this packet already have an open claim.')
+   claim_id = a.target
+   body = f'I am working on {claim_id} ({len(sel)} open modules in {pkt}). I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'
+  elif ',' in a.target:
+   ordered = sorted(r['id'] for r in sel)
+   claim_id = batch_claim_id(ordered)
+   if claim_id in busy:
+    raise SystemExit('This batch claim is already open.')
+   body = (f'I am working on {claim_id}.\n\nModules: {" ".join(ordered)}\n\n'
+           'I will attach the input hashes, build transcript and receipt, or close this claim if I stop.')
+  else:
+   claim_id = a.target if a.target == sel[0]['packet'] else sel[0]['id']
+   body = f'I am working on {claim_id}. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'
   subprocess.run(['gh', 'issue', 'create', '--repo', repo, '--title', 'Claim ' + claim_id,
                   '--body', body], check=True)
  return 0
