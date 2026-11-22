@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "75d50ffad8e2b48945a85e8a3154908c96a72272d7bed1cef28c0375bc2676da",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.CanonicalLatticeFlagIsotropicSelfDual"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.CanonicalLatticeFlagIsotropicSelfDual\n"
+}

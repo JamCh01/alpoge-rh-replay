@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "c97c8d46f6267691f5056a8c2a121b5980e6a051d84be08229b19ef450c77608",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.CwContIntegralComm"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.CwContIntegralComm\n"
+}

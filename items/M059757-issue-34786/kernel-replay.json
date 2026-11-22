@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "bd3be9017ab0ed2d6e3b7b9b904ec4e66b728949a5d5eff9878a922f45cc8a41",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.RankTwoDefiniteUnimodularHermitianClassBoundStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.RankTwoDefiniteUnimodularHermitianClassBoundStatement\n"
+}

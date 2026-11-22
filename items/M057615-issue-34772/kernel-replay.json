@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "914528095fb9664936c0c989a6ac8ce3e42905a5e60c78aa8552f5253d7cda9f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsChoiceAndIsChoiceOfCard"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsChoiceAndIsChoiceOfCard\n"
+}

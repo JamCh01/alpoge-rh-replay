@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6d4e77b86fe146fa3976d71bd1354bc854cd83068820aeeb76615ce61d0d3af2",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.FlagGramEqGramDetProjectionNormalFormStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.FlagGramEqGramDetProjectionNormalFormStatement\n"
+}

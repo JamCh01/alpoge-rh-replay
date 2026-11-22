@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9815732ac10b85b86e6bf9780576db3fbdb41e2e7a2af99cf85419ddd0ff64d6",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.HaarUnitaryGroupWbDensityChartStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.HaarUnitaryGroupWbDensityChartStatement\n"
+}

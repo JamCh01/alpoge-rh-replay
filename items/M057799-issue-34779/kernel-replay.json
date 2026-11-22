@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6ff6039312c85ccd36778ed3824e4111149c03712e52fee68b86878633d238ae",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsSmoothAverageEqOfMemLowKSubStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsSmoothAverageEqOfMemLowKSubStatement\n"
+}
