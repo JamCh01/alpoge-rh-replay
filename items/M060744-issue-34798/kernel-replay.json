@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "655410afcfd45dd015548a515b2bfb3f43ee798638f603b75cf1a66a7b56b5fe",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FrameSymmetryIffPullbackStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FrameSymmetryIffPullbackStatement\n"
+}

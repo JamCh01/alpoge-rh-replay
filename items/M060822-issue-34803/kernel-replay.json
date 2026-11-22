@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "bba9bc6fb022559adcb4941b415590eddf6fa126c0d37964fb6cbef660a521f0",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.PrimitiveIsoGUniqueOnAbelianStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.PrimitiveIsoGUniqueOnAbelianStatement\n"
+}

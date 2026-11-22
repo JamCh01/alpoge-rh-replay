@@ -1,0 +1,708 @@
+⚠ [8706/8782] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ExpUpper.lean:116:24: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mob, ent, toGQ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8711/8782] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.Integral
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Integral.lean:54:11: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Integral.lean:60:11: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8713/8782] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:174:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:201:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:198:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:222:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:297:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:298:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:315:14: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:412:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:416:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:428:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:447:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:453:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:467:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:476:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:483:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:507:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:516:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:530:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8717/8782] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.ApplyEqOfMemAdjoin
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ApplyEqOfMemAdjoin.lean:51:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ApplyEqOfMemAdjoin.lean:76:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ApplyEqOfMemAdjoin.lean:107:0: automatically included section variable(s) unused in theorem `GlobalTheory.Glue.IsPlaceIn.unique`:
+  [Algebra ℚ Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra ℚ Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ApplyEqOfMemAdjoin.lean:113:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ApplyEqOfMemAdjoin.lean:111:0: automatically included section variable(s) unused in theorem `GlobalTheory.Glue.IsPlaceIn.mem_nonunits`:
+  [Algebra ℚ Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra ℚ Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8720/8782] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsTopWTopWOfExists.lean:136:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsTopWTopWOfExists.lean:137:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8723/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.DifferentiableAtGP
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/DifferentiableAtGP.lean:451:24: This simp argument is unused:
+  Prod.map_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [_root_.GlobalTheory.Sieg.fTerm, Equiv.prodCongr_apply, Equiv.coe_addRight, Equiv.coe_refl, id_eq,
+    hy1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/DifferentiableAtGP.lean:451:40: This simp argument is unused:
+  id_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [_root_.GlobalTheory.Sieg.fTerm, Equiv.prodCongr_apply, Equiv.coe_addRight, Equiv.coe_refl,
+    Prod.map_apply, hy1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8726/8782] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasQExpansionModularForm
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/HasQExpansionModularForm.lean:44:14: This simp argument is unused:
+  FormalMultilinearSeries.ofScalars_apply_eq'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/HasQExpansionModularForm.lean:46:14: This simp argument is unused:
+  FormalMultilinearSeries.ofScalars_apply_eq'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hp, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8728/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitQExpansionCoeffsIntegral
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitQExpansionCoeffsIntegral.lean:542:43: This simp argument is unused:
+  Nat.cast_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [_root_.GlobalTheory.SiegQ.kk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitQExpansionCoeffsIntegral.lean:760:58: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.cons_val_zero, Matrix.cons_val_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitQExpansionCoeffsIntegral.lean:797:60: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.cons_val_zero, Matrix.cons_val_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8731/8782] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsVariableChangeEqLatticeCurve
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsVariableChangeEqLatticeCurve.lean:138:27: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8739/8782] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QBinomialFinite
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/QBinomialFinite.lean:19:23: This simp argument is unused:
+  Nat.sub_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8740/8782] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QBinomialFiniteStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/QBinomialFiniteStatement.lean:9:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/QBinomialFiniteStatement.lean:9:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/QBinomialFiniteStatement.lean:9:72: Unused tactic linter: `exact GlobalTheory.JacobiTriple.QBinomial.qBinomial_finite` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/QBinomialFiniteStatement.lean:9:133: Unused tactic linter: `(intros; apply GlobalTheory.JacobiTriple.QBinomial.qBinomial_finite <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8741/8782] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleFiniteProduct
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProduct.lean:83:33: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_range] at ha
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProduct.lean:84:21: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProduct.lean:85:33: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at ha
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProduct.lean:86:21: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_range]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProduct.lean:88:33: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at ha
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8742/8782] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleFiniteProductStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProductStatement.lean:9:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProductStatement.lean:9:99: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProductStatement.lean:9:55: Unused tactic linter: `exact GlobalTheory.JacobiTriple.finTriple` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteProductStatement.lean:9:99: Unused tactic linter: `(intros; apply GlobalTheory.JacobiTriple.finTriple <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8744/8782] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleFiniteCoeffTendstoAndBoundedStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteCoeffTendstoAndBoundedStatement.lean:9:74: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteCoeffTendstoAndBoundedStatement.lean:9:137: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteCoeffTendstoAndBoundedStatement.lean:9:74: Unused tactic linter: `exact GlobalTheory.JacobiTriple.finCoeff_tendsto_and_bounded` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleFiniteCoeffTendstoAndBoundedStatement.lean:9:137: Unused tactic linter: `(intros;
+  apply GlobalTheory.JacobiTriple.finCoeff_tendsto_and_bounded <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8746/8782] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleProductLimitStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleProductLimitStatement.lean:9:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleProductLimitStatement.lean:9:147: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleProductLimitStatement.lean:9:79: Unused tactic linter: `exact GlobalTheory.JacobiTriple.tendsto_finCoeff_sum_jacobiTheta₂` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/JacobiTripleProductLimitStatement.lean:9:147: Unused tactic linter: `(intros;
+  apply GlobalTheory.JacobiTriple.tendsto_finCoeff_sum_jacobiTheta₂ <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8750/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.OddThetaProductSiegelModularSTransformStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelModularSTransformStatement.lean:9:48: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelModularSTransformStatement.lean:9:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelModularSTransformStatement.lean:9:48: Unused tactic linter: `exact GlobalTheory.Sieg.ThInv.th_S` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelModularSTransformStatement.lean:9:85: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.ThInv.th_S <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8752/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedThetaQProductEqOddThetaProductQuotientStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductEqOddThetaProductQuotientStatement.lean:9:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductEqOddThetaProductQuotientStatement.lean:9:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductEqOddThetaProductQuotientStatement.lean:9:59: Unused tactic linter: `exact GlobalTheory.Sieg.ThQuot.cth_eq_th_quot` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductEqOddThetaProductQuotientStatement.lean:9:107: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.ThQuot.cth_eq_th_quot <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8754/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.OddThetaProductSiegelEqZeroIffLatticeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelEqZeroIffLatticeStatement.lean:9:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelEqZeroIffLatticeStatement.lean:9:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelEqZeroIffLatticeStatement.lean:9:54: Unused tactic linter: `exact GlobalTheory.ThZero.th_eq_zero_iff` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/OddThetaProductSiegelEqZeroIffLatticeStatement.lean:9:97: Unused tactic linter: `(intros; apply GlobalTheory.ThZero.th_eq_zero_iff <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8756/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedThetaQProductModularSTransformStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductModularSTransformStatement.lean:9:51: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductModularSTransformStatement.lean:9:91: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductModularSTransformStatement.lean:9:51: Unused tactic linter: `exact GlobalTheory.Sieg.cth_modular_S` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedThetaQProductModularSTransformStatement.lean:9:91: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.cth_modular_S <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8757/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitModularSSmul
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularSSmul.lean:22:15: This simp argument is unused:
+  UpperHalfPlane.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8758/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitModularSSmulStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularSSmulStatement.lean:9:42: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularSSmulStatement.lean:9:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularSSmulStatement.lean:9:42: Unused tactic linter: `exact GlobalTheory.Sieg.sg_S` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularSSmulStatement.lean:9:73: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.sg_S <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8760/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitModularGroupTSmulStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularGroupTSmulStatement.lean:9:47: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularGroupTSmulStatement.lean:9:83: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularGroupTSmulStatement.lean:9:47: Unused tactic linter: `exact GlobalTheory.Sieg.sg_T_smul` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitModularGroupTSmulStatement.lean:9:83: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.sg_T_smul <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8761/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.AdmissibleOfSl2Action
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AdmissibleOfSl2Action.lean:31:4: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8762/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.AdmissibleOfSl2ActionStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AdmissibleOfSl2ActionStatement.lean:9:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AdmissibleOfSl2ActionStatement.lean:9:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AdmissibleOfSl2ActionStatement.lean:9:56: Unused tactic linter: `exact GlobalTheory.Sieg.admissible_act_SL2` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/AdmissibleOfSl2ActionStatement.lean:9:101: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.admissible_act_SL2 <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8764/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularLawOfSAndTStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ModularLawOfSAndTStatement.lean:9:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ModularLawOfSAndTStatement.lean:9:115: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ModularLawOfSAndTStatement.lean:9:63: Unused tactic linter: `exact GlobalTheory.Sieg.modular_law_of_generators` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ModularLawOfSAndTStatement.lean:9:115: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.modular_law_of_generators <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8766/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelFunctionTransformationStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelFunctionTransformationStatement.lean:9:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelFunctionTransformationStatement.lean:9:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelFunctionTransformationStatement.lean:9:45: Unused tactic linter: `exact GlobalTheory.Sieg.sg_smul` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelFunctionTransformationStatement.lean:9:79: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.sg_smul <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8768/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitIndexAddIntVectorStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitIndexAddIntVectorStatement.lean:9:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitIndexAddIntVectorStatement.lean:9:93: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitIndexAddIntVectorStatement.lean:9:52: Unused tactic linter: `exact GlobalTheory.Sieg.Per.sg_add_int` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitIndexAddIntVectorStatement.lean:9:93: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.Per.sg_add_int <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8769/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitQExpansionCoeffsIntegralStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitQExpansionCoeffsIntegralStatement.lean:9:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitQExpansionCoeffsIntegralStatement.lean:9:99: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitQExpansionCoeffsIntegralStatement.lean:9:55: Unused tactic linter: `exact GlobalTheory.SiegQ.sg_expansion_int` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitQExpansionCoeffsIntegralStatement.lean:9:99: Unused tactic linter: `(intros; apply GlobalTheory.SiegQ.sg_expansion_int <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8770/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelUnitInTowerAnEqSiegelUnitOnComplex
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplex.lean:42:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplex.lean:141:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplex.lean:155:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplex.lean:147:29: This simp argument is unused:
+  Matrix.cons_val_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hMdef, hPx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplex.lean:149:29: This simp argument is unused:
+  Matrix.cons_val_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hMdef, hPx, Matrix.cons_val_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplex.lean:149:50: This simp argument is unused:
+  Matrix.cons_val_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hMdef, hPx, Matrix.cons_val_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8771/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelUnitInTowerAnEqSiegelUnitOnComplexStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplexStatement.lean:9:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplexStatement.lean:9:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplexStatement.lean:9:58: Unused tactic linter: `exact GlobalTheory.KZ.SiegelMem.an_siegel_eq` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitInTowerAnEqSiegelUnitOnComplexStatement.lean:9:105: Unused tactic linter: `(intros; apply GlobalTheory.KZ.SiegelMem.an_siegel_eq <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8774/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitCoeffGaloisLevelStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitCoeffGaloisLevelStatement.lean:9:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitCoeffGaloisLevelStatement.lean:9:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitCoeffGaloisLevelStatement.lean:9:57: Unused tactic linter: `exact GlobalTheory.Sieg.sg_coeff_galois_int` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedSiegelUnitCoeffGaloisLevelStatement.lean:9:103: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.sg_coeff_galois_int <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8775/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelUnitQExpansionCoefficientsStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitQExpansionCoefficientsStatement.lean:9:48: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitQExpansionCoefficientsStatement.lean:9:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitQExpansionCoefficientsStatement.lean:9:48: Unused tactic linter: `exact GlobalTheory.KExp.siegel_exp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitQExpansionCoefficientsStatement.lean:9:85: Unused tactic linter: `(intros; apply GlobalTheory.KExp.siegel_exp <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8777/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSmoothedEisensteinFxWeightOneStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/HasQExpansionSmoothedEisensteinFxWeightOneStatement.lean:10:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/HasQExpansionSmoothedEisensteinFxWeightOneStatement.lean:10:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/HasQExpansionSmoothedEisensteinFxWeightOneStatement.lean:10:54: Unused tactic linter: `exact GlobalTheory.Sieg.EisQ.hasQ_cF_one` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/HasQExpansionSmoothedEisensteinFxWeightOneStatement.lean:10:97: Unused tactic linter: `(intros; apply GlobalTheory.Sieg.EisQ.hasQ_cF_one; all_goals assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8779/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedEisensteinFxCoefficientSeqOneMemSubringStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedEisensteinFxCoefficientSeqOneMemSubringStatement.lean:6:75: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedEisensteinFxCoefficientSeqOneMemSubringStatement.lean:6:139: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedEisensteinFxCoefficientSeqOneMemSubringStatement.lean:6:75: Unused tactic linter: `exact GlobalTheory.KummerEisensteinGalois.smF_one_mem_subring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SmoothedEisensteinFxCoefficientSeqOneMemSubringStatement.lean:6:139: Unused tactic linter: `(intros; apply GlobalTheory.KummerEisensteinGalois.smF_one_mem_subring;
+  all_goals assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8780/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.GaloisActionSiegelUnitInTower
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/GaloisActionSiegelUnitInTower.lean:40:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/GaloisActionSiegelUnitInTower.lean:59:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/GaloisActionSiegelUnitInTower.lean:60:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/GaloisActionSiegelUnitInTower.lean:92:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/GaloisActionSiegelUnitInTower.lean:107:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/GaloisActionSiegelUnitInTower.lean:158:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8781/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsFinsupp
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFinsupp.lean:44:69: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [dm, Prod.fst_zero, Prod.snd_zero, mul_zero, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFinsupp.lean:47:57: This simp argument is unused:
+  mul_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [dm, Prod.fst_zero, Prod.snd_zero, zero_mul, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsFinsupp.lean:250:10: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+⚠ [8782/8782] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelUnitAtScaledArgumentTwoVariableExpansion
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/SiegelUnitAtScaledArgumentTwoVariableExpansion.lean:55:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (8782 jobs).

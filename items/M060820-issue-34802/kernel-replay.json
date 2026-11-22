@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "dae3dac0b66bc45b86401d149616cd9ec599c71b6807117f1fd49e72a331a411",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.PrimitiveIsoGPassesToPullbackStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.PrimitiveIsoGPassesToPullbackStatement\n"
+}

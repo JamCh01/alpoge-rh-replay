@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "d0ded1c752abf29d5bbecd2e8698770f4b4e93a62af3352b3b9af51894adb66f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelUnitAtScaledArgumentTwoVariableExpansion"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelUnitAtScaledArgumentTwoVariableExpansion\n"
+}

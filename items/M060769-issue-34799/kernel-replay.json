@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "321e58b8fd920ebf2d5937e130f6017a88878780ca92bc6e9f7a3f408a6a1019",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAbelianSchemePullbackUniversalTripleStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAbelianSchemePullbackUniversalTripleStatement\n"
+}

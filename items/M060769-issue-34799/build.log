@@ -1304,17 +1304,30 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ExistsTruncatedIntegralChart.lean:83:8: Unused tactic linter: `simp [spMap]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8825/8825] Replayed Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsCubeFramesFromPullbackTripleStatement
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsCubeFramesFromPullbackTripleStatement.lean:17:63: this tactic is never executed
+⚠ [8824/8825] Replayed Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAbelianSchemePullbackUniversalTriple
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAbelianSchemePullbackUniversalTriple.lean:18:169: Variable name `mp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _mp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8825/8825] Replayed Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAbelianSchemePullbackUniversalTripleStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAbelianSchemePullbackUniversalTripleStatement.lean:16:238: Variable name `mp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _mp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAbelianSchemePullbackUniversalTripleStatement.lean:17:65: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsCubeFramesFromPullbackTripleStatement.lean:17:115: this tactic is never executed
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAbelianSchemePullbackUniversalTripleStatement.lean:17:119: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsCubeFramesFromPullbackTripleStatement.lean:17:63: Unused tactic linter: `exact GlobalTheory.Chart.FrameUp.exists_frames_up` does nothing
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAbelianSchemePullbackUniversalTripleStatement.lean:17:65: Unused tactic linter: `exact GlobalTheory.isAbelianScheme_of_pullback_univ` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsCubeFramesFromPullbackTripleStatement.lean:17:115: Unused tactic linter: `(intros; apply GlobalTheory.Chart.FrameUp.exists_frames_up <;> assumption)` does nothing
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAbelianSchemePullbackUniversalTripleStatement.lean:17:119: Unused tactic linter: `(intros; apply GlobalTheory.isAbelianScheme_of_pullback_univ <;> assumption)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
 Build completed successfully (8825 jobs).
