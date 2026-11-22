@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "10536f74c9280da4f5130e7b679e814fde3c30107a655e2de779e9dcd045c8fc",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GoodPointOrConjugate"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.GoodPointOrConjugate\n"
+}

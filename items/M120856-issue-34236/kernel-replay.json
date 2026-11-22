@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "93fec7c77c02613ad2d3975db6c13a7b4ac518b5d4634ce262b80eefc3211bd5",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AlgebraEstimateForRegularity"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AlgebraEstimateForRegularity\n"
+}
