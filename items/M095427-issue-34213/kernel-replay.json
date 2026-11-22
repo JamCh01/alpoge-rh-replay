@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e9f753b65a23e61de12b0958fd6928dff72a58d387da4f52dd615a0b96b895da",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.JacobianActionUpperRightBlockExpCoordsStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TwistedOperators.JacobianActionUpperRightBlockExpCoordsStatement\n"
+}
