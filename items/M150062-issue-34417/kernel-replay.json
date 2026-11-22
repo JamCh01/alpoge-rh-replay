@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3743d589366ebc03c049a6b89e2f74beb4d2e2608acc9022ab7510769004ff24",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.NumberFieldFamilies.JMtInjective"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.NumberFieldFamilies.JMtInjective\n"
+}

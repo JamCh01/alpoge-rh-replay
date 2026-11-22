@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    "M150062"
+  ],
+  "started_utc": "2026-11-22T16:56:53.994058+00:00",
+  "ended_utc": "2026-11-22T16:57:00.785932+00:00",
+  "elapsed_seconds": 6.8,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 952880
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.NumberFieldFamilies.JMtInjective:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f996f9a84ae3c66ec2f16f6e7a726d66b76ca22b71743a1f581324f1e1113c61",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M150062": "f805eea587b54ac832a1ffe42f40367680e1181e6873019d1fef92c2c3338401"
+  },
+  "project_root": "/root/rh-workspace/slot-4/lean",
+  "bundle_sha256": "6f5eaa0d0011b41d9caa05cddbc7696793eb16932728f98253a84cecb4095899"
+}
