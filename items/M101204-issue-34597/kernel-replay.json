@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7f4a4410259c176ed0723624447e217a09181d78dbe6d9f1410ce44bfcf39315",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Statements.SemistableTorsion.IsIsoPullbackHom"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Statements.SemistableTorsion.IsIsoPullbackHom\n"
+}
