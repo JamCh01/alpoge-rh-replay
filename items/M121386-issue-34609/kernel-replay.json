@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "5c5e676dc81f35b5d9838f2f509873c7886694de2f2ba434942c9136892f786b",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChartPartialEqRightWordStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChartPartialEqRightWordStatement\n"
+}

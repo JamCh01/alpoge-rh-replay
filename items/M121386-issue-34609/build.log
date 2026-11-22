@@ -2644,19 +2644,17 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8958/8959] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChartAndRightWordsSmooth
-warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartAndRightWordsSmooth.lean:19:8: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
-⚠ [8959/8959] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChartAndRightWordsSmoothStatement
-warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartAndRightWordsSmoothStatement.lean:14:72: this tactic is never executed
+⚠ [8959/8959] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChartPartialEqRightWordStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartPartialEqRightWordStatement.lean:15:71: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartAndRightWordsSmoothStatement.lean:14:133: this tactic is never executed
+warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartPartialEqRightWordStatement.lean:15:131: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartAndRightWordsSmoothStatement.lean:14:72: Unused tactic linter: `exact GlobalTheory.CompanionTheory.SobGL.Smooth.smooth_all` does nothing
+warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartPartialEqRightWordStatement.lean:15:71: Unused tactic linter: `exact GlobalTheory.CompanionTheory.SobGL.Chart.chart_main` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartAndRightWordsSmoothStatement.lean:14:133: Unused tactic linter: `(intros; apply GlobalTheory.CompanionTheory.SobGL.Smooth.smooth_all <;> assumption)` does nothing
+warning: src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ChartPartialEqRightWordStatement.lean:15:131: Unused tactic linter: `(intros; apply GlobalTheory.CompanionTheory.SobGL.Chart.chart_main <;> assumption)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
 Build completed successfully (8959 jobs).
