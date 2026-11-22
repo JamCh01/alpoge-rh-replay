@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "d59742ae440906b6918328b9c55df31f96c04685f265fa295de867cd1506ba9f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrameNStHolds"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrameNStHolds\n"
+}
