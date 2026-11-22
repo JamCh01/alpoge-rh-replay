@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "c1656d5d9884877557759b5bbfb0798492025c88b9fab624effcafc7d78acd60",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.SecondLevelOfNormHolds"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.SecondLevelOfNormHolds\n"
+}

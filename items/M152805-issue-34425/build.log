@@ -1,39 +1,4 @@
-⚠ [8707/8834] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.WtGeProd
-warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/WtGeProd.lean:57:20: Variable name `inst` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _inst
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8710/8834] Replayed Lemmata.MultivariateIntegrals.IntegralMv
-warning: src/Lemmata/MultivariateIntegrals/IntegralMv.lean:57:18: Variable name `inst` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _inst
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8711/8834] Replayed Lemmata.GeneralBFactUpper.Imports
-warning: src/Lemmata/GeneralBFactUpper/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _inst
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8712/8834] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.BallRing
-warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BallRing.lean:4:18: Variable name `inst` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _inst
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8713/8834] Replayed Lemmata.GeneralBFactRightExtra.Imports
-warning: src/Lemmata/GeneralBFactRightExtra/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _inst
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8732/8834] Replayed Formalism.FormalGroupLog.Statement
+⚠ [8722/8888] Replayed Formalism.FormalGroupLog.Statement
 warning: src/Formalism/FormalGroupLog/Statement.lean:72:50: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -52,7 +17,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/FormalGroupLog/Statement.lean:72:118: Unused tactic linter: `exact @Bl.FirstLemmaM.goal1` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8741/8834] Replayed Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound
+⚠ [8731/8888] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.WtGeProd
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/WtGeProd.lean:57:20: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8732/8888] Replayed Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound
 warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:130: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -152,7 +124,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1215: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8744/8834] Replayed Formalism.IncomingBounds.FlowDegreeBounds.ProdRangeEqFactorialMulProdIco
+⚠ [8735/8888] Replayed Formalism.IncomingBounds.FlowDegreeBounds.ProdRangeEqFactorialMulProdIco
 warning: src/Formalism/IncomingBounds/FlowDegreeBounds/ProdRangeEqFactorialMulProdIco.lean:26:17: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -184,7 +156,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8745/8834] Replayed Formalism.GaussJetBounds.GaussJetProofs.NormNatCastEqPowPadicValNat
+⚠ [8737/8888] Replayed Formalism.GaussJetBounds.GaussJetProofs.NormNatCastEqPowPadicValNat
 warning: src/Formalism/GaussJetBounds/GaussJetProofs/NormNatCastEqPowPadicValNat.lean:19:166: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -264,7 +236,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GaussJetBounds/GaussJetProofs/NormNatCastEqPowPadicValNat.lean:19:1137: Unused tactic linter: `exact @GlobalTheory.NatCastUnitNorm.norm_natCast_eq_one_of_not_dvd K` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8746/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.TopsChoicePartA
+⚠ [8738/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.TopsChoicePartA
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/TopsChoicePartA.lean:157:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -286,7 +258,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8747/8834] Replayed Formalism.FormalGroupLog.FormalGroupLogProofs.HomPsSubstMvSubst
+⚠ [8739/8888] Replayed Formalism.FormalGroupLog.FormalGroupLogProofs.HomPsSubstMvSubst
 warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/HomPsSubstMvSubst.lean:29:31: Variable name `h0` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -303,7 +275,7 @@ Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/HomPsSubstMvSubst.lean:79:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8749/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.InvInt
+⚠ [8742/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.InvInt
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/InvInt.lean:71:0: automatically included section variable(s) unused in theorem `Formalism.LT.InvIntP.integral_one`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -317,7 +289,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8750/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.SigmaNormLeOne
+⚠ [8743/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.SigmaNormLeOne
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/SigmaNormLeOne.lean:27:0: automatically included section variable(s) unused in theorem `Formalism.LT.CoeffP.coeff_split`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -342,7 +314,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8751/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.MemSpanOfNormLe
+⚠ [8744/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.MemSpanOfNormLe
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/MemSpanOfNormLe.lean:20:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -403,7 +375,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/MemSpanOfNormLe.lean:129:8: Unused tactic linter: `(simp only [MvPowerSeries.coeff_map]; rfl)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8753/8834] Replayed Formalism.FormalGroupLog.FormalGroupLogProofs.ConstantCoeffSubstOfZero
+⚠ [8746/8888] Replayed Formalism.FormalGroupLog.FormalGroupLogProofs.ConstantCoeffSubstOfZero
 warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/ConstantCoeffSubstOfZero.lean:48:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -414,7 +386,7 @@ macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
 warning: src/Formalism/FormalGroupLog/FormalGroupLogProofs/ConstantCoeffSubstOfZero.lean:248:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8754/8834] Replayed Formalism.FormalGroupLog.LogDeterminesLaw
+⚠ [8747/8888] Replayed Formalism.FormalGroupLog.LogDeterminesLaw
 warning: src/Formalism/FormalGroupLog/LogDeterminesLaw.lean:67:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -424,14 +396,14 @@ Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus fa
 warning: src/Formalism/FormalGroupLog/LogDeterminesLaw.lean:88:91: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8755/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.MapSubtypeInjective
+⚠ [8748/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.MapSubtypeInjective
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/MapSubtypeInjective.lean:32:0: automatically included section variable(s) unused in theorem `Formalism.LT.Asm.integralMv_X`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8756/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.CoeffSubstAddCMulXPow
+⚠ [8749/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.CoeffSubstAddCMulXPow
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/CoeffSubstAddCMulXPow.lean:84:0: automatically included section variable(s) unused in theorem `Formalism.LT.CongrP.mv_coeff_eq`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -444,7 +416,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8757/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.IsHomOfSubstEqSmul
+⚠ [8750/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.IsHomOfSubstEqSmul
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/IsHomOfSubstEqSmul.lean:97:0: automatically included section variable(s) unused in theorem `Formalism.LT.PadicP.isPow_iff_of_not_dvd`:
   hp
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -457,7 +429,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hf0
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8759/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.TorsionNormIterProof
+⚠ [8752/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.TorsionNormIterProof
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/TorsionNormIterProof.lean:24:0: automatically included section variable(s) unused in theorem `Formalism.LT.TorsProof.eval_eq`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -476,7 +448,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8760/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.NormNatCastOfNotDvd
+⚠ [8753/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.NormNatCastOfNotDvd
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/NormNatCastOfNotDvd.lean:42:2: Try this: 
   haveI̵
 
@@ -526,7 +498,7 @@ Note: This linter can be disabled with `set_option linter.dupNamespace false`
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/NormNatCastOfNotDvd.lean:181:8: The namespaces `Formalism`, `LT`, and `ExpP` are duplicated in the declaration `Formalism.LT.ExpP.Formalism.LT.ExpP.QuasiLogShift_valid_direct`.
 
 Note: This linter can be disabled with `set_option linter.dupNamespace false`
-⚠ [8762/8834] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.LTLemma
+⚠ [8755/8888] Replayed Formalism.TorsionNormIteration.InverseIntegralClasses.LTLemma
 warning: src/Formalism/TorsionNormIteration/InverseIntegralClasses/LTLemma.lean:201:0: automatically included section variable(s) unused in theorem `Formalism.LT.LTL.dv_neg`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -566,7 +538,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] [Fintype ι] [DecidableEq ι] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8763/8834] Replayed Formalism.TorsionNormIteration.LubinTateExample
+⚠ [8756/8888] Replayed Formalism.TorsionNormIteration.LubinTateExample
 warning: src/Formalism/TorsionNormIteration/LubinTateExample.lean:37:10: This simp argument is unused:
   Polynomial.coeff_X
 
@@ -581,7 +553,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8766/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.CoeffSubstLgFOfDegreeOne
+⚠ [8759/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.CoeffSubstLgFOfDegreeOne
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/CoeffSubstLgFOfDegreeOne.lean:23:35: Variable name `hp` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -643,7 +615,7 @@ Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus fa
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/CoeffSubstLgFOfDegreeOne.lean:336:6: Unused tactic linter: `beta_reduce` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8767/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.ExponentialSpecification
+⚠ [8760/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.ExponentialSpecification
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/ExponentialSpecification.lean:53:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.FormalExponential.norm_eq_one_of_pow`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -656,7 +628,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8769/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.SolveV
+⚠ [8762/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.SolveV
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/SolveV.lean:201:0: automatically included section variable(s) unused in theorem `Formalism.FG.SolveVAux.seq_succ`:
   [Finite ι]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -669,7 +641,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [Finite ι] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8770/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffExpandEqZero
+⚠ [8763/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffExpandEqZero
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/CoeffExpandEqZero.lean:33:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -677,7 +649,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8771/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffV
+⚠ [8764/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffV
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/CoeffV.lean:24:0: automatically included section variable(s) unused in theorem `Formalism.FG.CoefficientBoundsFormalGroupWitt.coeff_split`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -691,7 +663,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8772/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.InvIntV
+⚠ [8765/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.InvIntV
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/InvIntV.lean:34:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -944,14 +916,21 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/InvIntV.lean:345:10: Unused tactic linter: `(rw [← MvPowerSeries.coe_substAlgHom hs]; exact map_sub _ _ _)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8773/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.IntegralSubstVector
+⚠ [8766/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.IntegralSubstVector
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/IntegralSubstVector.lean:22:0: automatically included section variable(s) unused in theorem `Formalism.FG.IntegralSubstitution.integral_one`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8774/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationSubstVector
+⚠ [8767/8888] Replayed Lemmata.MultivariateIntegrals.IntegralMv
+warning: src/Lemmata/MultivariateIntegrals/IntegralMv.lean:57:18: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8768/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationSubstVector
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/FunctionalEquationSubstVector.lean:58:108: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1057,14 +1036,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/FunctionalEquationSubstVector.lean:58:1096: Unused tactic linter: `exact @Bl.ProductIntegralBounds.goal1 K` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8775/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationHomVector
+⚠ [8769/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationHomVector
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/FunctionalEquationHomVector.lean:34:0: automatically included section variable(s) unused in theorem `Formalism.FG.FunctionalEquationHom.two_le_q`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8777/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.GroupV
+⚠ [8771/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.GroupV
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/GroupV.lean:57:0: automatically included section variable(s) unused in theorem `Formalism.FG.FormalGroupCoefficients.hsX`:
   [DecidableEq ι]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1090,14 +1069,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8778/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.CongrV
+⚠ [8772/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.CongrV
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/CongrV.lean:214:0: automatically included section variable(s) unused in theorem `Formalism.FG.CongrVAux.coeff_ofFun`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8780/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.WittTeichmullerRoot
+⚠ [8774/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.WittTeichmullerRoot
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/WittTeichmullerRoot.lean:38:2: Try this: 
   haveI̵
 
@@ -1114,7 +1093,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8782/8834] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.HeightV
+⚠ [8776/8888] Replayed Formalism.FormalGroupWitt.FormalGroupWittProofs.HeightV
 warning: src/Formalism/FormalGroupWitt/FormalGroupWittProofs/HeightV.lean:17:0: automatically included section variable(s) unused in theorem `Formalism.FG.HeightVAux.subst_shift_shiftLog`:
   [NeZero m]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1133,7 +1112,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [DecidableEq ι] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8785/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.IpNormPowSubPowLe
+⚠ [8779/8888] Replayed Lemmata.GeneralBFactUpper.Imports
+warning: src/Lemmata/GeneralBFactUpper/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8780/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.IpNormPowSubPowLe
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/IpNormPowSubPowLe.lean:16:106: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1209,7 +1195,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/IpNormPowSubPowLe.lean:16:744: Unused tactic linter: `exact @Bl.general_b_fact_upper.goal1 K` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8786/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.EqZeroOfPowEqOne
+⚠ [8781/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.EqZeroOfPowEqOne
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/EqZeroOfPowEqOne.lean:27:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1270,9 +1256,9 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/EqZeroOfPowEqOne.lean:198:6: Unused tactic linter: `simp only [Function.iterate_succ_apply']` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8787/8834] Replayed Formalism.IncomingBounds.FlowDegreeBounds.PadicValFactorialRatioProd
+⚠ [8782/8888] Replayed Formalism.IncomingBounds.FlowDegreeBounds.PadicValFactorialRatioProd
 warning: src/Formalism/IncomingBounds/FlowDegreeBounds/PadicValFactorialRatioProd.lean:150:57: `Nat.digits_len` has been deprecated: Use `Nat.length_digits` instead
-⚠ [8788/8834] Replayed Formalism.GaussJetBounds.GaussJetProofs.LogarithmWeightComparison
+⚠ [8783/8888] Replayed Formalism.GaussJetBounds.GaussJetProofs.LogarithmWeightComparison
 warning: src/Formalism/GaussJetBounds/GaussJetProofs/LogarithmWeightComparison.lean:79:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.subst_genLogTrunc`:
   [DecidableEq τ]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1320,7 +1306,7 @@ warning: src/Formalism/GaussJetBounds/GaussJetProofs/LogarithmWeightComparison.l
   HasSubst.of_constantCoeff_nilpotent (fun s => by rw [hf.1 s]; exact IsNilpotent.zero)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8790/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.LocalComponentGL
+⚠ [8785/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.LocalComponentGL
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/LocalComponentGL.lean:29:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.G7.DworkIntegrality.bd_neg`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1345,7 +1331,21 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [CharZero K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8792/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.TheoremSFromKOneOf
+⚠ [8786/8888] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.BallRing
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BallRing.lean:4:18: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8788/8888] Replayed Lemmata.GeneralBFactRightExtra.Imports
+warning: src/Lemmata/GeneralBFactRightExtra/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8789/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.TheoremSFromKOneOf
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/TheoremSFromKOneOf.lean:35:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.G7.TwoS.integral_neg`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1523,7 +1523,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8793/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.IntegralPderivLgF
+⚠ [8790/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.IntegralPderivLgF
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/IntegralPderivLgF.lean:24:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.G7.DividedPowerNorms.norm_p_lt_one`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1536,7 +1536,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8794/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.NotDvdChoosePowMul
+⚠ [8791/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.NotDvdChoosePowMul
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/NotDvdChoosePowMul.lean:248:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.G7.LemOne.norm_p_lt_one`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1555,7 +1555,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8795/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.LemmaTwoOf
+⚠ [8792/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.LemmaTwoOf
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/LemmaTwoOf.lean:35:6: `Finsupp.embDomain_notin_range` has been deprecated: Use `Finsupp.embDomain_of_notMem_range` instead
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/LemmaTwoOf.lean:51:81: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/LemmaTwoOf.lean:51:81: This simp argument is unused:
@@ -1613,7 +1613,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [mul_zero, zero_mul, zero_add, mul_one] at s1 s2
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8796/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ScalingSwapLemmas
+⚠ [8793/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ScalingSwapLemmas
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/ScalingSwapLemmas.lean:229:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.G7.TwoVariableSwapLemmas.simeq_iff_sub`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1634,7 +1634,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] [CharZero K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8797/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ConstantCoeffLawFirstTwoOfThree
+⚠ [8794/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ConstantCoeffLawFirstTwoOfThree
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/ConstantCoeffLawFirstTwoOfThree.lean:190:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.G7.GramFrameCompositionLinFacts.integral_X`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1659,7 +1659,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8798/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.PartialCoboundaryLinear
+⚠ [8795/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.PartialCoboundaryLinear
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/PartialCoboundaryLinear.lean:39:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1745,7 +1745,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8799/8834] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ConstantCoeffFirstTwoOfThree
+⚠ [8796/8888] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ConstantCoeffFirstTwoOfThree
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/ConstantCoeffFirstTwoOfThree.lean:34:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1766,7 +1766,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8802/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.SubstFirstCoboundaryThree
+⚠ [8799/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.SubstFirstCoboundaryThree
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SubstFirstCoboundaryThree.lean:23:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2018,7 +2018,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SubstFirstCoboundaryThree.lean:309:6: Unused tactic linter: `exact equivalence_rules` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8805/8834] Replayed Formalism.GL3MeanSquares.HookFormulaTorsion.BimultiplicativeDivisibleTorsion
+⚠ [8803/8888] Replayed Formalism.GL3MeanSquares.HookFormulaTorsion.BimultiplicativeDivisibleTorsion
 warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/BimultiplicativeDivisibleTorsion.lean:193:2: Try this: 
   haveI̵
 
@@ -2034,7 +2034,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8808/8834] Replayed Formalism.GaussJetBounds.GaussJetProofs.Transfer
+⚠ [8806/8888] Replayed Formalism.GaussJetBounds.GaussJetProofs.Transfer
 warning: src/Formalism/GaussJetBounds/GaussJetProofs/Transfer.lean:142:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.Transfer.integral_map`:
   [CharZero F]
   [CharZero K]
@@ -2042,14 +2042,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [CharZero F] [CharZero K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8809/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.BiextensionHypothesesOfConditions
+⚠ [8807/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.BiextensionHypothesesOfConditions
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/BiextensionHypothesesOfConditions.lean:119:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.B4.simeq_sub_zero`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8826/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.FirstMomentIdempotentLaw
+⚠ [8826/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.FirstMomentIdempotentLaw
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/FirstMomentIdempotentLaw.lean:142:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.TranslateJetMomentLawAnyIdempotentLevel.zXY_eq`:
   [NeZero d]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -2110,7 +2110,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [NeZero d] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8832/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.NormLeInvOfLtOne
+⚠ [8832/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.NormLeInvOfLtOne
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/NormLeInvOfLtOne.lean:98:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2154,7 +2154,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/NormLeInvOfLtOne.lean:124:6: Unused tactic linter: `exact zpow_le_of_le hl'.le (by omega)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8833/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.CoboundaryCommutesHomomorphism
+⚠ [8833/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.CoboundaryCommutesHomomorphism
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/CoboundaryCommutesHomomorphism.lean:22:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2297,18 +2297,490 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/CoboundaryCommutesHomomorphism.lean:364:6: Unused tactic linter: `simpa using h0` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8834/8834] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.IntegralPartAtVariable
-warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/IntegralPartAtVariable.lean:90:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.SubstitutionCoefficientLemmas.integral_part_at_variable`:
+⚠ [8841/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.CoeffPowEqZeroOfCc
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:11:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.hasSubst_of_cc`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:17:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:18:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:17:4: Unused tactic linter: `exact Finsupp.degree_add a b` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:18:4: Unused tactic linter: `simp [Finsupp.degree_add]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:20:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.CoeffPowEqZeroOfCc.0.Formalism.L2.Th1.C.coeff_mul_eq_zero_of_degree_lt_add'`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:29:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:30:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:29:4: Unused tactic linter: `simp only [Finset.mem_antidiagonal] at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:30:4: Unused tactic linter: `simp at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:91:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.CoeffPowEqZeroOfCc.0.Formalism.L2.Th1.C.coeff_mul_congr_of_degree_lt`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:101:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:102:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:101:4: Unused tactic linter: `simp only [Finset.mem_antidiagonal] at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:102:4: Unused tactic linter: `simp at hp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:143:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:142:17: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:143:4: Unused tactic linter: `(field_simp; ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:230:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:288:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:291:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:288:6: Unused tactic linter: `exact PowerSeries.HasSubst.const (hasSubst_of_cc hf)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:291:4: Unused tactic linter: `(rw [PowerSeries.subst, PowerSeries.subst,
+    MvPowerSeries.subst_comp_subst_apply hs ha])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:9: Unused tactic linter: `simp only [map_smul, smul_eq_zero]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:45: Unused tactic linter: `right` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:300:52: Unused tactic linter: `exact PowerSeries.constantCoeff_X` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/CoeffPowEqZeroOfCc.lean:301:31: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8845/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.HasSecondLogDerivPowerSeriesExp
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:52:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.hasSecondLogDeriv_one`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:55:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.hasSecondLogDeriv_mul`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:92:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.hasSecondLogDeriv_right_unique`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:144:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.derivative_rescale`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:150:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.rescale_C_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:155:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.constantCoeff_rescale_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:169:17: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:169:17: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:182:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.constantCoeff_lam`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:184:21: This simp argument is unused:
+  PowerSeries.coeff_C_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lam, dblInt, PowerSeries.coeff_X_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:184:46: This simp argument is unused:
+  PowerSeries.coeff_X_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lam, dblInt, PowerSeries.coeff_C_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:191:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.prod_wpShift_form`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/HasSecondLogDerivPowerSeriesExp.lean:261:57: This simp argument is unused:
+  Derivation.map_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [PowerSeries.smul_eq_C_mul, derivative_rescale, constantCoeff_rescale_eq, constantCoeff_derivative_lam]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8847/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.USideA
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/USideA.lean:135:49: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_add, map_one, map_mul, map_pow, map_zero, sub_zero, PowerSeries.coe_substAlgHom,
+    PowerSeries.subst_X ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/USideA.lean:164:33: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hw, ← hZr, map_pow] at F3
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8870/8888] Replayed Formalism.SatakeDualWeyl.Statement
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8875/8888] Replayed Formalism.GL3MeanSquares.HookFormulaTorsion.HilbertSchmidtHalfBound
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:92:28: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.sub_apply] at h0
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:196:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:221:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:196:10: Unused tactic linter: `exact pow_le_pow_left (by linarith) hse m` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:221:12: Unused tactic linter: `rw [integral_mul_const, integral_exp_mul_Ioi ha]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:284:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:284:8: Unused tactic linter: `exact pow_le_one _ (by linarith) (by linarith)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GL3MeanSquares/HookFormulaTorsion/HilbertSchmidtHalfBound.lean:357:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8877/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.UnitaryInverseIdentity
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:45:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.UnitaryInverseIdentity.0.Formalism.L2.Th1.C.Calc.intMv_of_mul_eq_one_lemma`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:59:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:59:10: Unused tactic linter: `exact (MvPowerSeries.coeff_zero_eq_constantCoeff_apply b).trans hb0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:205:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Calc.smul_ser`:
+  [CharZero K]
+  [StarRing O]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] [StarRing O] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:210:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:210:6: Unused tactic linter: `(ext n; simp [MvPowerSeries.coeff_C_mul])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:212:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Calc.linv_add`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:219:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Calc.linv_C_mul`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:414:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:415:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:414:8: Unused tactic linter: `norm_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/UnitaryInverseIdentity.lean:415:8: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8878/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.Closure
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/Closure.lean:41:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Clo.CoeffCont.const`:
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/Closure.lean:82:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Clo.isClosed_intMv`:
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/Closure.lean:96:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Clo.cc_C_mul`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/Closure.lean:117:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Clo.cc_fadd`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/Closure.lean:212:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.Clo.addDefect_zero_right`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8880/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.IntPSDerivativeOfLG
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/IntPSDerivativeOfLG.lean:90:8: `ext` did not consume the patterns `⟨⟩`
+
+Note: This linter can be disabled with `set_option linter.unusedRCasesPattern false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/IntPSDerivativeOfLG.lean:330:13: This simp argument is unused:
+  smul_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_mul, mul_zero, zero_add, map_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/IntPSDerivativeOfLG.lean:454:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.JetSubstitutionLemmas.jet_neg`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/SecondCoefficientNorms/BinomialSeriesCoefficients/IntPSDerivativeOfLG.lean:460:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.C.JetSubstitutionLemmas.jet_sq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8885/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.psubst_one`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:33:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.one_add_X_subst`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:43:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst.0.Formalism.L2.Th1.B.constantCoeff_powerSeries_subst_mv_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:65:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst.0.Formalism.L2.Th1.B.derivative_eq_pderiv_unit`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:145:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:188:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:193:8: automatically included section variable(s) unused in theorem `_private.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.OneAddMulDerivLogSubst.0.Formalism.L2.Th1.B.hasSubst_of_forall_constantCoeff_eq_zero`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/OneAddMulDerivLogSubst.lean:294:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.constantCoeff_prim`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8886/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.LogSigmaOnePullbackSpec
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/LogSigmaOnePullbackSpec.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Ph.hs`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/LogSigmaOnePullbackSpec.lean:60:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Ph.coeff_prim_succ`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/LogSigmaOnePullbackSpec.lean:64:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Ph.coeff_zero_prim`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/LogSigmaOnePullbackSpec.lean:98:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Ph.X_mul_lU`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/LogSigmaOnePullbackSpec.lean:104:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Ph.constantCoeff_lU`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/LogSigmaOnePullbackSpec.lean:107:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Ph.constantCoeff_gauss`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8888/8888] Replayed Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.KummerThetaLogarithms.SecondLevelOfNormHolds
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:30:31: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finset.sum_range_succ, h1.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:91:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:97:9: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:121:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.BrC.ne_zero_of_norm`:
   [IsUltrametricDist K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsUltrametricDist K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/IntegralPartAtVariable.lean:219:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.SubstitutionCoefficientLemmas.coeff_diff`:
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:148:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.BrC.norm_two`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:187:0: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.D.BrC.lawLog`:
   [IsUltrametricDist K]
   [CharZero K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsUltrametricDist K] [CharZero K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-Build completed successfully (8834 jobs).
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:256:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:270:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:270:116: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:270:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:270:105: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:270:116: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/TorsionIntegrality/GaussSumParity/KummerThetaLogarithms/SecondLevelOfNormHolds.lean:270:127: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (8888 jobs).
