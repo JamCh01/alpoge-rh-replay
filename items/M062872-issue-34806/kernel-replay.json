@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e994b80569d6f79e338101c322e6324c1e39ce775d27cb4f4466d25fe044a1d6",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerCochainEqDlogCombinationFiniteLevel"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerCochainEqDlogCombinationFiniteLevel\n"
+}
