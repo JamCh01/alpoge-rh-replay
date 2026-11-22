@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "ae27a7b08dbf375cfaef891683fee5feedda8dd5aced3361a74b7e6174805461",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.SharpRestriction.Divisibility.GeneratorPowers.ChartPrimTrPfA"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.SharpRestriction.Divisibility.GeneratorPowers.ChartPrimTrPfA\n"
+}

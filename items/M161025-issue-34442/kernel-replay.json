@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "21e0325e44c530f47066ab1d3b86aa948c32936299ba6203863df803c1f680a0",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.ImportsBis"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.ImportsBis\n"
+}
