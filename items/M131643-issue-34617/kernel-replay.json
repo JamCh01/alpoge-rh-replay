@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "de74e611720fb451f6460429859ff1538f9d33a95c864856e040d72cea632932",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NormalSchemeCoordsInjectiveStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.NormalSchemeCoordsInjectiveStatement\n"
+}
