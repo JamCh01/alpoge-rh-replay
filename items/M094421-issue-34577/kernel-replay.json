@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "10acddbf8bd268eb785d78b1a7f0920eedf6061997551f43dd3f32d65a2871fe",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.GlWordJetRelationsEqZeroOfNil"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TwistedOperators.GlWordJetRelationsEqZeroOfNil\n"
+}
