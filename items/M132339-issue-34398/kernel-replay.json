@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3ebc8e436537131f674cc9deba3c7729b055bde0056d105df8338c1208a6d446",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TwoTorsionSpreadOpen"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.TwoTorsionSpreadOpen\n"
+}

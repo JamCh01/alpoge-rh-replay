@@ -1,14 +1,14 @@
 {
   "tasks": [
-    "M140774"
+    "M140789"
   ],
-  "started_utc": "2026-11-22T16:56:28.465664+00:00",
-  "ended_utc": "2026-11-22T16:56:37.089557+00:00",
+  "started_utc": "2026-11-22T16:56:28.472954+00:00",
+  "ended_utc": "2026-11-22T16:56:37.053139+00:00",
   "elapsed_seconds": 8.6,
   "host": {
     "cpu_count": 96,
     "mem_total_kib": 131617576,
-    "peak_child_rss_kib": 933800
+    "peak_child_rss_kib": 930636
   },
   "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
   "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
@@ -16,14 +16,14 @@
   "command": [
     "lake",
     "build",
-    "+Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.LeftEquivariantFunctions.GLMatrixDerivatives.ContinuousCoords:olean"
+    "+Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.LeftEquivariantFunctions.GLMatrixDerivatives.KchainSt:olean"
   ],
   "exit_code": 0,
   "log_sha256": "985475a695e70068eb64254f804a36ac812790669b476747c455fa120bad9a6a",
   "rebuilt_project_modules": [],
   "objects": {
-    "M140774": "ee9fc15df540b9011089595edc21769c92acf10af8296faf4b112e2709fd35a1"
+    "M140789": "29b39c090dd51705181cced01598c52c6dde044ea997b11c4c8f36e9b1df28c0"
   },
-  "project_root": "/root/rh-workspace/slot-2/lean",
-  "bundle_sha256": "8f1e7949d39e4151f420f5e9a1ad6ab189c7081cc9eb253df731cf513d129bbd"
+  "project_root": "/root/rh-workspace/ovl/slot-5/lean",
+  "bundle_sha256": "2a636aa286af503c4f0d6b26436a949ceb3a50e4533fc8a1602b81ca41befc11"
 }

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "e71935f3d6eeaac2c4a7923871baf4de4dca1d1b51766800e924387d2d93bbce",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusExtensionTangentExact"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusExtensionTangentExact\n"
+}

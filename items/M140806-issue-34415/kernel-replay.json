@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "acb277ecec6cb44ad6a297f8966ef7aa51cbb62723f1893f308139414af4c616",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.LeftEquivariantFunctions.GelfandFlags.TrZero"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.LeftEquivariantFunctions.GelfandFlags.TrZero\n"
+}

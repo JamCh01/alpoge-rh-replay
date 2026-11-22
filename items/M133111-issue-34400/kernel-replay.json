@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "df421e2f3f57ae384b308561e9407684c673b10768aa5d6c7ab6801fc7a23cf9",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.ArithmeticVarietyGenericFibreProjective"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AutomorphicSpectrum.Proofs.MetricProofs.ArithmeticVarietyGenericFibreProjective\n"
+}
