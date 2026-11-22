@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "92f62d3202019b961e71c54b8d49f108596399a6ee4d493ccfb7b5c9e3d74672",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.JetUniquenessAlgebraic"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.JetUniquenessAlgebraic\n"
+}

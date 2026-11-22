@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "836d3a4d9ee9b9d9adca368dfe6b388e88b5ff144e41a0b7b6cb4694e998ea8b",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftLocalPointAlongAffineFlatSurjection"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftLocalPointAlongAffineFlatSurjection\n"
+}

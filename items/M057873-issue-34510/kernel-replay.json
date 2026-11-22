@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "6168449d51f08ac884b6dfe4d2f573a894cdb3f808195c5bf39bd0966b169f2d",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUnitaryOrthogonalEmbeddingStabilizer"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUnitaryOrthogonalEmbeddingStabilizer\n"
+}

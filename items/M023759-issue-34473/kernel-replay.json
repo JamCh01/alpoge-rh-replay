@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "8ef61340141075cd72322e00142ef2be035137655102c00883c2ceeeae23d9e2",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBorelInvariantTestFunctionFrameChartStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBorelInvariantTestFunctionFrameChartStatement\n"
+}

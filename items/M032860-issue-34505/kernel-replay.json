@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "04cb7c487e8d472e2d980f6e1b161ec7bec985363842962478c8d0a9f50bd860",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FractionRingAwayEtaleDedekindArtinianReducedStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.FractionRingAwayEtaleDedekindArtinianReducedStatement\n"
+}

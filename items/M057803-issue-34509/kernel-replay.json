@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "cebd0377dd618b6475d6207db747f414fc2c70469586ef7e24a0d68a3842f186",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsSmoothCompactSupportFixLowestKTypeStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsSmoothCompactSupportFixLowestKTypeStatement\n"
+}

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "fa7f045d8cc68328df8d92eafda4d95daccde0913e34c636dbfa8d380b48ab2c",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalUnitRatioGenericLineBundleIsosStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalUnitRatioGenericLineBundleIsosStatement\n"
+}
