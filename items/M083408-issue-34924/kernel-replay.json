@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "a810b2a1a15a54b9c111204c1f917a5ff8a90ba1ce106cf7d8dcb87c75c16ab0",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.CharBundlePrimitive"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.JetHarmonics.CharBundlePrimitive\n"
+}
