@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "ce2b9ea3716dfbfd4e3755c32f15fc9f39d6a52d9e206b11a96c12898d659f99",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsCubeFramesFromPullbackTripleStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsCubeFramesFromPullbackTripleStatement\n"
+}
