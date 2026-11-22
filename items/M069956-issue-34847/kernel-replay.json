@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "21b29260f15af77c1ff1bf822b7dbc6ce82ca8fe955209882b258e0d33ddffdd",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitCoeffOfNotXPowDvdLineStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitCoeffOfNotXPowDvdLineStatement\n"
+}
