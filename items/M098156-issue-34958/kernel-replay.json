@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "c91f6099f092282d0e0d1df22bf5e8a54ed5c00c7fa31d86a576b3717eaa6655",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnramifiedDoublingIntegralInertPlaceStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnramifiedDoublingIntegralInertPlaceStatement\n"
+}
