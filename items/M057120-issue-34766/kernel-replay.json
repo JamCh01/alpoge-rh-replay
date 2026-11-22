@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "abc767350f57e499e52bc6fd198a9b03bd84d1a0bdf3561a6dc677a60e57233e",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ContDensityOnEqFibreIntegral"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.ContDensityOnEqFibreIntegral\n"
+}
