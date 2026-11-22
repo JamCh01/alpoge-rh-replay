@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    "M140780"
+  ],
+  "started_utc": "2026-11-22T17:35:39.037791+00:00",
+  "ended_utc": "2026-11-22T17:35:47.869186+00:00",
+  "elapsed_seconds": 8.8,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 924596
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ArchimedeanGelfandKernels.LeftEquivariantFunctions.GLMatrixDerivatives.HalfOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8d7b945e0dccc476fad28723cdb2c6f1cd894a4a8e3c7addbef77094214e151c",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M140780": "836138f7b229a8d5b91dbe462aafba62e6e69c0435be1771fb76b8ffd5601b58"
+  },
+  "project_root": "/root/rh-workspace/ovl/slot-16/lean",
+  "bundle_sha256": "d609afa0b41477a3712a41066b283b7a3d25ea92d0b144e2930e06c35dc3f652"
+}

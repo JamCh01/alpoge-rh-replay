@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "9957fec9812ab9d1d0b4a342c6019140b1649eb0101b7bbaed03c1a0dd2553b2",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.Columns.MtAdWtIrr"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.Columns.MtAdWtIrr\n"
+}

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7a6b6e9fd1480935aba50c949cb32f6d011d54ae5e6599d306db5a1eb69db76f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.GaloisLevelStructure.LevelQ"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.GaloisLevelStructure.LevelQ\n"
+}

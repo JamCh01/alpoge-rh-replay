@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "aeaf24ef11cc484d9b2900e4a23bea159064fc5ede0d125195171b5f80822571",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.IndefiniteReal.FinitePlaces.ExistsSmulOfMapResidueEqZero"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.IndefiniteReal.FinitePlaces.ExistsSmulOfMapResidueEqZero\n"
+}
