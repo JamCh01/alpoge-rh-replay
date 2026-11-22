@@ -1,4 +1,4 @@
-⚠ [8710/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt
+⚠ [8710/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubicalPullBaseChangeSt.lean:45:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Semi.rigPull_le`:
   [IsCommMonObj G']
   [IsCommMonObj G]
@@ -36,7 +36,7 @@ Hint: Omit it from the simp argument list.
     CartesianMonoidalCategory.tensorHom_snd_assoc]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8718/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaPt
+⚠ [8718/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaPt
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ThetaPt.lean:59:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Out.chart_le_zero`:
   [GrpObj A]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -61,7 +61,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [GrpObj A] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8723/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaVV
+⚠ [8723/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThetaVV
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ThetaVV.lean:21:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Out.liftHom_apply`:
   [GrpObj A]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -74,14 +74,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [GrpObj A] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8725/8835] Replayed Formalism.LocalToGlobal.ProjectiveLattices.SubConstMemOrig
+⚠ [8725/8838] Replayed Formalism.LocalToGlobal.ProjectiveLattices.SubConstMemOrig
 warning: src/Formalism/LocalToGlobal/ProjectiveLattices/SubConstMemOrig.lean:114:8: Variable name `i` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _i
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8726/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CocycleRightZeroThd
+⚠ [8726/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CocycleRightZeroThd
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:45:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -109,9 +109,9 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:87:2: The namespace `G` is duplicated in the declaration `ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ.FB.G`.
 
 Note: This linter can be disabled with `set_option linter.dupNamespace false`
-⚠ [8729/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.ConnectionKillsSeries
+⚠ [8729/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.ConnectionKillsSeries
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/ConnectionKillsSeries.lean:134:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8738/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.LinCombTrivG
+⚠ [8738/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.LinCombTrivG
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/LinCombTrivG.lean:29:19: Unused tactic linter: `(try erw [map_one])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
@@ -165,7 +165,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/LinCombTrivG.lean:97:42: Unused tactic linter: `(try erw [map_one])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8745/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.DegProd
+⚠ [8745/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.DegProd
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/DegProd.lean:73:4: Try this: 
   haveI̵
 
@@ -201,622 +201,21 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsCommMonObj G'] [IsCommMonObj G] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8749/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermDJet
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:29:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:30:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:29:4: Unused tactic linter: `simp [Finsupp.degree]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:30:4: Unused tactic linter: `exact Finsupp.degree_apply e` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:166:40: This simp argument is unused:
-  Matrix.cons_val_one
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [power_series_in_fin_one, Matrix.head_cons]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:166:61: This simp argument is unused:
-  Matrix.head_cons
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [power_series_in_fin_one, Matrix.cons_val_one]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8751/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBTransport
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:77:55: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:77:55: Unused tactic linter: `simp` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:473:19: `Finsupp.coe_finset_sum` has been deprecated: Use `Finsupp.coe_finsetSum` instead
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:481:28: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:485:29: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:481:28: Unused tactic linter: `simp` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:485:29: Unused tactic linter: `simp` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBTransport.lean:499:14: `Finsupp.mapDomain_finset_sum` has been deprecated: Use `Finsupp.mapDomain_finsetSum` instead
-⚠ [8752/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.AppCompatGeneric
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:21:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:22:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:21:4: Unused tactic linter: `(rw [Scheme.Hom.comp_app]; rfl)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:22:4: Unused tactic linter: `simp` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:40:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:40:4: Unused tactic linter: `simpa using hz' k` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:50:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:51:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:52:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:50:4: Unused tactic linter: `rw [Scheme.appLE_comp_appLE]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:51:4: Unused tactic linter: `simp [Scheme.Hom.appLE_comp_appLE]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/AppCompatGeneric.lean:52:4: Unused tactic linter: `rfl` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8753/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.PullUUnitsCompatGeneric
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/PullUUnitsCompatGeneric.lean:81:20: This simp argument is unused:
-  CommRingCat.hom_id
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [res, pullU, Units.coe_map]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/PullUUnitsCompatGeneric.lean:81:55: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/PullUUnitsCompatGeneric.lean:108:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/PullUUnitsCompatGeneric.lean:108:4: Unused tactic linter: `(ext; simp [pullU, Scheme.comp_app])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8754/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.HasGen
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:36:36: Unused tactic linter: `exact Fintype.prod_empty _` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:37:30: Unused tactic linter: `exact Fintype.prod_empty _` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:73:77: This simp argument is unused:
-  res_res
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [LB.LinComb, Fintype.prod_sum_type, map_prod, map_zpow]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:51:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:52:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:76:10: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:51:8: Unused tactic linter: `(simp [res, ← Functor.map_comp_apply])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:52:8: Unused tactic linter: `(simp [res]; rfl)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:73:87: Unused tactic linter: `rfl` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:76:10: Unused tactic linter: `(
-  simp [LB.LinComb, Fintype.prod_sum_type, map_prod, map_zpow]
-  congr 1 <;> refine Finset.prod_congr rfl fun k _ => ?_ <;> rw [res_res])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:94:10: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:95:10: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:94:10: Unused tactic linter: `(simp [LB.LinComb, zpow_neg, Finset.prod_inv_distrib]; rfl)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/HasGen.lean:95:10: Unused tactic linter: `(unfold LB.LinComb; simp [zpow_neg, Finset.prod_inv_distrib])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8755/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBCorr
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBCorr.lean:163:49: Variable name `ht` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _ht
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBCorr.lean:188:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBCorr.lean:188:6: Unused tactic linter: `exact
-  (res_res_lemma _ _ _).trans ((res_res_lemma _ _ _).trans (pullU_comp_lemma _ _ _ _ _))` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBCorr.lean:211:58: Variable name `ht` is not explicitly referenced.
-
-Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
-  [apply] _ht
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8757/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.FBIdJet
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:19:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:20:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:27:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:45:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:46:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:53:56: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:55:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:56:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:57:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:58:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:19:6: Unused tactic linter: `exact Finsupp.le_degree e i` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:20:6: Unused tactic linter: `(
-  by_cases hi : e i = 0
-  · omega
-  ·
-    exact
-      Finset.single_le_sum (f := fun j => e j) (fun _ _ => Nat.zero_le _) (Finsupp.mem_support_iff.2 hi))` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:27:6: Unused tactic linter: `simp [Finsupp.degree, Finsupp.sum]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:45:6: Unused tactic linter: `exact Finset.sum_ite_eq (degLE m) e (fun x => MvPowerSeries.coeff x f)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:46:6: Unused tactic linter: `simp` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:53:56: Unused tactic linter: `omega` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:55:6: Unused tactic linter: `(rw [MvPowerSeries.coeff_truncTotal_eq_zero]; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:56:6: Unused tactic linter: `exact (MvPowerSeries.coeff_truncTotal_of_le (by omega)).symm` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:57:6: Unused tactic linter: `simp [MvPowerSeries.truncTotal, MvPowerSeries.truncTotalFun, MvPolynomial.coeff_sum,
-  h]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:58:6: Unused tactic linter: `(simp [MvPowerSeries.truncTotal, h]; done)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:74:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:81:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:74:6: Unused tactic linter: `(unfold orig; exact Ideal.subset_span ⟨i, rfl⟩)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:81:4: Unused tactic linter: `(unfold Finsupp.prod; simpa [Finsupp.degree] using h1)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:92:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:91:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:92:4: Unused tactic linter: `simp [MvPowerSeries.coeff_truncTotal, he]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:110:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:115:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:116:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:117:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:110:6: Unused tactic linter: `exact Finsupp.mem_antidiagonal.1 hx` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:115:6: Unused tactic linter: `exact (Finsupp.degree_add x.1 x.2).symm` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:116:6: Unused tactic linter: `simp [Finsupp.degree, Finsupp.sum_add_index']` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:117:6: Unused tactic linter: `(simp only [Finsupp.degree_eq_weight_one, map_add])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:129:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:128:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:129:4: Unused tactic linter: `simp [psTrunc_eq, MvPowerSeries.coeff_truncTotal, he]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:149:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:149:6: Unused tactic linter: `exact congrArg _ (by ring)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:157:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:157:4: Unused tactic linter: `(
-  have h := mk_trunc_coe (R := R) (ι := ι) m 1
-  rw [MvPolynomial.coe_one] at h
-  rw [psTrunc_eq, h, map_one])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:172:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
-If you'd rather continue using `push_neg` in your project, you can implement it as follows:
-```
-open Lean.Parser.Tactic in
-macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
-  `(tactic| push $cfg:optConfig Not $[$loc]?)
-```
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:188:41: This simp argument is unused:
-  Finsupp.single_eq_of_ne (Ne.symm h)
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [Finsupp.coe_add, Finsupp.coe_tsub, Pi.add_apply, Pi.sub_apply, Finsupp.single_eq_of_ne h]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:169:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:184:12: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:185:12: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:189:12: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:195:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:169:6: Unused tactic linter: `(rw [MvPowerSeries.coeff_zero_eq_constantCoeff_apply, hg, map_zero];
-  exact Ideal.zero_mem _)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:184:12: Unused tactic linter: `(simp [Finsupp.single_apply]; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:185:12: Unused tactic linter: `simp [Finsupp.single_apply]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:189:12: Unused tactic linter: `simp [Finsupp.single_apply, h, Ne.symm h]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:195:6: Unused tactic linter: `(unfold orig; exact Ideal.subset_span ⟨i, rfl⟩)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:204:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:205:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:207:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:204:6: Unused tactic linter: `simp [MvPolynomial.algebraMap_eq]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:205:6: Unused tactic linter: `(rw [MvPolynomial.aeval_C, MvPolynomial.aeval_C, MvPolynomial.algebraMap_eq, MvPolynomial.coe_C];
-  rfl)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:207:6: Unused tactic linter: `(ext n;
-  simp [MvPowerSeries.coeff_C, MvPolynomial.coeff_C, MvPolynomial.algebraMap_eq])` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:270:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:276:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:280:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:287:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:301:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:308:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:330:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:270:6: Unused tactic linter: `exact ⟨fun s => by rw [ha s]; exact IsNilpotent.zero, fun d => Set.toFinite _⟩` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:276:8: Unused tactic linter: `exact Finsupp.degree_eq_zero_iff.1 (by omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:280:6: Unused tactic linter: `(rw [MvPowerSeries.coeff_zero_eq_constantCoeff_apply]; exact ha i)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:287:8: Unused tactic linter: `simp [Finsupp.degree]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:301:8: Unused tactic linter: `simp [hprod d e (by omega)]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:308:6: Unused tactic linter: `(
-  have h := MvPowerSeries.subst_add hS (psTrunc m f : MvPowerSeries σ R) (f - (psTrunc m f : MvPowerSeries σ R))
-  rw [MvPowerSeries.subst_coe] at h
-  rw [← h]
-  congr 1
-  ring)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdJet.lean:330:6: Unused tactic linter: `exact congrArg _ (by linear_combination hsplit)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8758/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.FBIdSy
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:48:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:48:4: Unused tactic linter: `simp [Finsupp.degree, Finsupp.sum]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:53:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:53:4: Unused tactic linter: `(
-  rw [degree_eq_sum_lemma_2, degree_eq_sum_lemma_2, degree_eq_sum_lemma_2]
-  exact Finsupp.sum_add_index' (h := fun _ k => k) (fun _ => rfl) (fun _ _ _ => rfl))` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:168:31: `Finsupp.support_single_ne_zero` has been deprecated: Use `Finsupp.support_single` instead
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:180:12: `MvPolynomial.coeff_X'` has been deprecated: Use `MvPolynomial.coeff_X` instead
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:182:30: This simp argument is unused:
-  h2
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [h4]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/FBIdSy.lean:269:24: This simp argument is unused:
-  Units.val_mul
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [scaleGenG, map_mul, mul_assoc]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8759/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.CartesianLiftThreeCompProjection
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:20:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.lf_add`:
-  [GrpObj A]
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [GrpObj A] [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:23:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.lf_neg`:
-  [GrpObj A]
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [GrpObj A] [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:26:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.lf_sub`:
-  [GrpObj A]
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [GrpObj A] [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:29:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.lf_smul`:
-  [GrpObj A]
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [GrpObj A] [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:32:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.lf_single`:
-  [GrpObj A]
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [GrpObj A] [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:36:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.lf_pull`:
-  [GrpObj A]
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [GrpObj A] [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:42:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.padd_eq_mul`:
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:54:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.cartesian_lift_three_comp_projection`:
-  [GrpObj A]
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [GrpObj A] [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:66:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:67:4: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:66:4: Unused tactic linter: `rfl` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:67:4: Unused tactic linter: `(ext I; fin_cases I <;> simp)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:97:45: This simp argument is unused:
-  or_self
-
-Hint: Omit it from the simp argument list.
-  [apply] simp (config := { decide := true }) only [Finset.sum_insert, Finset.mem_insert, Finset.mem_singleton,
-    Finset.sum_singleton, not_false_eq_true, p0, p1, p2, p3, p01, p02, p12, p012]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:99:64: This simp argument is unused:
-  or_self
-
-Hint: Omit it from the simp argument list.
-  [apply] simp (config := { decide := true }) only [Finset.card_empty, Finset.card_singleton,
-    Finset.card_insert_of_notMem, Finset.mem_insert, Finset.mem_singleton, not_false_eq_true]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:109:46: `Finsupp.mapDomain_finset_sum` has been deprecated: Use `Finsupp.mapDomain_finsetSum` instead
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:226:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.comp_pow'`:
-  [IsCommMonObj A]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsCommMonObj A] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/CartesianLiftThreeCompProjection.lean:232:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.DVR.act_zero'`:
-  [StarRing O]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [StarRing O] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8760/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBPull
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:54:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:54:8: Unused tactic linter: `simp only [map_prod, map_zpow]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:71:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:131:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:131:8: Unused tactic linter: `simp only [map_prod, map_zpow]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8761/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ThetaSwapFirstTwo
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:41:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
-If you'd rather continue using `push_neg` in your project, you can implement it as follows:
-```
-open Lean.Parser.Tactic in
-macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
-  `(tactic| push $cfg:optConfig Not $[$loc]?)
-```
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:141:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:142:8: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:141:8: Unused tactic linter: `simp` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:142:8: Unused tactic linter: `rfl` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:151:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:152:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:151:6: Unused tactic linter: `simp [cc_psTrunc]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ThetaSwapFirstTwo.lean:152:6: Unused tactic linter: `(
-  rw [show
-      (rename fun p : Fin n × Fin d => (r p.1, p.2)) (psTrunc m f) =
-        aeval (fun p : Fin n × Fin d => (X (r p.1, p.2) : MvPolynomial (Fin n' × Fin d) S)) (psTrunc m f)
-      from DFunLike.congr_fun (MvPolynomial.algHom_ext fun i => by simp) _]
-  rw [cc_aeval _ (fun p => by simp)]
-  exact cc_psTrunc m f)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8771/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabComp
+⚠ [8756/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabComp
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabComp.lean:65:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabComp.lean:65:6: Unused tactic linter: `exact MonObj.lift_comp_one_right _ _` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8772/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PullCub
+⚠ [8757/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PullCub
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/PullCub.lean:371:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.pt_eq`:
   [Fintype K]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [Fintype K] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8773/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.DvrData
+⚠ [8758/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.DvrData
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/DvrData.lean:53:8: `Ideal.bot_prime` has been deprecated: Use `Ideal.isPrime_bot` instead
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/DvrData.lean:63:2: Try this: 
   haveI̵
@@ -850,7 +249,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8777/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabPull
+⚠ [8762/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabPull
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/SabPull.lean:93:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.psum_hom`:
   [IsCommMonObj G]
   [IsCommMonObj G']
@@ -858,7 +257,23 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsCommMonObj G] [IsCommMonObj G'] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8778/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ValCalc
+⚠ [8764/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBPull
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:54:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:54:8: Unused tactic linter: `simp only [map_prod, map_zpow]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:71:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:131:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean:131:8: Unused tactic linter: `simp only [map_prod, map_zpow]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8765/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ValCalc
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/ValCalc.lean:45:7: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -883,7 +298,42 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [Scheme.Hom.comp_app]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8781/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBLocalC
+⚠ [8772/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ChartFrameTrA
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartFrameTrA.lean:48:47: This simp argument is unused:
+  Units.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Units.coe_map, MonoidHom.coe_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8775/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermDJet
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:29:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:30:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:29:4: Unused tactic linter: `simp [Finsupp.degree]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:30:4: Unused tactic linter: `exact Finsupp.degree_apply e` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:166:40: This simp argument is unused:
+  Matrix.cons_val_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [power_series_in_fin_one, Matrix.head_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDJet.lean:166:61: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [power_series_in_fin_one, Matrix.cons_val_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8777/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBLocalC
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBLocalC.lean:95:68: Variable name `ε` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -951,7 +401,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsDomain V] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8782/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermBFr
+⚠ [8778/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermBFr
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermBFr.lean:148:0: automatically included section variable(s) unused in theorem `Formalism.MainNotions.ModuliIntegralCharts.H1.GermB.jpt_aug`:
   [IsLocalRing S]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -970,7 +420,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsLocalRing S] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8783/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermBSer
+⚠ [8779/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermBSer
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermBSer.lean:141:16: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -992,15 +442,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermBSer.lean:225:6: Unused tactic linter: `exact ReciprocityTheory.ChartRestriction.G.Geo.Tor.val_corr (htr m) _ hJ` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8789/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ChartFrameTrA
-warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartFrameTrA.lean:48:47: This simp argument is unused:
-  Units.val_mk
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [Units.coe_map, MonoidHom.coe_coe]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8790/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermBPrim
+⚠ [8780/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermBPrim
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermBPrim.lean:148:45: This simp argument is unused:
   Fin.prod_univ_one
 
@@ -1009,7 +451,7 @@ Hint: Omit it from the simp argument list.
     Fintype.prod_unique]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8791/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.FamMod
+⚠ [8781/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.FamMod
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/FamMod.lean:79:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1028,14 +470,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/FamMod.lean:85:8: Unused tactic linter: `exact Scheme.congr_app hfp ⊤` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8793/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CubeVal
+⚠ [8783/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CubeVal
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CubeVal.lean:121:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.val_cub`:
   [IsCommMonObj G]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
   omit [IsCommMonObj G] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8794/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.PhiGenPf
+⚠ [8784/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.PhiGenPf
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/PhiGenPf.lean:261:48: `Fin.coe_castSucc` has been deprecated: Use `Fin.val_castSucc` instead
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/PhiGenPf.lean:355:41: This simp argument is unused:
   tr_pr
@@ -1044,7 +486,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [← Category.assoc, tr_fst]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8795/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.RosVal
+⚠ [8785/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.RosVal
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/RosVal.lean:35:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1114,7 +556,7 @@ warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeom
   done)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8796/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ExistsZeroGt
+⚠ [8786/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ExistsZeroGt
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/ExistsZeroGt.lean:17:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -1143,7 +585,7 @@ warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeom
   rw [_root_.one_mul])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8798/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.Splits
+⚠ [8788/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.Splits
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:22:2: try 'simp' instead of 'simpa'
 
 Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
@@ -1183,7 +625,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/Splits.lean:123:6: Unused tactic linter: `simpa using (key x).symm` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8802/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.BCTools
+⚠ [8792/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.BCTools
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/BCTools.lean:99:33: This simp argument is unused:
   RingHom.toMonoidHom_eq_coe
 
@@ -1279,7 +721,7 @@ warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeom
   exact Eq.refl _)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8803/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.RigIsoCongr
+⚠ [8793/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.RigIsoCongr
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/RigIsoCongr.lean:100:2: Try this: 
   letI̵
 
@@ -1296,7 +738,7 @@ The difference between `let` and `letI` is that `letI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8804/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsMonHomOfMul
+⚠ [8794/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsMonHomOfMul
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/IsMonHomOfMul.lean:68:5: Variable name `hj` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -1372,7 +814,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/IsMonHomOfMul.lean:346:83: Unused tactic linter: `simp` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8808/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermDVal
+⚠ [8798/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermDVal
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDVal.lean:55:59: `CategoryTheory.Sheaf.val` has been deprecated: Use ObjectProperty.obj
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDVal.lean:95:21: Variable name `hL` is not explicitly referenced.
 
@@ -1380,7 +822,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hL
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8809/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermDPf
+⚠ [8799/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermDPf
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/GermDPf.lean:80:8: This simp argument is unused:
   psIn
 
@@ -1395,7 +837,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [psIn]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8813/8835] Replayed Lemmata.GeneralBFactFurther.Imports
+⚠ [8803/8838] Replayed Lemmata.GeneralBFactFurther.Imports
 warning: src/Lemmata/GeneralBFactFurther/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -1414,7 +856,7 @@ warning: src/Lemmata/GeneralBFactFurther/Imports.lean:5:8: Overlapping instance 
 💡️ Of these, `[IsDomain V]` and `[IsDiscreteValuationRing V]` may be removed.
 
 Note: This linter can be disabled with `set_option linter.overlappingInstances false`
-⚠ [8814/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.GlobalFunctionsDvrOpen
+⚠ [8804/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.GlobalFunctionsDvrOpen
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/GlobalFunctionsDvrOpen.lean:16:110: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1432,7 +874,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8815/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.GlobalFunctionsDvrGeneric
+⚠ [8805/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.GlobalFunctionsDvrGeneric
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/GlobalFunctionsDvrGeneric.lean:34:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Geo.Tor.GlobalFunctionsDvrGeneric.appTop_spMap`:
   [IsDomain V]
   [IsDiscreteValuationRing V]
@@ -1452,7 +894,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/GlobalFunctionsDvrGeneric.lean:42:4: Unused tactic linter: `simpa using h2.symm` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8816/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.GlobFnsDvrPf
+⚠ [8806/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.GlobFnsDvrPf
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/GlobFnsDvrPf.lean:18:2: Try this: 
   letI̵
 
@@ -1517,7 +959,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8818/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ExistsBasisOfSaturated
+⚠ [8808/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ExistsBasisOfSaturated
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ExistsBasisOfSaturated.lean:17:2: Try this: 
   haveI̵
 
@@ -1534,7 +976,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8819/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.SpanXLeKerAevalZero
+⚠ [8809/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.SpanXLeKerAevalZero
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/SpanXLeKerAevalZero.lean:138:2: Try this: 
   letI̵
 
@@ -1567,7 +1009,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8820/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.LePreimageOfNil
+⚠ [8810/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.LePreimageOfNil
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/LePreimageOfNil.lean:42:2: The namespace `Chart` is duplicated in the declaration `ReciprocityTheory.ChartRestriction.G.Chart.Chart.hU`.
 
 Note: This linter can be disabled with `set_option linter.dupNamespace false`
@@ -1609,14 +1051,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/LePreimageOfNil.lean:186:4: Unused tactic linter: `simp [MonObj.Hom.one_def]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8822/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.DualLiftInjective
+⚠ [8812/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.DualLiftInjective
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/DualLiftInjective.lean:29:83: Variable name `j` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _j
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8823/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.RestrictDiagCompInclFst
+⚠ [8813/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.RestrictDiagCompInclFst
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/RestrictDiagCompInclFst.lean:36:58: This simp argument is unused:
   Algebra.algebraMap_self
 
@@ -1656,14 +1098,14 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [LinearMap.snd_apply]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8824/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.LieEig
+⚠ [8814/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.LieEig
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/LieEig.lean:20:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/LieEig.lean:20:4: Unused tactic linter: `simp [Hom.one_def]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8825/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.DualLiftCompJetSub
+⚠ [8815/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.DualLiftCompJetSub
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/DualLiftCompJetSub.lean:19:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1684,7 +1126,7 @@ warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDesce
   | cons a s ha ih => rw [Finset.sum_cons, Finset.sum_cons, ih, TrivSqZeroExt.inr_add])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8826/8835] Replayed Lemmata.FirstBlockLemmaK.Imports
+⚠ [8816/8838] Replayed Lemmata.FirstBlockLemmaK.Imports
 warning: src/Lemmata/FirstBlockLemmaK/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -1703,7 +1145,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _inst_2
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8827/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.AlgChart
+⚠ [8817/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.AlgChart
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/AlgChart.lean:49:2: Try this: 
   haveI̵
 
@@ -1728,7 +1170,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8828/8835] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.UnivChartLoc
+⚠ [8818/8838] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.UnivChartLoc
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/UnivChartLoc.lean:23:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1855,24 +1297,120 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniversalCharts/UnivChartLoc.lean:195:22: Unused tactic linter: `simp` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8831/8835] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ExistsTruncatedIntegralChart
+⚠ [8821/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ExistsTruncatedIntegralChart
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ExistsTruncatedIntegralChart.lean:83:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
 warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ExistsTruncatedIntegralChart.lean:83:8: Unused tactic linter: `simp [spMap]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8835/8835] Replayed Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FrameSecondPartialLawIffPullbackStatement
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FrameSecondPartialLawIffPullbackStatement.lean:17:70: this tactic is never executed
+⚠ [8824/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ChartJetTrA
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrA.lean:33:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FrameSecondPartialLawIffPullbackStatement.lean:17:129: this tactic is never executed
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrA.lean:33:4: Unused tactic linter: `(
+  simp only [RingHom.comp_apply]
+  rw [← Ideal.Quotient.mk_algebraMap, ← Ideal.Quotient.mk_algebraMap, MvPolynomial.algebraMap_eq,
+    MvPolynomial.algebraMap_eq, jetCoef_mk, MvPolynomial.map_C])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrA.lean:60:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FrameSecondPartialLawIffPullbackStatement.lean:17:70: Unused tactic linter: `exact GlobalTheory.frame_second_partial_law_iff_pullback` does nothing
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrA.lean:60:4: Unused tactic linter: `simp [jetCoef_mk, jetTrunc]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FrameSecondPartialLawIffPullbackStatement.lean:17:129: Unused tactic linter: `(intros; apply GlobalTheory.frame_second_partial_law_iff_pullback <;> assumption)` does nothing
+⚠ [8826/8838] Replayed Formalism.SharpRestriction.Divisibility.GeneratorPowers.ChartJetTrC
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:19:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:19:4: Unused tactic linter: `unfold spMap` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-Build completed successfully (8835 jobs).
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:24:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:24:4: Unused tactic linter: `(rw [Algebra.algebraMap_self]; exact spMap_id' R)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:29:24: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:29:33: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:30:22: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:30:31: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:32:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:29:5: Unused tactic linter: `rw [← spMap_comp]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:29:24: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:29:33: Unused tactic linter: `exact φ.comp_algebraMap` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:30:5: Unused tactic linter: `rw [spMap_comp]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:30:22: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:30:31: Unused tactic linter: `exact φ.comp_algebraMap` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:32:4: Unused tactic linter: `unfold spMap` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:76:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:85:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:92:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:76:6: Unused tactic linter: `rw [Subsingleton.elim (toUnit (𝟙_ (Over S'))) (𝟙 _), Category.id_comp]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:85:6: Unused tactic linter: `exact mul_right_eq_self.1 hidem` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/ChartJetTrC.lean:92:6: Unused tactic linter: `simpa using Over.w (toUnit (Over.mk ((𝟙_ (Over S')).hom ≫ f)))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8836/8838] Replayed Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsRawChartFramesBaseChange
+warning: src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ExistsRawChartFramesBaseChange.lean:136:222: Variable name `F` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ExistsRawChartFramesBaseChange.lean:136:268: Variable name `act` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _act
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8838/8838] Replayed Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsFramesCoefficientRingBaseChangeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsFramesCoefficientRingBaseChangeStatement.lean:17:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsFramesCoefficientRingBaseChangeStatement.lean:17:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsFramesCoefficientRingBaseChangeStatement.lean:17:57: Unused tactic linter: `exact GlobalTheory.FrameBCGen.exists_frames` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsFramesCoefficientRingBaseChangeStatement.lean:17:103: Unused tactic linter: `(intros; apply GlobalTheory.FrameBCGen.exists_frames <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (8838 jobs).

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "fe5a29b8ffd869cdac76417350c3f38bde72b1739bb0037a4bab8d9c9a71891f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsFramesCoefficientRingBaseChangeStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsFramesCoefficientRingBaseChangeStatement\n"
+}
