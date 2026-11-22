@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "3434b82f4e12ce6037751bc62f685620260d12b5a6214501d3d1f03871f53a7b",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMaximalIdealIffNormLt"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMaximalIdealIffNormLt\n"
+}

@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "8d3e0acdca710398fb44edb10ac15f4dceff0b3112f85a8e70b0d8ede347ef9a",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPrimitiveHeckeLFunctionInvOfTrivialOnMaxReal"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPrimitiveHeckeLFunctionInvOfTrivialOnMaxReal\n"
+}

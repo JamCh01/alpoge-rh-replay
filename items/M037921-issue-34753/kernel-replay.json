@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7236f5e34dd43954a26a8252cbc16c745811040ec84ff03bbd66ddf193beafec",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDPMorphismOfComp"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDPMorphismOfComp\n"
+}
