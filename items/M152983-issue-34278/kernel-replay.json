@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "7c29f149fc0aab583ff2d55916cc25bcd3760d68589311bb476e206002541979",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.TorsionIntegrality.TorsionTranslationPowers.NonsingularJetNorms.OneLtNormXOfInKernel"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.TorsionIntegrality.TorsionTranslationPowers.NonsingularJetNorms.OneLtNormXOfInKernel\n"
+}
