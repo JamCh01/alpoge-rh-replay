@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    "M100006"
+  ],
+  "started_utc": "2026-11-22T16:20:53.570330+00:00",
+  "ended_utc": "2026-11-22T16:21:00.526529+00:00",
+  "elapsed_seconds": 7.0,
+  "host": {
+    "cpu_count": 96,
+    "mem_total_kib": 131617576,
+    "peak_child_rss_kib": 957028
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UnitaryExistence.RegularFunctionConstOfFiniteValuesOnPeriodSpaceStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9541f7f841f14fb9f45a20308af6793311c4f53c79909222f54bde21de279e91",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M100006": "2cc6f2942cfbf0c73238d8980f21ca74214666e92cebb483fa6ff041e8ebe657"
+  },
+  "project_root": "/root/rh-workspace/slot-4/lean",
+  "bundle_sha256": "986c7e53fc3fe33b4265d86c81145889d3e5aaa6e08d268f76014e47b0f94ca6"
+}
