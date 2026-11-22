@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "987b8887356d711dce5be159d8d8acc7fd03187d5ca73e343d55a12d1e6f3782",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.KppRedW"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.KppRedW\n"
+}
