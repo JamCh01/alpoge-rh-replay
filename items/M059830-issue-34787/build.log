@@ -1,347 +1,1425 @@
-⚠ [8708/8964] Replayed Formalism.FormalDegreeBessel.FormalDegreeRatio.GBasic
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:95:49: this tactic is never executed
+⚠ [8707/9038] Replayed Formalism.SharpRestriction.CuspSpanNormBounds.FractionFieldToGenericStalkAlgebraMapEq
+warning: src/Formalism/SharpRestriction/CuspSpanNormBounds/FractionFieldToGenericStalkAlgebraMapEq.lean:263:8: automatically included section variable(s) unused in theorem `Formalism.MainNotions.S.Loc.Pt.cast_blocks`:
+  [TopologicalSpace E]
+  [MeasurableSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace E] [MeasurableSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8717/9038] Replayed Formalism.SatakeDualWeyl.Statement
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8721/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.IsomAct
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/IsomAct.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.isomAct_mem_gmap`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/IsomAct.lean:25:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.isomAct_smul`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/IsomAct.lean:38:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.isomAct_lattice`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8722/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.LocBasic
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/LocBasic.lean:170:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/LocBasic.lean:177:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/LocBasic.lean:181:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/LocBasic.lean:197:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8725/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.Assembly
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Assembly.lean:22:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Assembly.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Assembly.lean:62:0: automatically included section variable(s) unused in theorem `Formalism.H.thetaPos_of`:
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace V] [BorelSpace V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Assembly.lean:69:54: Variable name `h2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8727/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.Periodization
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:42:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:20:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:95:49: Unused tactic linter: `norm_num` does nothing
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:20:6: Unused tactic linter: `rw [← Metric.cobounded_eq_cocompact] at hc` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:161:45: This simp argument is unused:
-  hne
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:62:0: automatically included section variable(s) unused in theorem `Formalism.H.PoissonPeriodization.shift_bound`:
+  [InnerProductSpace ℝ V]
+  [FiniteDimensional ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ V] [FiniteDimensional ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:92:15: This simp argument is unused:
+  if_pos rfl
 
 Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, sgn, sig_sig, hsv, hne', h, f1, f2, f3, f4, f5]
+  [apply] simp only [ZeroMemClass.coe_zero, norm_zero, add_zero, Real.one_rpow, if_true, ↓reduceIte]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:165:17: This simp argument is unused:
-  sig_sig
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:92:86: This simp argument is unused:
+  if_true
 
 Hint: Omit it from the simp argument list.
-  [apply] simp only [hm]
+  [apply] simp only [if_pos rfl, ZeroMemClass.coe_zero, norm_zero, add_zero, Real.one_rpow, ↓reduceIte]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:169:33: This simp argument is unused:
-  f1
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, sgn, f2, h3]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:169:37: This simp argument is unused:
-  f2
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, sgn, f1, h3]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:180:45: This simp argument is unused:
-  hne
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, sgn, sig_sig, hsv, hne', h', f1, f2, f3, f4, f5]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:192:28: This simp argument is unused:
-  sgn
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, hs, hne, hsv, h, f1, f2, f4, f5]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:192:37: This simp argument is unused:
-  hne
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, sgn, hs, hsv, h, f1, f2, f4, f5]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:202:28: This simp argument is unused:
-  sgn
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, hs, hne, hsv, h', f1, f2, f4, f5]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:202:37: This simp argument is unused:
-  hne
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [c1, c2, epsK, sgn, hs, hsv, h', f1, f2, f4, f5]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:209:21: This simp argument is unused:
-  hs''
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [hs, hs', hs3, hij, hij', hss, hss']
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:209:27: This simp argument is unused:
-  hs3
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [hs, hs', hs'', hij, hij', hss, hss']
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:209:32: This simp argument is unused:
-  hij
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [hs, hs', hs'', hs3, hij', hss, hss']
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:209:43: This simp argument is unused:
-  hss
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [hs, hs', hs'', hs3, hij, hij', hss']
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:193:18: this tactic is never executed
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:124:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GBasic.lean:193:8: Unused tactic linter: `all_goals norm_num` does nothing
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/Periodization.lean:124:8: Unused tactic linter: `exact
+  Summable.of_norm_bounded _ (hS.mul_left (C * (1 + ‖x‖) ^ b))
+    (fun l => hbound ‖x‖ (norm_nonneg _) l x le_rfl)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8709/8964] Replayed Formalism.FormalDegreeBessel.FormalDegreeRatio.UnitaryWeylNormalHolds
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:23:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:94:26: This simp argument is unused:
-  Fin.val_mk
+⚠ [8728/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.UnfoldCoeff
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/UnfoldCoeff.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.H.unfoldCoeff_char_periodic`:
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/UnfoldCoeff.lean:29:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8729/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.InnerDualVecBasis
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/InnerDualVecBasis.lean:12:0: automatically included section variable(s) unused in theorem `Formalism.H.innerₗ_nondegenerate`:
+  [FiniteDimensional ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8730/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.FundamentalDomainEqPreimage
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/FundamentalDomainEqPreimage.lean:20:0: automatically included section variable(s) unused in theorem `Formalism.H.fundamentalDomain_eq_preimage`:
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/FundamentalDomainEqPreimage.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8731/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.TorusProjIsOpenQuotientMap
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:17:0: automatically included section variable(s) unused in theorem `Formalism.H.torusProj_isOpenQuotientMap`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:20:0: automatically included section variable(s) unused in theorem `Formalism.H.torusProj_surjective`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:25:0: automatically included section variable(s) unused in theorem `Formalism.H.torusProj_eq`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:37:0: automatically included section variable(s) unused in theorem `Formalism.H.equivFunL_symm_eq`:
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:41:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:41:4: Unused tactic linter: `simp [Module.Basis.equivFunL, Module.Basis.equivFun_symm_apply]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:97:0: automatically included section variable(s) unused in theorem `Formalism.H.boxIoc_ae_eq`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:103:10: This simp argument is unused:
+  Set.mem_univ_pi
 
 Hint: Omit it from the simp argument list.
-  [apply] simp only [Fin.ext_iff]
+  [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:38: this tactic is never executed
+info: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:149:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:116:10: This simp argument is unused:
+  Set.mem_univ_pi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:126:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:57: this tactic is never executed
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:127:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:38: Unused tactic linter: `(exfalso; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:57: Unused tactic linter: `norm_num` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:38: this tactic is never executed
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:150:12: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:57: this tactic is never executed
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:126:8: Unused tactic linter: `(simp [AddCircle.volume_eq_smul_haarAddCircle])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:127:8: Unused tactic linter: `(rw [AddCircle.volume_eq_smul_haarAddCircle]; simp)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/TorusProjIsOpenQuotientMap.lean:150:2: Unused tactic linter: `all_goals
+  first
+  | infer_instance
+  | assumption` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8732/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.LatticeFourierSeries
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/LatticeFourierSeries.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.H.coeff_integrand_periodic`:
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8733/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.GaussSchwartz
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/GaussSchwartz.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.H.gauss_fun_eq`:
+  [InnerProductSpace ℝ V]
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ V] [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/GaussSchwartz.lean:22:0: automatically included section variable(s) unused in theorem `Formalism.H.gauss_continuous`:
+  [InnerProductSpace ℝ V]
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ V] [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/GaussSchwartz.lean:27:0: automatically included section variable(s) unused in theorem `Formalism.H.gauss_decay`:
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace V] [BorelSpace V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/GaussSchwartz.lean:38:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:38: Unused tactic linter: `(exfalso; omega)` does nothing
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/GaussSchwartz.lean:38:6: Unused tactic linter: `simp [Real.abs_exp]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:57: Unused tactic linter: `norm_num` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:221:8: this tactic is never executed
+⚠ [8734/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.DualLattice
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:16:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:221:8: Unused tactic linter: `simp only [Matrix.mulVec, Matrix.dotProduct]` does nothing
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:16:6: Unused tactic linter: `(
+  unfold LinearMap.BilinForm.Nondegenerate
+  intro m hm
+  have h := hm m
+  rw [innerₗ_apply_apply] at h
+  exact inner_self_eq_zero.mp h)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:251:8: this tactic is never executed
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:27:39: This simp argument is unused:
+  RingHom.id_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [innerₗ_apply_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:25:58: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:251:8: Unused tactic linter: `simp [Complex.norm_exp]` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:266:6: this tactic is never executed
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:28:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:267:6: this tactic is never executed
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:29:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:266:6: Unused tactic linter: `simpa [Matrix.mulVec, dotProduct, hb] using h1` does nothing
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:25:8: Unused tactic linter: `simp only [innerₗ_apply_apply, RingHom.id_apply]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:267:6: Unused tactic linter: `simpa [Matrix.mulVec, Matrix.dotProduct, hb] using h1` does nothing
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:25:58: Unused tactic linter: `exact real_inner_comm _ _` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:300:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:321:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:28:6: Unused tactic linter: `(intro x y; simp only [innerₗ_apply_apply, RingHom.id_apply];
+  exact real_inner_comm _ _)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:29:6: Unused tactic linter: `(constructor; intro x y; simp only [innerₗ_apply_apply, RingHom.id_apply];
+  exact real_inner_comm _ _)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:41:0: automatically included section variable(s) unused in theorem `Formalism.H.isLattice_of_eq_span`:
+  [FiniteDimensional ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/DualLattice.lean:49:0: automatically included section variable(s) unused in theorem `Formalism.H.dualLattice_dual_span_eq`:
+  [FiniteDimensional ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8735/9038] Replayed Formalism.LatticeTheta.LatticeThetaProofs.CovolumeDual
+warning: src/Formalism/LatticeTheta/LatticeThetaProofs/CovolumeDual.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.H.covolDual_nondegenerate`:
+  [MeasurableSpace V]
+  [BorelSpace V]
+  [FiniteDimensional ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace V] [BorelSpace V] [FiniteDimensional ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8737/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.ThetaSummable
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:57:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.thetaSummable_parallelogram`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:104:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.thetaSummable_sq_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:142:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:142:6: Unused tactic linter: `exact continuous_id.dotProduct (continuous_const.matrix_mulVec continuous_id)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:252:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:223:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.thetaSummable_ratpos`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:255:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.thetaSummable_castform`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:294:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.isAddTorsionFree_ringOfIntegers_submodule`:
+  [StarRing K]
+  [IsScalarTower (NumberField.RingOfIntegers K) K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] [IsScalarTower (NumberField.RingOfIntegers K) K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:314:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:316:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:317:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:318:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:332:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:321:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ThetaSummable.lean:321:6: Unused tactic linter: `(
+  constructor
+  intro r hr a b hab
+  have hr0 : r ≠ 0 := hr.ne_zero
+  apply Subtype.ext
+  have hab' : r • (a : V) = r • (b : V) :=
+    by
+    have := congrArg (fun y : L => (y : V)) hab
+    simpa using this
+  have h1 : (r : K) • ((a : V) - (b : V)) = 0 := by
+    rw [smul_sub, Int.cast_smul_eq_zsmul K, Int.cast_smul_eq_zsmul K, hab', sub_self]
+  have hrK : (r : K) ≠ 0 := Int.cast_ne_zero.mpr hr0
+  exact sub_eq_zero.mp ((smul_eq_zero.mp h1).resolve_left hrK))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8739/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.LocDual
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/LocDual.lean:34:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.locDual_one_mul`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/LocDual.lean:38:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.locDual_alg_mem`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8740/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.GenusBasic
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:21:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:22:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:21:4: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:22:4: Unused tactic linter: `exact Iff.rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:34:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:34:4: Unused tactic linter: `(ext x; simp only [isomAct_mem_gmap]; simp)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:36:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusBasic_mem_one_mul`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:60:37: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:69:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusBasic.lean:75:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusBasic_common`:
+  [AddCommGroup V]
+  [Module K V]
+  [Module R V]
+  [IsScalarTower R K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup V] [Module K V] [Module R V] [IsScalarTower R K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8741/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.DualLattice
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:42:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.dualLattice_basis`:
+  [IsDedekindDomain R]
+  [Algebra R K]
+  [IsFractionRing R K]
+  [IsScalarTower R K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDedekindDomain R] [Algebra R K] [IsFractionRing R K] [IsScalarTower R K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:80:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:108:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.dualLattice_repr`:
+  [IsDedekindDomain R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDedekindDomain R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:122:22: This simp argument is unused:
+  LinearMap.map_smulₛₗ₂
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [w, map_sum, hsym, starRingEnd_apply, star_star, Algebra.smul_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:200:17: This simp argument is unused:
+  LinearMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [starRingEnd_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:225:19: This simp argument is unused:
+  LinearMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [starRingEnd_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:279:17: This simp argument is unused:
+  LinearMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [starRingEnd_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/DualLattice.lean:287:17: This simp argument is unused:
+  LinearMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [starRingEnd_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8745/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.FinIntermediate
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/FinIntermediate.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8748/9038] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/MinkCore.lean:30:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8750/9038] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.GjScale
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/GjScale.lean:26:0: automatically included section variable(s) unused in theorem `Formalism.FN.GjScaling.Zv_add`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/GjScale.lean:31:0: automatically included section variable(s) unused in theorem `Formalism.FN.GjScaling.Zv_neg`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/GjScale.lean:39:4: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/GjScale.lean:50:77: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/GjScale.lean:145:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8751/9038] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:12:0: automatically included section variable(s) unused in theorem `Formalism.FN.SuccessiveMinima.mem_smul_iff_gauge`:
+  [FiniteDimensional ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:35:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:40:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:40:8: Unused tactic linter: `exact isDiscrete_iff_discreteTopology.mpr ‹DiscreteTopology L›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:82:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:145:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:161:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:166:28: `linearIndependent_fin_snoc` has been deprecated: Use `linearIndependent_finSnoc` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:170:38: `Fin.coe_castSucc` has been deprecated: Use `Fin.val_castSucc` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:192:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:223:10: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
+⚠ [8752/9038] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.AdaptedBasis
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/AdaptedBasis.lean:14:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/AdaptedBasis.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/AdaptedBasis.lean:185:8: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/AdaptedBasis.lean:191:8: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/AdaptedBasis.lean:195:8: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/AdaptedBasis.lean:203:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8758/9038] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/NPWDivision.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.FN.WDiv.term_eq`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/NPWDivision.lean:76:0: automatically included section variable(s) unused in theorem `Formalism.FN.WDiv.exists_eps`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8766/9038] Replayed Lemmata.GeneralBFactSecondSide.Imports
+warning: src/Lemmata/GeneralBFactSecondSide/Imports.lean:6:18: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactSecondSide/Imports.lean:6:76: Variable name `inst_3` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_3
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactSecondSide/Imports.lean:7:3: Variable name `inst_4` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_4
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactSecondSide/Imports.lean:7:32: Variable name `inst_5` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_5
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactSecondSide/Imports.lean:8:3: Variable name `inst_6` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_6
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8767/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.TraceReal
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/TraceReal.lean:24:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.traceReal_trace_smul`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/TraceReal.lean:28:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.traceReal_den`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/TraceReal.lean:39:118: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/TraceReal.lean:39:100: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:327:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:339:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:352:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:417:6: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:417:6: Unused tactic linter: `simp only [Matrix.mulVec, Matrix.dotProduct]` does nothing
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/TraceReal.lean:39:118: Unused tactic linter: `(intros; apply Bl.general_b_fact_second'''''.goal1 <;> assumption)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:450:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:453:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:456:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:469:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:471:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:475:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:487:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8710/8964] Replayed Formalism.FormalDegreeBessel.FormalDegreeRatio.GroupFactorizationHolds
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:17:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
-If you'd rather continue using `push_neg` in your project, you can implement it as follows:
-```
-open Lean.Parser.Tactic in
-macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
-  `(tactic| push $cfg:optConfig Not $[$loc]?)
-```
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:41:8: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:44:8: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:98:37: This simp argument is unused:
-  Fin.ext_iff
+⚠ [8770/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.GenusCovolBound
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovolBound.lean:20:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovolBound_mem_zmap`:
+  [NumberField K]
+  [StarRing K]
+  [Module K V]
+  [IsScalarTower (𝓞 K) K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] [Module K V] [IsScalarTower (𝓞 K) K V] in theorem ...
 
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, eI, Pi.single_apply, h1]
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovolBound.lean:161:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovolBound_dualAt_gmap`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
 
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:99:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovolBound.lean:198:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovolBound_discr`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovolBound.lean:266:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovolBound_trace_int`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8771/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.ClassSetAssembly
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:28:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.classSetAssembly_ratCast_mul`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:54:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.classSetAssembly_trace_int`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:116:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.classSetAssembly_qindep`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:380:48: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:380:13: Unused tactic linter: `have := Int.ediv_add_emod (c i) e` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:380:48: Unused tactic linter: `linarith` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:494:10: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:513:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.classSetAssembly_mem_zmap`:
+  [NumberField K]
+  [StarRing K]
+  [Module K V]
+  [IsScalarTower (NumberField.RingOfIntegers K) K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] [Module K V] [IsScalarTower (NumberField.RingOfIntegers K) K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:518:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.classSetAssembly_min`:
+  [IsScalarTower (NumberField.RingOfIntegers K) K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsScalarTower (NumberField.RingOfIntegers K) K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/ClassSetAssembly.lean:550:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.classSetAssembly_w_mem`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8773/9038] Replayed Formalism.HermitianLattices.StatementMaj
+warning: src/Formalism/HermitianLattices/StatementMaj.lean:51:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.fcoord_add`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/StatementMaj.lean:59:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.fcoord_zero`:
+  [NumberField K]
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8774/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CommonMajorizingLattice
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CommonMajorizingLattice.lean:4:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8775/9038] Replayed Lemmata.GeneralBFactSecondRest.Imports
+warning: src/Lemmata/GeneralBFactSecondRest/Imports.lean:14:35: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactSecondRest/Imports.lean:15:22: Variable name `inst_4` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_4
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactSecondRest/Imports.lean:15:54: Variable name `inst_5` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_5
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactSecondRest/Imports.lean:16:3: Variable name `inst_6` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_6
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8776/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.MajLattice
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:90: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:184: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:286: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:381: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:484: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:604: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:694: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:782: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:866: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:90: Unused tactic linter: `(apply UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common <;>
+    assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:184: Unused tactic linter: `(intros;
+  apply UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:286: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common <;>
+    assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:381: Unused tactic linter: `(intros;
+  apply @UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:484: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common <;>
+    first
+    | assumption
+    | infer_instance)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:604: Unused tactic linter: `exact
+  @UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common K ‹_› ‹_› t` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:694: Unused tactic linter: `exact
+  @UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common K ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:782: Unused tactic linter: `exact @UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common K ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:19:866: Unused tactic linter: `exact @UpperTheory.Reformulated.B.CommonMajorizingLattice.majLattice_common K` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:55:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majLattice_T_injective`:
+  [NumberField K]
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:74:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majLattice_finrank`:
+  [StarRing K]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:118: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:187: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:249: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:319: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:406: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:494: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:580: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:663: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:744: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:821: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:894: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:963: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1028: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1089: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1146: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1199: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1248: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:100: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:109:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:118: Unused tactic linter: `(intros; apply Bl.general_b_fact_second_rest.goal1 <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:187: Unused tactic linter: `(apply @Bl.general_b_fact_second_rest.goal1 <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:249: Unused tactic linter: `(intros; apply @Bl.general_b_fact_second_rest.goal1 <;> assumption)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:319: Unused tactic linter: `(apply @Bl.general_b_fact_second_rest.goal1 <;>
+    first
+    | assumption
+    | infer_instance)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:406: Unused tactic linter: `exact
+  @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› L hL y` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:494: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› L hL` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:580: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› L` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:663: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:744: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_› ‹_› ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:821: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_› ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:894: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:963: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1028: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1089: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_› ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1146: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V ‹_›` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1199: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K V` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:128:1248: Unused tactic linter: `exact @Bl.general_b_fact_second_rest.goal1 K` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:130:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majLattice_exists_d`:
+  [IsTotallyComplex K]
+  [StarRing K]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTotallyComplex K] [StarRing K] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.lean:154:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majLattice_mem_zmap`:
+  [IsTotallyComplex K]
+  [IsScalarTower (𝓞 K) K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTotallyComplex K] [IsScalarTower (𝓞 K) K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8778/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.MajDual
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:41:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majDual_herm`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:45:77: This simp argument is unused:
+  map_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sum, map_smulₛₗ, LinearMap.sum_apply, LinearMap.smul_apply, smul_eq_mul, map_mul,
+    starRingEnd_apply, hst, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:67:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majDual_jW_apply`:
+  [NumberField K]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:71:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majDual_sgn`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:118:76: This simp argument is unused:
+  eq_self_iff_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [PiLp.inner_apply, RCLike.inner_apply, conj_trivial, Fintype.sum_prod_type, Fin.sum_univ_two,
+    majDual_jW_apply, majDual_realize_apply, Fin.isValue, if_true, one_ne_zero, if_false, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:119:4: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [PiLp.inner_apply, RCLike.inner_apply, conj_trivial, Fintype.sum_prod_type, Fin.sum_univ_two,
+    majDual_jW_apply, majDual_realize_apply, Fin.isValue, eq_self_iff_true, one_ne_zero, if_false, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:119:26: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [PiLp.inner_apply, RCLike.inner_apply, conj_trivial, Fintype.sum_prod_type, Fin.sum_univ_two,
+    majDual_jW_apply, majDual_realize_apply, Fin.isValue, eq_self_iff_true, if_true, one_ne_zero, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:129:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majDual_star_int`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:134:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:156:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majDual_memI`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:212:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:202:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:202:6: Unused tactic linter: `exact FractionalIdeal.dual_ne_zero h10` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:304:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majDualJ_apply`:
+  [NumberField K]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:317:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majDual_zdual`:
+  [IsScalarTower (𝓞 K) K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsScalarTower (𝓞 K) K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:339:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:161:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
-If you'd rather continue using `push_neg` in your project, you can implement it as follows:
-```
-open Lean.Parser.Tactic in
-macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
-  `(tactic| push $cfg:optConfig Not $[$loc]?)
-```
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:126:47: This simp argument is unused:
-  Finset.sum_ite_eq
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajDual.lean:364:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8779/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.OpBound
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.opBound_cnorm_nonneg`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.lean:17:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.opBound_cnorm_sq`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.lean:33:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.opBound_vecAt_sub`:
+  [StarRing K]
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.lean:37:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.opBound_vecAt_map`:
+  [NumberField K]
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8780/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.MajBasic
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MajBasic.lean:16:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.majBasic_majAt`:
+  [NumberField K]
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8781/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.GenusCovol
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:214:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.star_algebraMap_ringOfIntegers_mem_range`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:217:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovol_hinj`:
+  [NumberField K]
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:243:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.gmap_locS_comm`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:254:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovol_gmap_inf`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:259:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovol_gmap_gmap_inv`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:385:57: This simp argument is unused:
+  Matrix.one_apply
 
 Hint: Omit it from the simp argument list.
-  [apply] simp only [hF, ite_mul, one_mul, zero_mul, Finset.sum_ite_eq', Finset.mem_univ, if_true]
+  [apply] simp [hk]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GroupFactorizationHolds.lean:133:38: This simp argument is unused:
-  Finset.sum_ite_eq
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:386:12: This simp argument is unused:
+  Matrix.one_apply
 
 Hint: Omit it from the simp argument list.
-  [apply] simp only [hF, ite_mul, zero_mul, Finset.sum_ite_eq', Finset.mem_univ, if_true]
+  [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8711/8964] Replayed Formalism.FormalDegreeBessel.FormalDegreeRatio.ReverseCauchySchwarzHolds
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/ReverseCauchySchwarzHolds.lean:229:4: this tactic is never executed
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:451:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovol_ri_zmap`:
+  [NumberField K]
+  [StarRing K]
+  [Module K V]
+  [IsScalarTower (𝓞 K) K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] [Module K V] [IsScalarTower (𝓞 K) K V] in theorem ...
 
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/ReverseCauchySchwarzHolds.lean:227:28: Unused tactic linter: `ring` does nothing
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:486:2: Try this: 
+  haveI̵
 
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/ReverseCauchySchwarzHolds.lean:229:4: Unused tactic linter: `(simp only [Complex.star_def, Complex.mul_re, Complex.conj_re, Complex.conj_im];
-  ring)` does nothing
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
 
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8712/8964] Replayed Formalism.FormalDegreeBessel.FormalDegreeRatio.GNonneg
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:40:18: this tactic is never executed
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:488:2: Try this: 
+  haveI̵
 
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:40:18: Unused tactic linter: `skip` does nothing
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
 
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:62:18: this tactic is never executed
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/GenusCovol.lean:554:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.genusCovol_addData`:
+  [NumberField K]
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [StarRing K] in theorem ...
 
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:62:18: Unused tactic linter: `skip` does nothing
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8783/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.NeighbourConstruct
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/NeighbourConstruct.lean:18:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.neighbourConstruct_mem_inv`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
 
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:75:24: This simp argument is unused:
-  and_true
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/NeighbourConstruct.lean:24:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.neighbourConstruct_mem_span`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8788/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.UnimodUnramUnique
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/UnimodUnramUnique.lean:32:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.unimodUnramUnique_split`:
+  [HenselianLocalRing S]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HenselianLocalRing S] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/UnimodUnramUnique.lean:171:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.unimodUnramUnique_nontriv`:
+  [StarRing R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/UnimodUnramUnique.lean:370:56: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8790/9038] Replayed Formalism.ThetaLiftIndependence.ThetaOrbitSums.LatLiftIndep
+warning: src/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.lean:17:0: automatically included section variable(s) unused in theorem `Formalism.ThetaLiftIndependence.LatticeLiftIndependence.gmap_mul`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.ThetaLiftIndependence.LatticeLiftIndependence.gmap_one`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.lean:37:0: automatically included section variable(s) unused in theorem `Formalism.ThetaLiftIndependence.LatticeLiftIndependence.conj_mem_autL`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.lean:62:0: automatically included section variable(s) unused in theorem `Formalism.ThetaLiftIndependence.LatticeLiftIndependence.reps_inv`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8791/9038] Replayed Formalism.ThetaLiftIndependence.ThetaOrbitSums.ClassRepsDefinite
+warning: src/Formalism/ThetaLiftIndependence/ThetaOrbitSums/ClassRepsDefinite.lean:32:0: automatically included section variable(s) unused in theorem `Formalism.ThetaLiftIndependence.DefiniteClassRepresentatives.pick_spec`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8792/9038] Replayed Formalism.HermitianLattices.HermitianLatticesProofs.MassBasic
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MassBasic.lean:18:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.massBasic_sum_cast`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MassBasic.lean:32:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/HermitianLattices/HermitianLatticesProofs/MassBasic.lean:30:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.massBasic_self_mem_genus`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8793/9038] Replayed Development.AbelianVarietyTheory.Definitions.SemilocalFrames.FlagPairDefinitePartLattice
+warning: src/Development/AbelianVarietyTheory/Definitions/SemilocalFrames/FlagPairDefinitePartLattice.lean:47:0: automatically included section variable(s) unused in theorem `GlobalTheory.HermLat.isIntegralLat_iff`:
+  [IsScalarTower R K V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsScalarTower R K V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/SemilocalFrames/FlagPairDefinitePartLattice.lean:73:0: automatically included section variable(s) unused in theorem `GlobalTheory.HermLat.isLatMod_top_bot_iff`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/SemilocalFrames/FlagPairDefinitePartLattice.lean:192:8: `forall_swap` has been deprecated: Use `forall_comm` instead
+warning: src/Development/AbelianVarietyTheory/Definitions/SemilocalFrames/FlagPairDefinitePartLattice.lean:246:0: automatically included section variable(s) unused in theorem `GlobalTheory.HermLat.genusSum_eq_sum`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/SemilocalFrames/FlagPairDefinitePartLattice.lean:340:17: This simp argument is unused:
+  Ideal.mem_span_singleton'
 
 Hint: Omit it from the simp argument list.
-  [apply] simp only [Hpk]
+  [apply] simp [AddSubgroup.mem_zmultiples_iff]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:81:24: This simp argument is unused:
-  and_true
+warning: src/Development/AbelianVarietyTheory/Definitions/SemilocalFrames/FlagPairDefinitePartLattice.lean:356:4: try 'simp' instead of 'simpa'
 
-Hint: Omit it from the simp argument list.
-  [apply] simp only [Hpk]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:95:24: This simp argument is unused:
-  and_true
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [Hpk]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:76:53: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:82:53: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:89:53: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:96:53: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:76:53: Unused tactic linter: `(simp only [Fin.ext_iff, Fin.val_mk, and_true, true_and, and_self] at *; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:82:53: Unused tactic linter: `(simp only [Fin.ext_iff, Fin.val_mk, and_true, true_and, and_self] at *; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:89:53: Unused tactic linter: `(simp only [Fin.ext_iff, Fin.val_mk, and_true, true_and, and_self] at *; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:96:53: Unused tactic linter: `(simp only [Fin.ext_iff, Fin.val_mk, and_true, true_and, and_self] at *; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:155:18: This simp argument is unused:
-  and_true
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [Hpk]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:156:47: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:156:47: Unused tactic linter: `(simp only [Fin.ext_iff, Fin.val_mk, and_true, true_and, and_self] at *; omega)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:180:10: This simp argument is unused:
-  Pi.single_apply
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [hb]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:196:54: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:196:23: Unused tactic linter: `simp only [Fin.mk.injEq] at e` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:196:54: Unused tactic linter: `omega` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:240:18: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:240:18: Unused tactic linter: `skip` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:251:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
-If you'd rather continue using `push_neg` in your project, you can implement it as follows:
-```
-open Lean.Parser.Tactic in
-macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
-  `(tactic| push $cfg:optConfig Not $[$loc]?)
-```
-warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/GNonneg.lean:273:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
-If you'd rather continue using `push_neg` in your project, you can implement it as follows:
-```
-open Lean.Parser.Tactic in
-macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
-  `(tactic| push $cfg:optConfig Not $[$loc]?)
-```
-⚠ [8720/8964] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8804/9038] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:7:2: Try this: 
   haveI̵
 
@@ -398,7 +1476,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8722/8964] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff
+⚠ [8806/9038] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:16:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -499,7 +1577,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:283:16: Unused tactic linter: `decide` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8723/8964] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour
+⚠ [8807/9038] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:60:2: Try this: 
   haveI̵
 
@@ -508,18 +1586,18 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8724/8964] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.Groups
+⚠ [8808/9038] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.Groups
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Groups.lean:87:93: Unused tactic linter: `done` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8729/8964] Replayed Lemmata.FirstBlockLemmaE.Imports
+⚠ [8813/9038] Replayed Lemmata.FirstBlockLemmaE.Imports
 warning: src/Lemmata/FirstBlockLemmaE/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _inst
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8730/8964] Replayed Lemmata.GeneralBFactRightTerForm.Imports
+⚠ [8814/9038] Replayed Lemmata.GeneralBFactRightTerForm.Imports
 warning: src/Lemmata/GeneralBFactRightTerForm/Imports.lean:6:37: Variable name `inst_1` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -538,7 +1616,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _x
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8731/8964] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex
+⚠ [8815/9038] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:98: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -605,7 +1683,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:580: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8735/8964] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.Galois
+⚠ [8819/9038] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.Galois
 warning: src/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/Galois.lean:64:0: automatically included section variable(s) unused in theorem `Formalism.FrobeniusOrbits.Galois.mem_zpowers_neg_one`:
   [NeZero N]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -691,7 +1769,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8736/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.JumpSets
+⚠ [8820/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.JumpSets
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/JumpSets.lean:11:34: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -958,7 +2036,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8738/8964] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.RealCyclotomicSubfield
+⚠ [8822/9038] Replayed Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.RealCyclotomicSubfield
 warning: src/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/RealCyclotomicSubfield.lean:160:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1004,7 +2082,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hSpec
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8740/8964] Replayed Formalism.FrobeniusOrbits.RealSubfieldLeCompositum
+⚠ [8824/9038] Replayed Formalism.FrobeniusOrbits.RealSubfieldLeCompositum
 warning: src/Formalism/FrobeniusOrbits/RealSubfieldLeCompositum.lean:207:17: Variable name `hqd` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -1017,36 +2095,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hqd
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8754/8964] Replayed Formalism.SatakeDualWeyl.Statement
-warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
-  [Fintype n]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype n] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8768/8964] Replayed Formalism.HermitianLattices.StatementMaj
-warning: src/Formalism/HermitianLattices/StatementMaj.lean:51:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.fcoord_add`:
-  [StarRing K]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [StarRing K] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Formalism/HermitianLattices/StatementMaj.lean:59:0: automatically included section variable(s) unused in theorem `Formalism.HermitianLatticesTheory.fcoord_zero`:
-  [NumberField K]
-  [StarRing K]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [NumberField K] [StarRing K] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8780/8964] Replayed Formalism.SharpRestriction.CuspSpanNormBounds.FractionFieldToGenericStalkAlgebraMapEq
-warning: src/Formalism/SharpRestriction/CuspSpanNormBounds/FractionFieldToGenericStalkAlgebraMapEq.lean:263:8: automatically included section variable(s) unused in theorem `Formalism.MainNotions.S.Loc.Pt.cast_blocks`:
-  [TopologicalSpace E]
-  [MeasurableSpace E]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [TopologicalSpace E] [MeasurableSpace E] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8789/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.HWRowWeight
+⚠ [8859/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.HWRowWeight
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/HWRowWeight.lean:18:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1077,11 +2126,11 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/HWRowWeight.lean:95:30: Unused tactic linter: `simp [rowNu, hwrowExtNu, ha]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8796/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.RowDivStable
+⚠ [8866/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.RowDivStable
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/RowDivStable.lean:119:15: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8803/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetdomLemmas
+⚠ [8873/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetdomLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LBidetdomLemmas.lean:179:26: This simp argument is unused:
   lt_min_iff
 
@@ -1089,7 +2138,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8809/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ProdFactorialSupportSubSingle
+⚠ [8879/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ProdFactorialSupportSubSingle
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ProdFactorialSupportSubSingle.lean:88:30: This simp argument is unused:
   Finsupp.single_apply
 
@@ -1097,7 +2146,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp [Finsupp.tsub_apply, Ne.symm hk']
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8819/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.DualWeylDominanceOf
+⚠ [8889/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.DualWeylDominanceOf
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/DualWeylDominanceOf.lean:49:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1120,7 +2169,7 @@ warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/DualWeylDominanc
   simp [h0])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8821/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LHwlineLemmas
+⚠ [8891/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LHwlineLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:35:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -1227,7 +2276,7 @@ Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:428:26: `Finsupp.coe_finset_sum` has been deprecated: Use `Finsupp.coe_finsetSum` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:431:52: `Fin.coe_castLE` has been deprecated: Use `Fin.val_castLE` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LHwlineLemmas.lean:436:34: `Fin.coe_castLE` has been deprecated: Use `Fin.val_castLE` instead
-⚠ [8827/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.FockQRowDivAdj
+⚠ [8897/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.FockQRowDivAdj
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/FockQRowDivAdj.lean:23:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1260,7 +2309,7 @@ Hint: Omit it from the simp argument list.
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/FockQRowDivAdj.lean:130:21: `Polynomial.eval_finset_sum` has been deprecated: Use `Polynomial.eval_finsetSum` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/FockQRowDivAdj.lean:137:19: `Polynomial.finset_sum_coeff` has been deprecated: Use `Polynomial.finsetSum_coeff` instead
-⚠ [8834/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.ClosedEqNabla
+⚠ [8904/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.ClosedEqNabla
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/ClosedEqNabla.lean:41:2: Try this: 
   haveI̵
 
@@ -1277,7 +2326,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8839/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.MinorExpLt
+⚠ [8909/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.MinorExpLt
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/MinorExpLt.lean:15:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1381,11 +2430,11 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/MinorExpLt.lean:111:6: Unused tactic linter: `simp [h x]` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8843/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCssytLemmas
+⚠ [8913/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCssytLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCssytLemmas.lean:37:6: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCssytLemmas.lean:55:6: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCssytLemmas.lean:61:13: `Fin.coe_castLE` has been deprecated: Use `Fin.val_castLE` instead
-⚠ [8844/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTPeel
+⚠ [8914/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTPeel
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSYTPeel.lean:13:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1425,7 +2474,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSYTPeel.lean:215:8: Unused tactic linter: `(intro x; exact hle x.1 x.2)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8845/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTExists
+⚠ [8915/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSYTExists
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSYTExists.lean:32:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1433,7 +2482,7 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8851/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelHomog
+⚠ [8921/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelHomog
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelHomog.lean:27:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1484,7 +2533,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8852/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCpleadLemmas
+⚠ [8922/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCpleadLemmas
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCpleadLemmas.lean:16:26: This simp argument is unused:
   Finsupp.single_apply
 
@@ -1493,7 +2542,7 @@ Hint: Omit it from the simp argument list.
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LCpleadLemmas.lean:23:63: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
-⚠ [8853/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelLead
+⚠ [8923/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelLead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelLead.lean:15:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1534,7 +2583,7 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelLead.lean:80:8: Unused tactic linter: `gcongr` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8855/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.EvalDeg
+⚠ [8925/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.EvalDeg
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/EvalDeg.lean:36:63: This simp argument is unused:
   Finset.sum_ite_eq
 
@@ -1542,11 +2591,11 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [mul_ite, mul_one, mul_zero, Finset.sum_ite_eq']
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8856/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelDegBound
+⚠ [8926/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.PeelDegBound
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelDegBound.lean:21:12: `MvPolynomial.mem_vars` has been deprecated: Use `MvPolynomial.mem_vars_iff_mem_support` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelDegBound.lean:26:26: `MvPolynomial.mem_vars` has been deprecated: Use `MvPolynomial.mem_vars_iff_mem_support` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/PeelDegBound.lean:146:28: `MvPolynomial.mem_vars` has been deprecated: Use `MvPolynomial.mem_vars_iff_mem_support` instead
-⚠ [8857/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.TwoColumn
+⚠ [8927/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.TwoColumn
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/TwoColumn.lean:93:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -1554,12 +2603,12 @@ open Lean.Parser.Tactic in
 macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
   `(tactic| push $cfg:optConfig Not $[$loc]?)
 ```
-⚠ [8858/8964] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LeadInterlaced
+⚠ [8928/9038] Replayed Formalism.GradedWeylDivisibility.FockSpaceTableaux.LeadInterlaced
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:17:9: `Finsupp.mapDomain_notin_range` has been deprecated: Use `Finsupp.mapDomain_of_notMem_range` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:33:22: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:33:22: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
 warning: src/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LeadInterlaced.lean:31:2: Try this: intro B _ _ r n ν f hf hf0 l j hlj
-⚠ [8871/8964] Replayed ReciprocityTheory.GaloisValuations.SeparatedDvrSecondCohomologyMem
+⚠ [8941/9038] Replayed ReciprocityTheory.GaloisValuations.SeparatedDvrSecondCohomologyMem
 warning: src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean:40:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_riemannRochSpace_iff_regularAt_everywhere`:
   [TopologicalSpace G]
   [TopologicalSpace M]
@@ -1605,7 +2654,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [TopologicalSpace G] [TopologicalSpace M] [IsTopologicalAddGroup M] [ContinuousConstSMul R M] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8872/8964] Replayed ReciprocityTheory.GaloisValuations.ContinuousConstSMulQuotient
+⚠ [8942/9038] Replayed ReciprocityTheory.GaloisValuations.ContinuousConstSMulQuotient
 warning: src/ReciprocityTheory/GaloisValuations/ContinuousConstSMulQuotient.lean:184:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_mkQ`:
   [IsTopologicalAddGroup M]
   [ContinuousConstSMul R M]
@@ -1619,7 +2668,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/ReciprocityTheory/GaloisValuations/ContinuousConstSMulQuotient.lean:187:4: Unused tactic linter: `exact continuous_coinduced_rng` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8874/8964] Replayed ReciprocityTheory.GaloisValuations.GlobalA
+⚠ [8944/9038] Replayed ReciprocityTheory.GaloisValuations.GlobalA
 warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean:15:2: Try this: 
   haveI̵
 
@@ -1636,7 +2685,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8875/8964] Replayed ReciprocityTheory.GaloisValuations.GlobalB
+⚠ [8945/9038] Replayed ReciprocityTheory.GaloisValuations.GlobalB
 warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:114:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.smul_valuation_lt_one_iff`:
   [NumberField F]
   [IsAlgClosure F Ω]
@@ -1656,7 +2705,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [NumberField F] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8876/8964] Replayed ReciprocityTheory.GaloisValuations.Global
+⚠ [8946/9038] Replayed ReciprocityTheory.GaloisValuations.Global
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:17:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_Dec`:
   [NumberField F]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1732,7 +2781,7 @@ Note: This linter can be disabled with `set_option linter.style.haveILetI false`
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:387:29: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:395:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/ReciprocityTheory/GaloisValuations/Global.lean:409:67: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8877/8964] Replayed ReciprocityTheory.Hypotheses.GalCohDefs
+⚠ [8947/9038] Replayed ReciprocityTheory.Hypotheses.GalCohDefs
 warning: src/ReciprocityTheory/Hypotheses/GalCohDefs.lean:79:8: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -1754,7 +2803,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [TopologicalSpace R] [DiscreteTopology R] [DiscreteTopology M] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8878/8964] Replayed ReciprocityTheory.Hypotheses.GalCoh
+⚠ [8948/9038] Replayed ReciprocityTheory.Hypotheses.GalCoh
 warning: src/ReciprocityTheory/Hypotheses/GalCoh.lean:102:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.LocalFinitenessAt.restrict`:
   [NumberField F]
   [IsAlgClosure F Ω]
@@ -1794,7 +2843,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsAlgClosure F Ω] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8882/8964] Replayed Formalism.WeaklyAdmissibleFiltrations.Statement
+⚠ [8952/9038] Replayed Formalism.WeaklyAdmissibleFiltrations.Statement
 warning: src/Formalism/WeaklyAdmissibleFiltrations/Statement.lean:284:0: automatically included section variable(s) unused in theorem `Formalism.WeaklyAdmissibleFiltrations.LatHom.post_B1T`:
   [TopologicalSpace G]
   [ContinuousAdd V]
@@ -1806,10 +2855,10 @@ consider restructuring your `variable` declarations so that the variables are no
   G] [ContinuousAdd V] [ContinuousConstSMul LL V] [ContinuousAdd V'] [ContinuousConstSMul LL V'] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8883/8964] Replayed Formalism.WeaklyAdmissibleFiltrations.StatementPC
+⚠ [8953/9038] Replayed Formalism.WeaklyAdmissibleFiltrations.StatementPC
 warning: src/Formalism/WeaklyAdmissibleFiltrations/StatementPC.lean:62:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/Formalism/WeaklyAdmissibleFiltrations/StatementPC.lean:66:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8885/8964] Replayed Formalism.SharpRestriction.LevelLetterCocycles.DataN
+⚠ [8955/9038] Replayed Formalism.SharpRestriction.LevelLetterCocycles.DataN
 warning: src/Formalism/SharpRestriction/LevelLetterCocycles/DataN.lean:648:11: Variable name `i` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -1882,7 +2931,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _v
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8887/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.SpanNatCastLeComap
+⚠ [8957/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.SpanNatCastLeComap
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/SpanNatCastLeComap.lean:77:8: This simp argument is unused:
   Ideal.mem_comap
 
@@ -1890,9 +2939,9 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8889/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.EqZeroOfPMulEqZero
+⚠ [8959/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.EqZeroOfPMulEqZero
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/EqZeroOfPMulEqZero.lean:176:6: `AddSubmonoidClass.coe_finset_sum` has been deprecated: Use `AddSubmonoidClass.coe_finsetSum` instead
-⚠ [8891/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Kernel
+⚠ [8961/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Kernel
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Kernel.lean:91:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.Tilt.isUnit_iff_isUnit_coeff`:
   [Fact (Nat.Prime p)]
   [IsAdicComplete (span {↑p}) R]
@@ -1906,7 +2955,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsDomain R] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8892/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRham
+⚠ [8962/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRham
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRham.lean:196:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.BdRPlus.xi_ne_zero`:
   [IsAlgClosed (FractionRing R)]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1922,7 +2971,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsDomain R] [ValuationRing R] [CharZero R] [IsAlgClosed (FractionRing R)] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8893/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRhamMap
+⚠ [8963/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.DeRhamMap
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/DeRhamMap.lean:23:8: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.AinfInv.map_algebraMap_padic`:
   [IsAdicComplete (span {↑p}) R]
   [IsAdicComplete (span {↑p}) S]
@@ -1930,7 +2979,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsAdicComplete (span {↑p}) R] [IsAdicComplete (span {↑p}) S] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8894/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Section
+⚠ [8964/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Section
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Section.lean:137:0: automatically included section variable(s) unused in theorem `Reformulated.AutPerF.fracWitt_hom_ext`:
   [CharP k p]
   [PerfectRing k p]
@@ -1954,7 +3003,7 @@ The difference between `let` and `letI` is that `letI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8895/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Embedding
+⚠ [8965/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Embedding
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Embedding.lean:70:2: Try this: 
   haveI̵
 
@@ -1984,7 +3033,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [IsAlgClosed C] [Algebra.IsAlgebraic (FractionRing (WittVector p k)) L] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8896/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Action
+⚠ [8966/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Action
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Action.lean:117:19: This simp argument is unused:
   mul_smul
 
@@ -1992,13 +3041,13 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8902/8964] Replayed Formalism.LocalRingCardinality.DataCD
+⚠ [8972/9038] Replayed Formalism.LocalRingCardinality.DataCD
 warning: src/Formalism/LocalRingCardinality/DataCD.lean:25:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/Formalism/LocalRingCardinality/DataCD.lean:33:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8905/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInducingCoeMatrix
+⚠ [8976/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInducingCoeMatrix
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsInducingCoeMatrix.lean:18:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsInducingCoeMatrix.lean:38:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8906/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.KoszulLowersPower
+⚠ [8977/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.KoszulLowersPower
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/KoszulLowersPower.lean:82:2: Try this: 
   haveI̵
 
@@ -2007,9 +3056,9 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8914/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose
+⚠ [8986/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/MemUnitaryGroupIffMulConjTranspose.lean:171:25: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8917/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CompactHaarRightInvariantInst
+⚠ [8989/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CompactHaarRightInvariantInst
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CompactHaarRightInvariantInst.lean:79:2: Try this: 
   haveI̵
 
@@ -2154,7 +3203,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8918/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm
+⚠ [8990/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:36:4: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2204,7 +3253,7 @@ warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreser
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:202:6: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8921/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard
+⚠ [8993/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:60:20: This simp argument is unused:
   Pi.single_apply
 
@@ -2215,7 +3264,7 @@ Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:63:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8922/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.LieOperatorConjHolds
+⚠ [8994/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.LieOperatorConjHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/LieOperatorConjHolds.lean:27:2: Unused tactic linter: `push_cast` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
@@ -2228,14 +3277,14 @@ consider restructuring your `variable` declarations so that the variables are no
   omit hl in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8923/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexifiedDerivativeCommutator
+⚠ [8995/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexifiedDerivativeCommutator
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexifiedDerivativeCommutator.lean:44:34: Variable name `hs` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _hs
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8924/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.VectorComplexifiedDerivativeCommutator
+⚠ [8996/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.VectorComplexifiedDerivativeCommutator
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/VectorComplexifiedDerivativeCommutator.lean:40:2: Try this: 
   letI̵
 
@@ -2275,7 +3324,7 @@ Hint: Omit it from the simp argument list.
   [apply] simp only [smul_add, smul_smul, Complex.I_mul_I, neg_one_smul]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8926/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds
+⚠ [8998/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexificationHolds.lean:27:8: This simp argument is unused:
   Complex.star_def
 
@@ -2285,7 +3334,7 @@ Hint: Omit it from the simp argument list.
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexificationHolds.lean:31:8: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexificationHolds.lean:31:43: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
-⚠ [8927/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvolutionInvariants
+⚠ [8999/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvolutionInvariants
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/InvolutionInvariants.lean:679:2: Try this: 
   haveI̵
 
@@ -2334,7 +3383,7 @@ The difference between `have` and `haveI` is that `haveI` inlines the value.
 But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
-⚠ [8931/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantCompactSpan
+⚠ [9003/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantCompactSpan
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IsCompactInvariantCompactSpan.lean:74:2: Try this: 
   haveI̵
 
@@ -2368,7 +3417,7 @@ But this is not relevant for proofs because of proof irrelevance.
 
 Note: This linter can be disabled with `set_option linter.style.haveILetI false`
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IsCompactInvariantCompactSpan.lean:152:57: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
-⚠ [8932/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantOrthogonalInf
+⚠ [9004/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.IsCompactInvariantOrthogonalInf
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IsCompactInvariantOrthogonalInf.lean:142:36: Variable name `ho` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
@@ -2381,18 +3430,18 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _ho
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8938/8964] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CasimirCommutation
+⚠ [9010/9038] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CasimirCommutation
 warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CasimirCommutation.lean:5:18: Variable name `inst` is not explicitly referenced.
 
 Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
   [apply] _inst
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8940/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorPowUpperVanishHolds
+⚠ [9012/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorPowUpperVanishHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/GeneratorPowUpperVanishHolds.lean:31:106: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [8941/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HWDiag
+⚠ [9013/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.HWDiag
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HWDiag.lean:11:16: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2488,7 +3537,7 @@ Note: This linter can be disabled with `set_option linter.unreachableTactic fals
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HWDiag.lean:210:6: Unused tactic linter: `(rw [h V n E ν v hE hv k b, hM]; simp only [sum_Amat_smul_eq_smul_sub_sum_gt])` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8943/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuantumDetHighestWeightHolds
+⚠ [9015/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuantumDetHighestWeightHolds
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/QuantumDetHighestWeightHolds.lean:22:31: This simp argument is unused:
   sub_mul
 
@@ -2505,7 +3554,7 @@ Hint: Omit it from the simp argument list.
     smul_add]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8945/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorCommutatorQuantumDet
+⚠ [9017/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.GeneratorCommutatorQuantumDet
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/GeneratorCommutatorQuantumDet.lean:43:28: This simp argument is unused:
   Function.update_apply
 
@@ -2540,7 +3589,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hr
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8946/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CharId
+⚠ [9018/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.CharId
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CharId.lean:24:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -2580,14 +3629,14 @@ Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8947/8964] Replayed Formalism.RealPlaceAnalysis.ThirdArithmeticHolds
+⚠ [9019/9038] Replayed Formalism.RealPlaceAnalysis.ThirdArithmeticHolds
 warning: src/Formalism/RealPlaceAnalysis/ThirdArithmeticHolds.lean:55:36: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
 warning: src/Formalism/RealPlaceAnalysis/ThirdArithmeticHolds.lean:55:36: Unused tactic linter: `rw [two_smul] at h1 h2` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8948/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactGeneratorRaisesPfil
+⚠ [9020/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactGeneratorRaisesPfil
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/NoncompactGeneratorRaisesPfil.lean:45:16: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
@@ -2797,7 +3846,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hp
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8949/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactArrFiniteDimensional
+⚠ [9021/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.NoncompactArrFiniteDimensional
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/NoncompactArrFiniteDimensional.lean:150:17: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/NoncompactArrFiniteDimensional.lean:92:47: Variable name `ha` is not explicitly referenced.
 
@@ -2839,7 +3888,7 @@ Hint: The binding can be removed (if unused) or named `_` (if used implicitly). 
   [apply] _hd
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
-⚠ [8950/8964] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.FirstSlotSliceSlotMixedCasimirZero
+⚠ [9022/9038] Replayed Formalism.RealPlaceAnalysis.RealPlaceTaylor.FirstSlotSliceSlotMixedCasimirZero
 warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/FirstSlotSliceSlotMixedCasimirZero.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.REAL.indexArray_ext`:
   [AddCommGroup V]
   [Module ℂ V]
@@ -2947,363 +3996,133 @@ warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/FirstSlotSliceSlotMixed
   ring)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8959/8964] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.IsotropicLeviEmbeddingHomomorphismProperties
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:272:112: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+⚠ [9034/9038] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermFramePairCommonUnipotentStabiliserSummary
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/HermFramePairCommonUnipotentStabiliserSummary.lean:119:10: This simp argument is unused:
+  LinearEquiv.coe_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/HermFramePairCommonUnipotentStabiliserSummary.lean:163:0: automatically included section variable(s) unused in theorem `GlobalTheory.UnipStab.symm_mem`:
+  [StarRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/HermFramePairCommonUnipotentStabiliserSummary.lean:331:0: automatically included section variable(s) unused in theorem `GlobalTheory.UnipStab.mem_R`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/HermFramePairCommonUnipotentStabiliserSummary.lean:354:0: automatically included section variable(s) unused in theorem `GlobalTheory.UnipStab.mem_fixing`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9035/9038] Replayed Formalism.FormalDegreeBessel.FormalDegreeRatio.UnitaryWeylNormalHolds
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:23:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:94:26: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.ext_iff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:38: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:38: Unused tactic linter: `(exfalso; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:95:57: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:38: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:38: Unused tactic linter: `(exfalso; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:113:57: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:221:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:221:8: Unused tactic linter: `simp only [Matrix.mulVec, Matrix.dotProduct]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:251:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:251:8: Unused tactic linter: `simp [Complex.norm_exp]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:266:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:267:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:266:6: Unused tactic linter: `simpa [Matrix.mulVec, dotProduct, hb] using h1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:267:6: Unused tactic linter: `simpa [Matrix.mulVec, Matrix.dotProduct, hb] using h1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:300:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:321:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:84: This simp argument is unused:
-  u_em
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_es, u_me, u_mm, u_ms, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:90: This simp argument is unused:
-  u_es
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_me, u_mm, u_ms, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:102: This simp argument is unused:
-  u_mm
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_ms, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:108: This simp argument is unused:
-  u_ms
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:120: This simp argument is unused:
-  u_sm
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:126: This simp argument is unused:
-  u_ss
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:140: This simp argument is unused:
-  mI_inj
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:148: This simp argument is unused:
-  esI_inj
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:157: This simp argument is unused:
-  eI_ne_mI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:167: This simp argument is unused:
-  eI_ne_esI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:178: This simp argument is unused:
-  mI_ne_esI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:311:210: This simp argument is unused:
-  esI_ne_mI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:78: This simp argument is unused:
-  u_ee
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_em, u_es, u_me, u_mm, u_ms, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:84: This simp argument is unused:
-  u_em
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_es, u_me, u_mm, u_ms, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:96: This simp argument is unused:
-  u_me
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_mm, u_ms, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:102: This simp argument is unused:
-  u_mm
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_ms, u_se,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:114: This simp argument is unused:
-  u_se
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:120: This simp argument is unused:
-  u_sm
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:132: This simp argument is unused:
-  eI_inj
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:140: This simp argument is unused:
-  mI_inj
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:157: This simp argument is unused:
-  eI_ne_mI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:189: This simp argument is unused:
-  mI_ne_eI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, esI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:199: This simp argument is unused:
-  esI_ne_eI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_mI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:316:210: This simp argument is unused:
-  esI_ne_mI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [bvec, Matrix.mulVec, dotProduct, Pi.single_apply, Finset.sum_apply, u_ee, u_em, u_es, u_me, u_mm, u_ms,
-    u_se, u_sm, u_ss, eI_inj, mI_inj, esI_inj, eI_ne_mI, eI_ne_esI, mI_ne_esI, mI_ne_eI, esI_ne_eI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:328:6: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicLeviEmbeddingHomomorphismProperties.lean:339:44: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
-⚠ [8960/8964] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.IsotropicStabilizerRadicalStructure
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:80:55: This simp argument is unused:
-  wI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, esI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:80:59: This simp argument is unused:
-  esI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, wI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:94:59: This simp argument is unused:
-  esI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, wI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:94:64: This simp argument is unused:
-  Fin.ext_iff
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, wI, esI] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:98:51: This simp argument is unused:
-  eI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [wI, esI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:98:59: This simp argument is unused:
-  esI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, wI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:108:55: This simp argument is unused:
-  wI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, esI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:108:64: This simp argument is unused:
-  Fin.ext_iff
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, wI, esI] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:112:51: This simp argument is unused:
-  eI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [wI, esI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:112:64: This simp argument is unused:
-  Fin.ext_iff
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, wI, esI] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:116:51: This simp argument is unused:
-  eI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [wI, esI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:116:55: This simp argument is unused:
-  wI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp only [eI, esI, Fin.ext_iff] at *
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:252:14: This simp argument is unused:
-  wI_inj
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [m_ww, m_e, middleSpaceLeviEmbedding_apply_es_row, m_we, m_ws, Matrix.mul_apply, eI_inj, esI_inj,
-    eI_ne_wI, eI_ne_esI, wI_ne_esI, wI_ne_eI, esI_ne_eI, esI_ne_wI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:252:52: This simp argument is unused:
-  wI_ne_esI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [m_ww, m_e, middleSpaceLeviEmbedding_apply_es_row, m_we, m_ws, Matrix.mul_apply, eI_inj, wI_inj, esI_inj,
-    eI_ne_wI, eI_ne_esI, wI_ne_eI, esI_ne_eI, esI_ne_wI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:252:63: This simp argument is unused:
-  wI_ne_eI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [m_ww, m_e, middleSpaceLeviEmbedding_apply_es_row, m_we, m_ws, Matrix.mul_apply, eI_inj, wI_inj, esI_inj,
-    eI_ne_wI, eI_ne_esI, wI_ne_esI, esI_ne_eI, esI_ne_wI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:268:14: This simp argument is unused:
-  wI_inj
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [m_ww, m_e, middleSpaceLeviEmbedding_apply_es_row, m_we, m_ws, H_ee, H_ew, H_es, H_we, H_ww, H_ws, H_se,
-    H_sw, H_ss, apply_ite (starRingEnd ℂ), eI_inj, esI_inj, eI_ne_wI, eI_ne_esI, wI_ne_esI, wI_ne_eI, esI_ne_eI,
-    esI_ne_wI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:268:52: This simp argument is unused:
-  wI_ne_esI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [m_ww, m_e, middleSpaceLeviEmbedding_apply_es_row, m_we, m_ws, H_ee, H_ew, H_es, H_we, H_ww, H_ws, H_se,
-    H_sw, H_ss, apply_ite (starRingEnd ℂ), eI_inj, wI_inj, esI_inj, eI_ne_wI, eI_ne_esI, wI_ne_eI, esI_ne_eI, esI_ne_wI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsotropicStabilizerRadicalStructure.lean:268:63: This simp argument is unused:
-  wI_ne_eI
-
-Hint: Omit it from the simp argument list.
-  [apply] simp [m_ww, m_e, middleSpaceLeviEmbedding_apply_es_row, m_we, m_ws, H_ee, H_ew, H_es, H_we, H_ww, H_ws, H_se,
-    H_sw, H_ss, apply_ite (starRingEnd ℂ), eI_inj, wI_inj, esI_inj, eI_ne_wI, eI_ne_esI, wI_ne_esI, esI_ne_eI,
-    esI_ne_wI]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-⚠ [8962/8964] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnipotentLeviRadicalCoordsHomeomorphStatement
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/UnipotentLeviRadicalCoordsHomeomorphStatement.lean:8:55: this tactic is never executed
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:327:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:339:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:352:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:417:6: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/UnipotentLeviRadicalCoordsHomeomorphStatement.lean:8:99: this tactic is never executed
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:417:6: Unused tactic linter: `simp only [Matrix.mulVec, Matrix.dotProduct]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:450:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:453:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:456:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:469:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:471:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:475:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: src/Formalism/FormalDegreeBessel/FormalDegreeRatio/UnitaryWeylNormalHolds.lean:487:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [9036/9038] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.CoordOfMemXa
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/CoordOfMemXa.lean:50:0: automatically included section variable(s) unused in theorem `GlobalTheory.DegVol.RealMat.phi_zero`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/CoordOfMemXa.lean:54:0: automatically included section variable(s) unused in theorem `GlobalTheory.DegVol.RealMat.phi_sub`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9038/9038] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.RealMatrixMemBesselUnipotentOfFrameStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/RealMatrixMemBesselUnipotentOfFrameStatement.lean:21:58: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/UnipotentLeviRadicalCoordsHomeomorphStatement.lean:8:55: Unused tactic linter: `exact GlobalTheory.Amp.NCoord.coord_homeo` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/UnipotentLeviRadicalCoordsHomeomorphStatement.lean:8:99: Unused tactic linter: `(intros; apply GlobalTheory.Amp.NCoord.coord_homeo <;> assumption)` does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-⚠ [8964/8964] Replayed Development.AbelianVarietyTheory.Proofs.FlagMeasures.FlagUnipotentLebesgueMeasureIsHaarOnStatement
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/FlagUnipotentLebesgueMeasureIsHaarOnStatement.lean:8:56: this tactic is never executed
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/RealMatrixMemBesselUnipotentOfFrameStatement.lean:21:105: this tactic is never executed
 
 Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/FlagUnipotentLebesgueMeasureIsHaarOnStatement.lean:8:101: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/FlagUnipotentLebesgueMeasureIsHaarOnStatement.lean:8:56: Unused tactic linter: `exact GlobalTheory.Amp.NHaar.isHaarOn_lebN` does nothing
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/RealMatrixMemBesselUnipotentOfFrameStatement.lean:21:58: Unused tactic linter: `exact GlobalTheory.DegVol.FrameUnip.mem_Nset` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/FlagUnipotentLebesgueMeasureIsHaarOnStatement.lean:8:101: Unused tactic linter: `(intros; apply GlobalTheory.Amp.NHaar.isHaarOn_lebN <;> assumption)` does nothing
+warning: src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/RealMatrixMemBesselUnipotentOfFrameStatement.lean:21:105: Unused tactic linter: `(intros; apply GlobalTheory.DegVol.FrameUnip.mem_Nset <;> assumption)` does nothing
 
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
-Build completed successfully (8964 jobs).
+Build completed successfully (9038 jobs).

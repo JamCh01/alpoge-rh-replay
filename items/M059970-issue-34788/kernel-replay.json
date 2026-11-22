@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "cee845498328a8b77c9903a3bac00f2dcb70d3283d3c6577f57e44ab76fb682b",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.RowSideIotaMapsFixedColumnsOntoOfMatrices"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.RowSideIotaMapsFixedColumnsOntoOfMatrices\n"
+}

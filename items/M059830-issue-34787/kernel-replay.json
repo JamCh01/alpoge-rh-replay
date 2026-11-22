@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "bb52125a1f138e135564ace8e49299c8180c950f464a17b8fca9ecd351668880",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.RealMatrixMemBesselUnipotentOfFrameStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.RealMatrixMemBesselUnipotentOfFrameStatement\n"
+}
