@@ -1,0 +1,12 @@
+{
+  "receipt_sha256": "be48c4c3b4312a73396f3aa5de7b88dfd9b63750ad195d9d7aa6232e26c7d19f",
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.FlagGramNumberMulLeadingMinorLeTwoPowStatement"
+  ],
+  "exit_code": 0,
+  "transcript": "replaying Development.AbelianVarietyTheory.Proofs.FlagMeasures.FlagGramNumberMulLeadingMinorLeTwoPowStatement\n"
+}
